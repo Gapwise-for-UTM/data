@@ -1,6 +1,7 @@
 {
   "generatedAt": "2026-08-25",
   "failClosed": true,
+  "mainCampusReferenceNodeId": "osm-node-13738201127",
   "buildings": [
     {
       "code": "MN",
@@ -9,6 +10,7 @@
       "verifiedExteriorEntrances": 1,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/13738201127"
@@ -25,6 +27,7 @@
       "verifiedExteriorEntrances": 3,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 3,
+      "mainCampusComponentAccessPoints": 3,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/13568164836",
@@ -40,12 +43,16 @@
       "code": "IB",
       "name": "Instructional Centre",
       "canonicalGeometry": "present",
-      "verifiedExteriorEntrances": 2,
+      "verifiedExteriorEntrances": 5,
       "inferredApproaches": 0,
-      "graphConnectedAccessPoints": 2,
+      "graphConnectedAccessPoints": 5,
+      "mainCampusComponentAccessPoints": 5,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
+        "https://www.openstreetmap.org/node/13731205423",
+        "https://www.openstreetmap.org/node/13731205428",
         "https://www.openstreetmap.org/node/2383650599",
+        "https://www.openstreetmap.org/node/2383651237",
         "https://www.openstreetmap.org/node/2383653565"
       ],
       "unresolved": [
@@ -57,34 +64,42 @@
       "code": "DV",
       "name": "William G. Davis Building",
       "canonicalGeometry": "present",
-      "verifiedExteriorEntrances": 4,
+      "verifiedExteriorEntrances": 7,
       "inferredApproaches": 0,
-      "graphConnectedAccessPoints": 4,
+      "graphConnectedAccessPoints": 7,
+      "mainCampusComponentAccessPoints": 6,
       "verifiedAccessibleEntrances": 2,
       "provenance": [
+        "https://www.openstreetmap.org/node/13568164839",
         "https://www.openstreetmap.org/node/13568164844",
         "https://www.openstreetmap.org/node/13736463909",
+        "https://www.openstreetmap.org/node/13793115966",
         "https://www.openstreetmap.org/node/1728238982",
+        "https://www.openstreetmap.org/node/1728239002",
         "https://www.openstreetmap.org/node/370306723"
       ],
       "unresolved": [
         "Ordinary public access status is not affirmatively published.",
-        "Step-free status requires an authoritative source or field survey."
+        "Step-free status requires an authoritative source or field survey.",
+        "One or more locally graph-attached access points are isolated from the main campus pedestrian component."
       ]
     },
     {
       "code": "CCT",
       "name": "Communication, Culture and Technology Building",
       "canonicalGeometry": "present",
-      "verifiedExteriorEntrances": 1,
+      "verifiedExteriorEntrances": 2,
       "inferredApproaches": 0,
-      "graphConnectedAccessPoints": 1,
+      "graphConnectedAccessPoints": 2,
+      "mainCampusComponentAccessPoints": 2,
       "verifiedAccessibleEntrances": 1,
       "provenance": [
+        "https://www.openstreetmap.org/node/13568164833",
         "https://www.openstreetmap.org/node/13568164845"
       ],
       "unresolved": [
-        "Ordinary public access status is not affirmatively published."
+        "Ordinary public access status is not affirmatively published.",
+        "Step-free status requires an authoritative source or field survey."
       ]
     },
     {
@@ -94,6 +109,7 @@
       "verifiedExteriorEntrances": 1,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/13731205434"
@@ -110,6 +126,7 @@
       "verifiedExteriorEntrances": 3,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 3,
+      "mainCampusComponentAccessPoints": 3,
       "verifiedAccessibleEntrances": 3,
       "provenance": [
         "https://www.openstreetmap.org/node/1312579120",
@@ -124,13 +141,17 @@
       "code": "IC",
       "name": "Innovation Complex",
       "canonicalGeometry": "present",
-      "verifiedExteriorEntrances": 0,
+      "verifiedExteriorEntrances": 1,
       "inferredApproaches": 0,
-      "graphConnectedAccessPoints": 0,
-      "verifiedAccessibleEntrances": 0,
-      "provenance": [],
+      "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 0,
+      "verifiedAccessibleEntrances": 1,
+      "provenance": [
+        "https://www.openstreetmap.org/node/13568164840"
+      ],
       "unresolved": [
-        "No publishable exterior access point is recorded."
+        "Ordinary public access status is not affirmatively published.",
+        "One or more locally graph-attached access points are isolated from the main campus pedestrian component."
       ]
     },
     {
@@ -140,6 +161,7 @@
       "verifiedExteriorEntrances": 1,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/13568164832"
@@ -153,12 +175,14 @@
       "code": "XR",
       "name": "Student Centre",
       "canonicalGeometry": "present",
-      "verifiedExteriorEntrances": 2,
+      "verifiedExteriorEntrances": 3,
       "inferredApproaches": 0,
-      "graphConnectedAccessPoints": 2,
+      "graphConnectedAccessPoints": 3,
+      "mainCampusComponentAccessPoints": 3,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/13568164843",
+        "https://www.openstreetmap.org/node/13738903094",
         "https://www.openstreetmap.org/node/2105676602"
       ],
       "unresolved": [
@@ -173,6 +197,7 @@
       "verifiedExteriorEntrances": 2,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 2,
+      "mainCampusComponentAccessPoints": 2,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/13568164846",
@@ -190,6 +215,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 1,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/1728239148"
@@ -207,6 +233,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 0,
+      "mainCampusComponentAccessPoints": 0,
       "verifiedAccessibleEntrances": 0,
       "provenance": [],
       "unresolved": [
@@ -220,6 +247,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 0,
+      "mainCampusComponentAccessPoints": 0,
       "verifiedAccessibleEntrances": 0,
       "provenance": [],
       "unresolved": [
@@ -233,6 +261,7 @@
       "verifiedExteriorEntrances": 1,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/13767739551"
@@ -249,6 +278,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 0,
+      "mainCampusComponentAccessPoints": 0,
       "verifiedAccessibleEntrances": 0,
       "provenance": [],
       "unresolved": [
@@ -262,6 +292,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 0,
+      "mainCampusComponentAccessPoints": 0,
       "verifiedAccessibleEntrances": 0,
       "provenance": [],
       "unresolved": [
@@ -272,13 +303,18 @@
       "code": "NSB",
       "name": "New Science Building",
       "canonicalGeometry": "present",
-      "verifiedExteriorEntrances": 0,
+      "verifiedExteriorEntrances": 2,
       "inferredApproaches": 0,
-      "graphConnectedAccessPoints": 0,
+      "graphConnectedAccessPoints": 2,
+      "mainCampusComponentAccessPoints": 2,
       "verifiedAccessibleEntrances": 0,
-      "provenance": [],
+      "provenance": [
+        "https://www.openstreetmap.org/node/13568522572",
+        "https://www.openstreetmap.org/node/13731083800"
+      ],
       "unresolved": [
-        "No publishable exterior access point is recorded."
+        "Ordinary public access status is not affirmatively published.",
+        "Step-free status requires an authoritative source or field survey."
       ]
     },
     {
@@ -288,6 +324,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 0,
+      "mainCampusComponentAccessPoints": 0,
       "verifiedAccessibleEntrances": 0,
       "provenance": [],
       "unresolved": [
@@ -301,6 +338,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 0,
+      "mainCampusComponentAccessPoints": 0,
       "verifiedAccessibleEntrances": 0,
       "provenance": [],
       "unresolved": [
@@ -314,6 +352,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 0,
+      "mainCampusComponentAccessPoints": 0,
       "verifiedAccessibleEntrances": 0,
       "provenance": [],
       "unresolved": [
@@ -327,6 +366,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 1,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/1312381405"
@@ -344,6 +384,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 1,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/10307744191"
@@ -361,6 +402,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 1,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/13783936312"
@@ -378,6 +420,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 1,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/1312572625"
@@ -395,6 +438,7 @@
       "verifiedExteriorEntrances": 2,
       "inferredApproaches": 0,
       "graphConnectedAccessPoints": 2,
+      "mainCampusComponentAccessPoints": 2,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/13738728068",
@@ -412,6 +456,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 1,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/1312345673"
@@ -429,6 +474,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 1,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/1312390438"
@@ -446,6 +492,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 1,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/4210336797"
@@ -463,6 +510,7 @@
       "verifiedExteriorEntrances": 0,
       "inferredApproaches": 1,
       "graphConnectedAccessPoints": 1,
+      "mainCampusComponentAccessPoints": 1,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.utm.utoronto.ca/housing/new-residence-building"
