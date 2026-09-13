@@ -1,17 +1,23 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "description": "UTM building entrances and explicitly flagged pedestrian approach points. Door points come from OpenStreetMap entrance nodes; inferred approaches are mapped path nodes used only where a door has not been published.",
+    "description": "UTM building entrances and explicitly flagged pedestrian approach points. Physical door points come from reviewed OpenStreetMap entrance nodes; inferred approaches remain explicitly non-door topology fallbacks.",
     "source": "OpenStreetMap and University of Toronto Mississauga",
     "sourceUrl": "https://www.utm.utoronto.ca/visitors/maps-and-directions",
-    "lastVerified": "2026-08-10",
+    "lastVerified": "2026-09-10",
     "verificationStatus": "verified"
   },
   "features": [
     {
       "type": "Feature",
       "id": "mn-13738201127",
-      "geometry": { "type": "Point", "coordinates": [-79.6654141, 43.5513221] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6654141,
+          43.5513221
+        ]
+      },
       "properties": {
         "buildingCode": "MN",
         "label": "Mapped entrance",
@@ -27,7 +33,13 @@
     {
       "type": "Feature",
       "id": "dh-13568164836",
-      "geometry": { "type": "Point", "coordinates": [-79.6659651, 43.5503162] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6659651,
+          43.5503162
+        ]
+      },
       "properties": {
         "buildingCode": "DH",
         "label": "Main entrance A",
@@ -43,7 +55,13 @@
     {
       "type": "Feature",
       "id": "dh-13568164837",
-      "geometry": { "type": "Point", "coordinates": [-79.6666995, 43.5505658] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6666995,
+          43.5505658
+        ]
+      },
       "properties": {
         "buildingCode": "DH",
         "label": "Main entrance B",
@@ -59,7 +77,13 @@
     {
       "type": "Feature",
       "id": "dh-13751172451",
-      "geometry": { "type": "Point", "coordinates": [-79.6660506, 43.5505348] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6660506,
+          43.5505348
+        ]
+      },
       "properties": {
         "buildingCode": "DH",
         "label": "Mapped entrance",
@@ -75,7 +99,13 @@
     {
       "type": "Feature",
       "id": "ib-2383650599",
-      "geometry": { "type": "Point", "coordinates": [-79.6636318, 43.5516425] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6636318,
+          43.5516425
+        ]
+      },
       "properties": {
         "buildingCode": "IB",
         "label": "Main entrance",
@@ -91,7 +121,13 @@
     {
       "type": "Feature",
       "id": "ib-2383653565",
-      "geometry": { "type": "Point", "coordinates": [-79.6642634, 43.5514803] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6642634,
+          43.5514803
+        ]
+      },
       "properties": {
         "buildingCode": "IB",
         "label": "Mapped entrance",
@@ -107,7 +143,13 @@
     {
       "type": "Feature",
       "id": "dv-1728238982",
-      "geometry": { "type": "Point", "coordinates": [-79.6617704, 43.5484051] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6617704,
+          43.5484051
+        ]
+      },
       "properties": {
         "buildingCode": "DV",
         "label": "Main entrance A",
@@ -123,7 +165,13 @@
     {
       "type": "Feature",
       "id": "dv-13568164844",
-      "geometry": { "type": "Point", "coordinates": [-79.6625598, 43.5494213] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6625598,
+          43.5494213
+        ]
+      },
       "properties": {
         "buildingCode": "DV",
         "label": "Accessible main entrance",
@@ -139,7 +187,13 @@
     {
       "type": "Feature",
       "id": "dv-13736463909",
-      "geometry": { "type": "Point", "coordinates": [-79.6618689, 43.5477041] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6618689,
+          43.5477041
+        ]
+      },
       "properties": {
         "buildingCode": "DV",
         "label": "Accessible main entrance",
@@ -155,7 +209,13 @@
     {
       "type": "Feature",
       "id": "dv-370306723",
-      "geometry": { "type": "Point", "coordinates": [-79.6623618, 43.5493975] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6623618,
+          43.5493975
+        ]
+      },
       "properties": {
         "buildingCode": "DV",
         "label": "Main entrance B",
@@ -171,7 +231,13 @@
     {
       "type": "Feature",
       "id": "cct-13568164845",
-      "geometry": { "type": "Point", "coordinates": [-79.6626873, 43.5495452] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6626873,
+          43.5495452
+        ]
+      },
       "properties": {
         "buildingCode": "CCT",
         "label": "Accessible entrance",
@@ -187,7 +253,13 @@
     {
       "type": "Feature",
       "id": "hm-13731205434",
-      "geometry": { "type": "Point", "coordinates": [-79.6630169, 43.5510334] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6630169,
+          43.5510334
+        ]
+      },
       "properties": {
         "buildingCode": "HM",
         "label": "Main entrance",
@@ -203,7 +275,13 @@
     {
       "type": "Feature",
       "id": "kn-13568164841",
-      "geometry": { "type": "Point", "coordinates": [-79.6635084, 43.5480958] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6635084,
+          43.5480958
+        ]
+      },
       "properties": {
         "buildingCode": "KN",
         "label": "Accessible main entrance A",
@@ -219,7 +297,13 @@
     {
       "type": "Feature",
       "id": "kn-1312579120",
-      "geometry": { "type": "Point", "coordinates": [-79.6628687, 43.5479701] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6628687,
+          43.5479701
+        ]
+      },
       "properties": {
         "buildingCode": "KN",
         "label": "Accessible main entrance B",
@@ -235,7 +319,13 @@
     {
       "type": "Feature",
       "id": "kn-13568164842",
-      "geometry": { "type": "Point", "coordinates": [-79.6632372, 43.5485709] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6632372,
+          43.5485709
+        ]
+      },
       "properties": {
         "buildingCode": "KN",
         "label": "Accessible main entrance C",
@@ -251,7 +341,13 @@
     {
       "type": "Feature",
       "id": "rawc-13568164832",
-      "geometry": { "type": "Point", "coordinates": [-79.6606714, 43.5479331] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6606714,
+          43.5479331
+        ]
+      },
       "properties": {
         "buildingCode": "RAWC",
         "label": "Main entrance",
@@ -267,7 +363,13 @@
     {
       "type": "Feature",
       "id": "xr-13568164843",
-      "geometry": { "type": "Point", "coordinates": [-79.6637236, 43.5488462] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6637236,
+          43.5488462
+        ]
+      },
       "properties": {
         "buildingCode": "XR",
         "label": "Main entrance",
@@ -283,7 +385,13 @@
     {
       "type": "Feature",
       "id": "xr-2105676602",
-      "geometry": { "type": "Point", "coordinates": [-79.6639869, 43.5485377] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6639869,
+          43.5485377
+        ]
+      },
       "properties": {
         "buildingCode": "XR",
         "label": "Mapped entrance",
@@ -299,7 +407,13 @@
     {
       "type": "Feature",
       "id": "hb-13738956113",
-      "geometry": { "type": "Point", "coordinates": [-79.6622362, 43.5497526] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6622362,
+          43.5497526
+        ]
+      },
       "properties": {
         "buildingCode": "HB",
         "label": "Main entrance A",
@@ -315,7 +429,13 @@
     {
       "type": "Feature",
       "id": "hb-13568164846",
-      "geometry": { "type": "Point", "coordinates": [-79.6623068, 43.5494997] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6623068,
+          43.5494997
+        ]
+      },
       "properties": {
         "buildingCode": "HB",
         "label": "Main entrance B",
@@ -331,7 +451,13 @@
     {
       "type": "Feature",
       "id": "ax-1728239148",
-      "geometry": { "type": "Point", "coordinates": [-79.6643646, 43.5481895] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6643646,
+          43.5481895
+        ]
+      },
       "properties": {
         "buildingCode": "AX",
         "label": "Mapped pedestrian approach",
@@ -348,7 +474,13 @@
     {
       "type": "Feature",
       "id": "dw-13767739551",
-      "geometry": { "type": "Point", "coordinates": [-79.6661378, 43.5499078] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6661378,
+          43.5499078
+        ]
+      },
       "properties": {
         "buildingCode": "DW",
         "label": "Mapped entrance",
@@ -364,7 +496,13 @@
     {
       "type": "Feature",
       "id": "oph-13738728068",
-      "geometry": { "type": "Point", "coordinates": [-79.6659355, 43.5486076] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6659355,
+          43.5486076
+        ]
+      },
       "properties": {
         "buildingCode": "OPH",
         "label": "Main entrance A",
@@ -380,7 +518,13 @@
     {
       "type": "Feature",
       "id": "oph-1728224590",
-      "geometry": { "type": "Point", "coordinates": [-79.6656991, 43.548785] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6656991,
+          43.548785
+        ]
+      },
       "properties": {
         "buildingCode": "OPH",
         "label": "Main entrance B",
@@ -396,7 +540,13 @@
     {
       "type": "Feature",
       "id": "eh-1312381405",
-      "geometry": { "type": "Point", "coordinates": [-79.665827, 43.5496711] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.665827,
+          43.5496711
+        ]
+      },
       "properties": {
         "buildingCode": "EH",
         "label": "Mapped residence approach",
@@ -413,7 +563,13 @@
     {
       "type": "Feature",
       "id": "rih-1312390438",
-      "geometry": { "type": "Point", "coordinates": [-79.6669481, 43.5483514] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6669481,
+          43.5483514
+        ]
+      },
       "properties": {
         "buildingCode": "RIH",
         "label": "Mapped residence approach",
@@ -430,7 +586,13 @@
     {
       "type": "Feature",
       "id": "mc-1312572625",
-      "geometry": { "type": "Point", "coordinates": [-79.6663369, 43.5477885] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6663369,
+          43.5477885
+        ]
+      },
       "properties": {
         "buildingCode": "MC",
         "label": "Mapped residence approach",
@@ -447,7 +609,13 @@
     {
       "type": "Feature",
       "id": "pp-1312345673",
-      "geometry": { "type": "Point", "coordinates": [-79.6647968, 43.5466479] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6647968,
+          43.5466479
+        ]
+      },
       "properties": {
         "buildingCode": "PP",
         "label": "Mapped residence approach",
@@ -464,7 +632,13 @@
     {
       "type": "Feature",
       "id": "ll-10307744191",
-      "geometry": { "type": "Point", "coordinates": [-79.6629614, 43.5460646] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6629614,
+          43.5460646
+        ]
+      },
       "properties": {
         "buildingCode": "LL",
         "label": "Mapped residence approach",
@@ -481,7 +655,13 @@
     {
       "type": "Feature",
       "id": "mv-13783936312",
-      "geometry": { "type": "Point", "coordinates": [-79.6618427, 43.5459624] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6618427,
+          43.5459624
+        ]
+      },
       "properties": {
         "buildingCode": "MV",
         "label": "Mapped residence approach",
@@ -498,7 +678,13 @@
     {
       "type": "Feature",
       "id": "sw-4210336797",
-      "geometry": { "type": "Point", "coordinates": [-79.6678759, 43.5492673] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6678759,
+          43.5492673
+        ]
+      },
       "properties": {
         "buildingCode": "SW",
         "label": "Mapped residence approach",
@@ -515,7 +701,13 @@
     {
       "type": "Feature",
       "id": "nrb-1312470630",
-      "geometry": { "type": "Point", "coordinates": [-79.6671122, 43.5494972] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6671122,
+          43.5494972
+        ]
+      },
       "properties": {
         "buildingCode": "NRB",
         "label": "Five Minute Walk approach",
@@ -527,6 +719,281 @@
         "sourceUrl": "https://www.utm.utoronto.ca/housing/new-residence-building",
         "lastVerified": "2026-08-10",
         "verificationStatus": "inferred"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dv-1728239002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6619181,
+          43.5484846
+        ]
+      },
+      "properties": {
+        "buildingCode": "DV",
+        "label": "Mapped entrance",
+        "kind": "entrance",
+        "osmNodeId": 1728239002,
+        "accessibility": "unknown",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Current OSM entrance-tagged node lies on exactly one canonical Gapwise building boundary; ordinary student/public access is not independently established.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/1728239002",
+        "lastVerified": "2026-09-10",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ib-2383651237",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.664056,
+          43.5518062
+        ]
+      },
+      "properties": {
+        "buildingCode": "IB",
+        "label": "Emergency entrance",
+        "kind": "entrance",
+        "osmNodeId": 2383651237,
+        "accessibility": "unknown",
+        "access": "emergency_only",
+        "direction": "unknown",
+        "notes": "Current OSM explicitly tags this physical door as an emergency entrance; it must not be used as a normal routing endpoint.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/2383651237",
+        "lastVerified": "2026-09-10",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dv-13568164839",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6624668,
+          43.5481922
+        ]
+      },
+      "properties": {
+        "buildingCode": "DV",
+        "label": "Mapped entrance",
+        "kind": "entrance",
+        "osmNodeId": 13568164839,
+        "accessibility": "unknown",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Current OSM entrance-tagged node lies on exactly one canonical Gapwise building boundary; ordinary student/public access is not independently established.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/13568164839",
+        "lastVerified": "2026-09-10",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nsb-13568522572",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6612921,
+          43.5491096
+        ]
+      },
+      "properties": {
+        "buildingCode": "NSB",
+        "label": "Mapped main entrance",
+        "kind": "entrance",
+        "osmNodeId": 13568522572,
+        "accessibility": "unknown",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Current OSM entrance-tagged node lies on exactly one canonical Gapwise building boundary; ordinary student/public access is not independently established.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/13568522572",
+        "lastVerified": "2026-09-10",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nsb-13731083800",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6605089,
+          43.5489451
+        ]
+      },
+      "properties": {
+        "buildingCode": "NSB",
+        "label": "Mapped main entrance",
+        "kind": "entrance",
+        "osmNodeId": 13731083800,
+        "accessibility": "unknown",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Current OSM entrance-tagged node lies on exactly one canonical Gapwise building boundary; ordinary student/public access is not independently established.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/13731083800",
+        "lastVerified": "2026-09-10",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dv-13793115966",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6613679,
+          43.5483102
+        ]
+      },
+      "properties": {
+        "buildingCode": "DV",
+        "label": "Mapped entrance",
+        "kind": "entrance",
+        "osmNodeId": 13793115966,
+        "accessibility": "unknown",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Current OSM entrance-tagged node lies on exactly one canonical Gapwise building boundary; ordinary student/public access is not independently established.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/13793115966",
+        "lastVerified": "2026-09-10",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ic-13568164840",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6627448,
+          43.5482744
+        ]
+      },
+      "properties": {
+        "buildingCode": "IC",
+        "label": "Mapped main entrance",
+        "kind": "entrance",
+        "osmNodeId": 13568164840,
+        "accessibility": "accessible",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Current OSM entrance-tagged node is an exact member of a named OSM building way whose name uniquely matches the canonical Gapwise building; ordinary student/public access is not independently established.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/13568164840",
+        "lastVerified": "2026-09-10",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cct-13568164833",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.663432,
+          43.5492443
+        ]
+      },
+      "properties": {
+        "buildingCode": "CCT",
+        "label": "Mapped main entrance",
+        "kind": "entrance",
+        "osmNodeId": 13568164833,
+        "accessibility": "unknown",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Current OSM tags this node as a main entrance and exact member of a pedestrian footway; the node lies inside exactly one canonical Gapwise building footprint, supporting the building assignment despite a recessed/coarse canonical boundary. Ordinary student/public access is not independently established.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/13568164833",
+        "lastVerified": "2026-09-10",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ib-13731205423",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6644017,
+          43.5515639
+        ]
+      },
+      "properties": {
+        "buildingCode": "IB",
+        "label": "Mapped main entrance",
+        "kind": "entrance",
+        "osmNodeId": 13731205423,
+        "accessibility": "unknown",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Current OSM tags this node as a main entrance and exact member of a pedestrian footway; the node lies inside exactly one canonical Gapwise building footprint, supporting the building assignment despite a recessed/coarse canonical boundary. Ordinary student/public access is not independently established.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/13731205423",
+        "lastVerified": "2026-09-10",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ib-13731205428",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6635031,
+          43.551209
+        ]
+      },
+      "properties": {
+        "buildingCode": "IB",
+        "label": "Mapped main entrance",
+        "kind": "entrance",
+        "osmNodeId": 13731205428,
+        "accessibility": "unknown",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Current OSM tags this node as a main entrance and exact member of a pedestrian footway; the node lies inside exactly one canonical Gapwise building footprint, supporting the building assignment despite a recessed/coarse canonical boundary. Ordinary student/public access is not independently established.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/13731205428",
+        "lastVerified": "2026-09-10",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "xr-13738903094",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.663956,
+          43.5490389
+        ]
+      },
+      "properties": {
+        "buildingCode": "XR",
+        "label": "Mapped main entrance",
+        "kind": "entrance",
+        "osmNodeId": 13738903094,
+        "accessibility": "unknown",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Current OSM tags this node as a main entrance and exact member of a pedestrian footway; the node lies inside exactly one canonical Gapwise building footprint, supporting the building assignment despite a recessed/coarse canonical boundary. Ordinary student/public access is not independently established.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/13738903094",
+        "lastVerified": "2026-09-10",
+        "verificationStatus": "verified"
       }
     }
   ]

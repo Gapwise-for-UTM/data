@@ -6,7 +6,10 @@
       "id": "mn-13738201127",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6654141, 43.5513221]
+        "coordinates": [
+          -79.6654141,
+          43.5513221
+        ]
       },
       "properties": {
         "buildingCode": "MN",
@@ -24,7 +27,10 @@
       "id": "dh-13568164836",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6659651, 43.5503162]
+        "coordinates": [
+          -79.6659651,
+          43.5503162
+        ]
       },
       "properties": {
         "buildingCode": "DH",
@@ -42,7 +48,10 @@
       "id": "dh-13568164837",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6666995, 43.5505658]
+        "coordinates": [
+          -79.6666995,
+          43.5505658
+        ]
       },
       "properties": {
         "buildingCode": "DH",
@@ -60,7 +69,10 @@
       "id": "dh-13751172451",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6660506, 43.5505348]
+        "coordinates": [
+          -79.6660506,
+          43.5505348
+        ]
       },
       "properties": {
         "buildingCode": "DH",
@@ -78,7 +90,10 @@
       "id": "ib-2383650599",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6636318, 43.5516425]
+        "coordinates": [
+          -79.6636318,
+          43.5516425
+        ]
       },
       "properties": {
         "buildingCode": "IB",
@@ -96,7 +111,10 @@
       "id": "ib-2383653565",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6642634, 43.5514803]
+        "coordinates": [
+          -79.6642634,
+          43.5514803
+        ]
       },
       "properties": {
         "buildingCode": "IB",
@@ -114,7 +132,10 @@
       "id": "dv-1728238982",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6617704, 43.5484051]
+        "coordinates": [
+          -79.6617704,
+          43.5484051
+        ]
       },
       "properties": {
         "buildingCode": "DV",
@@ -132,7 +153,10 @@
       "id": "dv-13568164844",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6625598, 43.5494213]
+        "coordinates": [
+          -79.6625598,
+          43.5494213
+        ]
       },
       "properties": {
         "buildingCode": "DV",
@@ -150,7 +174,10 @@
       "id": "dv-13736463909",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6618689, 43.5477041]
+        "coordinates": [
+          -79.6618689,
+          43.5477041
+        ]
       },
       "properties": {
         "buildingCode": "DV",
@@ -168,7 +195,10 @@
       "id": "dv-370306723",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6623618, 43.5493975]
+        "coordinates": [
+          -79.6623618,
+          43.5493975
+        ]
       },
       "properties": {
         "buildingCode": "DV",
@@ -186,7 +216,10 @@
       "id": "cct-13568164845",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6626873, 43.5495452]
+        "coordinates": [
+          -79.6626873,
+          43.5495452
+        ]
       },
       "properties": {
         "buildingCode": "CCT",
@@ -204,7 +237,10 @@
       "id": "hm-13731205434",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6630169, 43.5510334]
+        "coordinates": [
+          -79.6630169,
+          43.5510334
+        ]
       },
       "properties": {
         "buildingCode": "HM",
@@ -222,7 +258,10 @@
       "id": "kn-13568164841",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6635084, 43.5480958]
+        "coordinates": [
+          -79.6635084,
+          43.5480958
+        ]
       },
       "properties": {
         "buildingCode": "KN",
@@ -240,7 +279,10 @@
       "id": "kn-1312579120",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6628687, 43.5479701]
+        "coordinates": [
+          -79.6628687,
+          43.5479701
+        ]
       },
       "properties": {
         "buildingCode": "KN",
@@ -258,7 +300,10 @@
       "id": "kn-13568164842",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6632372, 43.5485709]
+        "coordinates": [
+          -79.6632372,
+          43.5485709
+        ]
       },
       "properties": {
         "buildingCode": "KN",
@@ -276,7 +321,10 @@
       "id": "rawc-13568164832",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6606714, 43.5479331]
+        "coordinates": [
+          -79.6606714,
+          43.5479331
+        ]
       },
       "properties": {
         "buildingCode": "RAWC",
@@ -294,7 +342,10 @@
       "id": "xr-13568164843",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6637236, 43.5488462]
+        "coordinates": [
+          -79.6637236,
+          43.5488462
+        ]
       },
       "properties": {
         "buildingCode": "XR",
@@ -312,7 +363,10 @@
       "id": "xr-2105676602",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6639869, 43.5485377]
+        "coordinates": [
+          -79.6639869,
+          43.5485377
+        ]
       },
       "properties": {
         "buildingCode": "XR",
@@ -330,7 +384,10 @@
       "id": "hb-13738956113",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6622362, 43.5497526]
+        "coordinates": [
+          -79.6622362,
+          43.5497526
+        ]
       },
       "properties": {
         "buildingCode": "HB",
@@ -348,7 +405,10 @@
       "id": "hb-13568164846",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6623068, 43.5494997]
+        "coordinates": [
+          -79.6623068,
+          43.5494997
+        ]
       },
       "properties": {
         "buildingCode": "HB",
@@ -366,7 +426,10 @@
       "id": "ax-1728239148",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6643646, 43.5481895]
+        "coordinates": [
+          -79.6643646,
+          43.5481895
+        ]
       },
       "properties": {
         "buildingCode": "AX",
@@ -384,7 +447,10 @@
       "id": "dw-13767739551",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6661378, 43.5499078]
+        "coordinates": [
+          -79.6661378,
+          43.5499078
+        ]
       },
       "properties": {
         "buildingCode": "DW",
@@ -402,7 +468,10 @@
       "id": "oph-13738728068",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6659355, 43.5486076]
+        "coordinates": [
+          -79.6659355,
+          43.5486076
+        ]
       },
       "properties": {
         "buildingCode": "OPH",
@@ -420,7 +489,10 @@
       "id": "oph-1728224590",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6656991, 43.548785]
+        "coordinates": [
+          -79.6656991,
+          43.548785
+        ]
       },
       "properties": {
         "buildingCode": "OPH",
@@ -438,7 +510,10 @@
       "id": "eh-1312381405",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.665827, 43.5496711]
+        "coordinates": [
+          -79.665827,
+          43.5496711
+        ]
       },
       "properties": {
         "buildingCode": "EH",
@@ -456,7 +531,10 @@
       "id": "rih-1312390438",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6669481, 43.5483514]
+        "coordinates": [
+          -79.6669481,
+          43.5483514
+        ]
       },
       "properties": {
         "buildingCode": "RIH",
@@ -474,7 +552,10 @@
       "id": "mc-1312572625",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6663369, 43.5477885]
+        "coordinates": [
+          -79.6663369,
+          43.5477885
+        ]
       },
       "properties": {
         "buildingCode": "MC",
@@ -492,7 +573,10 @@
       "id": "pp-1312345673",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6647968, 43.5466479]
+        "coordinates": [
+          -79.6647968,
+          43.5466479
+        ]
       },
       "properties": {
         "buildingCode": "PP",
@@ -510,7 +594,10 @@
       "id": "ll-10307744191",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6629614, 43.5460646]
+        "coordinates": [
+          -79.6629614,
+          43.5460646
+        ]
       },
       "properties": {
         "buildingCode": "LL",
@@ -528,7 +615,10 @@
       "id": "mv-13783936312",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6618427, 43.5459624]
+        "coordinates": [
+          -79.6618427,
+          43.5459624
+        ]
       },
       "properties": {
         "buildingCode": "MV",
@@ -546,7 +636,10 @@
       "id": "sw-4210336797",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6678759, 43.5492673]
+        "coordinates": [
+          -79.6678759,
+          43.5492673
+        ]
       },
       "properties": {
         "buildingCode": "SW",
@@ -564,7 +657,10 @@
       "id": "nrb-1312470630",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.6671122, 43.5494972]
+        "coordinates": [
+          -79.6671122,
+          43.5494972
+        ]
       },
       "properties": {
         "buildingCode": "NRB",
@@ -574,6 +670,237 @@
         "publicAccess": "unknown",
         "barrierFree": "unknown",
         "geometryConfidence": "inferred",
+        "reconciliation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dv-1728239002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6619181,
+          43.5484846
+        ]
+      },
+      "properties": {
+        "buildingCode": "DV",
+        "label": "Mapped entrance",
+        "kind": "exterior_entrance",
+        "routability": "routable",
+        "publicAccess": "unknown",
+        "barrierFree": "unknown",
+        "geometryConfidence": "mapped",
+        "reconciliation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ib-2383651237",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.664056,
+          43.5518062
+        ]
+      },
+      "properties": {
+        "buildingCode": "IB",
+        "label": "Emergency entrance",
+        "kind": "exterior_entrance",
+        "routability": "routable",
+        "publicAccess": "restricted",
+        "barrierFree": "unknown",
+        "geometryConfidence": "mapped",
+        "reconciliation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dv-13568164839",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6624668,
+          43.5481922
+        ]
+      },
+      "properties": {
+        "buildingCode": "DV",
+        "label": "Mapped entrance",
+        "kind": "exterior_entrance",
+        "routability": "routable",
+        "publicAccess": "unknown",
+        "barrierFree": "unknown",
+        "geometryConfidence": "mapped",
+        "reconciliation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nsb-13568522572",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6612921,
+          43.5491096
+        ]
+      },
+      "properties": {
+        "buildingCode": "NSB",
+        "label": "Mapped main entrance",
+        "kind": "exterior_entrance",
+        "routability": "routable",
+        "publicAccess": "unknown",
+        "barrierFree": "unknown",
+        "geometryConfidence": "mapped",
+        "reconciliation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "nsb-13731083800",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6605089,
+          43.5489451
+        ]
+      },
+      "properties": {
+        "buildingCode": "NSB",
+        "label": "Mapped main entrance",
+        "kind": "exterior_entrance",
+        "routability": "routable",
+        "publicAccess": "unknown",
+        "barrierFree": "unknown",
+        "geometryConfidence": "mapped",
+        "reconciliation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "dv-13793115966",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6613679,
+          43.5483102
+        ]
+      },
+      "properties": {
+        "buildingCode": "DV",
+        "label": "Mapped entrance",
+        "kind": "exterior_entrance",
+        "routability": "routable",
+        "publicAccess": "unknown",
+        "barrierFree": "unknown",
+        "geometryConfidence": "mapped",
+        "reconciliation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ic-13568164840",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6627448,
+          43.5482744
+        ]
+      },
+      "properties": {
+        "buildingCode": "IC",
+        "label": "Mapped main entrance",
+        "kind": "exterior_entrance",
+        "routability": "routable",
+        "publicAccess": "unknown",
+        "barrierFree": "verified",
+        "geometryConfidence": "mapped",
+        "reconciliation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cct-13568164833",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.663432,
+          43.5492443
+        ]
+      },
+      "properties": {
+        "buildingCode": "CCT",
+        "label": "Mapped main entrance",
+        "kind": "exterior_entrance",
+        "routability": "routable",
+        "publicAccess": "unknown",
+        "barrierFree": "unknown",
+        "geometryConfidence": "mapped",
+        "reconciliation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ib-13731205423",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6644017,
+          43.5515639
+        ]
+      },
+      "properties": {
+        "buildingCode": "IB",
+        "label": "Mapped main entrance",
+        "kind": "exterior_entrance",
+        "routability": "routable",
+        "publicAccess": "unknown",
+        "barrierFree": "unknown",
+        "geometryConfidence": "mapped",
+        "reconciliation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ib-13731205428",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6635031,
+          43.551209
+        ]
+      },
+      "properties": {
+        "buildingCode": "IB",
+        "label": "Mapped main entrance",
+        "kind": "exterior_entrance",
+        "routability": "routable",
+        "publicAccess": "unknown",
+        "barrierFree": "unknown",
+        "geometryConfidence": "mapped",
+        "reconciliation": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "xr-13738903094",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.663956,
+          43.5490389
+        ]
+      },
+      "properties": {
+        "buildingCode": "XR",
+        "label": "Mapped main entrance",
+        "kind": "exterior_entrance",
+        "routability": "routable",
+        "publicAccess": "unknown",
+        "barrierFree": "unknown",
+        "geometryConfidence": "mapped",
         "reconciliation": null
       }
     },
@@ -700,7 +1027,13 @@
     {
       "type": "Feature",
       "id": "utm:entrance-candidate:hm:main",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6630169,
+          43.5510334
+        ]
+      },
       "properties": {
         "buildingCode": "HM",
         "label": "Main",
@@ -708,8 +1041,8 @@
         "routability": "candidate",
         "publicAccess": "unknown",
         "barrierFree": "verified",
-        "geometryConfidence": "unknown",
-        "reconciliation": "geometry_unknown"
+        "geometryConfidence": "mapped",
+        "reconciliation": "matched"
       }
     },
     {
@@ -865,7 +1198,13 @@
     {
       "type": "Feature",
       "id": "utm:entrance-candidate:rawc:main",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6606714,
+          43.5479331
+        ]
+      },
       "properties": {
         "buildingCode": "RAWC",
         "label": "Main",
@@ -873,8 +1212,8 @@
         "routability": "candidate",
         "publicAccess": "unknown",
         "barrierFree": "verified",
-        "geometryConfidence": "unknown",
-        "reconciliation": "geometry_unknown"
+        "geometryConfidence": "mapped",
+        "reconciliation": "matched"
       }
     },
     {
