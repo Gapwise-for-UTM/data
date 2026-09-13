@@ -2,7 +2,8 @@ export type CampusSourceId =
   | "openstreetmap"
   | "utm-facilities-buildings"
   | "utm-facilities-snow-ice"
-  | "utoronto-interactive-map";
+  | "utoronto-interactive-map"
+  | "utoronto-robotics-2025-conference";
 
 export type CampusSourceRecord = {
   id: CampusSourceId;
@@ -61,6 +62,16 @@ export const CAMPUS_SOURCE_RECORDS = {
     retrievedAt: "2026-08-21",
     notes:
       "Used only for visual QA and corroboration. Gapwise does not scrape, copy, or reverse-engineer proprietary map assets or transpose marker positions into routing coordinates.",
+  },
+  "utoronto-robotics-2025-conference": {
+    id: "utoronto-robotics-2025-conference",
+    organization: "University of Toronto Robotics Institute",
+    title: "2025 Toronto Robotics Conference",
+    url: "https://robotics.utoronto.ca/2025-toronto-robotics-conference/",
+    sourceType: "official_web",
+    retrievedAt: "2026-09-13",
+    notes:
+      "Official U of T conference logistics repeatedly name the 'MN north entrance (2nd floor)' as a coach-bus departure point. This verifies a north exterior entrance identity and level context, but publishes no exact door coordinate and does not establish that it is synonymous with Facilities' Main, Field side, or Lot #1 barrier-free identities, nor does it establish unrestricted public access or barrier-free status.",
   },
 } as const satisfies Record<CampusSourceId, CampusSourceRecord>;
 
