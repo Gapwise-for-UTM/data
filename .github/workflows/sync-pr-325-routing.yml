@@ -49,8 +49,8 @@ jobs:
 
       - name: Validate canonical dataset
         run: |
-          npm ci
-          npm run data:validate
+          node scripts/validate-campus-data.mjs
+          node scripts/check-public-distribution.mjs
 
       - name: Commit exact routing snapshot and remove one-shot workflow
         shell: bash
