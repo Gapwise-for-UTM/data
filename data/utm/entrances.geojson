@@ -505,7 +505,7 @@
       },
       "properties": {
         "buildingCode": "OPH",
-        "label": "Main entrance A",
+        "label": "Mapped entrance A",
         "kind": "entrance",
         "osmNodeId": 13738728068,
         "accessibility": "unknown",
@@ -528,7 +528,7 @@
       },
       "properties": {
         "buildingCode": "OPH",
-        "label": "Main entrance B",
+        "label": "Mapped entrance B",
         "kind": "entrance",
         "osmNodeId": 1728224590,
         "accessibility": "unknown",

@@ -475,7 +475,7 @@
       },
       "properties": {
         "buildingCode": "OPH",
-        "label": "Main entrance A",
+        "label": "Mapped entrance A",
         "kind": "exterior_entrance",
         "routability": "routable",
         "publicAccess": "restricted",
@@ -496,7 +496,7 @@
       },
       "properties": {
         "buildingCode": "OPH",
-        "label": "Main entrance B",
+        "label": "Mapped entrance B",
         "kind": "exterior_entrance",
         "routability": "routable",
         "publicAccess": "restricted",
