@@ -478,7 +478,7 @@
         "label": "Main entrance A",
         "kind": "exterior_entrance",
         "routability": "routable",
-        "publicAccess": "unknown",
+        "publicAccess": "restricted",
         "barrierFree": "unknown",
         "geometryConfidence": "mapped",
         "reconciliation": null
@@ -499,7 +499,7 @@
         "label": "Main entrance B",
         "kind": "exterior_entrance",
         "routability": "routable",
-        "publicAccess": "unknown",
+        "publicAccess": "restricted",
         "barrierFree": "unknown",
         "geometryConfidence": "mapped",
         "reconciliation": null

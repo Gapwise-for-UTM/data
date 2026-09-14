@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10",
+  "generatedAt": "2026-09-14",
   "failClosed": true,
   "mainCampusReferenceNodeId": "osm-node-13738201127",
   "buildings": [
@@ -445,7 +445,6 @@
         "https://www.openstreetmap.org/node/1728224590"
       ],
       "unresolved": [
-        "Ordinary public access status is not affirmatively published.",
         "Step-free status requires an authoritative source or field survey."
       ]
     },
