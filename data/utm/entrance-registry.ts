@@ -108,7 +108,9 @@ const geocoded: EntranceRegistryRecord[] = features.map((feature) => {
               : unknown("No reviewed source establishes ordinary public/student access."),
       direction:
         direction === "unknown"
-          ? unknown("No reviewed source establishes entry/exit direction restrictions for this entrance.")
+          ? unknown(
+              "No reviewed source establishes entry/exit direction restrictions for this entrance.",
+            )
           : factEvidence(
               ["openstreetmap"],
               "verified",
