@@ -32,7 +32,7 @@ export const CAMPUS_SOURCE_RECORDS = {
     title: "OpenStreetMap",
     url: "https://www.openstreetmap.org/copyright",
     sourceType: "community_map",
-    retrievedAt: "2026-08-10",
+    retrievedAt: "2026-09-13",
     notes:
       "Reviewed entrance-tagged nodes and pedestrian topology under ODbL. An entrance tag establishes mapped door geometry, not public access or barrier-free suitability unless separately tagged.",
   },
@@ -50,7 +50,7 @@ export const CAMPUS_SOURCE_RECORDS = {
     title: "UTM Strategy for Snow and Ice Removal",
     url: "https://www.utm.utoronto.ca/facilities/utm-strategy-snow-and-ice-removal",
     sourceType: "official_web",
-    retrievedAt: "2026-08-21",
+    retrievedAt: "2026-09-13",
     notes:
       "Priority 1 explicitly names barrier-free building entrance identities. It does not publish exact door coordinates or establish the accessibility of every connecting route edge.",
   },
