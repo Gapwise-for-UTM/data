@@ -2,6 +2,7 @@ export type CampusSourceId =
   | "openstreetmap"
   | "utm-facilities-buildings"
   | "utm-facilities-snow-ice"
+  | "utm-procurement-oph-main-lobby-2026"
   | "utoronto-interactive-map"
   | "utoronto-robotics-2025-conference";
 
@@ -53,6 +54,16 @@ export const CAMPUS_SOURCE_RECORDS = {
     notes:
       "Priority 1 explicitly names barrier-free building entrance identities. It does not publish exact door coordinates or establish the accessibility of every connecting route edge.",
   },
+  "utm-procurement-oph-main-lobby-2026": {
+    id: "utm-procurement-oph-main-lobby-2026",
+    organization: "University of Toronto Mississauga",
+    title: "UTM200304 — Laundry Vending Services and Equipment",
+    url: "https://www.merx.com/uoft/solicitations/open-bids/Laundry-Vending-Services-and-Equipment/0000319578",
+    sourceType: "official_web",
+    retrievedAt: "2026-09-14",
+    notes:
+      "The UTM-issued procurement notice names 'Oscar Peterson Hall – main entrance lobby' as the on-campus meeting location for an April 27, 2026 proponent visit. This independently corroborates the OPH Main entrance identity, but publishes no exact exterior door coordinate and does not identify which current OSM entrance node reaches that lobby, nor does it establish Rear geometry, unrestricted public access, or barrier-free route semantics.",
+  },
   "utoronto-interactive-map": {
     id: "utoronto-interactive-map",
     organization: "University of Toronto",
@@ -75,6 +86,11 @@ export const CAMPUS_SOURCE_RECORDS = {
   },
 } as const satisfies Record<CampusSourceId, CampusSourceRecord>;
 
+function latestSourceVerificationDate(sourceIds: readonly CampusSourceId[]) {
+  const dates = sourceIds.map((sourceId) => CAMPUS_SOURCE_RECORDS[sourceId].retrievedAt).sort();
+  return dates.at(-1) ?? "2026-08-21";
+}
+
 export function factEvidence(
   sourceIds: readonly CampusSourceId[],
   confidence: EvidenceConfidence,
@@ -83,7 +99,7 @@ export function factEvidence(
   const evidence: FactEvidence = {
     sourceIds,
     confidence,
-    lastVerified: "2026-08-21",
+    lastVerified: latestSourceVerificationDate(sourceIds),
   };
   if (notes) evidence.notes = notes;
   return evidence;
