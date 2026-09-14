@@ -129,7 +129,9 @@ const geocoded: EntranceRegistryRecord[] = features.map((feature) => {
                 "verified",
                 "Reviewed OSM accessibility metadata explicitly marks this entrance as not barrier-free.",
               )
-            : unknown("No reviewed source establishes barrier-free suitability for this coordinate."),
+            : unknown(
+                "No reviewed source establishes barrier-free suitability for this coordinate.",
+              ),
     },
   };
 });
