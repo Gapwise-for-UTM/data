@@ -30,6 +30,12 @@ const BARRIER_FREE_EXISTENCE = factEvidence(
   "UTM Facilities explicitly names this barrier-free entrance identity.",
 );
 
+const OPH_MAIN_EXISTENCE = factEvidence(
+  ["utm-facilities-snow-ice", "utm-procurement-oph-main-lobby-2026"],
+  "verified",
+  "UTM Facilities names the OPH Main barrier-free entrance identity, and a separate UTM-issued 2026 procurement notice independently names the Oscar Peterson Hall main entrance lobby. Neither source identifies which current OSM exterior door reaches that lobby.",
+);
+
 const BARRIER_FREE_ACCESSIBILITY = factEvidence(
   ["utm-facilities-snow-ice"],
   "verified",
@@ -143,7 +149,7 @@ export const OFFICIAL_BARRIER_FREE_ENTRANCE_CANDIDATES: readonly OfficialEntranc
         coordinates: matchedGeometry?.coordinates ?? null,
         routingNodeId: matchedGeometry?.routingNodeId ?? null,
         evidence: {
-          existence: BARRIER_FREE_EXISTENCE,
+          existence: stableId === "oph:main" ? OPH_MAIN_EXISTENCE : BARRIER_FREE_EXISTENCE,
           barrierFree: BARRIER_FREE_ACCESSIBILITY,
           geometry: matchedGeometry ? MATCHED_OSM_GEOMETRY : UNKNOWN_GEOMETRY,
           publicAccess: UNKNOWN_PUBLIC_ACCESS,
