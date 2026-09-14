@@ -4,7 +4,7 @@
     "description": "UTM building entrances and explicitly flagged pedestrian approach points. Physical door points come from reviewed OpenStreetMap entrance nodes; inferred approaches remain explicitly non-door topology fallbacks.",
     "source": "OpenStreetMap and University of Toronto Mississauga",
     "sourceUrl": "https://www.utm.utoronto.ca/visitors/maps-and-directions",
-    "lastVerified": "2026-09-10",
+    "lastVerified": "2026-09-14",
     "verificationStatus": "verified"
   },
   "features": [
@@ -511,8 +511,9 @@
         "accessibility": "unknown",
         "source": "OpenStreetMap",
         "sourceUrl": "https://www.openstreetmap.org/node/13738728068",
-        "lastVerified": "2026-08-10",
-        "verificationStatus": "verified"
+        "lastVerified": "2026-09-14",
+        "verificationStatus": "verified",
+        "access": "restricted"
       }
     },
     {
@@ -533,8 +534,9 @@
         "accessibility": "unknown",
         "source": "OpenStreetMap",
         "sourceUrl": "https://www.openstreetmap.org/node/1728224590",
-        "lastVerified": "2026-08-10",
-        "verificationStatus": "verified"
+        "lastVerified": "2026-09-14",
+        "verificationStatus": "verified",
+        "access": "restricted"
       }
     },
     {
@@ -767,7 +769,7 @@
         "notes": "Current OSM explicitly tags this physical door as an emergency entrance; it must not be used as a normal routing endpoint.",
         "source": "OpenStreetMap",
         "sourceUrl": "https://www.openstreetmap.org/node/2383651237",
-        "lastVerified": "2026-09-10",
+        "lastVerified": "2026-09-14",
         "verificationStatus": "verified"
       }
     },
