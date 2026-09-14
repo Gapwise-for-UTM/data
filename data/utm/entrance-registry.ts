@@ -123,7 +123,15 @@ const geocoded: EntranceRegistryRecord[] = features.map((feature) => {
               "verified",
               "Reviewed OSM accessibility metadata; connecting edges must independently pass step-free checks.",
             )
-          : unknown("No reviewed source establishes barrier-free suitability for this coordinate."),
+          : properties.accessibility === "not_accessible"
+            ? factEvidence(
+                ["openstreetmap"],
+                "verified",
+                "Reviewed OSM accessibility metadata explicitly marks this entrance as not barrier-free.",
+              )
+            : unknown(
+                "No reviewed source establishes barrier-free suitability for this coordinate.",
+              ),
     },
   };
 });
@@ -182,11 +190,11 @@ export function entranceRegistryIssues(
     if (record.direction !== "unknown" && record.evidence.direction.confidence !== "verified")
       issues.push(`Directional endpoint lacks verified direction evidence: ${record.id}`);
     if (
-      record.barrierFree === "verified" &&
+      (record.barrierFree === "verified" || record.barrierFree === "not_barrier_free") &&
       record.routability === "routable" &&
       record.evidence.barrierFree.confidence !== "verified"
     )
-      issues.push(`Step-free endpoint lacks verified evidence: ${record.id}`);
+      issues.push(`Accessibility assertion lacks verified evidence: ${record.id}`);
     for (const evidence of Object.values(record.evidence))
       if (evidence.sourceIds.length === 0) issues.push(`Fact lacks provenance: ${record.id}`);
   }
