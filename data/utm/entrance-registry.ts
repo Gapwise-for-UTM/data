@@ -87,7 +87,19 @@ const geocoded: EntranceRegistryRecord[] = features.map((feature) => {
       publicAccess:
         properties.access === "public"
           ? factEvidence(["openstreetmap"], "verified")
-          : unknown("No reviewed source establishes ordinary public/student access."),
+          : properties.access === "restricted"
+            ? factEvidence(
+                ["openstreetmap"],
+                "verified",
+                "Reviewed OSM access metadata explicitly restricts ordinary public/student access.",
+              )
+            : properties.access === "emergency_only"
+              ? factEvidence(
+                  ["openstreetmap"],
+                  "verified",
+                  "Reviewed OSM entrance metadata explicitly limits this door to emergency use.",
+                )
+              : unknown("No reviewed source establishes ordinary public/student access."),
       barrierFree:
         properties.accessibility === "accessible"
           ? factEvidence(
@@ -138,6 +150,11 @@ export function entranceRegistryIssues(
       issues.push(`Routable record lacks geometry or graph identity: ${record.id}`);
     if (record.kind === "pedestrian_approach" && record.geometryConfidence !== "inferred")
       issues.push(`Approach is not explicitly inferred: ${record.id}`);
+    if (
+      record.publicAccess === "restricted" &&
+      record.evidence.publicAccess.confidence !== "verified"
+    )
+      issues.push(`Restricted endpoint lacks verified restriction evidence: ${record.id}`);
     if (
       record.barrierFree === "verified" &&
       record.routability === "routable" &&
