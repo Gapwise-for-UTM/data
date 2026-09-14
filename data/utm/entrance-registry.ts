@@ -183,10 +183,10 @@ export function entranceRegistryIssues(
     if (record.kind === "pedestrian_approach" && record.geometryConfidence !== "inferred")
       issues.push(`Approach is not explicitly inferred: ${record.id}`);
     if (
-      record.publicAccess === "restricted" &&
+      record.publicAccess !== "unknown" &&
       record.evidence.publicAccess.confidence !== "verified"
     )
-      issues.push(`Restricted endpoint lacks verified restriction evidence: ${record.id}`);
+      issues.push(`Access assertion lacks verified evidence: ${record.id}`);
     if (record.direction !== "unknown" && record.evidence.direction.confidence !== "verified")
       issues.push(`Directional endpoint lacks verified direction evidence: ${record.id}`);
     if (
