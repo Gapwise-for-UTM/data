@@ -10,6 +10,7 @@ import { factEvidence, type FactEvidence } from "./provenance";
 export type EntranceGeometryConfidence =
   "field_verified" | "official" | "mapped" | "inferred" | "unknown";
 export type EntranceFactState = "verified" | "restricted" | "unknown";
+export type EntranceDirection = "bidirectional" | "entry_only" | "exit_only" | "unknown";
 export type EntranceRegistryRecord = {
   id: string;
   buildingCode: string;
@@ -19,6 +20,7 @@ export type EntranceRegistryRecord = {
   routingNodeId?: string;
   routability: "routable" | "candidate" | "non_routable";
   publicAccess: EntranceFactState;
+  direction: EntranceDirection;
   barrierFree: "verified" | "not_barrier_free" | "unknown";
   geometryConfidence: EntranceGeometryConfidence;
   officialReconciliation?: OfficialEntranceCandidate["reconciliationStatus"];
@@ -26,6 +28,7 @@ export type EntranceRegistryRecord = {
     existence: FactEvidence;
     geometry: FactEvidence;
     publicAccess: FactEvidence;
+    direction: FactEvidence;
     barrierFree: FactEvidence;
   };
 };
@@ -41,6 +44,7 @@ type Feature = {
     routingNodeId?: string;
     accessibility: AccessibilityStatus;
     access?: "public" | "restricted" | "emergency_only" | "unknown";
+    direction?: EntranceDirection;
     verificationStatus: "verified" | "inferred";
   };
 };
@@ -54,6 +58,7 @@ const geocoded: EntranceRegistryRecord[] = features.map((feature) => {
   const routingNodeId =
     properties.routingNodeId ??
     (properties.osmNodeId === undefined ? undefined : `osm-node-${properties.osmNodeId}`);
+  const direction = properties.direction ?? "unknown";
   return {
     id: feature.id,
     buildingCode: properties.buildingCode,
@@ -68,6 +73,7 @@ const geocoded: EntranceRegistryRecord[] = features.map((feature) => {
         : properties.access === "restricted" || properties.access === "emergency_only"
           ? "restricted"
           : "unknown",
+    direction,
     barrierFree:
       properties.accessibility === "accessible"
         ? "verified"
@@ -100,6 +106,14 @@ const geocoded: EntranceRegistryRecord[] = features.map((feature) => {
                   "Reviewed OSM entrance metadata explicitly limits this door to emergency use.",
                 )
               : unknown("No reviewed source establishes ordinary public/student access."),
+      direction:
+        direction === "unknown"
+          ? unknown("No reviewed source establishes entry/exit direction restrictions for this entrance.")
+          : factEvidence(
+              ["openstreetmap"],
+              "verified",
+              "Reviewed source metadata explicitly establishes this entrance direction restriction.",
+            ),
       barrierFree:
         properties.accessibility === "accessible"
           ? factEvidence(
@@ -122,10 +136,18 @@ const candidates: EntranceRegistryRecord[] = OFFICIAL_BARRIER_FREE_ENTRANCE_CAND
     ...(candidate.routingNodeId ? { routingNodeId: candidate.routingNodeId } : {}),
     routability: candidate.routingStatus,
     publicAccess: "unknown",
+    direction: "unknown",
     barrierFree: "verified",
     geometryConfidence: candidate.reconciliationStatus === "matched" ? "mapped" : "unknown",
     officialReconciliation: candidate.reconciliationStatus,
-    evidence: candidate.evidence,
+    evidence: {
+      ...candidate.evidence,
+      direction: factEvidence(
+        candidate.evidence.existence.sourceIds,
+        "unknown",
+        "No reviewed official source establishes entry/exit direction restrictions for this entrance identity.",
+      ),
+    },
   }),
 );
 
@@ -155,6 +177,8 @@ export function entranceRegistryIssues(
       record.evidence.publicAccess.confidence !== "verified"
     )
       issues.push(`Restricted endpoint lacks verified restriction evidence: ${record.id}`);
+    if (record.direction !== "unknown" && record.evidence.direction.confidence !== "verified")
+      issues.push(`Directional endpoint lacks verified direction evidence: ${record.id}`);
     if (
       record.barrierFree === "verified" &&
       record.routability === "routable" &&
