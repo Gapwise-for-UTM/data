@@ -152,11 +152,71 @@ export const OFFICIAL_BARRIER_FREE_ENTRANCE_CANDIDATES: readonly OfficialEntranc
     },
   );
 
+export type OfficialEntranceIdentityEvidence = {
+  id: string;
+  buildingCode: string;
+  label: string;
+  levelContext: string | null;
+  coordinates: [number, number] | null;
+  evidence: {
+    existence: FactEvidence;
+    geometry: FactEvidence;
+    publicAccess: FactEvidence;
+    barrierFree: FactEvidence;
+  };
+};
+
+/**
+ * Authoritative entrance identities that are not asserted to be barrier-free.
+ * These remain separate from the Facilities barrier-free candidates so existence
+ * evidence cannot silently acquire accessibility or geometry semantics.
+ */
+export const OFFICIAL_OTHER_ENTRANCE_IDENTITIES: readonly OfficialEntranceIdentityEvidence[] = [
+  {
+    id: "utm:entrance-identity:mn:north-2f",
+    buildingCode: "MN",
+    label: "North entrance",
+    levelContext: "2nd floor",
+    coordinates: null,
+    evidence: {
+      existence: factEvidence(
+        ["utoronto-robotics-2025-conference"],
+        "verified",
+        "U of T Robotics conference logistics explicitly identifies the MN north entrance (2nd floor).",
+      ),
+      geometry: factEvidence(
+        ["utoronto-robotics-2025-conference", "openstreetmap"],
+        "unknown",
+        "The first-party source publishes no exact door coordinate, so this identity is not assigned to any current OSM entrance node.",
+      ),
+      publicAccess: factEvidence(
+        ["utoronto-robotics-2025-conference"],
+        "unknown",
+        "Event logistics establish the entrance identity, not unrestricted ordinary public/student access.",
+      ),
+      barrierFree: factEvidence(
+        ["utoronto-robotics-2025-conference"],
+        "unknown",
+        "The conference source does not identify the north entrance as barrier-free or equate it with Facilities' Main, Field side, or Lot #1 identities.",
+      ),
+    },
+  },
+];
+
 export function officialEntranceCandidatesForBuilding(
   buildingCode: string,
 ): readonly OfficialEntranceCandidate[] {
   const normalized = buildingCode.trim().toUpperCase();
   return OFFICIAL_BARRIER_FREE_ENTRANCE_CANDIDATES.filter(
     (candidate) => candidate.buildingCode === normalized,
+  );
+}
+
+export function officialOtherEntranceIdentitiesForBuilding(
+  buildingCode: string,
+): readonly OfficialEntranceIdentityEvidence[] {
+  const normalized = buildingCode.trim().toUpperCase();
+  return OFFICIAL_OTHER_ENTRANCE_IDENTITIES.filter(
+    (identity) => identity.buildingCode === normalized,
   );
 }
