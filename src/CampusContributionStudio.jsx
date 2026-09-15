@@ -9,6 +9,7 @@ import {
   Search,
   Trash2,
   Undo2,
+  X,
 } from 'lucide-react';
 import {
   CAMPUSES,
@@ -162,8 +163,8 @@ function machinePayload(items) {
 }
 
 function issueTitle(items) {
-  const campusNames = [...new Set(items.map((item) => CAMPUSES[item.campus]?.shortName || item.campus.toUpperCase()))];
-  return `Campus map contribution: ${campusNames.join(' + ')} (${items.length} changes)`;
+  const campuses = [...new Set(items.map((item) => CAMPUSES[item.campus]?.shortName || item.campus.toUpperCase()))];
+  return `Campus map contribution: ${campuses.join(' + ')} (${items.length} changes)`;
 }
 
 function issueBody(items) {
@@ -174,7 +175,10 @@ function issueBody(items) {
       return `| ${index + 1} | ${campus} | ${humanize(item.type)} | ${itemName(item).replaceAll('|', '\\|')} | ${geometryType} |`;
     })
     .join('\n');
-  return `## Campus map contribution\n\n**Changes:** ${items.length}  \n**Campuses:** ${[...new Set(items.map((item) => CAMPUSES[item.campus]?.shortName))].join(', ')}\n\nThis batch was drawn visually in the Gapwise Data contribution studio. It may contain entrances, building footprints, and pedestrian paths. Claims default to **unknown** unless the contributor explicitly changes them.\n\n### Changes\n\n| # | Campus | Type | Name / target | Geometry |\n|---:|---|---|---|---|\n${rows}\n\n### Machine-readable contribution\n\n\`\`\`json\n${JSON.stringify(machinePayload(items), null, 2)}\n\`\`\`\n\n---\nSubmitted from [Gapwise Data](${DATA_REPOSITORY}).`;
+
+  return `## Campus map contribution\n\n**Changes:** ${items.length}  \n**Campuses:** ${[
+    ...new Set(items.map((item) => CAMPUSES[item.campus]?.shortName)),
+  ].join(', ')}\n\nThis batch was drawn visually in the Gapwise Data contribution studio. It may contain entrances, building footprints, and pedestrian paths. Claims default to **unknown** unless the contributor explicitly changes them.\n\n### Changes\n\n| # | Campus | Type | Name / target | Geometry |\n|---:|---|---|---|---|\n${rows}\n\n### Machine-readable contribution\n\n\`\`\`json\n${JSON.stringify(machinePayload(items), null, 2)}\n\`\`\`\n\n---\nSubmitted from [Gapwise Data](${DATA_REPOSITORY}).`;
 }
 
 export default function CampusContributionStudio() {
@@ -198,8 +202,8 @@ export default function CampusContributionStudio() {
   const canonicalBuildings = useMemo(() => canonicalBuildingsForCampus(campusId), [campusId]);
   const canonicalFootprints = useMemo(() => canonicalFootprintsForCampus(campusId), [campusId]);
   const canonicalEntrances = useMemo(() => canonicalEntrancesForCampus(campusId), [campusId]);
-  const draftBuildings = items.filter((item) => item.type === 'building' && item.campus === campusId);
   const campusItems = items.filter((item) => item.campus === campusId);
+  const draftBuildings = campusItems.filter((item) => item.type === 'building');
   const draftEntrances = campusItems.filter((item) => item.type === 'entrance');
   const draftPaths = campusItems.filter((item) => item.type === 'path');
 
@@ -241,9 +245,13 @@ export default function CampusContributionStudio() {
   }, [buildingQuery, selectableBuildings]);
 
   const viewBox = useMemo(() => {
-    if (!selectedBuilding || tool !== 'entrance') return { x: 0, y: 0, width: MAP_WIDTH, height: MAP_HEIGHT };
+    if (!selectedBuilding || tool !== 'entrance') {
+      return { x: 0, y: 0, width: MAP_WIDTH, height: MAP_HEIGHT };
+    }
     if (selectedBuilding.geometry) return geometryBounds(selectedBuilding.geometry, project, 1.0);
-    const boxes = (selectedBuilding.features ?? []).map((feature) => geometryBounds(feature.geometry, project, 0.55));
+    const boxes = (selectedBuilding.features ?? []).map((feature) =>
+      geometryBounds(feature.geometry, project, 0.55),
+    );
     return mergeViewBoxes(boxes);
   }, [project, selectedBuilding, tool]);
   const viewBoxValue = `${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`;
@@ -268,11 +276,20 @@ export default function CampusContributionStudio() {
     setNotice('');
   }
 
-  function toggleBuilding(key) {
+  function selectBuilding(key) {
     setSelectedEntranceId(null);
-    setSelectedBuildingKey((current) => (current === key ? null : key));
+    setSelectedBuildingKey(key);
     setShowBuildingPicker(false);
     setBuildingQuery('');
+  }
+
+  function toggleBuilding(key) {
+    if (selectedBuildingKey === key) {
+      setSelectedBuildingKey(null);
+      setSelectedEntranceId(null);
+      return;
+    }
+    selectBuilding(key);
   }
 
   function clearSelection() {
@@ -320,6 +337,11 @@ export default function CampusContributionStudio() {
   }
 
   function finishDrawing() {
+    if (items.length >= MAX_ITEMS) {
+      setNotice(`One batch can contain up to ${MAX_ITEMS} changes.`);
+      return;
+    }
+
     if (tool === 'building') {
       if (drawingPoints.length < 3) {
         setNotice('A building footprint needs at least three points.');
@@ -331,16 +353,14 @@ export default function CampusContributionStudio() {
         setNotice('Give the building a code and name before finishing the footprint.');
         return;
       }
-      const closed = [...drawingPoints, drawingPoints[0]];
-      const id = makeId('building');
       const item = {
-        id,
+        id: makeId('building'),
         type: 'building',
         campus: campusId,
         buildingCode: code,
         buildingName: name,
         category: buildingForm.category,
-        geometry: { type: 'Polygon', coordinates: [closed] },
+        geometry: { type: 'Polygon', coordinates: [[...drawingPoints, drawingPoints[0]]] },
         observationMethod: defaults.observationMethod,
         observedAt: defaults.observedAt,
       };
@@ -349,9 +369,10 @@ export default function CampusContributionStudio() {
       setBuildingForm(createBuildingForm());
       setSelectedBuildingKey(draftBuildingKey(item));
       setTool('entrance');
-      setNotice('Building added to this batch and selected. You can add its entrances immediately.');
+      setNotice('Building added and selected. You can place its entrances immediately.');
       return;
     }
+
     if (tool === 'path') {
       if (drawingPoints.length < 2) {
         setNotice('A path needs at least two points.');
@@ -371,12 +392,8 @@ export default function CampusContributionStudio() {
       setItems((current) => [...current, item]);
       setDrawingPoints([]);
       setPathForm(createPathForm());
-      setNotice('Path added to the batch. Keep drawing or switch tools.');
+      setNotice('Path added to the batch.');
     }
-  }
-
-  function undoPoint() {
-    setDrawingPoints((current) => current.slice(0, -1));
   }
 
   function updateSelectedEntrance(patch) {
@@ -422,7 +439,11 @@ export default function CampusContributionStudio() {
       }
       if (event.key === 'Enter' && drawingPoints.length && (tool === 'building' || tool === 'path')) {
         const target = event.target;
-        if (target instanceof HTMLInputElement || target instanceof HTMLSelectElement || target instanceof HTMLTextAreaElement) return;
+        if (
+          target instanceof HTMLInputElement ||
+          target instanceof HTMLSelectElement ||
+          target instanceof HTMLTextAreaElement
+        ) return;
         event.preventDefault();
         finishDrawing();
       }
@@ -459,7 +480,9 @@ export default function CampusContributionStudio() {
           <a href="/">Data home</a>
           <a className="active" href="/contribute">Contribute</a>
           <a href="/studio/entrances">Studio</a>
-          <a href={DATA_REPOSITORY} target="_blank" rel="noreferrer">GitHub <ExternalLink size={13} /></a>
+          <a href={DATA_REPOSITORY} target="_blank" rel="noreferrer">
+            GitHub <ExternalLink size={13} />
+          </a>
         </nav>
       </header>
 
@@ -504,20 +527,22 @@ export default function CampusContributionStudio() {
                     <p>Click a footprint on the map, or use the list.</p>
                   </div>
                   {selectedBuilding ? (
-                    <button type="button" className="campus-clear-button" onClick={() => setSelectedBuildingKey(null)}>Deselect</button>
+                    <button type="button" className="campus-clear-button" onClick={() => clearSelection()}>
+                      Deselect
+                    </button>
                   ) : null}
                 </div>
 
                 {selectedBuilding ? (
-                  <button type="button" className="campus-selected-building" onClick={() => setSelectedBuildingKey(null)} title="Click to deselect building">
+                  <button type="button" className="campus-selected-building" onClick={() => clearSelection()} title="Deselect building">
                     <span>{selectedBuilding.code}</span>
                     <strong>{selectedBuilding.name}</strong>
-                    <small>Selected · click again to clear ×</small>
+                    <small>Selected · click to clear ×</small>
                   </button>
                 ) : (
                   <div className="campus-no-building">
                     <MapPin size={17} />
-                    <span>No building selected. Map clicks select buildings first.</span>
+                    <span>No building selected. Click a mapped footprint or draw a building first.</span>
                   </div>
                 )}
 
@@ -528,17 +553,29 @@ export default function CampusContributionStudio() {
                   <div className="campus-building-picker">
                     <label className="campus-search">
                       <Search size={14} />
-                      <input autoFocus value={buildingQuery} onChange={(event) => setBuildingQuery(event.target.value)} placeholder="Search buildings" />
+                      <input
+                        autoFocus
+                        value={buildingQuery}
+                        onChange={(event) => setBuildingQuery(event.target.value)}
+                        placeholder="Search buildings"
+                      />
                     </label>
                     <div className="campus-building-results">
                       {filteredBuildings.length ? filteredBuildings.slice(0, 24).map((building) => (
-                        <button type="button" key={building.key} className={building.key === selectedBuildingKey ? 'selected' : ''} onClick={() => toggleBuilding(building.key)}>
+                        <button
+                          type="button"
+                          key={building.key}
+                          className={building.key === selectedBuildingKey ? 'selected' : ''}
+                          onClick={() => toggleBuilding(building.key)}
+                        >
                           <span>{building.code}</span>
                           <strong>{building.name}</strong>
                           <small>{building.source === 'batch_draft' ? 'this batch' : `${building.entranceCount ?? 0} entrances`}</small>
                         </button>
                       )) : (
-                        <p className="campus-picker-empty">No mapped buildings yet. Use <strong>Buildings</strong> to draw one first.</p>
+                        <p className="campus-picker-empty">
+                          No canonical buildings mapped here yet. Use <strong>Buildings</strong> to draw one, then add its entrances.
+                        </p>
                       )}
                     </div>
                   </div>
@@ -565,16 +602,16 @@ export default function CampusContributionStudio() {
           {tool === 'building' ? (
             <section className="campus-section">
               <div className="campus-eyebrow">2 · BUILDING DETAILS</div>
-              <p className="campus-hint">Fill these in, then click around the footprint. Press Enter or Finish when done.</p>
+              <p className="campus-hint">Fill these in, click around the footprint, then press Enter or Finish.</p>
               <div className="campus-field-grid">
-                <label className="campus-field"><span>Building code</span><input value={buildingForm.code} onChange={(event) => setBuildingForm((current) => ({ ...current, code: event.target.value }))} placeholder="e.g. MN" /></label>
+                <label className="campus-field"><span>Building code</span><input value={buildingForm.code} onChange={(event) => setBuildingForm((current) => ({ ...current, code: event.target.value }))} placeholder="e.g. BA" /></label>
                 <label className="campus-field"><span>Name</span><input value={buildingForm.name} onChange={(event) => setBuildingForm((current) => ({ ...current, name: event.target.value }))} placeholder="Building name" /></label>
                 <SelectField label="Category" value={buildingForm.category} onChange={(category) => setBuildingForm((current) => ({ ...current, category }))}>
                   <option value="academic">Academic</option><option value="residence">Residence</option><option value="library">Library</option><option value="athletics">Athletics</option><option value="facility">Facility</option><option value="other">Other</option>
                 </SelectField>
               </div>
               <div className="campus-draw-actions">
-                <button type="button" disabled={!drawingPoints.length} onClick={undoPoint}><Undo2 size={14} /> Undo point</button>
+                <button type="button" disabled={!drawingPoints.length} onClick={() => setDrawingPoints((current) => current.slice(0, -1))}><Undo2 size={14} /> Undo point</button>
                 <button type="button" disabled={drawingPoints.length < 3} className="finish" onClick={finishDrawing}><Check size={14} /> Finish building</button>
               </div>
               <small className="campus-draw-count">{drawingPoints.length} vertices</small>
@@ -584,7 +621,7 @@ export default function CampusContributionStudio() {
           {tool === 'path' ? (
             <section className="campus-section">
               <div className="campus-eyebrow">2 · PATH DETAILS</div>
-              <p className="campus-hint">Click points along the path in order. Press Enter or Finish when done.</p>
+              <p className="campus-hint">Click points along the path in order, then press Enter or Finish.</p>
               <div className="campus-field-grid">
                 <SelectField label="Path type" value={pathForm.pathKind} onChange={(pathKind) => setPathForm((current) => ({ ...current, pathKind }))}>
                   <option value="pedestrian_path">Pedestrian path</option><option value="stairs">Stairs</option><option value="ramp">Ramp</option><option value="covered_walkway">Covered walkway</option><option value="indoor_connection">Indoor connection</option>
@@ -595,7 +632,7 @@ export default function CampusContributionStudio() {
                 </SelectField>
               </div>
               <div className="campus-draw-actions">
-                <button type="button" disabled={!drawingPoints.length} onClick={undoPoint}><Undo2 size={14} /> Undo point</button>
+                <button type="button" disabled={!drawingPoints.length} onClick={() => setDrawingPoints((current) => current.slice(0, -1))}><Undo2 size={14} /> Undo point</button>
                 <button type="button" disabled={drawingPoints.length < 2} className="finish" onClick={finishDrawing}><Check size={14} /> Finish path</button>
               </div>
               <small className="campus-draw-count">{drawingPoints.length} points</small>
@@ -624,9 +661,13 @@ export default function CampusContributionStudio() {
                     setCampus(item.campus);
                     if (item.type === 'entrance') {
                       setTool('entrance');
-                      setSelectedEntranceId(item.id === selectedEntranceId ? null : item.id);
-                      const key = item.buildingSource === 'batch_draft' ? `draft:${item.buildingDraftId}` : `canonical:${item.buildingCode}`;
-                      setSelectedBuildingKey(key);
+                      setSelectedEntranceId((current) => current === item.id ? null : item.id);
+                      setSelectedBuildingKey(item.buildingSource === 'batch_draft' ? `draft:${item.buildingDraftId}` : `canonical:${item.buildingCode}`);
+                    } else if (item.type === 'building') {
+                      setTool('entrance');
+                      setSelectedBuildingKey(`draft:${item.id}`);
+                    } else {
+                      setTool('path');
                     }
                   }}>
                     <span className="campus-batch-number">{index + 1}</span>
@@ -655,7 +696,9 @@ export default function CampusContributionStudio() {
               </h1>
               <p>
                 {tool === 'entrance'
-                  ? selectedBuilding ? 'Click the map to add entrances. Click a red entrance again, press Esc, or use Deselect to clear its selection.' : 'Click any building footprint to select it. Clicking the selected footprint again deselects it.'
+                  ? selectedBuilding
+                    ? 'Click anywhere on the map to add entrances. Use the selected-building chip on the map, Esc, or Deselect to clear the building. Click a red entrance again to deselect it.'
+                    : 'Click a building footprint to select it. You can also draw a new building first.'
                   : `Click to add ${tool === 'building' ? 'vertices' : 'points'}. Enter finishes; Esc cancels the current drawing.`}
               </p>
             </div>
@@ -668,6 +711,19 @@ export default function CampusContributionStudio() {
           </div>
 
           <div className="campus-map-wrap">
+            {selectedBuilding && tool === 'entrance' ? (
+              <button
+                type="button"
+                className="campus-map-selected-chip"
+                onClick={() => clearSelection()}
+                title="Deselect building"
+              >
+                <span>{selectedBuilding.code}</span>
+                <strong>{selectedBuilding.name}</strong>
+                <X size={14} />
+              </button>
+            ) : null}
+
             <svg
               ref={svgRef}
               className={`campus-map tool-${tool}`}
@@ -693,7 +749,10 @@ export default function CampusContributionStudio() {
                       key={`${code}-${index}`}
                       d={geometryPath(feature.geometry, project)}
                       className={selected ? 'selected' : ''}
-                      onClick={tool === 'entrance' ? (event) => { event.stopPropagation(); toggleBuilding(key); } : undefined}
+                      onClick={tool === 'entrance' && !selected ? (event) => {
+                        event.stopPropagation();
+                        selectBuilding(key);
+                      } : undefined}
                     />
                   );
                 })}
@@ -702,12 +761,16 @@ export default function CampusContributionStudio() {
               <g className="campus-draft-buildings">
                 {draftBuildings.map((item) => {
                   const key = draftBuildingKey(item);
+                  const selected = selectedBuildingKey === key;
                   return (
                     <path
                       key={item.id}
                       d={geometryPath(item.geometry, project)}
-                      className={selectedBuildingKey === key ? 'selected' : ''}
-                      onClick={tool === 'entrance' ? (event) => { event.stopPropagation(); toggleBuilding(key); } : undefined}
+                      className={selected ? 'selected' : ''}
+                      onClick={tool === 'entrance' && !selected ? (event) => {
+                        event.stopPropagation();
+                        selectBuilding(key);
+                      } : undefined}
                     />
                   );
                 })}
@@ -723,17 +786,24 @@ export default function CampusContributionStudio() {
               })}
 
               <g className="campus-draft-entrances">
-                {draftEntrances.map((item, index) => {
+                {draftEntrances.map((item) => {
                   const [x, y] = project(item.coordinates);
                   const selected = item.id === selectedEntranceId;
                   return (
-                    <g key={item.id} className={selected ? 'selected' : ''} onClick={(event) => {
-                      event.stopPropagation();
-                      setSelectedEntranceId((current) => current === item.id ? null : item.id);
-                      setTool('entrance');
-                      const buildingKey = item.buildingSource === 'batch_draft' ? `draft:${item.buildingDraftId}` : `canonical:${item.buildingCode}`;
-                      setSelectedBuildingKey(buildingKey);
-                    }}>
+                    <g
+                      key={item.id}
+                      className={selected ? 'selected' : ''}
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        setTool('entrance');
+                        setSelectedEntranceId((current) => current === item.id ? null : item.id);
+                        setSelectedBuildingKey(
+                          item.buildingSource === 'batch_draft'
+                            ? `draft:${item.buildingDraftId}`
+                            : `canonical:${item.buildingCode}`,
+                        );
+                      }}
+                    >
                       <circle cx={x} cy={y} r={selected ? 13 : 10} />
                       <text x={x} y={y + 4}>{items.indexOf(item) + 1}</text>
                     </g>
@@ -744,12 +814,21 @@ export default function CampusContributionStudio() {
               {drawingPoints.length ? (
                 <g className={`campus-active-drawing ${tool}`} pointerEvents="none">
                   {tool === 'building' && drawingPoints.length > 1 ? (
-                    <path d={`${drawingPoints.map((point, index) => { const [x, y] = project(point); return `${index ? 'L' : 'M'}${x} ${y}`; }).join(' ')} Z`} />
+                    <path d={`${drawingPoints.map((point, index) => {
+                      const [x, y] = project(point);
+                      return `${index ? 'L' : 'M'}${x} ${y}`;
+                    }).join(' ')} Z`} />
                   ) : null}
                   {tool === 'path' && drawingPoints.length > 1 ? (
-                    <path d={drawingPoints.map((point, index) => { const [x, y] = project(point); return `${index ? 'L' : 'M'}${x} ${y}`; }).join(' ')} />
+                    <path d={drawingPoints.map((point, index) => {
+                      const [x, y] = project(point);
+                      return `${index ? 'L' : 'M'}${x} ${y}`;
+                    }).join(' ')} />
                   ) : null}
-                  {drawingPoints.map((point, index) => { const [x, y] = project(point); return <circle key={`${x}-${y}-${index}`} cx={x} cy={y} r="7" />; })}
+                  {drawingPoints.map((point, index) => {
+                    const [x, y] = project(point);
+                    return <circle key={`${x}-${y}-${index}`} cx={x} cy={y} r="7" />;
+                  })}
                 </g>
               ) : null}
             </svg>
@@ -766,8 +845,13 @@ export default function CampusContributionStudio() {
           {selectedEntrance ? (
             <div className="campus-inspector">
               <div className="campus-inspector-heading">
-                <div><span>SELECTED ENTRANCE</span><strong>{selectedEntrance.buildingCode} · {selectedEntrance.label || 'Unlabelled entrance'}</strong></div>
-                <button type="button" className="campus-deselect-entrance" onClick={() => setSelectedEntranceId(null)}>Deselect entrance ×</button>
+                <div>
+                  <span>SELECTED ENTRANCE</span>
+                  <strong>{selectedEntrance.buildingCode} · {selectedEntrance.label || 'Unlabelled entrance'}</strong>
+                </div>
+                <button type="button" className="campus-deselect-entrance" onClick={() => setSelectedEntranceId(null)}>
+                  Deselect entrance <X size={13} />
+                </button>
               </div>
               <div className="campus-inspector-fields">
                 <label className="campus-field"><span>Label</span><input value={selectedEntrance.label} onChange={(event) => updateSelectedEntrance({ label: event.target.value })} placeholder="Optional label" /></label>
@@ -791,7 +875,11 @@ export default function CampusContributionStudio() {
           <footer className="campus-statusbar">
             <span>{CAMPUSES[campusId].name}</span>
             <span>{selectableBuildings.length} selectable building{selectableBuildings.length === 1 ? '' : 's'}</span>
-            <span>{warningCount ? <><CircleAlert size={13} /> {warningCount} possible duplicate{warningCount === 1 ? '' : 's'}</> : <><Check size={13} /> no duplicate warnings</>}</span>
+            <span>
+              {warningCount
+                ? <><CircleAlert size={13} /> {warningCount} possible duplicate{warningCount === 1 ? '' : 's'}</>
+                : <><Check size={13} /> no duplicate warnings</>}
+            </span>
           </footer>
         </section>
       </main>
