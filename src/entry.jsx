@@ -20,6 +20,12 @@ function renderBatchEntranceStudio() {
   });
 }
 
+function renderCampusContributionStudio() {
+  import('./CampusContributionStudio.jsx').then(({ default: CampusContributionStudio }) => {
+    createRoot(rootElement).render(<CampusContributionStudio />);
+  });
+}
+
 function renderEntrancePrReview() {
   import('./EntrancePrReview.jsx').then(({ default: EntrancePrReview }) => {
     createRoot(rootElement).render(<EntrancePrReview />);
@@ -30,10 +36,12 @@ if (pathname === '/review/entrances') {
   renderEntrancePrReview();
 } else if (pathname === '/contribute/single') {
   renderEntranceStudio(false);
-} else if (pathname === '/contribute' || pathname === '/contribute/batch') {
+} else if (pathname === '/contribute/entrances') {
   renderBatchEntranceStudio();
+} else if (pathname === '/contribute' || pathname === '/contribute/batch') {
+  renderCampusContributionStudio();
 } else if (pathname.startsWith('/contribute/')) {
-  renderEntranceStudio(false);
+  renderCampusContributionStudio();
 } else if (pathname === '/studio/entrances') {
   renderEntranceStudio(true);
 } else {
