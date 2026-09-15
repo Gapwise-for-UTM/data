@@ -8,9 +8,13 @@ const required = [
   'public/.well-known/gapwise.json',
   'public/schemas/dataset-manifest.schema.json',
   'public/schemas/entrance-contribution.schema.json',
+  'public/schemas/entrance-batch-contribution.schema.json',
   'schemas/entrance-contribution.schema.json',
+  'schemas/entrance-batch-contribution.schema.json',
   'scripts/publish-datasets.mjs',
   'src/EntranceContribution.jsx',
+  'src/BatchEntranceContribution.jsx',
+  'src/EntrancePrReview.jsx',
 ];
 for (const path of required) await access(resolve(root, path));
 
@@ -26,22 +30,18 @@ if (!sitemap.includes('<loc>https://data.gapwise.ca/contribute</loc>')) {
 
 const vercel = JSON.parse(await readFile(resolve(root, 'vercel.json'), 'utf8'));
 const rewriteSources = new Set((vercel.rewrites ?? []).map((rewrite) => rewrite.source));
-for (const route of ['/contribute', '/contribute/:path*', '/studio/entrances']) {
+for (const route of ['/contribute', '/contribute/:path*', '/review/entrances', '/studio/entrances']) {
   if (!rewriteSources.has(route)) {
     throw new Error(`vercel.json must preserve the ${route} client route`);
   }
 }
 
-const canonicalSchema = await readFile(
-  resolve(root, 'schemas/entrance-contribution.schema.json'),
-  'utf8',
-);
-const publicSchema = await readFile(
-  resolve(root, 'public/schemas/entrance-contribution.schema.json'),
-  'utf8',
-);
-if (canonicalSchema !== publicSchema) {
-  throw new Error('Published entrance contribution schema must match the canonical schema');
+for (const schemaName of ['entrance-contribution.schema.json', 'entrance-batch-contribution.schema.json']) {
+  const canonicalSchema = await readFile(resolve(root, 'schemas', schemaName), 'utf8');
+  const publicSchema = await readFile(resolve(root, 'public/schemas', schemaName), 'utf8');
+  if (canonicalSchema !== publicSchema) {
+    throw new Error(`Published ${schemaName} must match the canonical schema`);
+  }
 }
 
 console.log('Public Gapwise Data distribution contract is present.');
