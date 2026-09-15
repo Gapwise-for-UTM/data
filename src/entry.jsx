@@ -4,6 +4,8 @@ import './styles.css';
 import './accent-theme.css';
 import './campus-contribution-selection.css';
 import './header-logo.css';
+import './campus-contribution-enhancements.css';
+import './campus-map-zoom.js';
 
 const pathname = window.location.pathname.replace(/\/+$/, '') || '/';
 const rootElement = document.getElementById('root');
