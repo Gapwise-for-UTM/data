@@ -1,0 +1,95 @@
+/* Canonical Gapwise branding for the contribution/review tool headers. */
+.campus-brand-mark,
+.batch-brand-mark,
+.pr-review-brand > span:first-child,
+.campus-review-brand > span:first-child {
+  width: 26px !important;
+  height: 26px !important;
+  min-width: 26px;
+  display: inline-block !important;
+  flex: 0 0 26px;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: url('/logo-mark.svg') !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Map zoom is deliberately an overlay so it does not consume drawing space. */
+.campus-map-zoom-controls {
+  position: absolute;
+  z-index: 12;
+  top: 12px;
+  right: 12px;
+  display: grid;
+  grid-template-columns: 34px 34px;
+  gap: 6px;
+  padding: 6px;
+  border: 1px solid rgba(82, 94, 104, 0.72);
+  border-radius: 10px;
+  background: rgba(13, 17, 20, 0.94);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.32);
+  backdrop-filter: blur(8px);
+}
+
+.campus-map-zoom-controls button {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 1px solid #303a42;
+  border-radius: 7px;
+  background: #151b20;
+  color: #eef2f4;
+  font: 800 18px/1 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.campus-map-zoom-controls button:hover:not(:disabled) {
+  border-color: rgba(255, 77, 93, 0.66);
+  background: rgba(255, 77, 93, 0.12);
+  color: #fff;
+}
+
+.campus-map-zoom-controls button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.campus-map-zoom-level {
+  grid-column: 1 / -1;
+  min-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 0 5px;
+  border: 0;
+  background: transparent;
+  color: #8f9aa2;
+  font: 700 9px/1 monospace;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.campus-map-zoom-level:hover { color: #fff; }
+
+.campus-map {
+  transform-origin: 50% 50%;
+  transition: transform 120ms ease-out;
+  will-change: transform;
+}
+
+@media (max-width: 760px) {
+  .campus-map-zoom-controls {
+    top: 8px;
+    right: 8px;
+  }
+}
