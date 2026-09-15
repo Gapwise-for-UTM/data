@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://data.gapwise.ca/schemas/campus-map-contribution.schema.json",
+  "title": "Gapwise campus map contribution batch",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "contributionType", "campuses", "items", "submittedVia", "createdAt"],
+  "properties": {
+    "schemaVersion": { "const": 3 },
+    "contributionType": { "const": "campus_map_batch" },
+    "campuses": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["utm", "utsg", "utsc"] }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 120,
+      "items": {
+        "oneOf": [
+          { "$ref": "#/$defs/entrance" },
+          { "$ref": "#/$defs/building" },
+          { "$ref": "#/$defs/path" }
+        ]
+      }
+    },
+    "submittedVia": { "type": "string", "format": "uri" },
+    "createdAt": { "type": "string", "format": "date-time" }
+  },
+  "$defs": {
+    "campus": { "enum": ["utm", "utsg", "utsc"] },
+    "coordinate": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "number", "minimum": -180, "maximum": 180 },
+        { "type": "number", "minimum": -90, "maximum": 90 }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "observedAt"],
+      "properties": {
+        "method": { "enum": ["field_observation", "official_source", "other"] },
+        "observedAt": { "type": "string", "format": "date" }
+      }
+    },
+    "entrance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "campus", "building", "geometry", "entranceKind", "claims", "evidence"],
+      "properties": {
+        "kind": { "const": "new_entrance" },
+        "campus": { "$ref": "#/$defs/campus" },
+        "building": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["code", "name", "source", "draftId"],
+          "properties": {
+            "code": { "type": "string", "minLength": 1 },
+            "name": { "type": "string", "minLength": 1 },
+            "source": { "enum": ["canonical", "batch_draft"] },
+            "draftId": { "type": ["string", "null"] }
+          }
+        },
+        "geometry": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "coordinates"],
+          "properties": {
+            "type": { "const": "Point" },
+            "coordinates": { "$ref": "#/$defs/coordinate" }
+          }
+        },
+        "proposedLabel": { "type": ["string", "null"] },
+        "entranceKind": { "const": "exterior_entrance" },
+        "claims": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["publicAccess", "direction", "barrierFree"],
+          "properties": {
+            "publicAccess": { "enum": ["unknown", "verified", "restricted"] },
+            "direction": { "enum": ["unknown", "bidirectional", "entry_only", "exit_only"] },
+            "barrierFree": { "enum": ["unknown", "verified", "not_barrier_free"] }
+          }
+        },
+        "evidence": { "$ref": "#/$defs/evidence" },
+        "contributorNotes": { "type": ["string", "null"] }
+      }
+    },
+    "building": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "campus", "draftId", "buildingCode", "buildingName", "category", "geometry", "evidence"],
+      "properties": {
+        "kind": { "const": "new_building" },
+        "campus": { "$ref": "#/$defs/campus" },
+        "draftId": { "type": "string", "minLength": 1 },
+        "buildingCode": { "type": "string", "minLength": 1 },
+        "buildingName": { "type": "string", "minLength": 1 },
+        "category": { "enum": ["academic", "residence", "library", "athletics", "facility", "other"] },
+        "geometry": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "coordinates"],
+          "properties": {
+            "type": { "const": "Polygon" },
+            "coordinates": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "array",
+                "minItems": 4,
+                "items": { "$ref": "#/$defs/coordinate" }
+              }
+            }
+          }
+        },
+        "evidence": { "$ref": "#/$defs/evidence" }
+      }
+    },
+    "path": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "campus", "pathKind", "proposedLabel", "geometry", "claims", "evidence"],
+      "properties": {
+        "kind": { "const": "new_path" },
+        "campus": { "$ref": "#/$defs/campus" },
+        "pathKind": { "enum": ["pedestrian_path", "stairs", "ramp", "covered_walkway", "indoor_connection"] },
+        "proposedLabel": { "type": ["string", "null"] },
+        "geometry": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "coordinates"],
+          "properties": {
+            "type": { "const": "LineString" },
+            "coordinates": {
+              "type": "array",
+              "minItems": 2,
+              "items": { "$ref": "#/$defs/coordinate" }
+            }
+          }
+        },
+        "claims": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["barrierFree"],
+          "properties": {
+            "barrierFree": { "enum": ["unknown", "verified", "not_barrier_free"] }
+          }
+        },
+        "evidence": { "$ref": "#/$defs/evidence" }
+      }
+    }
+  }
+}

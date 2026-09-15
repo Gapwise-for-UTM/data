@@ -2,6 +2,10 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 import './accent-theme.css';
+import './campus-contribution-selection.css';
+import './header-logo.css';
+import './campus-contribution-enhancements.css';
+import './campus-map-zoom.js';
 
 const pathname = window.location.pathname.replace(/\/+$/, '') || '/';
 const rootElement = document.getElementById('root');
@@ -14,8 +18,42 @@ function renderEntranceStudio(maintainerMode = false) {
   });
 }
 
-if (pathname === '/contribute' || pathname.startsWith('/contribute/')) {
+function renderBatchEntranceStudio() {
+  import('./BatchEntranceContribution.jsx').then(({ default: BatchEntranceContribution }) => {
+    createRoot(rootElement).render(<BatchEntranceContribution />);
+  });
+}
+
+function renderCampusContributionStudio() {
+  import('./CampusContributionStudio.jsx').then(({ default: CampusContributionStudio }) => {
+    createRoot(rootElement).render(<CampusContributionStudio />);
+  });
+}
+
+function renderEntrancePrReview() {
+  import('./EntrancePrReview.jsx').then(({ default: EntrancePrReview }) => {
+    createRoot(rootElement).render(<EntrancePrReview />);
+  });
+}
+
+function renderCampusPrReview() {
+  import('./CampusPrReview.jsx').then(({ default: CampusPrReview }) => {
+    createRoot(rootElement).render(<CampusPrReview />);
+  });
+}
+
+if (pathname === '/review/map') {
+  renderCampusPrReview();
+} else if (pathname === '/review/entrances') {
+  renderEntrancePrReview();
+} else if (pathname === '/contribute/single') {
   renderEntranceStudio(false);
+} else if (pathname === '/contribute/entrances') {
+  renderBatchEntranceStudio();
+} else if (pathname === '/contribute' || pathname === '/contribute/batch') {
+  renderCampusContributionStudio();
+} else if (pathname.startsWith('/contribute/')) {
+  renderCampusContributionStudio();
 } else if (pathname === '/studio/entrances') {
   renderEntranceStudio(true);
 } else {

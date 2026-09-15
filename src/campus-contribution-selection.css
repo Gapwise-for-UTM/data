@@ -1,0 +1,59 @@
+.campus-map-selected-chip {
+  position: absolute;
+  z-index: 8;
+  top: 12px;
+  left: 12px;
+  min-height: 38px;
+  max-width: min(420px, calc(100% - 24px));
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 9px 6px 7px;
+  border: 1px solid rgba(255, 77, 93, 0.58);
+  border-radius: 9px;
+  background: rgba(14, 18, 21, 0.94);
+  color: #eef2f4;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.34);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+}
+
+.campus-map-selected-chip > span {
+  min-width: 35px;
+  height: 25px;
+  padding: 0 7px;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+  background: rgba(255, 77, 93, 0.14);
+  border: 1px solid rgba(255, 77, 93, 0.38);
+  color: #ff6976;
+  font: 800 9px/1 monospace;
+}
+
+.campus-map-selected-chip strong {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.campus-map-selected-chip svg { color: #ff8b95; }
+.campus-map-selected-chip:hover { background: rgba(255, 77, 93, 0.14); }
+
+.campus-deselect-entrance {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 760px) {
+  .campus-map-selected-chip {
+    top: 8px;
+    left: 8px;
+    max-width: calc(100% - 16px);
+  }
+}
