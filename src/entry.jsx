@@ -2,6 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 import './accent-theme.css';
+import './campus-contribution-selection.css';
 
 const pathname = window.location.pathname.replace(/\/+$/, '') || '/';
 const rootElement = document.getElementById('root');
