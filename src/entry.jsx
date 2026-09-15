@@ -4,13 +4,20 @@ import './styles.css';
 import './accent-theme.css';
 
 const pathname = window.location.pathname.replace(/\/+$/, '') || '/';
+const rootElement = document.getElementById('root');
+
+function renderEntranceStudio(maintainerMode = false) {
+  import('./EntranceContribution.jsx').then(({ default: EntranceContribution }) => {
+    createRoot(rootElement).render(
+      <EntranceContribution maintainerMode={maintainerMode} />,
+    );
+  });
+}
 
 if (pathname === '/contribute' || pathname.startsWith('/contribute/')) {
-  const { default: EntranceContribution } = await import('./EntranceContribution.jsx');
-  createRoot(document.getElementById('root')).render(<EntranceContribution />);
+  renderEntranceStudio(false);
 } else if (pathname === '/studio/entrances') {
-  const { default: EntranceContribution } = await import('./EntranceContribution.jsx');
-  createRoot(document.getElementById('root')).render(<EntranceContribution maintainerMode />);
+  renderEntranceStudio(true);
 } else {
-  await import('./main.jsx');
+  import('./main.jsx');
 }
