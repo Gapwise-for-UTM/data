@@ -5,7 +5,6 @@ import {
   ChevronDown,
   CircleAlert,
   ExternalLink,
-  Github,
   Layers3,
   MapPin,
   RotateCcw,
@@ -589,7 +588,7 @@ export default function BatchEntranceContribution() {
               <div className="batch-review-actions">
                 {notice ? <span className="batch-submit-notice">{notice}</span> : null}
                 <button type="button" className="batch-primary-button" onClick={openIssue}>
-                  <Github size={17} /> Open one GitHub review issue <ExternalLink size={14} />
+                  Open one GitHub review issue <ExternalLink size={14} />
                 </button>
               </div>
             </div>
