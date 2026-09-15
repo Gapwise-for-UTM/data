@@ -11,6 +11,7 @@ import {
   ExternalLink,
   FileJson,
   Info,
+  Link2,
   LocateFixed,
   MapPin,
   Minus,
@@ -24,6 +25,7 @@ import {
 } from 'lucide-react';
 import entranceDataRaw from '../data/utm/entrances.geojson?raw';
 import './entrance-contribution.css';
+import './entrance-contribution-polish.css';
 
 const footprintModules = import.meta.glob('../data/utm/footprints/*.geojson', {
   eager: true,
@@ -32,9 +34,9 @@ const footprintModules = import.meta.glob('../data/utm/footprints/*.geojson', {
 });
 
 const DATA_REPOSITORY = 'https://github.com/Gapwise-for-UTM/data';
-const CAMPUS_PADDING = 34;
 const SVG_WIDTH = 1000;
 const SVG_HEIGHT = 760;
+const CAMPUS_PADDING = 34;
 
 const footprintFeatures = Object.values(footprintModules)
   .flatMap((raw) => {
@@ -94,9 +96,10 @@ function project([longitude, latitude]) {
 function unproject([x, y]) {
   const xRatio = (x - originX) / contentWidth;
   const yRatio = (y - originY) / contentHeight;
-  const longitude = campusBounds.minLon + (xRatio * projectedCampusWidth) / longitudeScale;
-  const latitude = campusBounds.maxLat - yRatio * projectedCampusHeight;
-  return [longitude, latitude];
+  return [
+    campusBounds.minLon + (xRatio * projectedCampusWidth) / longitudeScale,
+    campusBounds.maxLat - yRatio * projectedCampusHeight,
+  ];
 }
 
 function pathForRing(ring) {
@@ -173,10 +176,9 @@ function metersBetween([lonA, latA], [lonB, latB]) {
 
 function todayLocalDate() {
   const date = new Date();
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, '0');
-  const day = String(date.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(
+    date.getDate(),
+  ).padStart(2, '0')}`;
 }
 
 function createDraft() {
@@ -224,10 +226,9 @@ function OptionGroup({ label, help, value, onChange, options }) {
 }
 
 function StepRail({ step }) {
-  const labels = ['Place', 'Describe', 'Review'];
   return (
     <div className="contrib-step-rail" aria-label="Contribution progress">
-      {labels.map((label, index) => (
+      {['Place', 'Describe', 'Review'].map((label, index) => (
         <div
           className={`contrib-step ${step === index ? 'active' : ''} ${step > index ? 'done' : ''}`}
           key={label}
@@ -255,15 +256,20 @@ function CampusEditorMap({
   draft,
   onPlace,
   onChooseExisting,
+  onSelectBuilding,
   focusedEntranceId,
   compact = false,
 }) {
   const svgRef = useRef(null);
+  const dragRef = useRef(false);
   const [viewBox, setViewBox] = useState({ x: 0, y: 0, width: SVG_WIDTH, height: SVG_HEIGHT });
 
   useEffect(() => {
-    if (selectedBuilding) setViewBox(boundsForFeatures(selectedBuilding.features));
-    else setViewBox({ x: 0, y: 0, width: SVG_WIDTH, height: SVG_HEIGHT });
+    setViewBox(
+      selectedBuilding
+        ? boundsForFeatures(selectedBuilding.features)
+        : { x: 0, y: 0, width: SVG_WIDTH, height: SVG_HEIGHT },
+    );
   }, [selectedBuilding?.code]);
 
   function zoom(factor) {
@@ -282,16 +288,18 @@ function CampusEditorMap({
   }
 
   function resetView() {
-    if (selectedBuilding) setViewBox(boundsForFeatures(selectedBuilding.features));
-    else setViewBox({ x: 0, y: 0, width: SVG_WIDTH, height: SVG_HEIGHT });
+    setViewBox(
+      selectedBuilding
+        ? boundsForFeatures(selectedBuilding.features)
+        : { x: 0, y: 0, width: SVG_WIDTH, height: SVG_HEIGHT },
+    );
   }
 
-  function handleMapClick(event) {
-    if (!selectedBuilding || compact) return;
+  function eventCoordinates(event) {
     const svg = svgRef.current;
-    if (!svg) return;
+    if (!svg) return null;
     const matrix = svg.getScreenCTM();
-    if (!matrix) return;
+    if (!matrix) return null;
     const point = new DOMPoint(event.clientX, event.clientY).matrixTransform(matrix.inverse());
     const coordinates = unproject([point.x, point.y]);
     if (
@@ -299,8 +307,14 @@ function CampusEditorMap({
       coordinates[0] > campusBounds.maxLon ||
       coordinates[1] < campusBounds.minLat ||
       coordinates[1] > campusBounds.maxLat
-    ) return;
-    onPlace?.(coordinates);
+    ) return null;
+    return coordinates;
+  }
+
+  function handleMapClick(event) {
+    if (!selectedBuilding || compact || dragRef.current) return;
+    const coordinates = eventCoordinates(event);
+    if (coordinates) onPlace?.(coordinates);
   }
 
   const selectedCode = selectedBuilding?.code;
@@ -318,6 +332,19 @@ function CampusEditorMap({
         role="img"
         aria-label="Interactive UTM campus entrance map"
         onClick={handleMapClick}
+        onPointerMove={(event) => {
+          if (!dragRef.current || compact) return;
+          const coordinates = eventCoordinates(event);
+          if (coordinates) onPlace?.(coordinates);
+        }}
+        onPointerUp={() => {
+          window.setTimeout(() => {
+            dragRef.current = false;
+          }, 0);
+        }}
+        onPointerCancel={() => {
+          dragRef.current = false;
+        }}
       >
         <rect x="0" y="0" width={SVG_WIDTH} height={SVG_HEIGHT} className="contrib-map-background" />
         <g className="contrib-building-layer">
@@ -328,12 +355,19 @@ function CampusEditorMap({
               <path
                 key={`${feature.id ?? code}-${index}`}
                 d={pathForGeometry(feature.geometry)}
-                className={`contrib-building-shape ${selected ? 'selected' : ''}`}
+                className={`contrib-building-shape ${selected ? 'selected' : ''} ${!selectedCode ? 'pickable' : ''}`}
                 fillRule="evenodd"
                 onClick={(event) => {
-                  if (!selected || compact) return;
                   event.stopPropagation();
-                  handleMapClick(event);
+                  if (compact) return;
+                  if (!selectedCode) {
+                    onSelectBuilding?.(code);
+                    return;
+                  }
+                  if (selected) {
+                    const coordinates = eventCoordinates(event);
+                    if (coordinates) onPlace?.(coordinates);
+                  }
                 }}
               />
             );
@@ -360,7 +394,7 @@ function CampusEditorMap({
           {visibleEntrances.map((entrance) => {
             const [x, y] = project(entrance.geometry.coordinates);
             const selected =
-              focusedEntranceId === entrance.id || draft.existingEntranceId === entrance.id;
+              focusedEntranceId === String(entrance.id) || draft.existingEntranceId === String(entrance.id);
             return (
               <g
                 key={entrance.id}
@@ -370,7 +404,14 @@ function CampusEditorMap({
                   event.stopPropagation();
                   onChooseExisting?.(entrance);
                 }}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    onChooseExisting?.(entrance);
+                  }
+                }}
                 role="button"
+                aria-label={`Use ${entrance.properties.label || entrance.id}`}
                 tabIndex={compact ? -1 : 0}
               >
                 <circle r={selected ? 9 : 7} />
@@ -383,10 +424,20 @@ function CampusEditorMap({
           ? (() => {
               const [x, y] = project(draft.coordinates);
               return (
-                <g className="contrib-draft-marker" transform={`translate(${x} ${y})`}>
-                  <circle r="12" className="halo" />
-                  <circle r="7" className="pin" />
-                  <circle r="2.6" className="center" />
+                <g
+                  className="contrib-draft-marker"
+                  transform={`translate(${x} ${y})`}
+                  onPointerDown={(event) => {
+                    if (compact) return;
+                    event.preventDefault();
+                    event.stopPropagation();
+                    dragRef.current = true;
+                    svgRef.current?.setPointerCapture?.(event.pointerId);
+                  }}
+                >
+                  <circle r="14" className="halo" />
+                  <circle r="8" className="pin" />
+                  <circle r="2.8" className="center" />
                 </g>
               );
             })()
@@ -401,7 +452,11 @@ function CampusEditorMap({
           </div>
           <div className="contrib-map-instruction">
             <MousePointer2 size={14} />
-            {selectedBuilding ? 'Click the exact doorway location' : 'Choose a building to begin'}
+            {selectedBuilding
+              ? draft.coordinates
+                ? 'Drag the red pin or click to fine-tune the doorway'
+                : 'Click the exact doorway location'
+              : 'Click a building or choose one from the list'}
           </div>
           <MapLegend />
         </>
@@ -418,10 +473,7 @@ function buildContributionPayload(building, draft) {
     buildingName: building.name,
     ...(draft.existingEntranceId ? { existingEntranceId: draft.existingEntranceId } : {}),
     geometry: draft.coordinates
-      ? {
-          type: 'Point',
-          coordinates: draft.coordinates.map((value) => Number(value.toFixed(7))),
-        }
+      ? { type: 'Point', coordinates: draft.coordinates.map((value) => Number(value.toFixed(7))) }
       : null,
     proposedLabel: draft.label.trim() || null,
     entranceKind: draft.kind,
@@ -441,25 +493,16 @@ function buildContributionPayload(building, draft) {
 
 function buildIssue(building, draft) {
   const payload = buildContributionPayload(building, draft);
-  const action =
-    draft.contributionType === 'existing_entrance_update' ? 'Entrance update' : 'New entrance';
+  const action = draft.contributionType === 'existing_entrance_update' ? 'Entrance update' : 'New entrance';
   const title = `${action}: ${building.code}${draft.label.trim() ? ` — ${draft.label.trim()}` : ''}`;
   const body = [
     '## Entrance contribution',
     '',
     `**Building:** ${building.name} (${building.code})`,
-    `**Contribution:** ${
-      draft.contributionType === 'existing_entrance_update'
-        ? 'Update an existing mapped entrance'
-        : 'Add a new exterior entrance'
-    }`,
+    `**Contribution:** ${draft.contributionType === 'existing_entrance_update' ? 'Update an existing mapped entrance' : 'Add a new exterior entrance'}`,
     draft.existingEntranceId ? `**Existing entrance:** \`${draft.existingEntranceId}\`` : null,
-    draft.coordinates
-      ? `**Coordinates:** ${draft.coordinates[1].toFixed(7)}, ${draft.coordinates[0].toFixed(7)}`
-      : null,
-    `**Observed:** ${draft.observedAt || 'Not supplied'} · ${
-      draft.observationMethod === 'field_observation' ? 'field observation' : 'source-backed'
-    }`,
+    draft.coordinates ? `**Coordinates:** ${draft.coordinates[1].toFixed(7)}, ${draft.coordinates[0].toFixed(7)}` : null,
+    `**Observed:** ${draft.observedAt || 'Not supplied'} · ${draft.observationMethod === 'field_observation' ? 'field observation' : 'source-backed'}`,
     '',
     '### Claims',
     '',
@@ -483,11 +526,6 @@ function buildIssue(building, draft) {
 }
 
 function ReviewCard({ building, draft }) {
-  const claims = [
-    ['Public access', draft.publicAccess],
-    ['Direction', draft.direction],
-    ['Barrier-free', draft.barrierFree],
-  ];
   return (
     <div className="contrib-review-card">
       <div className="contrib-review-map">
@@ -502,16 +540,17 @@ function ReviewCard({ building, draft }) {
           {building.code}{draft.label.trim() ? ` · ${draft.label.trim()}` : ''}
         </p>
         <dl>
-          {claims.map(([label, value]) => (
+          {[
+            ['Public access', draft.publicAccess],
+            ['Direction', draft.direction],
+            ['Barrier-free', draft.barrierFree],
+          ].map(([label, value]) => (
             <div key={label}>
               <dt>{label}</dt>
               <dd className={value === 'unknown' ? 'unknown' : ''}>{value.replaceAll('_', ' ')}</dd>
             </div>
           ))}
-          <div>
-            <dt>Evidence</dt>
-            <dd>{draft.observationMethod === 'field_observation' ? 'Field observation' : 'External source'}</dd>
-          </div>
+          <div><dt>Evidence</dt><dd>{draft.observationMethod === 'field_observation' ? 'Field observation' : 'External source'}</dd></div>
           <div><dt>Date</dt><dd>{draft.observedAt || 'Not supplied'}</dd></div>
         </dl>
       </div>
@@ -523,62 +562,33 @@ function ContributionHeader({ maintainerMode }) {
   const [open, setOpen] = useState(false);
   return (
     <header className="contrib-topbar">
-      <a className="contrib-brand" href="/">
-        <img src="/logo-mark.svg" alt="" />
-        <span>Gapwise <b>Data</b></span>
-      </a>
+      <a className="contrib-brand" href="/"><img src="/logo-mark.svg" alt="" /><span>Gapwise <b>Data</b></span></a>
       <div className="contrib-context"><span>{maintainerMode ? 'Entrance Studio' : 'Contribute'}</span><i /></div>
-      <button
-        className="contrib-menu"
-        type="button"
-        onClick={() => setOpen((value) => !value)}
-        aria-label="Toggle navigation"
-      >
+      <button className="contrib-menu" type="button" onClick={() => setOpen((value) => !value)} aria-label="Toggle navigation">
         {open ? <X size={19} /> : <span>Menu</span>}
       </button>
       <nav className={open ? 'open' : ''}>
         <a href="/">Data home</a>
         <a href="/contribute">Contribute</a>
         <a href="/studio/entrances">Studio</a>
-        <a href={`${DATA_REPOSITORY}/tree/main/data/utm`} target="_blank" rel="noreferrer">
-          GitHub <ExternalLink size={12} />
-        </a>
+        <a href={`${DATA_REPOSITORY}/tree/main/data/utm`} target="_blank" rel="noreferrer">GitHub <ExternalLink size={12} /></a>
       </nav>
     </header>
   );
 }
 
 function BuildingPicker({ query, setQuery, selectedCode, onSelect }) {
-  const filtered = buildings.filter((building) => {
-    const haystack = `${building.code} ${building.name} ${building.category}`.toLowerCase();
-    return haystack.includes(query.toLowerCase());
-  });
+  const filtered = buildings.filter((building) =>
+    `${building.code} ${building.name} ${building.category}`.toLowerCase().includes(query.toLowerCase()),
+  );
   return (
     <div className="contrib-building-picker">
-      <label className="contrib-search">
-        <Search size={15} />
-        <input
-          value={query}
-          onChange={(event) => setQuery(event.target.value)}
-          placeholder="Search MN, Deerfield, Kaneff…"
-        />
-      </label>
+      <label className="contrib-search"><Search size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search MN, Deerfield, Kaneff…" /></label>
       <div className="contrib-building-list">
         {filtered.map((building) => (
-          <button
-            type="button"
-            className={selectedCode === building.code ? 'selected' : ''}
-            onClick={() => onSelect(building.code)}
-            key={building.code}
-          >
+          <button type="button" className={selectedCode === building.code ? 'selected' : ''} onClick={() => onSelect(building.code)} key={building.code}>
             <span className="contrib-building-monogram">{building.code}</span>
-            <span>
-              <strong>{building.name}</strong>
-              <small>
-                {building.category} · {building.entranceCount} mapped entrance
-                {building.entranceCount === 1 ? '' : 's'}
-              </small>
-            </span>
+            <span><strong>{building.name}</strong><small>{building.category} · {building.entranceCount} mapped entrance{building.entranceCount === 1 ? '' : 's'}</small></span>
             <ChevronRight size={15} />
           </button>
         ))}
@@ -595,16 +605,13 @@ function DuplicateNotice({ nearest, onSame, onDifferent }) {
       <div>
         <strong>Possible existing entrance {nearest.distance.toFixed(1)} m away</strong>
         <p>{nearest.entrance.properties.label || 'Mapped entrance'} · {nearest.entrance.id}</p>
-        <div>
-          <button type="button" onClick={onSame}>Same entrance</button>
-          <button type="button" onClick={onDifferent}>Different entrance</button>
-        </div>
+        <div><button type="button" onClick={onSame}>Same entrance</button><button type="button" onClick={onDifferent}>Different entrance</button></div>
       </div>
     </div>
   );
 }
 
-function EntranceContribution({ maintainerMode = false }) {
+export default function EntranceContribution({ maintainerMode = false }) {
   const params = useMemo(() => new URLSearchParams(window.location.search), []);
   const initialBuilding = (params.get('building') ?? '').toUpperCase();
   const [selectedCode, setSelectedCode] = useState(
@@ -616,6 +623,7 @@ function EntranceContribution({ maintainerMode = false }) {
   const [copied, setCopied] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [focusedEntranceId, setFocusedEntranceId] = useState('');
+  const [locationState, setLocationState] = useState({ status: 'idle', accuracy: null, message: '' });
 
   const selectedBuilding = buildings.find((building) => building.code === selectedCode) ?? null;
   const buildingEntrances = entranceFeatures.filter(
@@ -634,10 +642,22 @@ function EntranceContribution({ maintainerMode = false }) {
   }, [draft.coordinates, draft.contributionType, selectedCode]);
 
   useEffect(() => {
+    document.title = maintainerMode ? 'Entrance Studio · Gapwise Data' : 'Contribute an entrance · Gapwise Data';
+  }, [maintainerMode]);
+
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    if (selectedCode) url.searchParams.set('building', selectedCode);
+    else url.searchParams.delete('building');
+    window.history.replaceState({}, '', url);
+  }, [selectedCode]);
+
+  useEffect(() => {
     setDraft(createDraft());
     setStep(0);
     setFocusedEntranceId('');
     setSubmitted(false);
+    setLocationState({ status: 'idle', accuracy: null, message: '' });
   }, [selectedCode]);
 
   function updateDraft(patch) {
@@ -645,18 +665,17 @@ function EntranceContribution({ maintainerMode = false }) {
   }
 
   function selectExisting(entrance) {
-    setFocusedEntranceId(entrance.id);
+    setFocusedEntranceId(String(entrance.id));
     setDraft((current) => ({
       ...current,
       contributionType: 'existing_entrance_update',
-      existingEntranceId: entrance.id,
+      existingEntranceId: String(entrance.id),
       coordinates: entrance.geometry.coordinates,
       label: current.label || entrance.properties.label || '',
       publicAccess:
         entrance.properties.access === 'public'
           ? 'verified'
-          : entrance.properties.access === 'restricted' ||
-              entrance.properties.access === 'emergency_only'
+          : entrance.properties.access === 'restricted' || entrance.properties.access === 'emergency_only'
             ? 'restricted'
             : 'unknown',
       direction: entrance.properties.direction ?? 'unknown',
@@ -681,33 +700,64 @@ function EntranceContribution({ maintainerMode = false }) {
     }));
   }
 
+  function useCurrentLocation() {
+    if (!navigator.geolocation) {
+      setLocationState({ status: 'error', accuracy: null, message: 'Location is not available in this browser.' });
+      return;
+    }
+    setLocationState({ status: 'loading', accuracy: null, message: 'Finding your location…' });
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const coordinates = [position.coords.longitude, position.coords.latitude];
+        selectNewLocation(coordinates);
+        setLocationState({
+          status: 'success',
+          accuracy: Math.round(position.coords.accuracy),
+          message: `Placed from your device location (±${Math.round(position.coords.accuracy)} m). Drag the pin to the exact doorway.`,
+        });
+      },
+      (error) => {
+        setLocationState({
+          status: 'error',
+          accuracy: null,
+          message: error.code === 1 ? 'Location permission was not granted.' : 'Could not get a reliable location. You can still click the map.',
+        });
+      },
+      { enableHighAccuracy: true, timeout: 12000, maximumAge: 5000 },
+    );
+  }
+
   function canContinue() {
     if (step === 0) return Boolean(selectedBuilding && draft.coordinates);
     if (step === 1) {
       return Boolean(
         draft.observedAt &&
-          (draft.observationMethod !== 'source' || draft.sourceUrl.trim()),
+          (draft.observationMethod !== 'source' || /^https?:\/\//i.test(draft.sourceUrl.trim())),
       );
     }
     return true;
   }
 
-  async function copyPayload() {
-    if (!selectedBuilding) return;
-    const { payload } = buildIssue(selectedBuilding, draft);
-    await navigator.clipboard.writeText(JSON.stringify(payload, null, 2));
-    setCopied('payload');
-    window.setTimeout(() => setCopied(''), 1400);
+  async function copyText(text, key) {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(key);
+      window.setTimeout(() => setCopied(''), 1400);
+    } catch {
+      setCopied('');
+    }
   }
 
-  async function submitToGitHub() {
+  function copyShareLink() {
+    if (!selectedBuilding) return;
+    const url = new URL('/contribute', window.location.origin);
+    url.searchParams.set('building', selectedBuilding.code);
+    copyText(url.toString(), 'link');
+  }
+
+  function submitToGitHub() {
     if (!selectedBuilding) return;
     const { title, body } = buildIssue(selectedBuilding, draft);
-    try {
-      await navigator.clipboard.writeText(body);
-    } catch {
-      // Clipboard is a convenience only; the issue URL still contains the contribution.
-    }
     const issueUrl = new URL(`${DATA_REPOSITORY}/issues/new`);
     issueUrl.searchParams.set('title', title);
     issueUrl.searchParams.set('body', body);
@@ -728,142 +778,58 @@ function EntranceContribution({ maintainerMode = false }) {
             <p>
               {maintainerMode
                 ? 'Inspect canonical doors, place precise geometry, and prepare auditable contributions without editing GeoJSON by hand.'
-                : 'Click the doorway, describe only what you actually know, and send a reviewable contribution to Gapwise Data.'}
+                : 'Choose a building, click or locate the doorway, describe only what you actually know, and send a reviewable contribution to Gapwise Data.'}
             </p>
           </div>
-          <div className="contrib-intro-badge">
-            <ShieldCheck size={17} />
-            <div><strong>Unknown is valid</strong><span>Never guess access or accessibility.</span></div>
-          </div>
+          <div className="contrib-intro-badge"><ShieldCheck size={17} /><div><strong>Unknown is valid</strong><span>Never guess access or accessibility.</span></div></div>
         </section>
 
         <section className="contrib-workspace">
           <aside className="contrib-sidebar">
             <StepRail step={step} />
             {!selectedBuilding ? (
-              <BuildingPicker
-                query={buildingQuery}
-                setQuery={setBuildingQuery}
-                selectedCode={selectedCode}
-                onSelect={setSelectedCode}
-              />
+              <BuildingPicker query={buildingQuery} setQuery={setBuildingQuery} selectedCode={selectedCode} onSelect={setSelectedCode} />
             ) : (
               <div className="contrib-selected-building">
-                <button
-                  type="button"
-                  className="contrib-back-building"
-                  onClick={() => setSelectedCode('')}
-                >
-                  <ArrowLeft size={14} /> Change building
-                </button>
-                <div className="contrib-building-heading">
-                  <span>{selectedBuilding.code}</span>
-                  <div>
-                    <strong>{selectedBuilding.name}</strong>
-                    <small>
-                      {selectedBuilding.category} · {selectedBuilding.entranceCount} mapped entrance
-                      {selectedBuilding.entranceCount === 1 ? '' : 's'}
-                    </small>
-                  </div>
+                <div className="contrib-building-tools">
+                  <button type="button" className="contrib-back-building" onClick={() => setSelectedCode('')}><ArrowLeft size={14} /> Change building</button>
+                  <button type="button" className="contrib-share-button" onClick={copyShareLink}><Link2 size={13} /> {copied === 'link' ? 'Copied' : 'Share'}</button>
                 </div>
+                <div className="contrib-building-heading"><span>{selectedBuilding.code}</span><div><strong>{selectedBuilding.name}</strong><small>{selectedBuilding.category} · {selectedBuilding.entranceCount} mapped entrance{selectedBuilding.entranceCount === 1 ? '' : 's'}</small></div></div>
 
                 {step === 0 ? (
                   <div className="contrib-step-content">
-                    <div className="contrib-panel-title">
-                      <MapPin size={17} />
-                      <div>
-                        <strong>Place the entrance</strong>
-                        <span>Click the exact exterior doorway. Existing mapped entrances are shown as rings.</span>
-                      </div>
-                    </div>
+                    <div className="contrib-panel-title"><MapPin size={17} /><div><strong>Place the entrance</strong><span>Click the exact exterior doorway, drag the red pin to refine it, or use your device location while standing at the door.</span></div></div>
+                    <button type="button" className="contrib-location-button" onClick={useCurrentLocation} disabled={locationState.status === 'loading'}>
+                      <LocateFixed size={15} /> {locationState.status === 'loading' ? 'Finding location…' : 'Use my current location'}
+                    </button>
+                    {locationState.message ? <p className={`contrib-location-status ${locationState.status}`}>{locationState.message}</p> : null}
                     {draft.coordinates ? (
                       <div className="contrib-coordinate-card">
                         <span>Selected coordinates</span>
                         <code>{draft.coordinates[1].toFixed(7)}, {draft.coordinates[0].toFixed(7)}</code>
-                        <button
-                          type="button"
-                          onClick={() =>
-                            updateDraft({
-                              coordinates: null,
-                              contributionType: 'new_entrance',
-                              existingEntranceId: '',
-                            })
-                          }
-                        >
-                          Clear
-                        </button>
+                        <button type="button" onClick={() => updateDraft({ coordinates: null, contributionType: 'new_entrance', existingEntranceId: '' })}>Clear</button>
                       </div>
-                    ) : (
-                      <div className="contrib-empty-hint">
-                        <MousePointer2 size={16} /> Click the map to place a new doorway, or click an existing entrance to contribute details.
-                      </div>
-                    )}
-                    <DuplicateNotice
-                      nearest={nearest}
-                      onSame={() => selectExisting(nearest.entrance)}
-                      onDifferent={() => updateDraft({ duplicateDecision: 'different' })}
-                    />
-                    {draft.contributionType === 'existing_entrance_update' ? (
-                      <div className="contrib-existing-target">
-                        <Check size={15} />
-                        <span>Updating <code>{draft.existingEntranceId}</code></span>
-                        <button type="button" onClick={() => selectNewLocation(draft.coordinates)}>
-                          Treat as new
-                        </button>
-                      </div>
-                    ) : null}
+                    ) : <div className="contrib-empty-hint"><MousePointer2 size={16} /> Click the map to place a new doorway, or click an existing entrance to contribute details.</div>}
+                    <DuplicateNotice nearest={nearest} onSame={() => selectExisting(nearest.entrance)} onDifferent={() => updateDraft({ duplicateDecision: 'different' })} />
+                    {draft.contributionType === 'existing_entrance_update' ? <div className="contrib-existing-target"><Check size={15} /><span>Updating <code>{draft.existingEntranceId}</code></span><button type="button" onClick={() => selectNewLocation(draft.coordinates)}>Treat as new</button></div> : null}
                   </div>
                 ) : null}
 
                 {step === 1 ? (
                   <div className="contrib-step-content contrib-form">
-                    <label className="contrib-input-label">
-                      <span>Entrance name <small>optional</small></span>
-                      <input
-                        value={draft.label}
-                        onChange={(event) => updateDraft({ label: event.target.value })}
-                        placeholder="North entrance, Main entrance…"
-                      />
-                    </label>
-
+                    <label className="contrib-input-label"><span>Entrance name <small>optional</small></span><input value={draft.label} onChange={(event) => updateDraft({ label: event.target.value })} placeholder="North entrance, Main entrance…" /></label>
                     <OptionGroup
                       label="How do you know about it?"
                       value={draft.observationMethod}
                       onChange={(value) => updateDraft({ observationMethod: value })}
                       options={[
-                        {
-                          value: 'field_observation',
-                          label: 'I observed it',
-                          caption: 'You saw the entrance yourself.',
-                          icon: <LocateFixed size={17} />,
-                        },
-                        {
-                          value: 'source',
-                          label: 'I found a source',
-                          caption: 'An official or public source identifies it.',
-                          icon: <FileJson size={17} />,
-                        },
+                        { value: 'field_observation', label: 'I observed it', caption: 'You saw the entrance yourself.', icon: <LocateFixed size={17} /> },
+                        { value: 'source', label: 'I found a source', caption: 'An official or public source identifies it.', icon: <FileJson size={17} /> },
                       ]}
                     />
-                    <label className="contrib-input-label">
-                      <span>Observation date</span>
-                      <input
-                        type="date"
-                        value={draft.observedAt}
-                        onChange={(event) => updateDraft({ observedAt: event.target.value })}
-                      />
-                    </label>
-                    {draft.observationMethod === 'source' ? (
-                      <label className="contrib-input-label">
-                        <span>Source URL</span>
-                        <input
-                          type="url"
-                          value={draft.sourceUrl}
-                          onChange={(event) => updateDraft({ sourceUrl: event.target.value })}
-                          placeholder="https://…"
-                        />
-                      </label>
-                    ) : null}
+                    <label className="contrib-input-label"><span>Observation date</span><input type="date" max={todayLocalDate()} value={draft.observedAt} onChange={(event) => updateDraft({ observedAt: event.target.value })} /></label>
+                    {draft.observationMethod === 'source' ? <label className="contrib-input-label"><span>Source URL</span><input type="url" value={draft.sourceUrl} onChange={(event) => updateDraft({ sourceUrl: event.target.value })} placeholder="https://…" /></label> : null}
 
                     <OptionGroup
                       label="Can students normally enter here?"
@@ -876,7 +842,6 @@ function EntranceContribution({ maintainerMode = false }) {
                         { value: 'unknown', label: 'Not sure', caption: 'Keep this fact unknown.', icon: <CircleHelp size={17} /> },
                       ]}
                     />
-
                     <OptionGroup
                       label="Which direction does the door work?"
                       value={draft.direction}
@@ -888,7 +853,6 @@ function EntranceContribution({ maintainerMode = false }) {
                         { value: 'unknown', label: 'Not sure', caption: 'No directional claim.', icon: <CircleHelp size={17} /> },
                       ]}
                     />
-
                     <OptionGroup
                       label="Is the entrance step-free?"
                       help="Only mark Yes if the actual doorway and immediate approach are step-free."
@@ -900,83 +864,31 @@ function EntranceContribution({ maintainerMode = false }) {
                         { value: 'unknown', label: 'Not sure', caption: 'Leave accessibility unknown.', icon: <CircleHelp size={17} /> },
                       ]}
                     />
-
-                    <label className="contrib-input-label">
-                      <span>Notes <small>optional</small></span>
-                      <textarea
-                        value={draft.notes}
-                        onChange={(event) => updateDraft({ notes: event.target.value })}
-                        rows="4"
-                        placeholder="Double doors beside the bus pickup area. Do not include faces, access-control details, or private information."
-                      />
-                    </label>
+                    <label className="contrib-input-label"><span>Notes <small>optional</small></span><textarea value={draft.notes} onChange={(event) => updateDraft({ notes: event.target.value })} rows="4" maxLength="1200" placeholder="Double doors beside the bus pickup area. Do not include faces, access-control details, or private information." /></label>
                   </div>
                 ) : null}
 
                 {step === 2 ? (
                   <div className="contrib-step-content">
-                    <div className="contrib-panel-title">
-                      <Check size={17} />
-                      <div>
-                        <strong>Review the contribution</strong>
-                        <span>This is evidence for review, not an automatic change to canonical routing data.</span>
-                      </div>
-                    </div>
+                    <div className="contrib-panel-title"><Check size={17} /><div><strong>Review the contribution</strong><span>This is evidence for review, not an automatic change to canonical routing data.</span></div></div>
                     <ReviewCard building={selectedBuilding} draft={draft} />
                     {maintainerMode && issuePayload ? (
                       <div className="contrib-maintainer-payload">
-                        <div>
-                          <strong>Machine-readable payload</strong>
-                          <span>Use this exact object in review tooling or a follow-up PR.</span>
-                        </div>
+                        <div><strong>Machine-readable payload</strong><span>Use this exact object in review tooling or a follow-up PR.</span></div>
                         <pre><code>{JSON.stringify(issuePayload, null, 2)}</code></pre>
-                        <button type="button" onClick={copyPayload}>
-                          {copied === 'payload' ? <Check size={14} /> : <Clipboard size={14} />}
-                          {copied === 'payload' ? 'Copied' : 'Copy JSON'}
-                        </button>
+                        <button type="button" onClick={() => copyText(JSON.stringify(issuePayload, null, 2), 'payload')}>{copied === 'payload' ? <Check size={14} /> : <Clipboard size={14} />} {copied === 'payload' ? 'Copied' : 'Copy JSON'}</button>
                       </div>
                     ) : null}
-                    {submitted ? (
-                      <div className="contrib-submitted">
-                        <ExternalLink size={17} />
-                        <div>
-                          <strong>GitHub opened in a new tab.</strong>
-                          <span>The issue body was also copied to your clipboard as a fallback.</span>
-                        </div>
-                      </div>
-                    ) : null}
+                    {submitted ? <div className="contrib-submitted"><ExternalLink size={17} /><div><strong>GitHub review form opened.</strong><span>Your structured contribution is prefilled. Submit the issue there to enter the public review queue.</span></div></div> : null}
                   </div>
                 ) : null}
 
                 <div className="contrib-step-actions">
-                  {step > 0 ? (
-                    <button
-                      type="button"
-                      className="contrib-secondary-button"
-                      onClick={() => setStep((value) => value - 1)}
-                    >
-                      <ArrowLeft size={14} /> Back
-                    </button>
-                  ) : (
-                    <span />
-                  )}
+                  {step > 0 ? <button type="button" className="contrib-secondary-button" onClick={() => setStep((value) => value - 1)}><ArrowLeft size={14} /> Back</button> : <span />}
                   {step < 2 ? (
-                    <button
-                      type="button"
-                      className="contrib-primary-button"
-                      disabled={!canContinue()}
-                      onClick={() => setStep((value) => value + 1)}
-                    >
-                      Continue <ArrowRight size={14} />
-                    </button>
+                    <button type="button" className="contrib-primary-button" disabled={!canContinue()} onClick={() => setStep((value) => value + 1)}>Continue <ArrowRight size={14} /></button>
                   ) : (
-                    <button
-                      type="button"
-                      className="contrib-primary-button"
-                      onClick={submitToGitHub}
-                    >
-                      <ExternalLink size={15} /> Submit for review
-                    </button>
+                    <button type="button" className="contrib-primary-button" onClick={submitToGitHub}>Submit for review <ExternalLink size={14} /></button>
                   )}
                 </div>
               </div>
@@ -989,53 +901,20 @@ function EntranceContribution({ maintainerMode = false }) {
               draft={draft}
               onPlace={selectNewLocation}
               onChooseExisting={selectExisting}
+              onSelectBuilding={setSelectedCode}
               focusedEntranceId={focusedEntranceId}
             />
-            <div className="contrib-map-footer">
-              <div><DoorOpen size={15} /><span>Canonical footprints + mapped entrances</span></div>
-              <div><strong>{entranceFeatures.length}</strong><span>mapped points loaded</span></div>
-            </div>
+            <div className="contrib-map-footer"><div><DoorOpen size={15} /><span>Canonical footprints + mapped entrances</span></div><div><strong>{entranceFeatures.length}</strong><span>mapped points loaded</span></div></div>
           </div>
         </section>
 
         <section className="contrib-explainer">
-          <article>
-            <span>01</span>
-            <div>
-              <strong>Click, don't edit coordinates</strong>
-              <p>The map converts your click into the same WGS84 longitude/latitude format used by the canonical dataset.</p>
-            </div>
-          </article>
-          <article>
-            <span>02</span>
-            <div>
-              <strong>Evidence stays narrow</strong>
-              <p>Existence, public access, direction, and accessibility are separate claims. Unknown remains a first-class value.</p>
-            </div>
-          </article>
-          <article>
-            <span>03</span>
-            <div>
-              <strong>Humans still review it</strong>
-              <p>Submissions become reviewable GitHub issues. Canonical entrance data changes only after validation and maintainer review.</p>
-            </div>
-          </article>
+          <article><span>01</span><div><strong>Click, locate, then refine</strong><p>Pick the building visually, place the point from the map or your device location, then drag the red marker to the exact doorway.</p></div></article>
+          <article><span>02</span><div><strong>Evidence stays narrow</strong><p>Existence, public access, direction, and accessibility are separate claims. Unknown remains a first-class value.</p></div></article>
+          <article><span>03</span><div><strong>Humans still review it</strong><p>Submissions become reviewable GitHub issues. Canonical entrance data changes only after validation and maintainer review.</p></div></article>
         </section>
       </main>
-      <footer className="contrib-footer">
-        <div>
-          <a className="contrib-brand" href="/">
-            <img src="/logo-mark.svg" alt="" />
-            <span>Gapwise Data</span>
-          </a>
-          <p>Independent student project · Not an official University of Toronto service.</p>
-          <a href={DATA_REPOSITORY} target="_blank" rel="noreferrer">
-            Repository <ExternalLink size={12} />
-          </a>
-        </div>
-      </footer>
+      <footer className="contrib-footer"><div><a className="contrib-brand" href="/"><img src="/logo-mark.svg" alt="" /><span>Gapwise Data</span></a><p>Independent student project · Not an official University of Toronto service.</p><a href={DATA_REPOSITORY} target="_blank" rel="noreferrer">Repository <ExternalLink size={12} /></a></div></footer>
     </div>
   );
 }
-
-export default EntranceContribution;
