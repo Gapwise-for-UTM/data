@@ -14,7 +14,25 @@ function renderEntranceStudio(maintainerMode = false) {
   });
 }
 
-if (pathname === '/contribute' || pathname.startsWith('/contribute/')) {
+function renderBatchEntranceStudio() {
+  import('./BatchEntranceContribution.jsx').then(({ default: BatchEntranceContribution }) => {
+    createRoot(rootElement).render(<BatchEntranceContribution />);
+  });
+}
+
+function renderEntrancePrReview() {
+  import('./EntrancePrReview.jsx').then(({ default: EntrancePrReview }) => {
+    createRoot(rootElement).render(<EntrancePrReview />);
+  });
+}
+
+if (pathname === '/review/entrances') {
+  renderEntrancePrReview();
+} else if (pathname === '/contribute/single') {
+  renderEntranceStudio(false);
+} else if (pathname === '/contribute' || pathname === '/contribute/batch') {
+  renderBatchEntranceStudio();
+} else if (pathname.startsWith('/contribute/')) {
   renderEntranceStudio(false);
 } else if (pathname === '/studio/entrances') {
   renderEntranceStudio(true);
