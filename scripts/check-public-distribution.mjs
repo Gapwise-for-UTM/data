@@ -19,6 +19,7 @@ const required = [
   'src/CampusContributionStudio.jsx',
   'src/campus-contribution-data.js',
   'src/EntrancePrReview.jsx',
+  'src/CampusPrReview.jsx',
 ];
 for (const path of required) await access(resolve(root, path));
 
@@ -34,7 +35,7 @@ if (!sitemap.includes('<loc>https://data.gapwise.ca/contribute</loc>')) {
 
 const vercel = JSON.parse(await readFile(resolve(root, 'vercel.json'), 'utf8'));
 const rewriteSources = new Set((vercel.rewrites ?? []).map((rewrite) => rewrite.source));
-for (const route of ['/contribute', '/contribute/:path*', '/review/entrances', '/studio/entrances']) {
+for (const route of ['/contribute', '/contribute/:path*', '/review/entrances', '/review/map', '/studio/entrances']) {
   if (!rewriteSources.has(route)) {
     throw new Error(`vercel.json must preserve the ${route} client route`);
   }
