@@ -4,7 +4,6 @@ import {
   CheckCircle2,
   CircleAlert,
   ExternalLink,
-  Github,
   LoaderCircle,
   MapPin,
   RefreshCw,
@@ -234,7 +233,7 @@ export default function EntrancePrReview() {
 
                 {state.pr ? (
                   <a className="pr-review-github-button" href={state.pr.html_url} target="_blank" rel="noreferrer">
-                    <Github size={16} /> Open PR on GitHub <ExternalLink size={13} />
+                    Open PR on GitHub <ExternalLink size={13} />
                   </a>
                 ) : null}
               </>
