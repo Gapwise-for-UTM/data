@@ -1,0 +1,78 @@
+name: Entrance contribution
+description: Add a missing UTM entrance or contribute facts about an existing mapped entrance.
+title: "Entrance contribution: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The easiest way to contribute is the visual editor at **https://data.gapwise.ca/contribute**. Use this form only if you prefer to enter the details manually.
+
+        Please report only what you actually observed or can support with a public source. Unknown access, direction, or accessibility is better than a guess.
+  - type: input
+    id: building
+    attributes:
+      label: Building
+      description: Canonical Gapwise/UTM building code and name if known.
+      placeholder: "MN — Maanjiwe nendamowinan"
+    validations:
+      required: true
+  - type: input
+    id: coordinates
+    attributes:
+      label: Entrance coordinates
+      description: Latitude, longitude. The visual editor can generate these by clicking the doorway.
+      placeholder: "43.5513221, -79.6654141"
+    validations:
+      required: true
+  - type: dropdown
+    id: observation
+    attributes:
+      label: Evidence method
+      options:
+        - I personally observed the entrance
+        - I have a public source for the entrance
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source URL
+      description: Required for source-backed contributions; leave blank for direct field observations.
+      placeholder: "https://..."
+  - type: dropdown
+    id: access
+    attributes:
+      label: Can students normally enter here?
+      options:
+        - Not sure
+        - Yes — ordinary student/public entry observed
+        - Restricted / not ordinary student access
+    validations:
+      required: true
+  - type: dropdown
+    id: direction
+    attributes:
+      label: Direction
+      options:
+        - Not sure
+        - Both entry and exit
+        - Entry only
+        - Exit only
+    validations:
+      required: true
+  - type: dropdown
+    id: barrier-free
+    attributes:
+      label: Barrier-free / step-free
+      options:
+        - Not sure
+        - Yes — step-free doorway and immediate approach observed
+        - No — step or stairs block this entrance
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Do not include faces, identifying student information, access-control details, credentials, or private floor plans.
+      placeholder: "Short physical description that helps distinguish the doorway."
