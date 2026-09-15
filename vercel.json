@@ -4,6 +4,7 @@
   "rewrites": [
     { "source": "/contribute", "destination": "/index.html" },
     { "source": "/contribute/:path*", "destination": "/index.html" },
+    { "source": "/review/entrances", "destination": "/index.html" },
     { "source": "/studio/entrances", "destination": "/index.html" }
   ],
   "headers": [
