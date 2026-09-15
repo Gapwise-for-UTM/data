@@ -1,0 +1,17 @@
+.campus-brand-mark,
+.batch-brand-mark,
+.pr-review-brand > span:first-child,
+.campus-review-brand > span:first-child {
+  width: 26px !important;
+  height: 26px !important;
+  min-width: 26px !important;
+  flex: 0 0 26px;
+  display: inline-block !important;
+  background: url('/logo-mark.svg') center / contain no-repeat !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  box-shadow: none !important;
+}
