@@ -32,7 +32,15 @@ function renderEntrancePrReview() {
   });
 }
 
-if (pathname === '/review/entrances') {
+function renderCampusPrReview() {
+  import('./CampusPrReview.jsx').then(({ default: CampusPrReview }) => {
+    createRoot(rootElement).render(<CampusPrReview />);
+  });
+}
+
+if (pathname === '/review/map') {
+  renderCampusPrReview();
+} else if (pathname === '/review/entrances') {
   renderEntrancePrReview();
 } else if (pathname === '/contribute/single') {
   renderEntranceStudio(false);
