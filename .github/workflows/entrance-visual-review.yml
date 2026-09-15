@@ -1,10 +1,15 @@
-name: Entrance visual review
+name: Campus map visual review
 
 on:
   pull_request_target:
     types: [opened, synchronize, reopened, ready_for_review]
     paths:
-      - data/utm/entrances.geojson
+      - 'data/utm/*.geojson'
+      - 'data/utm/**/*.geojson'
+      - 'data/utsg/*.geojson'
+      - 'data/utsg/**/*.geojson'
+      - 'data/utsc/*.geojson'
+      - 'data/utsc/**/*.geojson'
 
 permissions:
   contents: read
@@ -19,9 +24,9 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const marker = '<!-- gapwise-entrance-visual-review -->';
-            const reviewUrl = `https://data.gapwise.ca/review/entrances?pr=${context.issue.number}`;
-            const body = `${marker}\n## 🗺️ Entrance visual review\n\n[Open this PR's entrance changes on the Gapwise map](${reviewUrl})\n\nNo raw GeoJSON or copy/paste required. The page compares the PR base and head datasets and highlights added, changed, and removed entrance points.`;
+            const marker = '<!-- gapwise-campus-map-visual-review -->';
+            const reviewUrl = `https://data.gapwise.ca/review/map?pr=${context.issue.number}`;
+            const body = `${marker}\n## 🗺️ Campus map visual review\n\n[Open this PR's map changes visually](${reviewUrl})\n\nEntrances, building footprints, and path geometry are rendered directly on the relevant UTM, UTSG, or UTSC map. Green is added, amber is changed, and red is removed. No raw GeoJSON or coordinate copy/paste is required.`;
 
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
