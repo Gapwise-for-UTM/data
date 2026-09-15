@@ -1,0 +1,79 @@
+.campus-review-shell { min-height: 100vh; background: #0b0f12; color: #edf1f3; }
+.campus-review-topbar { height: 62px; border-bottom: 1px solid #273038; background: #0e1215; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; }
+.campus-review-brand { display: flex; align-items: center; gap: 9px; color: inherit; text-decoration: none; }
+.campus-review-brand > span { width: 25px; height: 25px; border: 1px solid rgba(255,77,93,.55); border-radius: 8px; display: grid; place-items: center; color: #ff4d5d; font-weight: 900; }
+.campus-review-brand strong { font-size: 14px; }
+.campus-review-brand em { color: #ff4d5d; font-style: normal; }
+.campus-review-brand small { margin-left: 8px; color: #78848c; font: 700 9px/1 monospace; letter-spacing: .12em; }
+.campus-review-topbar > a:last-child { color: #a7b1b8; font-size: 10px; text-decoration: none; display: flex; align-items: center; gap: 5px; }
+.campus-review-main { display: grid; grid-template-columns: 330px minmax(0, 1fr); min-height: calc(100vh - 62px); }
+.campus-review-sidebar { border-right: 1px solid #273038; background: #0f1418; overflow-y: auto; }
+.campus-review-sidebar section { padding: 18px; border-bottom: 1px solid #20282e; }
+.campus-review-eyebrow { color: #7e8a92; font: 700 9px/1 monospace; letter-spacing: .13em; margin-bottom: 9px; }
+.campus-review-sidebar h1 { margin: 0; font-size: 14px; line-height: 1.35; }
+.campus-review-sidebar p { margin: 6px 0 0; color: #7f8b93; font-size: 9px; line-height: 1.45; }
+.campus-review-campus-tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.campus-review-campus-tabs button { height: 34px; border: 1px solid #2a343c; border-radius: 6px; background: #151b20; color: #89959d; cursor: pointer; font-size: 9px; font-weight: 750; }
+.campus-review-campus-tabs button.active { border-color: rgba(255,77,93,.55); background: rgba(255,77,93,.12); color: #fff; }
+.campus-review-file { width: 100%; min-height: 42px; border: 1px solid #242e35; border-radius: 6px; background: #13191e; margin-bottom: 6px; padding: 7px 9px; color: #dfe4e7; cursor: pointer; display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; text-align: left; }
+.campus-review-file strong { font-size: 9px; }
+.campus-review-file small { color: #74818a; font-size: 8px; white-space: nowrap; }
+.campus-review-file.active { border-color: rgba(255,77,93,.42); background: rgba(255,77,93,.08); }
+.campus-review-counts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.campus-review-counts span { min-height: 44px; border: 1px solid #29333b; border-radius: 6px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 8px; color: #849099; }
+.campus-review-counts b { font-size: 14px; color: #fff; }
+.campus-review-counts span.added { border-color: rgba(77,200,126,.35); }
+.campus-review-counts span.changed { border-color: rgba(242,183,69,.35); }
+.campus-review-counts span.removed { border-color: rgba(255,77,93,.35); }
+.campus-review-items { display: flex; flex-direction: column; gap: 6px; max-height: 370px; overflow-y: auto; }
+.campus-review-item { border: 1px solid #243039; border-radius: 6px; padding: 7px; display: grid; grid-template-columns: 24px 1fr; gap: 7px; align-items: center; }
+.campus-review-item > span { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; background: #202930; font: 800 8px/1 monospace; }
+.campus-review-item > div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.campus-review-item strong { font-size: 9px; }
+.campus-review-item small { color: #6f7c85; font-size: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.campus-review-item.added { border-left: 3px solid #4dc87e; }
+.campus-review-item.changed { border-left: 3px solid #f2b745; }
+.campus-review-item.removed { border-left: 3px solid #ff4d5d; }
+.campus-review-empty { color: #738089; display: flex; gap: 7px; align-items: center; }
+.campus-review-empty p { margin: 0; }
+.campus-review-workspace { min-width: 0; display: grid; grid-template-rows: auto 1fr 34px; }
+.campus-review-heading { min-height: 92px; padding: 15px 20px; border-bottom: 1px solid #273038; display: flex; justify-content: space-between; align-items: center; gap: 18px; }
+.campus-review-heading > div:first-child > span { color: #ff4d5d; font: 700 9px/1 monospace; letter-spacing: .12em; }
+.campus-review-heading h2 { margin: 5px 0 3px; font-size: 18px; }
+.campus-review-heading p { margin: 0; color: #829099; font-size: 9px; }
+.campus-review-badges { display: flex; gap: 6px; }
+.campus-review-badges span { border: 1px solid #2a343c; padding: 6px 8px; border-radius: 999px; font-size: 8px; }
+.campus-review-badges .added { color: #76d69a; border-color: rgba(77,200,126,.38); }
+.campus-review-badges .changed { color: #f4c866; border-color: rgba(242,183,69,.38); }
+.campus-review-badges .removed { color: #ff8a94; border-color: rgba(255,77,93,.38); }
+.campus-review-map-wrap { position: relative; min-height: 550px; overflow: hidden; background: #101519; }
+.campus-review-map { width: 100%; height: 100%; display: block; min-height: 550px; }
+.review-map-bg { fill: #11171b; }
+.review-osm image { opacity: .31; filter: grayscale(1) brightness(.55) contrast(1.25); }
+.review-context path { fill: rgba(50,60,67,.38); stroke: #59656d; stroke-width: 1; }
+.review-geometry { vector-effect: non-scaling-stroke; }
+.review-polygon { stroke-width: 3; }
+.review-line { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+circle.review-geometry { stroke-width: 3; }
+.review-geometry.added { fill: rgba(77,200,126,.28); stroke: #4dc87e; }
+.review-geometry.changed { fill: rgba(242,183,69,.26); stroke: #f2b745; }
+.review-geometry.removed { fill: rgba(255,77,93,.24); stroke: #ff4d5d; stroke-dasharray: 7 4; }
+circle.review-geometry.added { fill: #4dc87e; stroke: #d9ffe6; }
+circle.review-geometry.changed { fill: #f2b745; stroke: #fff0c9; }
+circle.review-geometry.removed { fill: #ff4d5d; stroke: #ffd7db; }
+.review-osm-attribution { position: absolute; right: 9px; bottom: 8px; color: rgba(220,225,228,.45); text-decoration: none; font-size: 7px; background: rgba(9,12,14,.7); padding: 3px 5px; border-radius: 4px; }
+.campus-review-footer { border-top: 1px solid #20282e; display: flex; align-items: center; justify-content: flex-end; gap: 18px; padding: 0 14px; color: #6f7c84; font-size: 8px; }
+.campus-review-footer span { display: flex; align-items: center; gap: 5px; }
+.campus-review-footer a { color: #a5afb6; text-decoration: none; display: flex; align-items: center; gap: 4px; }
+.campus-review-state { min-height: 100vh; background: #0c1013; color: #e9edef; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; }
+.campus-review-state p { color: #839098; max-width: 480px; text-align: center; }
+.campus-review-state.error svg { color: #ff5b6a; }
+.campus-review-state .spin { animation: campus-review-spin 1s linear infinite; }
+@keyframes campus-review-spin { to { transform: rotate(360deg); } }
+@media (max-width: 800px) {
+  .campus-review-main { grid-template-columns: 1fr; }
+  .campus-review-sidebar { border-right: 0; }
+  .campus-review-heading { align-items: flex-start; flex-direction: column; }
+  .campus-review-map-wrap, .campus-review-map { min-height: 62vh; }
+  .campus-review-footer { justify-content: space-between; gap: 8px; }
+}
