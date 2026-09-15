@@ -9,11 +9,15 @@ const required = [
   'public/schemas/dataset-manifest.schema.json',
   'public/schemas/entrance-contribution.schema.json',
   'public/schemas/entrance-batch-contribution.schema.json',
+  'public/schemas/campus-map-contribution.schema.json',
   'schemas/entrance-contribution.schema.json',
   'schemas/entrance-batch-contribution.schema.json',
+  'schemas/campus-map-contribution.schema.json',
   'scripts/publish-datasets.mjs',
   'src/EntranceContribution.jsx',
   'src/BatchEntranceContribution.jsx',
+  'src/CampusContributionStudio.jsx',
+  'src/campus-contribution-data.js',
   'src/EntrancePrReview.jsx',
 ];
 for (const path of required) await access(resolve(root, path));
@@ -25,7 +29,7 @@ if (!robots.includes('Sitemap: https://data.gapwise.ca/sitemap.xml')) {
 
 const sitemap = await readFile(resolve(root, 'public/sitemap.xml'), 'utf8');
 if (!sitemap.includes('<loc>https://data.gapwise.ca/contribute</loc>')) {
-  throw new Error('sitemap.xml must index the public entrance contribution surface');
+  throw new Error('sitemap.xml must index the public contribution surface');
 }
 
 const vercel = JSON.parse(await readFile(resolve(root, 'vercel.json'), 'utf8'));
@@ -36,7 +40,11 @@ for (const route of ['/contribute', '/contribute/:path*', '/review/entrances', '
   }
 }
 
-for (const schemaName of ['entrance-contribution.schema.json', 'entrance-batch-contribution.schema.json']) {
+for (const schemaName of [
+  'entrance-contribution.schema.json',
+  'entrance-batch-contribution.schema.json',
+  'campus-map-contribution.schema.json',
+]) {
   const canonicalSchema = await readFile(resolve(root, 'schemas', schemaName), 'utf8');
   const publicSchema = await readFile(resolve(root, 'public/schemas', schemaName), 'utf8');
   if (canonicalSchema !== publicSchema) {
