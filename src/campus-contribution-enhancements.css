@@ -16,6 +16,7 @@
 }
 
 .campus-map-zoom-controls button {
+  box-sizing: border-box;
   width: 34px;
   height: 34px;
   display: grid;
@@ -40,23 +41,30 @@
   cursor: default;
 }
 
-.campus-map-zoom-level {
+.campus-map-zoom-controls .campus-map-zoom-level {
   grid-column: 1 / -1;
-  min-height: 24px;
+  width: 100%;
+  height: 28px;
+  min-height: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  padding: 0 5px;
-  border: 0;
-  background: transparent;
+  padding: 0 6px;
+  border: 1px solid #303a42;
+  border-radius: 7px;
+  background: #151b20;
   color: #8f9aa2;
   font: 700 9px/1 monospace;
   letter-spacing: 0.04em;
+  white-space: nowrap;
   cursor: pointer;
 }
 
-.campus-map-zoom-level:hover { color: #fff; }
+.campus-map-zoom-controls .campus-map-zoom-level:hover {
+  border-color: rgba(255, 77, 93, 0.66);
+  background: rgba(255, 77, 93, 0.12);
+  color: #fff;
+}
 
 .campus-map {
   transform-origin: 50% 50%;
