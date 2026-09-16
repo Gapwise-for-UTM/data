@@ -32,6 +32,56 @@
     },
     {
       "type": "Feature",
+      "id": "mn-13736687034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6656006,
+          43.5509053
+        ]
+      },
+      "properties": {
+        "buildingCode": "MN",
+        "label": "Mapped main entrance",
+        "kind": "entrance",
+        "osmNodeId": 13736687034,
+        "accessibility": "unknown",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Field observation in Gapwise data issue #41 confirms this OSM entrance belongs to MN; ordinary student/public access, direction, and barrier-free status remain unknown.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/13736687034",
+        "lastVerified": "2026-09-16",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mn-13736687041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6662061,
+          43.5510741
+        ]
+      },
+      "properties": {
+        "buildingCode": "MN",
+        "label": "Mapped main entrance",
+        "kind": "entrance",
+        "osmNodeId": 13736687041,
+        "accessibility": "unknown",
+        "access": "unknown",
+        "direction": "unknown",
+        "notes": "Field observation in Gapwise data issue #41 confirms this OSM entrance belongs to MN; ordinary student/public access, direction, and barrier-free status remain unknown.",
+        "source": "OpenStreetMap",
+        "sourceUrl": "https://www.openstreetmap.org/node/13736687041",
+        "lastVerified": "2026-09-16",
+        "verificationStatus": "verified"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "dh-13568164836",
       "geometry": {
         "type": "Point",
