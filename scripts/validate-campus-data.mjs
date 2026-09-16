@@ -87,7 +87,7 @@ for (const line of checksumLines) {
   const absolute = resolve(dataRoot, path);
   if (!existsSync(absolute)) fail(`checksum references missing file ${path}`);
   const actual = createHash("sha256").update(await readFile(absolute)).digest("hex");
-  if (actual !== expected) fail(`checksum mismatch for ${path}`);
+  if (actual !== expected) fail(`checksum mismatch for ${path}: expected ${expected}, actual ${actual}`);
   checksummed.add(path);
 }
 
