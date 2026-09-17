@@ -23,6 +23,8 @@ export type BuildingEntrance = {
   accessibility: AccessibilityStatus;
   access: "public" | "restricted" | "emergency_only" | "unknown";
   direction: "entry" | "exit" | "both" | "unknown";
+  /** Maintainer-reviewed default for ordinary building-level routing. */
+  preferredForRouting: boolean;
   verificationMethod: string;
   sourceIdentifier: string;
   notes?: string;
@@ -50,6 +52,10 @@ export function campusBuildingRoutingIssues(
   const issues: string[] = [];
 
   for (const building of buildings) {
+    const preferredEntrances = building.entrances.filter((entrance) => entrance.preferredForRouting);
+    if (preferredEntrances.length > 1) {
+      issues.push(`Building “${building.code}” has more than one preferred routing entrance.`);
+    }
     const entranceNodeIds = new Set(building.entrances.map((entrance) => entrance.routingNodeId));
     if (!entranceNodeIds.has(building.entranceNodeId)) {
       issues.push(
@@ -93,6 +99,7 @@ type EntranceFeature = {
     accessibility: AccessibilityStatus;
     access?: BuildingEntrance["access"];
     direction?: BuildingEntrance["direction"];
+    preferredForRouting?: boolean;
     verificationMethod?: string;
     sourceIdentifier?: string;
     notes?: string;
@@ -144,6 +151,7 @@ function toEntrance(feature: EntranceFeature): BuildingEntrance | null {
     accessibility: feature.properties.accessibility,
     access: feature.properties.access ?? "unknown",
     direction: feature.properties.direction ?? "unknown",
+    preferredForRouting: feature.properties.preferredForRouting ?? false,
     verificationMethod,
     sourceIdentifier,
     metadata: {
@@ -167,9 +175,10 @@ export const CAMPUS_BUILDINGS: CampusBuilding[] = UTM_BUILDINGS.flatMap(
     const entrances = entranceFeatures
       .filter((feature) => feature.properties.buildingCode === building.code)
       .map(toEntrance)
-      .filter((entrance): entrance is BuildingEntrance => entrance !== null);
+      .filter((entrance): entrance is BuildingEntrance => entrance !== null)
+      .sort((a, b) => Number(b.preferredForRouting) - Number(a.preferredForRouting));
     if (entrances.length === 0) return [];
-    const primary = entrances[0]!;
+    const primary = entrances.find((entrance) => entrance.preferredForRouting) ?? entrances[0]!;
     return [
       {
         code: building.code,

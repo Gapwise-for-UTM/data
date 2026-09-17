@@ -4,7 +4,7 @@
     "description": "UTM building entrances and explicitly flagged pedestrian approach points. Physical door points come from reviewed OpenStreetMap entrance nodes; inferred approaches remain explicitly non-door topology fallbacks.",
     "source": "OpenStreetMap and University of Toronto Mississauga",
     "sourceUrl": "https://www.utm.utoronto.ca/visitors/maps-and-directions",
-    "lastVerified": "2026-09-14",
+    "lastVerified": "2026-09-17",
     "verificationStatus": "verified"
   },
   "features": [
@@ -27,7 +27,8 @@
         "source": "OpenStreetMap",
         "sourceUrl": "https://www.openstreetmap.org/node/13738201127",
         "lastVerified": "2026-09-14",
-        "verificationStatus": "verified"
+        "verificationStatus": "verified",
+        "preferredForRouting": false
       }
     },
     {
@@ -42,17 +43,18 @@
       },
       "properties": {
         "buildingCode": "MN",
-        "label": "Mapped main entrance",
+        "label": "Front / main entrance",
         "kind": "entrance",
         "osmNodeId": 13736687034,
         "accessibility": "unknown",
         "access": "unknown",
         "direction": "unknown",
-        "notes": "Field observation in Gapwise data issue #41 confirms this OSM entrance belongs to MN; ordinary student/public access, direction, and barrier-free status remain unknown.",
+        "notes": "Field observation in Gapwise data issue #41 confirms this OSM entrance belongs to MN. Maintainer field observation on 2026-09-17 identifies it as the commonly used front entrance facing the field; ordinary student/public access, direction, and barrier-free status remain unknown.",
         "source": "OpenStreetMap",
         "sourceUrl": "https://www.openstreetmap.org/node/13736687034",
         "lastVerified": "2026-09-16",
-        "verificationStatus": "verified"
+        "verificationStatus": "verified",
+        "preferredForRouting": true
       }
     },
     {
@@ -67,17 +69,18 @@
       },
       "properties": {
         "buildingCode": "MN",
-        "label": "Mapped main entrance",
+        "label": "Side entrance",
         "kind": "entrance",
         "osmNodeId": 13736687041,
         "accessibility": "unknown",
         "access": "unknown",
         "direction": "unknown",
-        "notes": "Field observation in Gapwise data issue #41 confirms this OSM entrance belongs to MN; ordinary student/public access, direction, and barrier-free status remain unknown.",
+        "notes": "Field observation in Gapwise data issue #41 confirms this OSM entrance belongs to MN. Maintainer field observation on 2026-09-17 identifies it as a real but rarely used side entrance; ordinary student/public access, direction, and barrier-free status remain unknown.",
         "source": "OpenStreetMap",
         "sourceUrl": "https://www.openstreetmap.org/node/13736687041",
         "lastVerified": "2026-09-16",
-        "verificationStatus": "verified"
+        "verificationStatus": "verified",
+        "preferredForRouting": false
       }
     },
     {
@@ -92,14 +95,16 @@
       },
       "properties": {
         "buildingCode": "DH",
-        "label": "Main entrance A",
+        "label": "Front entrance",
         "kind": "entrance",
         "osmNodeId": 13568164836,
         "accessibility": "unknown",
         "source": "OpenStreetMap",
         "sourceUrl": "https://www.openstreetmap.org/node/13568164836",
         "lastVerified": "2026-09-14",
-        "verificationStatus": "verified"
+        "verificationStatus": "verified",
+        "preferredForRouting": true,
+        "notes": "Maintainer field observation on 2026-09-17 identifies this as Deerfield Hall's commonly used front entrance."
       }
     },
     {
@@ -114,36 +119,16 @@
       },
       "properties": {
         "buildingCode": "DH",
-        "label": "Main entrance B",
+        "label": "Back entrance",
         "kind": "entrance",
         "osmNodeId": 13568164837,
         "accessibility": "unknown",
         "source": "OpenStreetMap",
         "sourceUrl": "https://www.openstreetmap.org/node/13568164837",
         "lastVerified": "2026-09-14",
-        "verificationStatus": "verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "dh-13751172451",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.6660506,
-          43.5505348
-        ]
-      },
-      "properties": {
-        "buildingCode": "DH",
-        "label": "Mapped entrance",
-        "kind": "entrance",
-        "osmNodeId": 13751172451,
-        "accessibility": "unknown",
-        "source": "OpenStreetMap",
-        "sourceUrl": "https://www.openstreetmap.org/node/13751172451",
-        "lastVerified": "2026-09-14",
-        "verificationStatus": "verified"
+        "verificationStatus": "verified",
+        "preferredForRouting": false,
+        "notes": "Maintainer field observation on 2026-09-17 identifies this as Deerfield Hall's back entrance."
       }
     },
     {

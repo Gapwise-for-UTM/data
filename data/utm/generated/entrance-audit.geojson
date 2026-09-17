@@ -34,7 +34,7 @@
       },
       "properties": {
         "buildingCode": "DH",
-        "label": "Main entrance A",
+        "label": "Front entrance",
         "kind": "exterior_entrance",
         "routability": "routable",
         "publicAccess": "unknown",
@@ -55,28 +55,7 @@
       },
       "properties": {
         "buildingCode": "DH",
-        "label": "Main entrance B",
-        "kind": "exterior_entrance",
-        "routability": "routable",
-        "publicAccess": "unknown",
-        "barrierFree": "unknown",
-        "geometryConfidence": "mapped",
-        "reconciliation": null
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "dh-13751172451",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.6660506,
-          43.5505348
-        ]
-      },
-      "properties": {
-        "buildingCode": "DH",
-        "label": "Mapped entrance",
+        "label": "Back entrance",
         "kind": "exterior_entrance",
         "routability": "routable",
         "publicAccess": "unknown",
