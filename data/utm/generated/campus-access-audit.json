@@ -24,15 +24,14 @@
       "code": "DH",
       "name": "Deerfield Hall",
       "canonicalGeometry": "present",
-      "verifiedExteriorEntrances": 3,
+      "verifiedExteriorEntrances": 2,
       "inferredApproaches": 0,
-      "graphConnectedAccessPoints": 3,
-      "mainCampusComponentAccessPoints": 3,
+      "graphConnectedAccessPoints": 2,
+      "mainCampusComponentAccessPoints": 2,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
         "https://www.openstreetmap.org/node/13568164836",
-        "https://www.openstreetmap.org/node/13568164837",
-        "https://www.openstreetmap.org/node/13751172451"
+        "https://www.openstreetmap.org/node/13568164837"
       ],
       "unresolved": [
         "Ordinary public access status is not affirmatively published.",
