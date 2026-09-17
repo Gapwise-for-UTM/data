@@ -52,7 +52,7 @@ export function campusBuildingRoutingIssues(
   const issues: string[] = [];
 
   for (const building of buildings) {
-    const preferredEntrances = building.entrances.filter((entrance) => entrance.preferredForRouting);
+    const preferredEntrances = building.entrances.filter(\n      (entrance) => entrance.preferredForRouting,\n    );
     if (preferredEntrances.length > 1) {
       issues.push(`Building “${building.code}” has more than one preferred routing entrance.`);
     }
