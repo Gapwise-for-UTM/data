@@ -37,8 +37,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.6656006,
-          43.5509053
+          -79.66564442734699,
+          43.55091595384269
         ]
       },
       "properties": {
@@ -49,10 +49,10 @@
         "accessibility": "unknown",
         "access": "unknown",
         "direction": "unknown",
-        "notes": "Field observation in Gapwise data issue #41 confirms this OSM entrance belongs to MN. Maintainer field observation on 2026-09-17 identifies it as the commonly used front entrance facing the field; ordinary student/public access, direction, and barrier-free status remain unknown.",
+        "notes": "Field observation in Gapwise data issue #41 confirms this door belongs to MN. Its display/routing coordinate is snapped about 1 m to the canonical MN perimeter at the field-facing front entrance; ordinary student/public access, direction, and barrier-free status remain unknown.",
         "source": "OpenStreetMap",
         "sourceUrl": "https://www.openstreetmap.org/node/13736687034",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-17",
         "verificationStatus": "verified",
         "preferredForRouting": true
       }
@@ -63,8 +63,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.6662061,
-          43.5510741
+          -79.66613849196767,
+          43.55107456077706
         ]
       },
       "properties": {
@@ -75,10 +75,10 @@
         "accessibility": "unknown",
         "access": "unknown",
         "direction": "unknown",
-        "notes": "Field observation in Gapwise data issue #41 confirms this OSM entrance belongs to MN. Maintainer field observation on 2026-09-17 identifies it as a real but rarely used side entrance; ordinary student/public access, direction, and barrier-free status remain unknown.",
+        "notes": "Field observation in Gapwise data issue #41 confirms this real but rarely used side door belongs to MN. Its display/routing coordinate is snapped about 1 m to the canonical MN perimeter; ordinary student/public access, direction, and barrier-free status remain unknown.",
         "source": "OpenStreetMap",
         "sourceUrl": "https://www.openstreetmap.org/node/13736687041",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-17",
         "verificationStatus": "verified",
         "preferredForRouting": false
       }

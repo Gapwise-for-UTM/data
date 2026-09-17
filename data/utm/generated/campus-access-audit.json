@@ -7,12 +7,14 @@
       "code": "MN",
       "name": "Maanjiwe nendamowinan",
       "canonicalGeometry": "present",
-      "verifiedExteriorEntrances": 1,
+      "verifiedExteriorEntrances": 3,
       "inferredApproaches": 0,
-      "graphConnectedAccessPoints": 1,
-      "mainCampusComponentAccessPoints": 1,
+      "graphConnectedAccessPoints": 3,
+      "mainCampusComponentAccessPoints": 3,
       "verifiedAccessibleEntrances": 0,
       "provenance": [
+        "https://www.openstreetmap.org/node/13736687034",
+        "https://www.openstreetmap.org/node/13736687041",
         "https://www.openstreetmap.org/node/13738201127"
       ],
       "unresolved": [
