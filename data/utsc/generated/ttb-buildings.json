@@ -1,0 +1,151 @@
+{
+  "campus": "utsc",
+  "generatedAt": "2026-09-18T03:27:25.396Z",
+  "sessions": [
+    "20269",
+    "20271"
+  ],
+  "source": "University of Toronto Timetable Builder live service",
+  "sourceUrl": "https://ttb.utoronto.ca/",
+  "api": "https://api.easi.utoronto.ca/ttb",
+  "warning": "Observed live service, not a published developer contract. Cached as source evidence; never required at Gapwise runtime.",
+  "buildings": [
+    {
+      "code": "AA",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/493687",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANTA01H3",
+        "ANTC55H3",
+        "ANTC80H3"
+      ]
+    },
+    {
+      "code": "AC",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/493683",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANTA02H3"
+      ]
+    },
+    {
+      "code": "BV",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/493686",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANTA02H3",
+        "ANTB12H3",
+        "ANTB31H3",
+        "ANTB36H3",
+        "ANTB64H3",
+        "ANTB80H3",
+        "ANTC33H3",
+        "ANTC34H3"
+      ]
+    },
+    {
+      "code": "HL",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/493689",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANTA01H3",
+        "ANTB14H3",
+        "ANTC28H3",
+        "ANTC47H3",
+        "ANTC66H3",
+        "ANTC77H3",
+        "ANTD18H3",
+        "ANTD19H3"
+      ]
+    },
+    {
+      "code": "HW",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/493675",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACMD94H3",
+        "AFSA01H3",
+        "AFSB54H3",
+        "AFSD20H3",
+        "ANTB19H3",
+        "ANTC20H3",
+        "ANTC42H3",
+        "ASTB23H3"
+      ]
+    },
+    {
+      "code": "IA",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!ce/48600?m/959718",
+      "roomSamples": [],
+      "courseSamples": [
+        "AFSD07H3",
+        "ANTA02H3",
+        "ANTB14H3",
+        "ANTB22H3",
+        "ANTB44H3",
+        "ANTD04H3",
+        "ASTA01H3",
+        "ASTB23H3"
+      ]
+    },
+    {
+      "code": "IC",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/493695",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANTA01H3",
+        "ANTA02H3",
+        "ANTB19H3",
+        "ANTC62H3",
+        "ANTD06H3"
+      ]
+    },
+    {
+      "code": "KW",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!ce/48600?m/493669",
+      "roomSamples": [],
+      "courseSamples": [
+        "AFSB51H3",
+        "AFSC03H3",
+        "ANTB11H3",
+        "ANTC10H3",
+        "ANTC15H3",
+        "ANTC19H3",
+        "ANTC61H3",
+        "ASTA01H3"
+      ]
+    },
+    {
+      "code": "SW",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/493677",
+      "roomSamples": [],
+      "courseSamples": [
+        "AFSA01H3",
+        "AFSB51H3",
+        "AFSB54H3",
+        "ANTA02H3",
+        "ANTB42H3",
+        "ANTB64H3",
+        "ANTC67H3"
+      ]
+    },
+    {
+      "code": "ZO",
+      "name": "",
+      "mapUrl": "https://www.torontozoo.com/plan#directions",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANTD22H3"
+      ]
+    }
+  ]
+}

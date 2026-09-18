@@ -1,0 +1,331 @@
+{
+  "sourceId": "utsc-campus-map-2025",
+  "sourceUrl": "https://www.utsc.utoronto.ca/home/sites/utsc.utoronto.ca.home/files/images/page/Campus%20Map-072525_FINAL_8.5x11.pdf",
+  "lastVerified": "2026-09-18",
+  "records": [
+    {
+      "code": "AC",
+      "name": "Academic Resource Centre",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "AA",
+      "name": "Arts & Administration Building",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "AF",
+      "name": "Athletic Fields",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "BC",
+      "name": "Beach Volleyball Courts",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "BV",
+      "name": "Bladen Wing",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "BS",
+      "name": "Bookstore",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "BL",
+      "name": "Bus Loop",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "CF",
+      "name": "Campus Farm",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "CG",
+      "name": "Community Gardens",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "CH",
+      "name": "Coach House",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "DM",
+      "name": "Doris McCarthy Gallery",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "BD",
+      "name": "Dan Lang Field - Baseball Diamond",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "DS",
+      "name": "Dome Structure",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "ET",
+      "name": "Earth Tube Plaza",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "EV",
+      "name": "Environmental Science & Chemistry Building",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "G1",
+      "name": "Gallery 1265",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "GD",
+      "name": "Geodesic Domes",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "HL",
+      "name": "Highland Hall",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "HW",
+      "name": "Humanities Wing",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "IGC",
+      "name": "Indigenous Gathering Circle",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "IH",
+      "name": "Indigenous House",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "IC",
+      "name": "Instructional Centre",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "KW",
+      "name": "Kina Wiya Enadong Building",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "LLB",
+      "name": "Leigha Lee Browne Theatre",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "LIB",
+      "name": "Library",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "MB",
+      "name": "Maintenance Building",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "ML",
+      "name": "Miller Lash House",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "MAF",
+      "name": "Morningside Athletic Field",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "AM",
+      "name": "Myron and Berna Garron Health Sciences Complex (SAMIH)",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "CC",
+      "name": "N'sheemaehn Child Care Centre",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "PO",
+      "name": "Portable",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "IA",
+      "name": "Sam Ibrahim Building",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "SY",
+      "name": "Science Research Building",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "SW",
+      "name": "Science Wing",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "SL",
+      "name": "Student Centre",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "SRC",
+      "name": "Student Residence Centre",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "TC",
+      "name": "Tennis Centre",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "AQ",
+      "name": "Toronto Pan Am Sports Centre",
+      "category": "academic",
+      "status": "active"
+    },
+    {
+      "code": "UG",
+      "name": "Urquhart Memorial Garden",
+      "category": "facility",
+      "status": "active"
+    },
+    {
+      "code": "A",
+      "name": "Aspen",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "B",
+      "name": "Birch",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "C",
+      "name": "Cedar",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "D",
+      "name": "Dogwood",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "E",
+      "name": "Elm",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "F",
+      "name": "Fir",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "G",
+      "name": "Grey Pine",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "N",
+      "name": "Harmony Commons",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "H",
+      "name": "Hickory",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "I",
+      "name": "Ironwood",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "JF",
+      "name": "Joan Foley Hall",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "J",
+      "name": "Juniper",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "K",
+      "name": "Koa",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "L",
+      "name": "Larch",
+      "category": "residence",
+      "status": "active"
+    },
+    {
+      "code": "M",
+      "name": "Maple",
+      "category": "residence",
+      "status": "active"
+    }
+  ]
+}

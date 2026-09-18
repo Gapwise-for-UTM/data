@@ -1,0 +1,1055 @@
+{
+  "campus": "utsc",
+  "generatedAt": "2026-09-18T03:27:25.396Z",
+  "sourceIds": [
+    "utsc-campus-map-2025",
+    "utsc-timetable-location-codes",
+    "uoft-ttb-live"
+  ],
+  "buildings": [
+    {
+      "id": "utsc:A",
+      "campus": "utsc",
+      "code": "A",
+      "name": "Aspen",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Aspen"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:AA",
+      "campus": "utsc",
+      "code": "AA",
+      "name": "Arts & Administration Building",
+      "category": "academic",
+      "aliases": [
+        "Arts & Administration Building",
+        "Arts and Administration Building"
+      ],
+      "timetableCodes": [
+        "AA"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/493687"
+      ],
+      "identityEvidence": [
+        "uoft-ttb-live",
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Arts & Administration Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:AC",
+      "campus": "utsc",
+      "code": "AC",
+      "name": "Academic Resource Centre",
+      "category": "academic",
+      "aliases": [
+        "Academic Resource Centre"
+      ],
+      "timetableCodes": [
+        "AC"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/493683"
+      ],
+      "identityEvidence": [
+        "uoft-ttb-live",
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Academic Resource Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:AF",
+      "campus": "utsc",
+      "code": "AF",
+      "name": "Athletic Fields",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Athletic Fields"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:AM",
+      "campus": "utsc",
+      "code": "AM",
+      "name": "Myron and Berna Garron Health Sciences Complex (SAMIH)",
+      "category": "academic",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Myron and Berna Garron Health Sciences Complex (SAMIH)"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:AQ",
+      "campus": "utsc",
+      "code": "AQ",
+      "name": "Toronto Pan Am Sports Centre",
+      "category": "academic",
+      "aliases": [
+        "Toronto Pan Am Sports Centre"
+      ],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Toronto Pan Am Sports Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:B",
+      "campus": "utsc",
+      "code": "B",
+      "name": "Birch",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Birch"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:BC",
+      "campus": "utsc",
+      "code": "BC",
+      "name": "Beach Volleyball Courts",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Beach Volleyball Courts"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:BD",
+      "campus": "utsc",
+      "code": "BD",
+      "name": "Dan Lang Field - Baseball Diamond",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Dan Lang Field - Baseball Diamond"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:BL",
+      "campus": "utsc",
+      "code": "BL",
+      "name": "Bus Loop",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Bus Loop"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:BS",
+      "campus": "utsc",
+      "code": "BS",
+      "name": "Bookstore",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Bookstore"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:BV",
+      "campus": "utsc",
+      "code": "BV",
+      "name": "Bladen Wing",
+      "category": "academic",
+      "aliases": [
+        "Bladen Wing"
+      ],
+      "timetableCodes": [
+        "BV"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/493686"
+      ],
+      "identityEvidence": [
+        "uoft-ttb-live",
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Bladen Wing"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:C",
+      "campus": "utsc",
+      "code": "C",
+      "name": "Cedar",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Cedar"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:CC",
+      "campus": "utsc",
+      "code": "CC",
+      "name": "N'sheemaehn Child Care Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "N'sheemaehn Child Care Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:CF",
+      "campus": "utsc",
+      "code": "CF",
+      "name": "Campus Farm",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Campus Farm"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:CG",
+      "campus": "utsc",
+      "code": "CG",
+      "name": "Community Gardens",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Community Gardens"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:CH",
+      "campus": "utsc",
+      "code": "CH",
+      "name": "Coach House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Coach House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:D",
+      "campus": "utsc",
+      "code": "D",
+      "name": "Dogwood",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Dogwood"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:DM",
+      "campus": "utsc",
+      "code": "DM",
+      "name": "Doris McCarthy Gallery",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Doris McCarthy Gallery"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:DS",
+      "campus": "utsc",
+      "code": "DS",
+      "name": "Dome Structure",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Dome Structure"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:E",
+      "campus": "utsc",
+      "code": "E",
+      "name": "Elm",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Elm"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:ET",
+      "campus": "utsc",
+      "code": "ET",
+      "name": "Earth Tube Plaza",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Earth Tube Plaza"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:EV",
+      "campus": "utsc",
+      "code": "EV",
+      "name": "Environmental Science & Chemistry Building",
+      "category": "academic",
+      "aliases": [
+        "Environmental Science & Chemistry Building",
+        "Environmental Science and Chemistry Building"
+      ],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Environmental Science & Chemistry Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:F",
+      "campus": "utsc",
+      "code": "F",
+      "name": "Fir",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Fir"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:G",
+      "campus": "utsc",
+      "code": "G",
+      "name": "Grey Pine",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Grey Pine"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:G1",
+      "campus": "utsc",
+      "code": "G1",
+      "name": "Gallery 1265",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Gallery 1265"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:GD",
+      "campus": "utsc",
+      "code": "GD",
+      "name": "Geodesic Domes",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Geodesic Domes"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:H",
+      "campus": "utsc",
+      "code": "H",
+      "name": "Hickory",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Hickory"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:HL",
+      "campus": "utsc",
+      "code": "HL",
+      "name": "Highland Hall",
+      "category": "academic",
+      "aliases": [
+        "Highland Hall"
+      ],
+      "timetableCodes": [
+        "HL"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/493689"
+      ],
+      "identityEvidence": [
+        "uoft-ttb-live",
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Highland Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:HW",
+      "campus": "utsc",
+      "code": "HW",
+      "name": "Humanities Wing",
+      "category": "academic",
+      "aliases": [
+        "Humanities Wing"
+      ],
+      "timetableCodes": [
+        "HW"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/493675"
+      ],
+      "identityEvidence": [
+        "uoft-ttb-live",
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Humanities Wing"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:I",
+      "campus": "utsc",
+      "code": "I",
+      "name": "Ironwood",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Ironwood"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:IA",
+      "campus": "utsc",
+      "code": "IA",
+      "name": "Sam Ibrahim Building",
+      "category": "academic",
+      "aliases": [
+        "Sam Ibrahim Building"
+      ],
+      "timetableCodes": [
+        "IA"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!ce/48600?m/959718"
+      ],
+      "identityEvidence": [
+        "uoft-ttb-live",
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Sam Ibrahim Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:IC",
+      "campus": "utsc",
+      "code": "IC",
+      "name": "Instructional Centre",
+      "category": "academic",
+      "aliases": [
+        "Instructional Centre"
+      ],
+      "timetableCodes": [
+        "IC"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/493695"
+      ],
+      "identityEvidence": [
+        "uoft-ttb-live",
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Instructional Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:IGC",
+      "campus": "utsc",
+      "code": "IGC",
+      "name": "Indigenous Gathering Circle",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Indigenous Gathering Circle"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:IH",
+      "campus": "utsc",
+      "code": "IH",
+      "name": "Indigenous House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Indigenous House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:J",
+      "campus": "utsc",
+      "code": "J",
+      "name": "Juniper",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Juniper"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:JF",
+      "campus": "utsc",
+      "code": "JF",
+      "name": "Joan Foley Hall",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Joan Foley Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:K",
+      "campus": "utsc",
+      "code": "K",
+      "name": "Koa",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Koa"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:KW",
+      "campus": "utsc",
+      "code": "KW",
+      "name": "Kina Wiya Enadong Building",
+      "category": "academic",
+      "aliases": [
+        "Kina Wiiya Enadong Building",
+        "Kina Wiya Enadong Building"
+      ],
+      "timetableCodes": [
+        "KW"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!ce/48600?m/493669"
+      ],
+      "identityEvidence": [
+        "uoft-ttb-live",
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Kina Wiya Enadong Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:L",
+      "campus": "utsc",
+      "code": "L",
+      "name": "Larch",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Larch"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:LIB",
+      "campus": "utsc",
+      "code": "LIB",
+      "name": "Library",
+      "category": "academic",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Library"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:LLB",
+      "campus": "utsc",
+      "code": "LLB",
+      "name": "Leigha Lee Browne Theatre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Leigha Lee Browne Theatre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:M",
+      "campus": "utsc",
+      "code": "M",
+      "name": "Maple",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Maple"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:MAF",
+      "campus": "utsc",
+      "code": "MAF",
+      "name": "Morningside Athletic Field",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Morningside Athletic Field"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:MB",
+      "campus": "utsc",
+      "code": "MB",
+      "name": "Maintenance Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Maintenance Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:ML",
+      "campus": "utsc",
+      "code": "ML",
+      "name": "Miller Lash House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Miller Lash House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:N",
+      "campus": "utsc",
+      "code": "N",
+      "name": "Harmony Commons",
+      "category": "residence",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Harmony Commons"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:PO",
+      "campus": "utsc",
+      "code": "PO",
+      "name": "Portable",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Portable"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:SL",
+      "campus": "utsc",
+      "code": "SL",
+      "name": "Student Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Student Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:SRC",
+      "campus": "utsc",
+      "code": "SRC",
+      "name": "Student Residence Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Student Residence Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:SW",
+      "campus": "utsc",
+      "code": "SW",
+      "name": "Science Wing",
+      "category": "academic",
+      "aliases": [
+        "Science Wing"
+      ],
+      "timetableCodes": [
+        "SW"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/493677"
+      ],
+      "identityEvidence": [
+        "uoft-ttb-live",
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Science Wing"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:SY",
+      "campus": "utsc",
+      "code": "SY",
+      "name": "Science Research Building",
+      "category": "academic",
+      "aliases": [
+        "Science Research Building"
+      ],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Science Research Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:TC",
+      "campus": "utsc",
+      "code": "TC",
+      "name": "Tennis Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Tennis Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsc:UG",
+      "campus": "utsc",
+      "code": "UG",
+      "name": "Urquhart Memorial Garden",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [],
+      "mapUrls": [],
+      "identityEvidence": [
+        "utsc-campus-map-2025"
+      ],
+      "sourceNames": [
+        "Urquhart Memorial Garden"
+      ],
+      "status": "active"
+    }
+  ]
+}

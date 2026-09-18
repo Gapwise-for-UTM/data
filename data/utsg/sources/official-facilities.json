@@ -1,0 +1,1008 @@
+{
+  "sourceId": "uoft-facilities-bas-2025",
+  "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf",
+  "sourceSection": "Appendix C — Point naming convention / campus building inventory",
+  "lastVerified": "2026-09-18",
+  "records": [
+    {
+      "facilityCode": "001",
+      "name": "University College",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "002",
+      "name": "Hart House",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "003",
+      "name": "Gerstein Science Information Centre in the Sigmund Samuel Library",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "004",
+      "name": "McMurrich Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "005",
+      "name": "Medical Sciences Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "006",
+      "name": "John P. Robarts Library Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "006A",
+      "name": "Claude T. Bissell Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "006B",
+      "name": "Thomas Fisher Rare Book Library Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "007",
+      "name": "Lassonde Mining Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "008",
+      "name": "Wallberg Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "008A",
+      "name": "D.L. Pratt Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "009",
+      "name": "Sandford Fleming Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "010",
+      "name": "Simcoe Hall",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "010A",
+      "name": "Convocation Hall",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "011",
+      "name": "C. David Naylor Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "012A",
+      "name": "Munk School of Global Affairs & Public Policy at Trinity",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "012B",
+      "name": "Munk School of Global Affairs & Public Policy at Trinity",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "012C",
+      "name": "Munk School of Global Affairs & Public Policy - Graham Library",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "013",
+      "name": "Whitney Hall",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "014",
+      "name": "Bloor Street West-371",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "016",
+      "name": "Banting Institute",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "017",
+      "name": "Queen's Park-90",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "018",
+      "name": "Central Steam Plant",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "019",
+      "name": "J. Robert S. Prichard Alumni House",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "020",
+      "name": "Rosebrugh Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "021",
+      "name": "Engineering Annex",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "022",
+      "name": "Mechanical Engineering Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "023",
+      "name": "University College Union",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "024",
+      "name": "Haultain Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "025",
+      "name": "FitzGerald Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "026",
+      "name": "Cumberland House",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "027",
+      "name": "Physical Geography Building - St. George Street-45",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "028",
+      "name": "Student Commons",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "029",
+      "name": "Sir Daniel Wilson Residence",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "030A",
+      "name": "Varsity Centre",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "031",
+      "name": "Hart House Circle-16",
+      "affiliation": "St. George",
+      "status": "demolished"
+    },
+    {
+      "facilityCode": "032",
+      "name": "Wetmore Hall-New College",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "032A",
+      "name": "Wilson Hall-New College",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "033",
+      "name": "Sidney Smith Hall",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "034",
+      "name": "Massey College",
+      "affiliation": "Other Federated Colleges",
+      "status": "active"
+    },
+    {
+      "facilityCode": "036",
+      "name": "Astronomy & Astrophysics Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "038",
+      "name": "Woodsworth College",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "040",
+      "name": "Faculty of Law",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "041",
+      "name": "Varsity Pavilion",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "042",
+      "name": "Goldring Centre for High Performance Sport",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "043",
+      "name": "School of Graduate Studies",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "047",
+      "name": "Canadiana Gallery",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "050",
+      "name": "Falconer Hall",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "051",
+      "name": "Edward Johnson Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "053",
+      "name": "Dr. Eric Jackman Institute of Child Study",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "054",
+      "name": "Daniels Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "055",
+      "name": "Highland Avenue-93",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "056",
+      "name": "Graduate Students' Union",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "057",
+      "name": "Bancroft Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "061",
+      "name": "Borden Building South",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "061A",
+      "name": "Borden Building North",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "062",
+      "name": "Earth Sciences Centre",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "064",
+      "name": "Graduate House",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "065",
+      "name": "Dentistry Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "066",
+      "name": "Spadina Avenue-665",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "067",
+      "name": "Huron Street-215",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "068",
+      "name": "Clara Benson Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "068A",
+      "name": "Warren Stevens Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "070",
+      "name": "Galbraith Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "072",
+      "name": "Ramsay Wright Laboratories",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "073",
+      "name": "Lash Miller Chemical Laboratories",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "075",
+      "name": "Faculty Club",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "077",
+      "name": "Sussex Court",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "078",
+      "name": "McLennan Physical Laboratories",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "079",
+      "name": "Anthropology Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "080",
+      "name": "Bahen Centre for Information Technology",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "082",
+      "name": "Gage Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "083",
+      "name": "McCaul Street-254/256",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "087",
+      "name": "Myhal Centre for Engineering Innovation and Entrepreneurship",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "088",
+      "name": "St. George Street-123",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "089",
+      "name": "Munk School of Global Affairs & Public Policy at the Observatory",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "090",
+      "name": "College Street-88",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "091",
+      "name": "Luella Massey Studio Theatre",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "092",
+      "name": "Communications House",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "093",
+      "name": "Electrometallurgy Lab",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "094",
+      "name": "Back campus Fields",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "097",
+      "name": "Queen's Park Crescent East-39",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "097A",
+      "name": "Queen's Park Crescent East-39A",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "098B",
+      "name": "Wellesley Street West-90",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "098C",
+      "name": "Wellesley Street West-90",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "101",
+      "name": "Morrison Hall",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "102",
+      "name": "Soldiers' Tower",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "103",
+      "name": "School of Continuing Studies",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "104",
+      "name": "Max Gluskin House",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "105",
+      "name": "Fields Institute for Research in Mathematical Sciences",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "106",
+      "name": "St. George Street-162",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "109",
+      "name": "College Street-179",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "110",
+      "name": "St. George Street-121",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "111",
+      "name": "Factor-Inwentash Faculty of Social Work",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "112",
+      "name": "College Street-185",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "114",
+      "name": "College Street-187",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "118",
+      "name": "Aura Lee Playing Field",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "120",
+      "name": "Louis B. Stewart Observatory",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "122",
+      "name": "North West Chiller Plant",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "123",
+      "name": "Ontario Institute for Studies in Education",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "125",
+      "name": "Spadina Avenue-703",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "127",
+      "name": "Enrolment Services",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "128",
+      "name": "Jackman Humanities Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "129",
+      "name": "Early Learning Centre",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "130",
+      "name": "Woodsworth College Residence",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "131",
+      "name": "New College III",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "132",
+      "name": "Innis College",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "133",
+      "name": "Innis College Student Residence",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "134",
+      "name": "Rotman School of Management",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "135",
+      "name": "St. George Parking Garage",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "138",
+      "name": "Huron Street-370",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "143",
+      "name": "Koffler Student Services Centre",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "145",
+      "name": "Koffler House",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "146",
+      "name": "Sussex Avenue-40",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "147",
+      "name": "College Street-171",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "151",
+      "name": "Fasken Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "152",
+      "name": "Rehabilitation Sciences Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "154",
+      "name": "Health Sciences Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "155",
+      "name": "Exam Centre",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "156",
+      "name": "McCaul Street-263",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "158",
+      "name": "Chestnut Residence and Conference Centre",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "160",
+      "name": "Terrence Donnelly Centre for Cellular & Biomolecular Research",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "161",
+      "name": "Leslie L. Dan Pharmacy Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "171",
+      "name": "Spadina Avenue-455",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "172",
+      "name": "Macdonald-Mowat House",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "179",
+      "name": "College Street-229",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "189",
+      "name": "Spadina Avenue-720",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "191",
+      "name": "McCaul Street-207",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "192",
+      "name": "Stewart Building",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "193",
+      "name": "Edward Street-123",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "194",
+      "name": "TWH - Krembil Discovery Tower",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "195",
+      "name": "MaRS 2",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "196",
+      "name": "University Avenue-700",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "197",
+      "name": "Bay Street-777",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "433",
+      "name": "Queen's Park Crescent East-43",
+      "affiliation": "Other Federated Colleges",
+      "status": "active"
+    },
+    {
+      "facilityCode": "434",
+      "name": "Toronto School of Theology",
+      "affiliation": "Other Federated Colleges",
+      "status": "active"
+    },
+    {
+      "facilityCode": "478",
+      "name": "Regis College",
+      "affiliation": "Other Federated Colleges",
+      "status": "active"
+    },
+    {
+      "facilityCode": "501",
+      "name": "Victoria College",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "502",
+      "name": "Emmanuel College",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "503",
+      "name": "Birge-Carnegie Library",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "504",
+      "name": "Burwash Hall",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "505",
+      "name": "Burwash Residence (Lower Houses)",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "505A",
+      "name": "Burwash Residence (Upper Houses)",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "506",
+      "name": "Annesley Hall",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "507",
+      "name": "Goldring Student Centre",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "508",
+      "name": "Margaret Addison Hall",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "509",
+      "name": "Isabel Bader Theatre",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "513",
+      "name": "Stephenson House",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "514",
+      "name": "E.J. Pratt Library",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "515",
+      "name": "Northrop Frye Hall",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "516",
+      "name": "Charles Street West-65",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "518",
+      "name": "Rowell Jackman Hall",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "528",
+      "name": "Lillian Massey Building",
+      "affiliation": "Victoria University",
+      "status": "active"
+    },
+    {
+      "facilityCode": "575",
+      "name": "Knox College",
+      "affiliation": "Other Federated Colleges",
+      "status": "active"
+    },
+    {
+      "facilityCode": "575A",
+      "name": "Nona Macdonald Visitors Centre",
+      "affiliation": "Other Federated Colleges",
+      "status": "active"
+    },
+    {
+      "facilityCode": "600",
+      "name": "Trinity College",
+      "affiliation": "Trinity College",
+      "status": "active"
+    },
+    {
+      "facilityCode": "602",
+      "name": "Gerald Larkin Building",
+      "affiliation": "Trinity College",
+      "status": "active"
+    },
+    {
+      "facilityCode": "603",
+      "name": "George Ignatieff Theatre",
+      "affiliation": "Trinity College",
+      "status": "active"
+    },
+    {
+      "facilityCode": "608",
+      "name": "St. Hilda's College",
+      "affiliation": "Trinity College",
+      "status": "active"
+    },
+    {
+      "facilityCode": "675",
+      "name": "Wycliffe College",
+      "affiliation": "Other Federated Colleges",
+      "status": "active"
+    },
+    {
+      "facilityCode": "790",
+      "name": "Charles Street West-30",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "791",
+      "name": "Charles Street West-35",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "sourceKey": "smc:AH",
+      "name": "Muzzo Family Alumni Hall",
+      "affiliation": "St. Michael's College",
+      "status": "active",
+      "sourceId": "stmikes-current-buildings"
+    },
+    {
+      "sourceKey": "smc:BR",
+      "name": "Brennan Hall",
+      "affiliation": "St. Michael's College",
+      "status": "active",
+      "sourceId": "stmikes-current-buildings"
+    },
+    {
+      "sourceKey": "smc:CR",
+      "name": "Carr Hall",
+      "affiliation": "St. Michael's College",
+      "status": "active",
+      "sourceId": "stmikes-current-buildings"
+    },
+    {
+      "sourceKey": "smc:TF",
+      "name": "Teefy Hall",
+      "affiliation": "St. Michael's College",
+      "status": "active",
+      "sourceId": "stmikes-current-map"
+    }
+  ]
+}

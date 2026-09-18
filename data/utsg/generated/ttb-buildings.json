@@ -1,0 +1,658 @@
+{
+  "campus": "utsg",
+  "generatedAt": "2026-09-18T03:26:07.893Z",
+  "sessions": [
+    "20269",
+    "20271"
+  ],
+  "source": "University of Toronto Timetable Builder live service",
+  "sourceUrl": "https://ttb.utoronto.ca/",
+  "api": "https://api.easi.utoronto.ca/ttb",
+  "warning": "Observed live service, not a published developer contract. Cached as source evidence; never required at Gapwise runtime.",
+  "buildings": [
+    {
+      "code": "AB",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494489",
+      "roomSamples": [],
+      "courseSamples": [
+        "AER507H1",
+        "ANT364H1",
+        "APM426H1",
+        "AST210H1",
+        "AST301H1",
+        "INF315H1",
+        "KPE327H1",
+        "KPE331H1"
+      ]
+    },
+    {
+      "code": "AH",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494578",
+      "roomSamples": [],
+      "courseSamples": [
+        "AMS100H1",
+        "ANT192H1",
+        "ARC354H1"
+      ]
+    },
+    {
+      "code": "AP",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494472",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANT331H1",
+        "ANT335Y1",
+        "ANT337H1",
+        "ANT431H1",
+        "ANT434H1",
+        "ANT437H1",
+        "ANT462H1",
+        "AST310H1"
+      ]
+    },
+    {
+      "code": "BA",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494470",
+      "roomSamples": [],
+      "courseSamples": [
+        "AER210H1",
+        "AER303H1",
+        "AER306H1",
+        "AER307H1",
+        "AER501H1",
+        "AER506H1",
+        "AER515H1",
+        "AER525H1"
+      ]
+    },
+    {
+      "code": "BF",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494497",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANT380H1",
+        "APS100H1",
+        "ARC181H1",
+        "ARC353H1",
+        "ARC383H1"
+      ]
+    },
+    {
+      "code": "BN",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494513",
+      "roomSamples": [
+        "N",
+        "S"
+      ],
+      "courseSamples": [
+        "KPE182H1",
+        "KPE260H1",
+        "KPE263H1",
+        "KPE264H1",
+        "KPE282H1",
+        "KPE326H1",
+        "KPE329H1",
+        "KPE333H1"
+      ]
+    },
+    {
+      "code": "BR",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494595",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT348H1",
+        "ACT370H1",
+        "BCH210H1"
+      ]
+    },
+    {
+      "code": "BT",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494605",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANA125H1",
+        "KPE100H1",
+        "KPE120H1",
+        "KPE161H1",
+        "KPE190H1",
+        "KPE261H1",
+        "KPE291H1"
+      ]
+    },
+    {
+      "code": "CH",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494494",
+      "roomSamples": [],
+      "courseSamples": [
+        "AST101H1",
+        "AST201H1",
+        "BCH210H1",
+        "BCH311H1"
+      ]
+    },
+    {
+      "code": "CR",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494580",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT350H1",
+        "AMS300H1",
+        "APM236H1",
+        "KPE320H1"
+      ]
+    },
+    {
+      "code": "DA",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494471",
+      "roomSamples": [],
+      "courseSamples": [
+        "ARC100H1",
+        "ARC180H1",
+        "ARC200H1",
+        "ARC251H1",
+        "ARC281H1",
+        "ARC361Y1",
+        "ARC363Y1",
+        "ARC369Y1"
+      ]
+    },
+    {
+      "code": "EJ",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494549",
+      "roomSamples": [],
+      "courseSamples": [
+        "CMU112H1",
+        "CMU401H1",
+        "DMU111H1",
+        "DMU406H1",
+        "DMU409H1",
+        "DMU411H1",
+        "EMU130H1",
+        "EMU150H1"
+      ]
+    },
+    {
+      "code": "EM",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494601",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT460H1"
+      ]
+    },
+    {
+      "code": "EP",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494462",
+      "roomSamples": [],
+      "courseSamples": [
+        "APS111H1",
+        "AST199H1",
+        "INF314H1"
+      ]
+    },
+    {
+      "code": "ES",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494499",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANT348H1",
+        "ANT356H1",
+        "ANT370H1",
+        "ANT378H1",
+        "APS100H1",
+        "ARC353H1",
+        "ARC356H1",
+        "ARC386H1"
+      ]
+    },
+    {
+      "code": "FE",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494550",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANT346H1",
+        "ANT446H1",
+        "APM236H1",
+        "APM346H1",
+        "KPE162H1",
+        "KPE190H1",
+        "KPE200H1",
+        "KPE260H1"
+      ]
+    },
+    {
+      "code": "GB",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494473",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT240H1",
+        "AER301H1",
+        "AER307H1",
+        "AER507H1",
+        "APS110H1",
+        "APS360H1",
+        "APS380H1",
+        "ARC386H1"
+      ]
+    },
+    {
+      "code": "HA",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494475",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT473H1",
+        "AER210H1",
+        "AER515H1",
+        "APS105H1",
+        "ARC280H1",
+        "INF450H1",
+        "INF451H1",
+        "KPE200H1"
+      ]
+    },
+    {
+      "code": "HS",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494459",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT240H1",
+        "APM236H1",
+        "KPE100H1",
+        "KPE190H1",
+        "KPE331H1"
+      ]
+    },
+    {
+      "code": "KP",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494488",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANT338H1",
+        "APM346H1",
+        "ARC181H1",
+        "ARC366H1",
+        "AST121H1"
+      ]
+    },
+    {
+      "code": "LA",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494575",
+      "roomSamples": [],
+      "courseSamples": [
+        "AMS410H1",
+        "ANA420H1",
+        "APM441H1"
+      ]
+    },
+    {
+      "code": "LM",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494502",
+      "roomSamples": [],
+      "courseSamples": [
+        "APM446H1"
+      ]
+    },
+    {
+      "code": "MB",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494466",
+      "roomSamples": [],
+      "courseSamples": [
+        "AER210H1",
+        "BCH311H1"
+      ]
+    },
+    {
+      "code": "MC",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494474",
+      "roomSamples": [],
+      "courseSamples": [
+        "AER372H1",
+        "APM236H1",
+        "APS105H1",
+        "APS110H1",
+        "APS380H1",
+        "KPE160H1",
+        "KPE200H1",
+        "KPE260H1"
+      ]
+    },
+    {
+      "code": "MP",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494490",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT371H1",
+        "ACT466H1",
+        "ANT205H1",
+        "ANT338H1",
+        "APM462H1",
+        "APS100H1",
+        "ARC356H1",
+        "AST210H1"
+      ]
+    },
+    {
+      "code": "MS",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494491",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT230H1",
+        "ACT240H1",
+        "AER210H1",
+        "ANA200H1",
+        "APM236H1",
+        "APM462H1",
+        "APS100H1",
+        "APS110H1"
+      ]
+    },
+    {
+      "code": "MY",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494495",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT240H1",
+        "ANT205H1",
+        "APM348H1",
+        "APS100H1",
+        "APS110H1",
+        "APS111H1",
+        "AST301H1",
+        "INF313H1"
+      ]
+    },
+    {
+      "code": "NF",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494600",
+      "roomSamples": [],
+      "courseSamples": [
+        "APM236H1"
+      ]
+    },
+    {
+      "code": "OI",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494563",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT390H1",
+        "AFR298H1",
+        "AMS100H1",
+        "ANT411H1",
+        "APM346H1",
+        "APM462H1",
+        "INF482H1",
+        "KPE162H1"
+      ]
+    },
+    {
+      "code": "ON",
+      "name": "",
+      "mapUrl": null,
+      "roomSamples": [],
+      "courseSamples": [
+        "APS160H1"
+      ]
+    },
+    {
+      "code": "PB",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494476",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT240H1",
+        "ACT349H1",
+        "ACT351H1",
+        "BCH210H1"
+      ]
+    },
+    {
+      "code": "RL",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494531",
+      "roomSamples": [],
+      "courseSamples": [
+        "INF451H1"
+      ]
+    },
+    {
+      "code": "RS",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494478",
+      "roomSamples": [],
+      "courseSamples": [
+        "AER525H1"
+      ]
+    },
+    {
+      "code": "RW",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494515",
+      "roomSamples": [],
+      "courseSamples": [
+        "AST320H1",
+        "BCB410H1",
+        "KPE322H1"
+      ]
+    },
+    {
+      "code": "SF",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494481",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT230H1",
+        "ACT371H1",
+        "AER210H1",
+        "AER407H1",
+        "APS100H1",
+        "APS110H1",
+        "APS111H1",
+        "INF352H1"
+      ]
+    },
+    {
+      "code": "SK",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494564",
+      "roomSamples": [],
+      "courseSamples": [
+        "AFR199H1",
+        "ANT475H1",
+        "APM346H1",
+        "KPE100H1",
+        "KPE120H1",
+        "KPE162H1",
+        "KPE190H1"
+      ]
+    },
+    {
+      "code": "SS",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494510",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT466H1",
+        "ANT205H1",
+        "APM236H1",
+        "APM346H1",
+        "ARC281H1",
+        "ARC351H1",
+        "ARH205H1",
+        "AST221H1"
+      ]
+    },
+    {
+      "code": "SU",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494455",
+      "roomSamples": [],
+      "courseSamples": [
+        "APS100H1",
+        "APS470H1",
+        "INF311H1",
+        "INF312H1",
+        "INF352H1",
+        "INF401H1",
+        "INF411H1",
+        "INF451H1"
+      ]
+    },
+    {
+      "code": "TC",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494574",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANT435H1"
+      ]
+    },
+    {
+      "code": "TF",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494581",
+      "roomSamples": [],
+      "courseSamples": [
+        "ANT426H1",
+        "INF353H1",
+        "KPE100H1"
+      ]
+    },
+    {
+      "code": "UC",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494517",
+      "roomSamples": [],
+      "courseSamples": [
+        "AFR251H1",
+        "AFR340H1",
+        "AFR389H1",
+        "ANT430H1",
+        "ANT455H1",
+        "ANT472H1",
+        "ARC281H1",
+        "ARC355H1"
+      ]
+    },
+    {
+      "code": "VC",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494602",
+      "roomSamples": [],
+      "courseSamples": [
+        "AMS100H1",
+        "ANT339H1",
+        "ANT347H1",
+        "ANT354H1",
+        "ANT357H1",
+        "ARH309H1",
+        "INF352H1",
+        "KPE330H1"
+      ]
+    },
+    {
+      "code": "WB",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494460",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT240H1",
+        "ACT351H1",
+        "AER210H1",
+        "AER510H1",
+        "APS100H1",
+        "APS105H1",
+        "APS106H1",
+        "APS112H1"
+      ]
+    },
+    {
+      "code": "WE",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494509",
+      "roomSamples": [
+        "A",
+        "D"
+      ],
+      "courseSamples": [
+        "AFR358H1",
+        "AFR455H1",
+        "AFR460H1",
+        "KPE162H1"
+      ]
+    },
+    {
+      "code": "WI",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494503",
+      "roomSamples": [],
+      "courseSamples": [
+        "ACT473H1",
+        "AFR353H1",
+        "AFR454H1",
+        "AST320H1",
+        "BCB420H1",
+        "KPE162H1"
+      ]
+    },
+    {
+      "code": "WO",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494558",
+      "roomSamples": [],
+      "courseSamples": [
+        "APM236H1"
+      ]
+    },
+    {
+      "code": "WS",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494512",
+      "roomSamples": [],
+      "courseSamples": [
+        "KPE182H1",
+        "KPE282H1",
+        "KPE334H1"
+      ]
+    },
+    {
+      "code": "WW",
+      "name": "",
+      "mapUrl": "https://map.utoronto.ca/?id=1809#!m/494547",
+      "roomSamples": [],
+      "courseSamples": [
+        "ABP104Y1",
+        "ABP106Y1",
+        "ANT331H1",
+        "INF452H1"
+      ]
+    }
+  ]
+}
