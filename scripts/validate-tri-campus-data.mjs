@@ -26,6 +26,7 @@ for (const campus of campuses) {
   const registry = await readJson(`data/${campus}/buildings.json`);
   const footprints = await readJson(`data/${campus}/buildings.geojson`);
   const ttb = await readJson(`data/${campus}/generated/ttb-buildings.json`);
+  const aliases = await readJson(`data/${campus}/sources/reconciliation-aliases.json`);
   const approaches = await readJson(`data/${campus}/generated/routing-approaches.json`);
   const graph = await readJson(`data/${campus}/generated/routing-graph.json`);
   const coverage = await readJson(`data/${campus}/generated/coverage.json`);
@@ -120,8 +121,13 @@ for (const campus of campuses) {
     fail(`${campus}: duplicate timetable-code mappings remain unresolved`);
   }
 
+  const excludedCodes = new Set([
+    ...Object.keys(aliases.nonPhysicalCodes ?? {}),
+    ...Object.keys(aliases.excludedTimetableCodes ?? {}),
+  ].map((code) => code.toUpperCase()));
   for (const ttbBuilding of ttb.buildings) {
     const code = String(ttbBuilding.code ?? "").toUpperCase();
+    if (excludedCodes.has(code)) continue;
     if (!timetableCodes.has(code)) {
       fail(`${campus}: live TTB building code ${code} has no canonical identity`);
     }
