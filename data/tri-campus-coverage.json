@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:01:34.117Z",
+  "generatedAt": "2026-09-18T20:13:27.026Z",
   "sessions": [
     "20269",
     "20271"
@@ -7,7 +7,7 @@
   "campuses": {
     "utsg": {
       "campus": "utsg",
-      "generatedAt": "2026-09-18T20:00:57.983Z",
+      "generatedAt": "2026-09-18T20:12:55.421Z",
       "sessions": [
         "20269",
         "20271"
@@ -528,7 +528,7 @@
     },
     "utsc": {
       "campus": "utsc",
-      "generatedAt": "2026-09-18T20:01:34.115Z",
+      "generatedAt": "2026-09-18T20:13:27.024Z",
       "sessions": [
         "20269",
         "20271"

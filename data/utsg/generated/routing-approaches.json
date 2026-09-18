@@ -1,6 +1,6 @@
 {
   "campus": "utsg",
-  "generatedAt": "2026-09-18T20:00:57.983Z",
+  "generatedAt": "2026-09-18T20:12:55.421Z",
   "semantics": "Derived route endpoints only. They are not physical entrance records and must never be displayed as verified entrances.",
   "approaches": [
     {
