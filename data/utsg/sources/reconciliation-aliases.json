@@ -131,5 +131,47 @@
   },
   "nonPhysicalCodes": {
     "ON": "Timetable Builder online/non-physical location sentinel; no campus map URL."
+  },
+  "geometryAddresses": {
+    "123": {
+      "address": "252 Bloor Street West, Toronto, Ontario, Canada",
+      "sourceId": "uoft-oise-contact",
+      "sourceUrl": "https://www.oise.utoronto.ca/contact"
+    },
+    "036": {
+      "address": "50 St. George Street, Toronto, Ontario, Canada",
+      "sourceId": "uoft-astro-location",
+      "sourceUrl": "https://www.astro.utoronto.ca/contact/inquiries-location/"
+    },
+    "057": {
+      "address": "4 Bancroft Avenue, Toronto, Ontario, Canada",
+      "sourceId": "uoft-fs-campus-elevators",
+      "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+    },
+    "014": {
+      "address": "371 Bloor Street West, Toronto, Ontario, Canada",
+      "sourceId": "uoft-oise-facilities",
+      "sourceUrl": "https://www.oise.utoronto.ca/about/cao/facilities"
+    },
+    "005": {
+      "address": "1 King's College Circle, Toronto, Ontario, Canada",
+      "sourceId": "uoft-md-contact",
+      "sourceUrl": "https://md.utoronto.ca/contact-us"
+    },
+    "009": {
+      "address": "10 King's College Road, Toronto, Ontario, Canada",
+      "sourceId": "uoft-convocation-locations",
+      "sourceUrl": "https://www.utoronto.ca/convocation/campus-locations"
+    },
+    "028": {
+      "address": "230 College Street, Toronto, Ontario, Canada",
+      "sourceId": "uoft-student-commons",
+      "sourceUrl": "https://blogs.studentlife.utoronto.ca/innovationhub/contactus/"
+    },
+    "038": {
+      "address": "119 St. George Street, Toronto, Ontario, Canada",
+      "sourceId": "uoft-fs-campus-elevators",
+      "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+    }
   }
 }
