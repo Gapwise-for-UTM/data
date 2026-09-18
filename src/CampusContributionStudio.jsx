@@ -93,6 +93,49 @@ function mergeViewBoxes(viewBoxes) {
   };
 }
 
+const UTSG_DEFAULT_MAP_BOUNDS = {
+  minLon: -79.4085,
+  maxLon: -79.3825,
+  minLat: 43.6555,
+  maxLat: 43.6710,
+};
+
+function defaultCampusViewBox(campusId, project) {
+  if (campusId !== 'utsg') {
+    return { x: 0, y: 0, width: MAP_WIDTH, height: MAP_HEIGHT };
+  }
+
+  const [x1, y1] = project([UTSG_DEFAULT_MAP_BOUNDS.minLon, UTSG_DEFAULT_MAP_BOUNDS.minLat]);
+  const [x2, y2] = project([UTSG_DEFAULT_MAP_BOUNDS.maxLon, UTSG_DEFAULT_MAP_BOUNDS.maxLat]);
+  let minX = Math.min(x1, x2);
+  let maxX = Math.max(x1, x2);
+  let minY = Math.min(y1, y2);
+  let maxY = Math.max(y1, y2);
+
+  // Match the SVG canvas aspect ratio so the browser does not letterbox the
+  // tighter St. George camera with unrelated surrounding Toronto space.
+  const targetAspect = MAP_WIDTH / MAP_HEIGHT;
+  let width = maxX - minX;
+  let height = maxY - minY;
+  if (width / height < targetAspect) {
+    const expandedWidth = height * targetAspect;
+    const delta = (expandedWidth - width) / 2;
+    minX -= delta;
+    maxX += delta;
+    width = expandedWidth;
+  } else {
+    const expandedHeight = width / targetAspect;
+    const delta = (expandedHeight - height) / 2;
+    minY -= delta;
+    maxY += delta;
+    height = expandedHeight;
+  }
+
+  minX = Math.max(0, Math.min(minX, MAP_WIDTH - width));
+  minY = Math.max(0, Math.min(minY, MAP_HEIGHT - height));
+  return { x: minX, y: minY, width, height };
+}
+
 function draftBuildingKey(item) {
   return `draft:${item.id}`;
 }
@@ -246,14 +289,14 @@ export default function CampusContributionStudio() {
 
   const viewBox = useMemo(() => {
     if (!selectedBuilding || tool !== 'entrance') {
-      return { x: 0, y: 0, width: MAP_WIDTH, height: MAP_HEIGHT };
+      return defaultCampusViewBox(campusId, project);
     }
     if (selectedBuilding.geometry) return geometryBounds(selectedBuilding.geometry, project, 1.0);
     const boxes = (selectedBuilding.features ?? []).map((feature) =>
       geometryBounds(feature.geometry, project, 0.55),
     );
     return mergeViewBoxes(boxes);
-  }, [project, selectedBuilding, tool]);
+  }, [campusId, project, selectedBuilding, tool]);
   const viewBoxValue = `${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`;
 
   function setCampus(nextCampus) {
