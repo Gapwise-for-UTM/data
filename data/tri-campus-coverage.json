@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T21:00:46.176Z",
+  "generatedAt": "2026-09-18T21:18:51.962Z",
   "sessions": [
     "20269",
     "20271"
@@ -7,7 +7,7 @@
   "campuses": {
     "utsg": {
       "campus": "utsg",
-      "generatedAt": "2026-09-18T21:00:14.186Z",
+      "generatedAt": "2026-09-18T21:18:19.298Z",
       "sessions": [
         "20269",
         "20271"
@@ -16,13 +16,13 @@
       "canonicalBuildingCount": 166,
       "timetableBuildingCount": 48,
       "timetableCodeCount": 47,
-      "geometryResolvedCount": 121,
-      "geometryUnresolvedCount": 45,
+      "geometryResolvedCount": 122,
+      "geometryUnresolvedCount": 44,
       "hostedLocationCount": 0,
       "mappedHostedLocationCount": 0,
       "unresolvedHostedLocationCount": 0,
-      "mappedDestinationCount": 121,
-      "routingApproachCount": 121,
+      "mappedDestinationCount": 122,
+      "routingApproachCount": 122,
       "pedestrianNodeCount": 35527,
       "pedestrianEdgeCount": 39779,
       "pedestrianComponentCount": 138,
@@ -73,28 +73,9 @@
         {
           "id": "utsg:facility:017",
           "code": "017",
-          "name": "Queen's Park-90",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "90 Queen's Park, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
-        },
-        {
-          "id": "utsg:facility:027",
-          "code": "027",
-          "name": "Physical Geography Building - St. George Street-45",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "45 Physical Geography Building - St. George Street, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "School of Cities",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:030A",
@@ -171,15 +152,9 @@
         {
           "id": "utsg:facility:066",
           "code": "066",
-          "name": "Spadina Avenue-665",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "665 Spadina Avenue, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "Daniels Studio",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:089",
@@ -197,15 +172,9 @@
         {
           "id": "utsg:facility:090",
           "code": "090",
-          "name": "College Street-88",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "88 College Street, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "Joint Centre for Bioethics",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:092",
@@ -231,54 +200,30 @@
         {
           "id": "utsg:facility:097",
           "code": "097",
-          "name": "Queen's Park Crescent East-39",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "39 Queen's Park Crescent East, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "Centre for Medieval Studies",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:109",
           "code": "109",
-          "name": "College Street-179",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "179 College Street, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "Second Cup x Chocolato",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:112",
           "code": "112",
-          "name": "College Street-185",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "185 College Street, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "Dear Saigon",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:114",
           "code": "114",
-          "name": "College Street-187",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "187 College Street, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "Fat Bastard Burrito",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:118",
@@ -329,15 +274,9 @@
         {
           "id": "utsg:facility:147",
           "code": "147",
-          "name": "College Street-171",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "171 College Street, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "The Copper Boot",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:151",
@@ -362,7 +301,7 @@
         {
           "id": "utsg:facility:156",
           "code": "156",
-          "name": "McCaul Street-263",
+          "name": "Old Administrative Building",
           "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
           "geometryAddresses": [
             {
@@ -395,28 +334,16 @@
         {
           "id": "utsg:facility:189",
           "code": "189",
-          "name": "Spadina Avenue-720",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "720 Spadina Avenue, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "Master of Mathematical Finance",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:193",
           "code": "193",
-          "name": "Edward Street-123",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "123 Edward Street, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "Continuing Dental Education",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:194",
@@ -435,28 +362,16 @@
         {
           "id": "utsg:facility:196",
           "code": "196",
-          "name": "University Avenue-700",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "700 University Avenue, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "Ontario Power Building",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:197",
           "code": "197",
-          "name": "Bay Street-777",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "777 Bay Street, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-            }
-          ]
+          "name": "Faculty of Dentistry Satellite Clinic",
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:503",
@@ -523,7 +438,7 @@
     },
     "utsc": {
       "campus": "utsc",
-      "generatedAt": "2026-09-18T21:00:46.173Z",
+      "generatedAt": "2026-09-18T21:18:51.960Z",
       "sessions": [
         "20269",
         "20271"
@@ -653,7 +568,7 @@
         {
           "id": "utsc:PO",
           "code": "PO",
-          "name": "Portable",
+          "name": "UTSC Portable Classroom",
           "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
           "geometryAddresses": []
         },

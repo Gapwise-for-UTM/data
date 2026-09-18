@@ -1,6 +1,6 @@
 {
   "campus": "utsc",
-  "generatedAt": "2026-09-18T21:00:46.173Z",
+  "generatedAt": "2026-09-18T21:18:51.960Z",
   "sourceIds": [
     "utsc-campus-map-2025",
     "utsc-timetable-location-codes",
@@ -1231,9 +1231,11 @@
       "id": "utsc:PO",
       "campus": "utsc",
       "code": "PO",
-      "name": "Portable",
+      "name": "UTSC Portable Classroom",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Portable"
+      ],
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
@@ -1248,7 +1250,12 @@
       "sourceNames": [
         "Portable"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "UTSC Portable Classroom",
+        "kind": "functional",
+        "sourceId": "utsc-campus-map-2025",
+        "sourceUrl": "https://www.utsc.utoronto.ca/home/sites/utsc.utoronto.ca.home/files/images/page/Campus%20Map-072525_FINAL_8.5x11.pdf"
+      },
       "status": "active"
     },
     {

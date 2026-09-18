@@ -1,6 +1,6 @@
 {
   "campus": "utsg",
-  "generatedAt": "2026-09-18T21:00:14.186Z",
+  "generatedAt": "2026-09-18T21:18:19.298Z",
   "sourceIds": [
     "uoft-facilities-bas-2025",
     "uoft-ttb-live",
@@ -454,32 +454,34 @@
       "id": "utsg:facility:017",
       "campus": "utsg",
       "code": "017",
-      "name": "Queen's Park-90",
+      "name": "School of Cities",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Queen's Park-90"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "017"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "90 Queen's Park, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-90-queens-park-2025",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Queen's Park-90"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "School of Cities",
+        "kind": "functional",
+        "sourceId": "uoft-90-queens-park-2025",
+        "sourceUrl": "https://www.utoronto.ca/news/reimagined-90-queen-s-park-project-foster-collaboration-city-building-and-civic-engagement"
+      },
       "status": "active"
     },
     {
@@ -668,32 +670,34 @@
       "id": "utsg:facility:027",
       "campus": "utsg",
       "code": "027",
-      "name": "Physical Geography Building - St. George Street-45",
+      "name": "Physical Geography Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Physical Geography Building - St. George Street-45"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "027"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "45 Physical Geography Building - St. George Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-fs-central-steam-plant"
       ],
       "sourceNames": [
         "Physical Geography Building - St. George Street-45"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Physical Geography Building",
+        "kind": "proper",
+        "sourceId": "uoft-fs-central-steam-plant",
+        "sourceUrl": "https://www.fs.utoronto.ca/services/hvac-mechanical-utilities/central-steam-plant/"
+      },
       "status": "active"
     },
     {
@@ -1198,32 +1202,34 @@
       "id": "utsg:facility:066",
       "campus": "utsg",
       "code": "066",
-      "name": "Spadina Avenue-665",
+      "name": "Daniels Studio",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Spadina Avenue-665"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "066"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "665 Spadina Avenue, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-fs-central-ventilation"
       ],
       "sourceNames": [
         "Spadina Avenue-665"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Daniels Studio",
+        "kind": "functional",
+        "sourceId": "uoft-fs-central-ventilation",
+        "sourceUrl": "https://www.fs.utoronto.ca/services/hvac-mechanical-utilities/covid-hvac-strategy/central-ventilation/"
+      },
       "status": "active"
     },
     {
@@ -1478,32 +1484,34 @@
       "id": "utsg:facility:090",
       "campus": "utsg",
       "code": "090",
-      "name": "College Street-88",
+      "name": "Joint Centre for Bioethics",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "College Street-88"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "090"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "88 College Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-fs-central-ventilation"
       ],
       "sourceNames": [
         "College Street-88"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Joint Centre for Bioethics",
+        "kind": "functional",
+        "sourceId": "uoft-fs-central-ventilation",
+        "sourceUrl": "https://www.fs.utoronto.ca/services/hvac-mechanical-utilities/covid-hvac-strategy/central-ventilation/"
+      },
       "status": "active"
     },
     {
@@ -1616,32 +1624,34 @@
       "id": "utsg:facility:097",
       "campus": "utsg",
       "code": "097",
-      "name": "Queen's Park Crescent East-39",
+      "name": "Centre for Medieval Studies",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Queen's Park Crescent East-39"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "097"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "39 Queen's Park Crescent East, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-history-graduate-course-offering-2025-26"
       ],
       "sourceNames": [
         "Queen's Park Crescent East-39"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Centre for Medieval Studies",
+        "kind": "functional",
+        "sourceId": "uoft-history-graduate-course-offering-2025-26",
+        "sourceUrl": "https://www.history.utoronto.ca/graduate/curriculum-course-information/2025-26-graduate-course-offering"
+      },
       "status": "active"
     },
     {
@@ -1954,32 +1964,34 @@
       "id": "utsg:facility:109",
       "campus": "utsg",
       "code": "109",
-      "name": "College Street-179",
+      "name": "Second Cup x Chocolato",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "College Street-179"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "109"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "179 College Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-food-services-current-locations"
       ],
       "sourceNames": [
         "College Street-179"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Second Cup x Chocolato",
+        "kind": "functional",
+        "sourceId": "uoft-food-services-current-locations",
+        "sourceUrl": "https://foodservices.utoronto.ca/where-to-eat/"
+      },
       "status": "active"
     },
     {
@@ -2020,64 +2032,68 @@
       "id": "utsg:facility:112",
       "campus": "utsg",
       "code": "112",
-      "name": "College Street-185",
+      "name": "Dear Saigon",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "College Street-185"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "112"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "185 College Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-food-services-current-locations"
       ],
       "sourceNames": [
         "College Street-185"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Dear Saigon",
+        "kind": "functional",
+        "sourceId": "uoft-food-services-current-locations",
+        "sourceUrl": "https://foodservices.utoronto.ca/where-to-eat/"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:114",
       "campus": "utsg",
       "code": "114",
-      "name": "College Street-187",
+      "name": "Fat Bastard Burrito",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "College Street-187"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "114"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "187 College Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-food-services-current-locations"
       ],
       "sourceNames": [
         "College Street-187"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Fat Bastard Burrito",
+        "kind": "functional",
+        "sourceId": "uoft-food-services-current-locations",
+        "sourceUrl": "https://foodservices.utoronto.ca/where-to-eat/"
+      },
       "status": "active"
     },
     {
@@ -2554,32 +2570,34 @@
       "id": "utsg:facility:147",
       "campus": "utsg",
       "code": "147",
-      "name": "College Street-171",
+      "name": "The Copper Boot",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "College Street-171"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "147"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "171 College Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-mie-orientation-2026"
       ],
       "sourceNames": [
         "College Street-171"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "The Copper Boot",
+        "kind": "functional",
+        "sourceId": "uoft-mie-orientation-2026",
+        "sourceUrl": "https://www.mie.utoronto.ca/events/mie-meng-program-orientation-social-2026/"
+      },
       "status": "active"
     },
     {
@@ -2679,9 +2697,11 @@
       "id": "utsg:facility:156",
       "campus": "utsg",
       "code": "156",
-      "name": "McCaul Street-263",
+      "name": "Old Administrative Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "McCaul Street-263"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "156"
@@ -2699,12 +2719,18 @@
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-temerty-faculty-buildings"
       ],
       "sourceNames": [
         "McCaul Street-263"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Old Administrative Building",
+        "kind": "proper",
+        "sourceId": "uoft-temerty-faculty-buildings",
+        "sourceUrl": "https://temertymedicine.utoronto.ca/faculty-buildings"
+      },
       "status": "active"
     },
     {
@@ -2881,32 +2907,34 @@
       "id": "utsg:facility:189",
       "campus": "utsg",
       "code": "189",
-      "name": "Spadina Avenue-720",
+      "name": "Master of Mathematical Finance",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Spadina Avenue-720"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "189"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "720 Spadina Avenue, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-career-learning-network-contact",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Spadina Avenue-720"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Master of Mathematical Finance",
+        "kind": "functional",
+        "sourceId": "uoft-career-learning-network-contact",
+        "sourceUrl": "https://clnx.utoronto.ca/register/contactusemployer.htm"
+      },
       "status": "active"
     },
     {
@@ -2947,32 +2975,34 @@
       "id": "utsg:facility:193",
       "campus": "utsg",
       "code": "193",
-      "name": "Edward Street-123",
+      "name": "Continuing Dental Education",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Edward Street-123"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "193"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "123 Edward Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-dentistry-staff-directory",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Edward Street-123"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Continuing Dental Education",
+        "kind": "functional",
+        "sourceId": "uoft-dentistry-staff-directory",
+        "sourceUrl": "https://www.dentistry.utoronto.ca/people/staff?page=1"
+      },
       "status": "active"
     },
     {
@@ -3039,64 +3069,68 @@
       "id": "utsg:facility:196",
       "campus": "utsg",
       "code": "196",
-      "name": "University Avenue-700",
+      "name": "Ontario Power Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "University Avenue-700"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "196"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "700 University Avenue, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-statistical-sciences-contact"
       ],
       "sourceNames": [
         "University Avenue-700"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Ontario Power Building",
+        "kind": "proper",
+        "sourceId": "uoft-statistical-sciences-contact",
+        "sourceUrl": "https://www.statistics.utoronto.ca/contact-information"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:197",
       "campus": "utsg",
       "code": "197",
-      "name": "Bay Street-777",
+      "name": "Faculty of Dentistry Satellite Clinic",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Bay Street-777"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "197"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "777 Bay Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-dentistry-building-renewal",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Bay Street-777"
       ],
-      "displayNameEvidence": null,
+      "displayNameEvidence": {
+        "name": "Faculty of Dentistry Satellite Clinic",
+        "kind": "functional",
+        "sourceId": "uoft-dentistry-building-renewal",
+        "sourceUrl": "https://www.dentistry.utoronto.ca/defygravitycampaign/buildingrenewal"
+      },
       "status": "active"
     },
     {

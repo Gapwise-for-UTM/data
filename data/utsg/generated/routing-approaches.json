@@ -1,6 +1,6 @@
 {
   "campus": "utsg",
-  "generatedAt": "2026-09-18T21:00:14.186Z",
+  "generatedAt": "2026-09-18T21:18:19.298Z",
   "semantics": "Derived route endpoints only. They are not physical entrance records and must never be displayed as verified entrances.",
   "approaches": [
     {
@@ -148,6 +148,16 @@
       "nodeId": "osm--79.3960721,43.6594089",
       "longitude": -79.3960721,
       "latitude": 43.6594089,
+      "distanceFromFootprintMeters": 0,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsg:facility:027",
+      "nodeId": "osm--79.3966719,43.6603376",
+      "longitude": -79.3966719,
+      "latitude": 43.6603376,
       "distanceFromFootprintMeters": 0,
       "verificationStatus": "inferred",
       "semantics": "derived-routing-approach",

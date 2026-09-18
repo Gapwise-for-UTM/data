@@ -2234,6 +2234,100 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:027",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:027",
+        "buildingCode": "027",
+        "name": "Physical Geography Building",
+        "displayNameEvidence": {
+          "name": "Physical Geography Building",
+          "kind": "proper",
+          "sourceId": "uoft-fs-central-steam-plant",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/hvac-mechanical-utilities/central-steam-plant/"
+        },
+        "timetableCodes": [],
+        "facilityCodes": [
+          "027"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/15401957",
+        "reconciliationMethod": "exact_canonical_name_nominatim_polygon",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": {
+          "name": "Physical Geography Building",
+          "source": "canonical-identity"
+        },
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3966935,
+              43.6603883
+            ],
+            [
+              -79.3966719,
+              43.6603376
+            ],
+            [
+              -79.3966384,
+              43.6602592
+            ],
+            [
+              -79.3966223,
+              43.6602628
+            ],
+            [
+              -79.3966151,
+              43.6602459
+            ],
+            [
+              -79.3965004,
+              43.6602702
+            ],
+            [
+              -79.3963965,
+              43.6602947
+            ],
+            [
+              -79.3963516,
+              43.6603071
+            ],
+            [
+              -79.3963082,
+              43.6603144
+            ],
+            [
+              -79.3963682,
+              43.660455
+            ],
+            [
+              -79.3963752,
+              43.6604716
+            ],
+            [
+              -79.3966814,
+              43.6604032
+            ],
+            [
+              -79.3966767,
+              43.660392
+            ],
+            [
+              -79.3966935,
+              43.6603883
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:029",
       "properties": {
         "campus": "utsg",
