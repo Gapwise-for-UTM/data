@@ -173,5 +173,40 @@
       "sourceId": "uoft-fs-campus-elevators",
       "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
     }
+  },
+  "geometryRefs": {
+    "123": {
+      "ref": "way/10725629",
+      "sourceId": "openstreetmap",
+      "sourceUrl": "https://www.openstreetmap.org/way/10725629",
+      "identityEvidenceUrl": "https://www.oise.utoronto.ca/contact"
+    },
+    "057": {
+      "ref": "way/20319805",
+      "sourceId": "openstreetmap",
+      "sourceUrl": "https://www.openstreetmap.org/way/20319805",
+      "identityEvidenceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+    },
+    "005": {
+      "ref": "way/23433615",
+      "sourceId": "openstreetmap",
+      "sourceUrl": "https://www.openstreetmap.org/way/23433615",
+      "identityEvidenceUrl": "https://md.utoronto.ca/contact-us"
+    },
+    "028": {
+      "ref": "way/12872719",
+      "sourceId": "openstreetmap",
+      "sourceUrl": "https://www.openstreetmap.org/way/12872719",
+      "identityEvidenceUrl": "https://blogs.studentlife.utoronto.ca/innovationhub/contactus/"
+    }
+  },
+  "geometryPoints": {
+    "009": {
+      "longitude": -79.3951031,
+      "latitude": 43.6601181,
+      "sourceId": "uoft-interactive-map",
+      "sourceUrl": "https://map.utoronto.ca/",
+      "note": "Sandford Fleming Building coordinate from the official U of T map; address independently verified as 10 King's College Road."
+    }
   }
 }
