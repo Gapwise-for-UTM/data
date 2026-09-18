@@ -1,0 +1,179 @@
+{
+  "campus": "utsc",
+  "generatedAt": "2026-09-18T03:20:48.366Z",
+  "sessions": [
+    "20269",
+    "20271"
+  ],
+  "identitySourceCount": 54,
+  "canonicalBuildingCount": 54,
+  "timetableBuildingCount": 10,
+  "timetableCodeCount": 9,
+  "geometryResolvedCount": 28,
+  "geometryUnresolvedCount": 26,
+  "routingApproachCount": 28,
+  "pedestrianNodeCount": 5144,
+  "pedestrianEdgeCount": 5262,
+  "pedestrianComponentCount": 76,
+  "largestPedestrianComponentNodes": 3745,
+  "duplicateTimetableCodes": [],
+  "unresolvedGeometry": [
+    {
+      "id": "utsc:AF",
+      "code": "AF",
+      "name": "Athletic Fields",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:AM",
+      "code": "AM",
+      "name": "Myron and Berna Garron Health Sciences Complex (SAMIH)",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:BC",
+      "code": "BC",
+      "name": "Beach Volleyball Courts",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:BD",
+      "code": "BD",
+      "name": "Dan Lang Field - Baseball Diamond",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:BL",
+      "code": "BL",
+      "name": "Bus Loop",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:BS",
+      "code": "BS",
+      "name": "Bookstore",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:CF",
+      "code": "CF",
+      "name": "Campus Farm",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:CG",
+      "code": "CG",
+      "name": "Community Gardens",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:DM",
+      "code": "DM",
+      "name": "Doris McCarthy Gallery",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:DS",
+      "code": "DS",
+      "name": "Dome Structure",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:ET",
+      "code": "ET",
+      "name": "Earth Tube Plaza",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:F",
+      "code": "F",
+      "name": "Fir",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:G1",
+      "code": "G1",
+      "name": "Gallery 1265",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:GD",
+      "code": "GD",
+      "name": "Geodesic Domes",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:H",
+      "code": "H",
+      "name": "Hickory",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:IC",
+      "code": "IC",
+      "name": "Instructional Centre",
+      "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
+      "osmRef": "relation/2916427"
+    },
+    {
+      "id": "utsc:IGC",
+      "code": "IGC",
+      "name": "Indigenous Gathering Circle",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:KW",
+      "code": "KW",
+      "name": "Kina Wiya Enadong Building",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:LIB",
+      "code": "LIB",
+      "name": "Library",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:LLB",
+      "code": "LLB",
+      "name": "Leigha Lee Browne Theatre",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:MAF",
+      "code": "MAF",
+      "name": "Morningside Athletic Field",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:MB",
+      "code": "MB",
+      "name": "Maintenance Building",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:PO",
+      "code": "PO",
+      "name": "Portable",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:SRC",
+      "code": "SRC",
+      "name": "Student Residence Centre",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:TC",
+      "code": "TC",
+      "name": "Tennis Centre",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    },
+    {
+      "id": "utsc:UG",
+      "code": "UG",
+      "name": "Urquhart Memorial Garden",
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+    }
+  ]
+}

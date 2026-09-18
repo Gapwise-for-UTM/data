@@ -1,0 +1,3543 @@
+{
+  "campus": "utsg",
+  "generatedAt": "2026-09-18T03:19:58.328Z",
+  "sourceIds": [
+    "uoft-facilities-bas-2025",
+    "uoft-ttb-live",
+    "stmikes-current-buildings",
+    "stmikes-current-map"
+  ],
+  "buildings": [
+    {
+      "id": "utsg:facility:002",
+      "campus": "utsg",
+      "code": "002",
+      "name": "Hart House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "002"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Hart House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:003",
+      "campus": "utsg",
+      "code": "003",
+      "name": "Gerstein Science Information Centre in the Sigmund Samuel Library",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "003"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Gerstein Science Information Centre in the Sigmund Samuel Library"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:004",
+      "campus": "utsg",
+      "code": "004",
+      "name": "McMurrich Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "004"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "McMurrich Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:006A",
+      "campus": "utsg",
+      "code": "006A",
+      "name": "Claude T. Bissell Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "006A"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Claude T. Bissell Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:006B",
+      "campus": "utsg",
+      "code": "006B",
+      "name": "Thomas Fisher Rare Book Library Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "006B"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Thomas Fisher Rare Book Library Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:008A",
+      "campus": "utsg",
+      "code": "008A",
+      "name": "D.L. Pratt Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "008A"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "D.L. Pratt Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:010",
+      "campus": "utsg",
+      "code": "010",
+      "name": "Simcoe Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "010"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Simcoe Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:011",
+      "campus": "utsg",
+      "code": "011",
+      "name": "C. David Naylor Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "011"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "C. David Naylor Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:012A",
+      "campus": "utsg",
+      "code": "012A",
+      "name": "Munk School of Global Affairs & Public Policy at Trinity",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "012A"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Munk School of Global Affairs & Public Policy at Trinity"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:012B",
+      "campus": "utsg",
+      "code": "012B",
+      "name": "Munk School of Global Affairs & Public Policy at Trinity",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "012B"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Munk School of Global Affairs & Public Policy at Trinity"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:012C",
+      "campus": "utsg",
+      "code": "012C",
+      "name": "Munk School of Global Affairs & Public Policy - Graham Library",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "012C"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Munk School of Global Affairs & Public Policy - Graham Library"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:013",
+      "campus": "utsg",
+      "code": "013",
+      "name": "Whitney Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "013"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Whitney Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:016",
+      "campus": "utsg",
+      "code": "016",
+      "name": "Banting Institute",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "016"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Banting Institute"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:017",
+      "campus": "utsg",
+      "code": "017",
+      "name": "Queen's Park-90",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "017"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Queen's Park-90"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:018",
+      "campus": "utsg",
+      "code": "018",
+      "name": "Central Steam Plant",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "018"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Central Steam Plant"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:019",
+      "campus": "utsg",
+      "code": "019",
+      "name": "J. Robert S. Prichard Alumni House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "019"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "J. Robert S. Prichard Alumni House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:021",
+      "campus": "utsg",
+      "code": "021",
+      "name": "Engineering Annex",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "021"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Engineering Annex"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:023",
+      "campus": "utsg",
+      "code": "023",
+      "name": "University College Union",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "023"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "University College Union"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:025",
+      "campus": "utsg",
+      "code": "025",
+      "name": "FitzGerald Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "025"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "FitzGerald Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:026",
+      "campus": "utsg",
+      "code": "026",
+      "name": "Cumberland House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "026"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Cumberland House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:027",
+      "campus": "utsg",
+      "code": "027",
+      "name": "Physical Geography Building - St. George Street-45",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "027"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Physical Geography Building - St. George Street-45"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:029",
+      "campus": "utsg",
+      "code": "029",
+      "name": "Sir Daniel Wilson Residence",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "029"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Sir Daniel Wilson Residence"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:030A",
+      "campus": "utsg",
+      "code": "030A",
+      "name": "Varsity Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "030A"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Varsity Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:034",
+      "campus": "utsg",
+      "code": "034",
+      "name": "Massey College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "034"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Massey College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:040",
+      "campus": "utsg",
+      "code": "040",
+      "name": "Faculty of Law",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "040"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Faculty of Law"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:041",
+      "campus": "utsg",
+      "code": "041",
+      "name": "Varsity Pavilion",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "041"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Varsity Pavilion"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:042",
+      "campus": "utsg",
+      "code": "042",
+      "name": "Goldring Centre for High Performance Sport",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "042"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Goldring Centre for High Performance Sport"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:043",
+      "campus": "utsg",
+      "code": "043",
+      "name": "School of Graduate Studies",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "043"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "School of Graduate Studies"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:047",
+      "campus": "utsg",
+      "code": "047",
+      "name": "Canadiana Gallery",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "047"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Canadiana Gallery"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:050",
+      "campus": "utsg",
+      "code": "050",
+      "name": "Falconer Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "050"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Falconer Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:053",
+      "campus": "utsg",
+      "code": "053",
+      "name": "Dr. Eric Jackman Institute of Child Study",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "053"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Dr. Eric Jackman Institute of Child Study"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:055",
+      "campus": "utsg",
+      "code": "055",
+      "name": "Highland Avenue-93",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "055"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Highland Avenue-93"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:056",
+      "campus": "utsg",
+      "code": "056",
+      "name": "Graduate Students' Union",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "056"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Graduate Students' Union"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:061",
+      "campus": "utsg",
+      "code": "061",
+      "name": "Borden Building South",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "061"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Borden Building South"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:061A",
+      "campus": "utsg",
+      "code": "061A",
+      "name": "Borden Building North",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "061A"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Borden Building North"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:064",
+      "campus": "utsg",
+      "code": "064",
+      "name": "Graduate House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "064"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Graduate House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:065",
+      "campus": "utsg",
+      "code": "065",
+      "name": "Dentistry Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "065"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Dentistry Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:066",
+      "campus": "utsg",
+      "code": "066",
+      "name": "Spadina Avenue-665",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "066"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Spadina Avenue-665"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:067",
+      "campus": "utsg",
+      "code": "067",
+      "name": "Huron Street-215",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "067"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Huron Street-215"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:075",
+      "campus": "utsg",
+      "code": "075",
+      "name": "Faculty Club",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "075"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Faculty Club"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:077",
+      "campus": "utsg",
+      "code": "077",
+      "name": "Sussex Court",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "077"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Sussex Court"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:082",
+      "campus": "utsg",
+      "code": "082",
+      "name": "Gage Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "082"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Gage Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:083",
+      "campus": "utsg",
+      "code": "083",
+      "name": "McCaul Street-254/256",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "083"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "McCaul Street-254/256"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:088",
+      "campus": "utsg",
+      "code": "088",
+      "name": "St. George Street-123",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "088"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "St. George Street-123"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:089",
+      "campus": "utsg",
+      "code": "089",
+      "name": "Munk School of Global Affairs & Public Policy at the Observatory",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "089"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Munk School of Global Affairs & Public Policy at the Observatory"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:090",
+      "campus": "utsg",
+      "code": "090",
+      "name": "College Street-88",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "090"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "College Street-88"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:091",
+      "campus": "utsg",
+      "code": "091",
+      "name": "Luella Massey Studio Theatre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "091"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Luella Massey Studio Theatre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:092",
+      "campus": "utsg",
+      "code": "092",
+      "name": "Communications House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "092"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Communications House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:093",
+      "campus": "utsg",
+      "code": "093",
+      "name": "Electrometallurgy Lab",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "093"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Electrometallurgy Lab"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:094",
+      "campus": "utsg",
+      "code": "094",
+      "name": "Back campus Fields",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "094"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Back campus Fields"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:097",
+      "campus": "utsg",
+      "code": "097",
+      "name": "Queen's Park Crescent East-39",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "097"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Queen's Park Crescent East-39"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:097A",
+      "campus": "utsg",
+      "code": "097A",
+      "name": "Queen's Park Crescent East-39A",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "097A"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Queen's Park Crescent East-39A"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:098B",
+      "campus": "utsg",
+      "code": "098B",
+      "name": "Wellesley Street West-90",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "098B"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Wellesley Street West-90"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:098C",
+      "campus": "utsg",
+      "code": "098C",
+      "name": "Wellesley Street West-90",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "098C"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Wellesley Street West-90"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:101",
+      "campus": "utsg",
+      "code": "101",
+      "name": "Morrison Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "101"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Morrison Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:102",
+      "campus": "utsg",
+      "code": "102",
+      "name": "Soldiers' Tower",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "102"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Soldiers' Tower"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:103",
+      "campus": "utsg",
+      "code": "103",
+      "name": "School of Continuing Studies",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "103"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "School of Continuing Studies"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:104",
+      "campus": "utsg",
+      "code": "104",
+      "name": "Max Gluskin House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "104"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Max Gluskin House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:105",
+      "campus": "utsg",
+      "code": "105",
+      "name": "Fields Institute for Research in Mathematical Sciences",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "105"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Fields Institute for Research in Mathematical Sciences"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:106",
+      "campus": "utsg",
+      "code": "106",
+      "name": "St. George Street-162",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "106"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "St. George Street-162"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:109",
+      "campus": "utsg",
+      "code": "109",
+      "name": "College Street-179",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "109"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "College Street-179"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:110",
+      "campus": "utsg",
+      "code": "110",
+      "name": "St. George Street-121",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "110"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "St. George Street-121"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:112",
+      "campus": "utsg",
+      "code": "112",
+      "name": "College Street-185",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "112"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "College Street-185"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:114",
+      "campus": "utsg",
+      "code": "114",
+      "name": "College Street-187",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "114"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "College Street-187"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:118",
+      "campus": "utsg",
+      "code": "118",
+      "name": "Aura Lee Playing Field",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "118"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Aura Lee Playing Field"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:120",
+      "campus": "utsg",
+      "code": "120",
+      "name": "Louis B. Stewart Observatory",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "120"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Louis B. Stewart Observatory"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:122",
+      "campus": "utsg",
+      "code": "122",
+      "name": "North West Chiller Plant",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "122"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "North West Chiller Plant"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:125",
+      "campus": "utsg",
+      "code": "125",
+      "name": "Spadina Avenue-703",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "125"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Spadina Avenue-703"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:127",
+      "campus": "utsg",
+      "code": "127",
+      "name": "Enrolment Services",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "127"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Enrolment Services"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:128",
+      "campus": "utsg",
+      "code": "128",
+      "name": "Jackman Humanities Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "128"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Jackman Humanities Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:129",
+      "campus": "utsg",
+      "code": "129",
+      "name": "Early Learning Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "129"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Early Learning Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:131",
+      "campus": "utsg",
+      "code": "131",
+      "name": "New College III",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "131"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "New College III"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:132",
+      "campus": "utsg",
+      "code": "132",
+      "name": "Innis College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "132"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Innis College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:133",
+      "campus": "utsg",
+      "code": "133",
+      "name": "Innis College Student Residence",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "133"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Innis College Student Residence"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:134",
+      "campus": "utsg",
+      "code": "134",
+      "name": "Rotman School of Management",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "134"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Rotman School of Management"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:135",
+      "campus": "utsg",
+      "code": "135",
+      "name": "St. George Parking Garage",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "135"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "St. George Parking Garage"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:138",
+      "campus": "utsg",
+      "code": "138",
+      "name": "Huron Street-370",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "138"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Huron Street-370"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:143",
+      "campus": "utsg",
+      "code": "143",
+      "name": "Koffler Student Services Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "143"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Koffler Student Services Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:146",
+      "campus": "utsg",
+      "code": "146",
+      "name": "Sussex Avenue-40",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "146"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Sussex Avenue-40"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:147",
+      "campus": "utsg",
+      "code": "147",
+      "name": "College Street-171",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "147"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "College Street-171"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:151",
+      "campus": "utsg",
+      "code": "151",
+      "name": "Fasken Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "151"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Fasken Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:152",
+      "campus": "utsg",
+      "code": "152",
+      "name": "Rehabilitation Sciences Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "152"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Rehabilitation Sciences Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:155",
+      "campus": "utsg",
+      "code": "155",
+      "name": "Exam Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "155"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Exam Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:156",
+      "campus": "utsg",
+      "code": "156",
+      "name": "McCaul Street-263",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "156"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "McCaul Street-263"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:158",
+      "campus": "utsg",
+      "code": "158",
+      "name": "Chestnut Residence and Conference Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "158"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Chestnut Residence and Conference Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:160",
+      "campus": "utsg",
+      "code": "160",
+      "name": "Terrence Donnelly Centre for Cellular & Biomolecular Research",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "160"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Terrence Donnelly Centre for Cellular & Biomolecular Research"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:171",
+      "campus": "utsg",
+      "code": "171",
+      "name": "Spadina Avenue-455",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "171"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Spadina Avenue-455"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:172",
+      "campus": "utsg",
+      "code": "172",
+      "name": "Macdonald-Mowat House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "172"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Macdonald-Mowat House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:179",
+      "campus": "utsg",
+      "code": "179",
+      "name": "College Street-229",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "179"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "College Street-229"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:189",
+      "campus": "utsg",
+      "code": "189",
+      "name": "Spadina Avenue-720",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "189"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Spadina Avenue-720"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:191",
+      "campus": "utsg",
+      "code": "191",
+      "name": "McCaul Street-207",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "191"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "McCaul Street-207"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:193",
+      "campus": "utsg",
+      "code": "193",
+      "name": "Edward Street-123",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "193"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Edward Street-123"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:194",
+      "campus": "utsg",
+      "code": "194",
+      "name": "TWH - Krembil Discovery Tower",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "194"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "TWH - Krembil Discovery Tower"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:195",
+      "campus": "utsg",
+      "code": "195",
+      "name": "MaRS 2",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "195"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "MaRS 2"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:196",
+      "campus": "utsg",
+      "code": "196",
+      "name": "University Avenue-700",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "196"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "University Avenue-700"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:197",
+      "campus": "utsg",
+      "code": "197",
+      "name": "Bay Street-777",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "197"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Bay Street-777"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:433",
+      "campus": "utsg",
+      "code": "433",
+      "name": "Queen's Park Crescent East-43",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "433"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Queen's Park Crescent East-43"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:434",
+      "campus": "utsg",
+      "code": "434",
+      "name": "Toronto School of Theology",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "434"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Toronto School of Theology"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:478",
+      "campus": "utsg",
+      "code": "478",
+      "name": "Regis College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "478"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Regis College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:503",
+      "campus": "utsg",
+      "code": "503",
+      "name": "Birge-Carnegie Library",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "503"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Birge-Carnegie Library"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:504",
+      "campus": "utsg",
+      "code": "504",
+      "name": "Burwash Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "504"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Burwash Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:505",
+      "campus": "utsg",
+      "code": "505",
+      "name": "Burwash Residence (Lower Houses)",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "505"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Burwash Residence (Lower Houses)"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:505A",
+      "campus": "utsg",
+      "code": "505A",
+      "name": "Burwash Residence (Upper Houses)",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "505A"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Burwash Residence (Upper Houses)"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:506",
+      "campus": "utsg",
+      "code": "506",
+      "name": "Annesley Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "506"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Annesley Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:507",
+      "campus": "utsg",
+      "code": "507",
+      "name": "Goldring Student Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "507"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Goldring Student Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:508",
+      "campus": "utsg",
+      "code": "508",
+      "name": "Margaret Addison Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "508"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Margaret Addison Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:513",
+      "campus": "utsg",
+      "code": "513",
+      "name": "Stephenson House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "513"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Stephenson House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:514",
+      "campus": "utsg",
+      "code": "514",
+      "name": "E.J. Pratt Library",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "514"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "E.J. Pratt Library"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:516",
+      "campus": "utsg",
+      "code": "516",
+      "name": "Charles Street West-65",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "516"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Charles Street West-65"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:518",
+      "campus": "utsg",
+      "code": "518",
+      "name": "Rowell Jackman Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "518"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Rowell Jackman Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:528",
+      "campus": "utsg",
+      "code": "528",
+      "name": "Lillian Massey Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "528"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Lillian Massey Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:575",
+      "campus": "utsg",
+      "code": "575",
+      "name": "Knox College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "575"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Knox College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:575A",
+      "campus": "utsg",
+      "code": "575A",
+      "name": "Nona Macdonald Visitors Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "575A"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Nona Macdonald Visitors Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:603",
+      "campus": "utsg",
+      "code": "603",
+      "name": "George Ignatieff Theatre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "603"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "George Ignatieff Theatre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:608",
+      "campus": "utsg",
+      "code": "608",
+      "name": "St. Hilda's College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "608"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "St. Hilda's College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:675",
+      "campus": "utsg",
+      "code": "675",
+      "name": "Wycliffe College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "675"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Wycliffe College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:790",
+      "campus": "utsg",
+      "code": "790",
+      "name": "Charles Street West-30",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "790"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Charles Street West-30"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:791",
+      "campus": "utsg",
+      "code": "791",
+      "name": "Charles Street West-35",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "791"
+      ],
+      "mapUrls": [],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025"
+      ],
+      "sourceNames": [
+        "Charles Street West-35"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:036",
+      "campus": "utsg",
+      "code": "AB",
+      "name": "Astronomy & Astrophysics Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "AB"
+      ],
+      "facilityCodes": [
+        "036"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494489"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Astronomy & Astrophysics Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:smc:AH",
+      "campus": "utsg",
+      "code": "AH",
+      "name": "Muzzo Family Alumni Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "AH"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494578"
+      ],
+      "identityEvidence": [
+        "stmikes-current-buildings",
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Muzzo Family Alumni Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:079",
+      "campus": "utsg",
+      "code": "AP",
+      "name": "Anthropology Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "AP"
+      ],
+      "facilityCodes": [
+        "079"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494472"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Anthropology Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:080",
+      "campus": "utsg",
+      "code": "BA",
+      "name": "Bahen Centre for Information Technology",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "BA"
+      ],
+      "facilityCodes": [
+        "080"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494470"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Bahen Centre for Information Technology"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:057",
+      "campus": "utsg",
+      "code": "BF",
+      "name": "Bancroft Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "BF"
+      ],
+      "facilityCodes": [
+        "057"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494497"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Bancroft Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:068",
+      "campus": "utsg",
+      "code": "BN",
+      "name": "Clara Benson Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "BN"
+      ],
+      "facilityCodes": [
+        "068"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494513"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Clara Benson Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:smc:BR",
+      "campus": "utsg",
+      "code": "BR",
+      "name": "Brennan Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "BR"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494595"
+      ],
+      "identityEvidence": [
+        "stmikes-current-buildings",
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Brennan Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:509",
+      "campus": "utsg",
+      "code": "BT",
+      "name": "Isabel Bader Theatre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "BT"
+      ],
+      "facilityCodes": [
+        "509"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494605"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Isabel Bader Theatre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:010A",
+      "campus": "utsg",
+      "code": "CH",
+      "name": "Convocation Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "CH"
+      ],
+      "facilityCodes": [
+        "010A"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494494"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Convocation Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:smc:CR",
+      "campus": "utsg",
+      "code": "CR",
+      "name": "Carr Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "CR"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494580"
+      ],
+      "identityEvidence": [
+        "stmikes-current-buildings",
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Carr Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:054",
+      "campus": "utsg",
+      "code": "DA",
+      "name": "Daniels Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "DA"
+      ],
+      "facilityCodes": [
+        "054"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494471"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Daniels Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:051",
+      "campus": "utsg",
+      "code": "EJ",
+      "name": "Edward Johnson Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "EJ"
+      ],
+      "facilityCodes": [
+        "051"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494549"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Edward Johnson Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:502",
+      "campus": "utsg",
+      "code": "EM",
+      "name": "Emmanuel College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "EM"
+      ],
+      "facilityCodes": [
+        "502"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494601"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Emmanuel College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:192",
+      "campus": "utsg",
+      "code": "EP",
+      "name": "Stewart Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "EP"
+      ],
+      "facilityCodes": [
+        "192"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494462"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Stewart Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:062",
+      "campus": "utsg",
+      "code": "ES",
+      "name": "Earth Sciences Centre",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "ES"
+      ],
+      "facilityCodes": [
+        "062"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494499"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Earth Sciences Centre"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:014",
+      "campus": "utsg",
+      "code": "FE",
+      "name": "Bloor Street West-371",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "FE"
+      ],
+      "facilityCodes": [
+        "014"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494550"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Bloor Street West-371"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:070",
+      "campus": "utsg",
+      "code": "GB",
+      "name": "Galbraith Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "GB"
+      ],
+      "facilityCodes": [
+        "070"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494473"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Galbraith Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:024",
+      "campus": "utsg",
+      "code": "HA",
+      "name": "Haultain Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "HA"
+      ],
+      "facilityCodes": [
+        "024"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494475"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Haultain Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:154",
+      "campus": "utsg",
+      "code": "HS",
+      "name": "Health Sciences Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "HS"
+      ],
+      "facilityCodes": [
+        "154"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494459"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Health Sciences Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:145",
+      "campus": "utsg",
+      "code": "KP",
+      "name": "Koffler House",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "KP"
+      ],
+      "facilityCodes": [
+        "145"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494488"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Koffler House"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:602",
+      "campus": "utsg",
+      "code": "LA",
+      "name": "Gerald Larkin Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "LA"
+      ],
+      "facilityCodes": [
+        "602"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494575"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Gerald Larkin Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:073",
+      "campus": "utsg",
+      "code": "LM",
+      "name": "Lash Miller Chemical Laboratories",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "LM"
+      ],
+      "facilityCodes": [
+        "073"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494502"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Lash Miller Chemical Laboratories"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:007",
+      "campus": "utsg",
+      "code": "MB",
+      "name": "Lassonde Mining Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "MB"
+      ],
+      "facilityCodes": [
+        "007"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494466"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Lassonde Mining Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:022",
+      "campus": "utsg",
+      "code": "MC",
+      "name": "Mechanical Engineering Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "MC"
+      ],
+      "facilityCodes": [
+        "022"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494474"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Mechanical Engineering Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:078",
+      "campus": "utsg",
+      "code": "MP",
+      "name": "McLennan Physical Laboratories",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "MP"
+      ],
+      "facilityCodes": [
+        "078"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494490"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "McLennan Physical Laboratories"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:005",
+      "campus": "utsg",
+      "code": "MS",
+      "name": "Medical Sciences Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "MS"
+      ],
+      "facilityCodes": [
+        "005"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494491"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Medical Sciences Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:087",
+      "campus": "utsg",
+      "code": "MY",
+      "name": "Myhal Centre for Engineering Innovation and Entrepreneurship",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "MY"
+      ],
+      "facilityCodes": [
+        "087"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494495"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Myhal Centre for Engineering Innovation and Entrepreneurship"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:515",
+      "campus": "utsg",
+      "code": "NF",
+      "name": "Northrop Frye Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "NF"
+      ],
+      "facilityCodes": [
+        "515"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494600"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Northrop Frye Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:123",
+      "campus": "utsg",
+      "code": "OI",
+      "name": "Ontario Institute for Studies in Education",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "OI"
+      ],
+      "facilityCodes": [
+        "123"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494563"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Ontario Institute for Studies in Education"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:161",
+      "campus": "utsg",
+      "code": "PB",
+      "name": "Leslie L. Dan Pharmacy Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "PB"
+      ],
+      "facilityCodes": [
+        "161"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494476"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Leslie L. Dan Pharmacy Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:006",
+      "campus": "utsg",
+      "code": "RL",
+      "name": "John P. Robarts Library Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "RL"
+      ],
+      "facilityCodes": [
+        "006"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494531"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "John P. Robarts Library Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:020",
+      "campus": "utsg",
+      "code": "RS",
+      "name": "Rosebrugh Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "RS"
+      ],
+      "facilityCodes": [
+        "020"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494478"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Rosebrugh Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:072",
+      "campus": "utsg",
+      "code": "RW",
+      "name": "Ramsay Wright Laboratories",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "RW"
+      ],
+      "facilityCodes": [
+        "072"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494515"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Ramsay Wright Laboratories"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:009",
+      "campus": "utsg",
+      "code": "SF",
+      "name": "Sandford Fleming Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "SF"
+      ],
+      "facilityCodes": [
+        "009"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494481"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Sandford Fleming Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:111",
+      "campus": "utsg",
+      "code": "SK",
+      "name": "Factor-Inwentash Faculty of Social Work",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "SK"
+      ],
+      "facilityCodes": [
+        "111"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494564"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Factor-Inwentash Faculty of Social Work"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:033",
+      "campus": "utsg",
+      "code": "SS",
+      "name": "Sidney Smith Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "SS"
+      ],
+      "facilityCodes": [
+        "033"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494510"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Sidney Smith Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:028",
+      "campus": "utsg",
+      "code": "SU",
+      "name": "Student Commons",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "SU"
+      ],
+      "facilityCodes": [
+        "028"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494455"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Student Commons"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:600",
+      "campus": "utsg",
+      "code": "TC",
+      "name": "Trinity College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "TC"
+      ],
+      "facilityCodes": [
+        "600"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494574"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Trinity College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:smc:TF",
+      "campus": "utsg",
+      "code": "TF",
+      "name": "Teefy Hall",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "TF"
+      ],
+      "facilityCodes": [],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494581"
+      ],
+      "identityEvidence": [
+        "stmikes-current-map",
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Teefy Hall"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:001",
+      "campus": "utsg",
+      "code": "UC",
+      "name": "University College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "UC"
+      ],
+      "facilityCodes": [
+        "001"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494517"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "University College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:501",
+      "campus": "utsg",
+      "code": "VC",
+      "name": "Victoria College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "VC"
+      ],
+      "facilityCodes": [
+        "501"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494602"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Victoria College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:008",
+      "campus": "utsg",
+      "code": "WB",
+      "name": "Wallberg Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "WB"
+      ],
+      "facilityCodes": [
+        "008"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494460"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Wallberg Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:032",
+      "campus": "utsg",
+      "code": "WE",
+      "name": "Wetmore Hall-New College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "WE"
+      ],
+      "facilityCodes": [
+        "032"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494509"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Wetmore Hall-New College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:032A",
+      "campus": "utsg",
+      "code": "WI",
+      "name": "Wilson Hall-New College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "WI"
+      ],
+      "facilityCodes": [
+        "032A"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494503"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Wilson Hall-New College"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:130",
+      "campus": "utsg",
+      "code": "WO",
+      "name": "Woodsworth College Residence",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "WO"
+      ],
+      "facilityCodes": [
+        "130"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494558"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Woodsworth College Residence"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:068A",
+      "campus": "utsg",
+      "code": "WS",
+      "name": "Warren Stevens Building",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "WS"
+      ],
+      "facilityCodes": [
+        "068A"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494512"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Warren Stevens Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:038",
+      "campus": "utsg",
+      "code": "WW",
+      "name": "Woodsworth College",
+      "category": "facility",
+      "aliases": [],
+      "timetableCodes": [
+        "WW"
+      ],
+      "facilityCodes": [
+        "038"
+      ],
+      "mapUrls": [
+        "https://map.utoronto.ca/?id=1809#!m/494547"
+      ],
+      "identityEvidence": [
+        "uoft-facilities-bas-2025",
+        "uoft-ttb-live"
+      ],
+      "sourceNames": [
+        "Woodsworth College"
+      ],
+      "status": "active"
+    }
+  ]
+}

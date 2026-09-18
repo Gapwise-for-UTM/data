@@ -1,0 +1,287 @@
+{
+  "campus": "utsc",
+  "generatedAt": "2026-09-18T03:20:48.366Z",
+  "semantics": "Derived route endpoints only. They are not physical entrance records and must never be displayed as verified entrances.",
+  "approaches": [
+    {
+      "buildingId": "utsc:A",
+      "nodeId": "osm--79.1841851,43.7837712",
+      "longitude": -79.1841851,
+      "latitude": 43.7837712,
+      "distanceFromFootprintMeters": 2.4,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:AA",
+      "nodeId": "osm--79.1876980,43.7840200",
+      "longitude": -79.187698,
+      "latitude": 43.78402,
+      "distanceFromFootprintMeters": 3.3,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:AC",
+      "nodeId": "osm--79.1866516,43.7837239",
+      "longitude": -79.1866516,
+      "latitude": 43.7837239,
+      "distanceFromFootprintMeters": 0,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:AQ",
+      "nodeId": "osm--79.1941108,43.7898645",
+      "longitude": -79.1941108,
+      "latitude": 43.7898645,
+      "distanceFromFootprintMeters": 3.5,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:B",
+      "nodeId": "osm--79.1840139,43.7833713",
+      "longitude": -79.1840139,
+      "latitude": 43.7833713,
+      "distanceFromFootprintMeters": 2.7,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:BV",
+      "nodeId": "osm--79.1869087,43.7843977",
+      "longitude": -79.1869087,
+      "latitude": 43.7843977,
+      "distanceFromFootprintMeters": 0,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:C",
+      "nodeId": "osm--79.1833505,43.7831880",
+      "longitude": -79.1833505,
+      "latitude": 43.783188,
+      "distanceFromFootprintMeters": 2,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:CC",
+      "nodeId": "osm--79.1882378,43.7855544",
+      "longitude": -79.1882378,
+      "latitude": 43.7855544,
+      "distanceFromFootprintMeters": 0.6,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:CH",
+      "nodeId": "osm--79.1846698,43.7788957",
+      "longitude": -79.1846698,
+      "latitude": 43.7788957,
+      "distanceFromFootprintMeters": 5.6,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:D",
+      "nodeId": "osm--79.1842354,43.7829403",
+      "longitude": -79.1842354,
+      "latitude": 43.7829403,
+      "distanceFromFootprintMeters": 4.7,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:E",
+      "nodeId": "osm--79.1842660,43.7836051",
+      "longitude": -79.184266,
+      "latitude": 43.7836051,
+      "distanceFromFootprintMeters": 4.1,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:EV",
+      "nodeId": "osm--79.1903234,43.7872212",
+      "longitude": -79.1903234,
+      "latitude": 43.7872212,
+      "distanceFromFootprintMeters": 0,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:G",
+      "nodeId": "osm--79.1840176,43.7827171",
+      "longitude": -79.1840176,
+      "latitude": 43.7827171,
+      "distanceFromFootprintMeters": 2.4,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:HL",
+      "nodeId": "osm--79.1857308,43.7843062",
+      "longitude": -79.1857308,
+      "latitude": 43.7843062,
+      "distanceFromFootprintMeters": 4.8,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:HW",
+      "nodeId": "osm--79.1872865,43.7828063",
+      "longitude": -79.1872865,
+      "latitude": 43.7828063,
+      "distanceFromFootprintMeters": 0,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:I",
+      "nodeId": "osm--79.1842692,43.7827262",
+      "longitude": -79.1842692,
+      "latitude": 43.7827262,
+      "distanceFromFootprintMeters": 5.3,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:IA",
+      "nodeId": "osm--79.1916427,43.7884322",
+      "longitude": -79.1916427,
+      "latitude": 43.7884322,
+      "distanceFromFootprintMeters": 4.1,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:IH",
+      "nodeId": "osm--79.1909550,43.7863648",
+      "longitude": -79.190955,
+      "latitude": 43.7863648,
+      "distanceFromFootprintMeters": 2.1,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:J",
+      "nodeId": "osm--79.1894716,43.7856889",
+      "longitude": -79.1894716,
+      "latitude": 43.7856889,
+      "distanceFromFootprintMeters": 2.8,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:JF",
+      "nodeId": "osm--79.1850413,43.7830431",
+      "longitude": -79.1850413,
+      "latitude": 43.7830431,
+      "distanceFromFootprintMeters": 0,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:K",
+      "nodeId": "osm--79.1894210,43.7853981",
+      "longitude": -79.189421,
+      "latitude": 43.7853981,
+      "distanceFromFootprintMeters": 10.3,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:L",
+      "nodeId": "osm--79.1894210,43.7853981",
+      "longitude": -79.189421,
+      "latitude": 43.7853981,
+      "distanceFromFootprintMeters": 10.3,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:M",
+      "nodeId": "osm--79.1892407,43.7846255",
+      "longitude": -79.1892407,
+      "latitude": 43.7846255,
+      "distanceFromFootprintMeters": 7.7,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:ML",
+      "nodeId": "osm--79.1852357,43.7797421",
+      "longitude": -79.1852357,
+      "latitude": 43.7797421,
+      "distanceFromFootprintMeters": 0,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:N",
+      "nodeId": "osm--79.1863280,43.7872233",
+      "longitude": -79.186328,
+      "latitude": 43.7872233,
+      "distanceFromFootprintMeters": 15.2,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:SL",
+      "nodeId": "osm--79.1868038,43.7847652",
+      "longitude": -79.1868038,
+      "latitude": 43.7847652,
+      "distanceFromFootprintMeters": 0,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:SW",
+      "nodeId": "osm--79.1877372,43.7837725",
+      "longitude": -79.1877372,
+      "latitude": 43.7837725,
+      "distanceFromFootprintMeters": 0,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    },
+    {
+      "buildingId": "utsc:SY",
+      "nodeId": "osm--79.1892531,43.7840271",
+      "longitude": -79.1892531,
+      "latitude": 43.7840271,
+      "distanceFromFootprintMeters": 0,
+      "verificationStatus": "inferred",
+      "semantics": "derived-routing-approach",
+      "notes": "Nearest OpenStreetMap pedestrian-network vertex to the mapped building footprint. This is not a verified physical entrance."
+    }
+  ]
+}
