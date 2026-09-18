@@ -18,6 +18,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: tri-campus-source-refresh-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   refresh:
     if: ${{ github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[tri-campus generated]') }}
