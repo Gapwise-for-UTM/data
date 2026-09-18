@@ -235,23 +235,27 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
   for (const record of active) {
     const facilityCodes = record.facilityCode ? [String(record.facilityCode)] : [];
     const timetableCodes = record.timetableCode ? [String(record.timetableCode).toUpperCase()] : [];
+    const sourceKey = record.facilityCode ? `facility:${String(record.facilityCode)}` : record.sourceKey;
+    if (campus === "utsg" && !sourceKey) {
+      throw new Error(`utsg: source record ${record.name} is missing facilityCode/sourceKey`);
+    }
     const id =
       campus === "utsc"
         ? `${campus}:${String(record.code).toUpperCase()}`
-        : `${campus}:facility:${String(record.facilityCode)}`;
+        : `${campus}:${sourceKey}`;
     const canonical = {
       id,
       campus,
       code:
         timetableCodes[0] ??
-        (campus === "utsc" ? String(record.code).toUpperCase() : String(record.facilityCode)),
+        (campus === "utsc" ? String(record.code).toUpperCase() : String(record.facilityCode ?? "")),
       name: record.name,
       category: record.category ?? "facility",
       aliases: stableUnique(record.aliases ?? []),
       timetableCodes,
       facilityCodes,
       mapUrls: [],
-      identityEvidence: stableUnique([sourceInventory.sourceId]),
+      identityEvidence: stableUnique([sourceInventory.sourceId, record.sourceId]),
       sourceNames: [record.name],
       status: "active",
     };
@@ -259,28 +263,42 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
     for (const name of recordNames(canonical)) nameToId.set(normalize(name), id);
   }
 
-  const explicitAliasToId = new Map();
-  for (const [aliasName, target] of Object.entries(aliases.names ?? {})) {
+  const sourceTargetToId = new Map();
+  for (const record of active) {
     const id =
       campus === "utsc"
-        ? `${campus}:${String(target).toUpperCase()}`
-        : `${campus}:facility:${String(target)}`;
-    if (!byId.has(id)) throw new Error(`${campus}: reconciliation alias ${aliasName} targets unknown ${target}`);
-    explicitAliasToId.set(normalize(aliasName), id);
+        ? `${campus}:${String(record.code).toUpperCase()}`
+        : `${campus}:${record.facilityCode ? `facility:${String(record.facilityCode)}` : record.sourceKey}`;
+    if (campus === "utsc") sourceTargetToId.set(String(record.code).toUpperCase(), id);
+    if (record.facilityCode) sourceTargetToId.set(String(record.facilityCode), id);
+    if (record.sourceKey) sourceTargetToId.set(String(record.sourceKey), id);
+  }
+
+  const resolveTarget = (target, label) => {
+    const key = campus === "utsc" ? String(target).toUpperCase() : String(target);
+    const id = sourceTargetToId.get(key);
+    if (!id || !byId.has(id)) throw new Error(`${campus}: ${label} targets unknown ${target}`);
+    return id;
+  };
+
+  const explicitAliasToId = new Map();
+  for (const [aliasName, target] of Object.entries(aliases.names ?? {})) {
+    explicitAliasToId.set(normalize(aliasName), resolveTarget(target, `reconciliation alias ${aliasName}`));
   }
 
   const explicitCodeToId = new Map();
   for (const [code, target] of Object.entries(aliases.codes ?? {})) {
-    const id =
-      campus === "utsc"
-        ? `${campus}:${String(target).toUpperCase()}`
-        : `${campus}:facility:${String(target)}`;
-    if (!byId.has(id)) throw new Error(`${campus}: timetable-code alias ${code} targets unknown ${target}`);
-    explicitCodeToId.set(String(code).toUpperCase(), id);
+    explicitCodeToId.set(
+      String(code).toUpperCase(),
+      resolveTarget(target, `timetable-code alias ${code}`),
+    );
   }
 
   const unresolvedTtb = [];
   for (const ttb of ttbBuildings) {
+    if (Object.prototype.hasOwnProperty.call(aliases.nonPhysicalCodes ?? {}, ttb.code.toUpperCase())) {
+      continue;
+    }
     const norm = normalize(ttb.name);
     let id =
       explicitCodeToId.get(ttb.code.toUpperCase()) ??
