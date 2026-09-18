@@ -287,7 +287,11 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
 
   const explicitAliasToId = new Map();
   for (const [aliasName, target] of Object.entries(aliases.names ?? {})) {
-    explicitAliasToId.set(normalize(aliasName), resolveTarget(target, `reconciliation alias ${aliasName}`));
+    const id = resolveTarget(target, `reconciliation alias ${aliasName}`);
+    explicitAliasToId.set(normalize(aliasName), id);
+    const canonical = byId.get(id);
+    canonical.aliases = stableUnique([...canonical.aliases, aliasName]);
+    nameToId.set(normalize(aliasName), id);
   }
 
   const explicitCodeToId = new Map();
@@ -405,6 +409,58 @@ function wayPolygon(element) {
   return { type: "Polygon", coordinates: [points] };
 }
 
+function sameCoordinate(a, b) {
+  return Boolean(a && b && a[0] === b[0] && a[1] === b[1]);
+}
+
+function stitchOuterSegments(segments) {
+  const remaining = segments
+    .filter((segment) => segment.length >= 2)
+    .map((segment) => segment.map((point) => [...point]));
+  const rings = [];
+  while (remaining.length) {
+    let ring = remaining.shift();
+    let changed = true;
+    while (changed && !sameCoordinate(ring[0], ring.at(-1))) {
+      changed = false;
+      for (let index = 0; index < remaining.length; index += 1) {
+        const segment = remaining[index];
+        const ringStart = ring[0];
+        const ringEnd = ring.at(-1);
+        const segStart = segment[0];
+        const segEnd = segment.at(-1);
+        if (sameCoordinate(ringEnd, segStart)) {
+          ring = [...ring, ...segment.slice(1)];
+        } else if (sameCoordinate(ringEnd, segEnd)) {
+          ring = [...ring, ...segment.slice(0, -1).reverse()];
+        } else if (sameCoordinate(ringStart, segEnd)) {
+          ring = [...segment.slice(0, -1), ...ring];
+        } else if (sameCoordinate(ringStart, segStart)) {
+          ring = [...segment.slice(1).reverse(), ...ring];
+        } else {
+          continue;
+        }
+        remaining.splice(index, 1);
+        changed = true;
+        break;
+      }
+    }
+    if (ring.length >= 4 && sameCoordinate(ring[0], ring.at(-1))) rings.push(ring);
+  }
+  return rings;
+}
+
+function relationPolygon(element) {
+  if (element.type !== "relation") return null;
+  const outerSegments = (element.members ?? [])
+    .filter((member) => member.type === "way" && member.role === "outer")
+    .map((member) => (member.geometry ?? []).map((point) => [point.lon, point.lat]));
+  const rings = stitchOuterSegments(outerSegments);
+  if (!rings.length) return null;
+  if (rings.length === 1) return { type: "Polygon", coordinates: [rings[0]] };
+  return { type: "MultiPolygon", coordinates: rings.map((ring) => [ring]) };
+}
+
 function osmIdentityTokens(element) {
   const tags = element.tags ?? {};
   return stableUnique([tags.name, tags.official_name, tags.alt_name, tags.short_name, tags.ref]).map(normalize);
@@ -495,7 +551,7 @@ function pointInGeometry(point, geometry) {
 }
 
 function geometryForMatchedOsm(element, cityFeatures) {
-  const osmGeometry = wayPolygon(element);
+  const osmGeometry = wayPolygon(element) ?? relationPolygon(element);
   if (osmGeometry) {
     return {
       geometry: osmGeometry,
