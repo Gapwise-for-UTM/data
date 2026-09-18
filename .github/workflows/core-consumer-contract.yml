@@ -28,7 +28,7 @@ jobs:
       - name: Check out current Gapwise core
         uses: actions/checkout@v4
         with:
-          repository: andrewmuratov/gapwise
+          repository: Gapwise-for-UTM/gapwise
           ref: main
           path: gapwise
 
