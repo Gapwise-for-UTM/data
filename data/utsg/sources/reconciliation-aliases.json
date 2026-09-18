@@ -229,11 +229,29 @@
       "sourceId": "aco-uoft-st-george-162-history",
       "sourceUrl": "https://www.acotoronto.ca/buildingsources/LbTLFqfAGF.pdf"
     },
+    "109": {
+      "name": "Second Cup x Chocolato",
+      "kind": "functional",
+      "sourceId": "uoft-food-services-current-locations",
+      "sourceUrl": "https://foodservices.utoronto.ca/where-to-eat/"
+    },
     "110": {
       "name": "Centre for Industrial Relations and Human Resources",
       "kind": "functional",
       "sourceId": "uoft-cirhr-building-history",
       "sourceUrl": "https://www.cirhr.utoronto.ca/CIRHR-buildings-through-the-ages"
+    },
+    "112": {
+      "name": "Dear Saigon",
+      "kind": "functional",
+      "sourceId": "uoft-food-services-current-locations",
+      "sourceUrl": "https://foodservices.utoronto.ca/where-to-eat/"
+    },
+    "114": {
+      "name": "Fat Bastard Burrito",
+      "kind": "functional",
+      "sourceId": "uoft-food-services-current-locations",
+      "sourceUrl": "https://foodservices.utoronto.ca/where-to-eat/"
     },
     "125": {
       "name": "R. Ramsay Wright House",
@@ -253,6 +271,18 @@
       "sourceId": "uoft-kpe-40-sussex",
       "sourceUrl": "https://www.dlsph.utoronto.ca/faculty-profile/atkinson-michael/"
     },
+    "147": {
+      "name": "The Copper Boot",
+      "kind": "functional",
+      "sourceId": "uoft-mie-orientation-2026",
+      "sourceUrl": "https://www.mie.utoronto.ca/events/mie-meng-program-orientation-social-2026/"
+    },
+    "156": {
+      "name": "Old Administrative Building",
+      "kind": "proper",
+      "sourceId": "uoft-temerty-faculty-buildings",
+      "sourceUrl": "https://temertymedicine.utoronto.ca/faculty-buildings"
+    },
     "171": {
       "name": "Faculty of Information",
       "kind": "functional",
@@ -265,17 +295,41 @@
       "sourceId": "toronto-heritage-229-college",
       "sourceUrl": "https://www.toronto.ca/legdocs/mmis/2018/pb/bgrd/backgroundfile-113148.pdf"
     },
+    "189": {
+      "name": "Master of Mathematical Finance",
+      "kind": "functional",
+      "sourceId": "uoft-career-learning-network-contact",
+      "sourceUrl": "https://clnx.utoronto.ca/register/contactusemployer.htm"
+    },
     "191": {
       "name": "Richard Purdom House",
       "kind": "historic",
       "sourceId": "toronto-heritage-richard-purdom-house",
       "sourceUrl": "https://www.toronto.ca/legdocs/bylaws/2003/law0388.pdf"
     },
+    "193": {
+      "name": "Continuing Dental Education",
+      "kind": "functional",
+      "sourceId": "uoft-dentistry-staff-directory",
+      "sourceUrl": "https://www.dentistry.utoronto.ca/people/staff?page=1"
+    },
     "195": {
       "name": "MaRS West Tower",
       "kind": "proper",
       "sourceId": "uoft-engineering-neighbourhood-2026",
       "sourceUrl": "https://www.engineering.utoronto.ca/about/annual-reports/by-the-numbers-2026/chapter-7-financial-physical-resources-2026/"
+    },
+    "196": {
+      "name": "Ontario Power Building",
+      "kind": "proper",
+      "sourceId": "uoft-statistical-sciences-contact",
+      "sourceUrl": "https://www.statistics.utoronto.ca/contact-information"
+    },
+    "197": {
+      "name": "Faculty of Dentistry Satellite Clinic",
+      "kind": "functional",
+      "sourceId": "uoft-dentistry-building-renewal",
+      "sourceUrl": "https://www.dentistry.utoronto.ca/defygravitycampaign/buildingrenewal"
     },
     "433": {
       "name": "Jesuit Provincial Offices",
@@ -348,6 +402,36 @@
       "kind": "functional",
       "sourceId": "uoft-music-facility-info",
       "sourceUrl": "https://music.utoronto.ca/about/what-we-offer/facility-venue-information"
+    },
+    "017": {
+      "name": "School of Cities",
+      "kind": "functional",
+      "sourceId": "uoft-90-queens-park-2025",
+      "sourceUrl": "https://www.utoronto.ca/news/reimagined-90-queen-s-park-project-foster-collaboration-city-building-and-civic-engagement"
+    },
+    "027": {
+      "name": "Physical Geography Building",
+      "kind": "proper",
+      "sourceId": "uoft-fs-central-steam-plant",
+      "sourceUrl": "https://www.fs.utoronto.ca/services/hvac-mechanical-utilities/central-steam-plant/"
+    },
+    "066": {
+      "name": "Daniels Studio",
+      "kind": "functional",
+      "sourceId": "uoft-fs-central-ventilation",
+      "sourceUrl": "https://www.fs.utoronto.ca/services/hvac-mechanical-utilities/covid-hvac-strategy/central-ventilation/"
+    },
+    "090": {
+      "name": "Joint Centre for Bioethics",
+      "kind": "functional",
+      "sourceId": "uoft-fs-central-ventilation",
+      "sourceUrl": "https://www.fs.utoronto.ca/services/hvac-mechanical-utilities/covid-hvac-strategy/central-ventilation/"
+    },
+    "097": {
+      "name": "Centre for Medieval Studies",
+      "kind": "functional",
+      "sourceId": "uoft-history-graduate-course-offering-2025-26",
+      "sourceUrl": "https://www.history.utoronto.ca/graduate/curriculum-course-information/2025-26-graduate-course-offering"
     }
   }
 }
