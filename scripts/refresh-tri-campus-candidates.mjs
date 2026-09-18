@@ -1032,7 +1032,8 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
     `data/${campus}/generated/pedestrian-network.geojson`,
   );
 
-  const osm = await fetchOsmCampus(source.bounds);
+  const osm =
+    process.env.GAPWISE_SKIP_OVERPASS === "1" ? null : await fetchOsmCampus(source.bounds);
   const osmElements = osm?.elements ?? [];
   const osmMatches = buildOsmMatches(buildings, osmElements);
   const osmAddressMatches = buildOsmAddressMatches(buildings, osmElements);
