@@ -813,6 +813,100 @@ async function geometryForOfficialAddress(building, bounds, cityFeatures) {
   return null;
 }
 
+async function geometryForCanonicalName(building, bounds, cityFeatures) {
+  const names = recordNames(building);
+  const normalizedNames = new Set(names.map(normalize).filter(Boolean));
+  if (!normalizedNames.size) return null;
+
+  const params = new URLSearchParams({
+    format: "jsonv2",
+    q: `${building.name}, University of Toronto, Toronto, Ontario, Canada`,
+    limit: "8",
+    addressdetails: "1",
+    namedetails: "1",
+    polygon_geojson: "1",
+    bounded: "1",
+    viewbox: `${bounds.minLon},${bounds.maxLat},${bounds.maxLon},${bounds.minLat}`,
+  });
+  let results;
+  try {
+    results = await fetchJson(
+      `${NOMINATIM_SEARCH}?${params}`,
+      {
+        headers: {
+          "accept-language": "en",
+          "user-agent": "Gapwise-Data/tri-campus-refresh (+https://data.gapwise.ca)",
+        },
+      },
+      `Nominatim canonical name ${building.name}`,
+    );
+  } catch (error) {
+    console.warn(
+      `Could not geocode canonical name ${building.name}: ${error instanceof Error ? error.message : String(error)}`,
+    );
+    return null;
+  }
+
+  const candidates = (Array.isArray(results) ? results : [])
+    .map((result) => {
+      const point = [Number(result.lon), Number(result.lat)];
+      const candidateNames = stableUnique([
+        result.name,
+        result.namedetails?.name,
+        result.namedetails?.["name:en"],
+        result.display_name?.split(",")[0],
+      ])
+        .map(normalize)
+        .filter(Boolean);
+      return { result, point, candidateNames };
+    })
+    .filter(
+      ({ point, candidateNames }) =>
+        Number.isFinite(point[0]) &&
+        Number.isFinite(point[1]) &&
+        pointWithinBounds(point, bounds) &&
+        candidateNames.some((candidate) => normalizedNames.has(candidate)),
+    );
+
+  const uniqueObjects = new Map(
+    candidates.map((candidate) => [
+      `${candidate.result.osm_type ?? "osm"}:${candidate.result.osm_id ?? candidate.result.place_id}`,
+      candidate,
+    ]),
+  );
+  const uniqueCandidates = [...uniqueObjects.values()];
+  if (uniqueCandidates.length !== 1) return null;
+
+  const { result, point } = uniqueCandidates[0];
+  if (
+    result.geojson &&
+    (result.geojson.type === "Polygon" || result.geojson.type === "MultiPolygon")
+  ) {
+    return {
+      geometry: result.geojson,
+      source: "openstreetmap",
+      sourceRef: `${result.osm_type ?? "osm"}/${result.osm_id ?? ""}`,
+      method: "exact_canonical_name_nominatim_polygon",
+      nameEvidence: {
+        name: building.name,
+        source: "canonical-identity",
+      },
+    };
+  }
+
+  const city = cityGeometryForPoint(point, cityFeatures);
+  return city
+    ? {
+        ...city,
+        method: "exact_canonical_name_city_polygon",
+        nameEvidence: {
+          name: building.name,
+          source: "canonical-identity",
+        },
+      }
+    : null;
+}
+
 async function fetchOsmGeometryRef(ref) {
   const match = String(ref ?? "").match(/^(way|relation)\/(\d+)$/);
   if (!match) return null;
@@ -1182,6 +1276,12 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
   const approaches = [];
   const unresolvedGeometry = [];
   const hostedLocations = [];
+  const normalizedNameCounts = new Map();
+  for (const building of buildings) {
+    const key = normalize(building.name);
+    normalizedNameCounts.set(key, (normalizedNameCounts.get(key) ?? 0) + 1);
+  }
+
   for (const building of buildings) {
     if (building.hostBuildingCode) {
       hostedLocations.push({
@@ -1245,6 +1345,15 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
       await new Promise((resolveDelay) => setTimeout(resolveDelay, 1100));
     }
 
+    if (
+      !resolved &&
+      normalizedNameCounts.get(normalize(building.name)) === 1 &&
+      !/^(?:Back campus Fields|Aura Lee Playing Field)$/i.test(building.name)
+    ) {
+      resolved = await geometryForCanonicalName(building, source.bounds, cityFeatures);
+      await new Promise((resolveDelay) => setTimeout(resolveDelay, 1100));
+    }
+
     if (!resolved) {
       unresolvedGeometry.push({
         id: building.id,
@@ -1279,6 +1388,7 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
         addressEvidence: resolved.addressEvidence ?? null,
         refEvidence: resolved.refEvidence ?? null,
         pointEvidence: resolved.pointEvidence ?? null,
+        nameEvidence: resolved.nameEvidence ?? null,
         verificationStatus: "inferred",
       },
       geometry: resolved.geometry,
