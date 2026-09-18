@@ -7,6 +7,7 @@ on:
       - codex/tri-campus-data-2026-09-18
       - codex/complete-tri-campus-geometry-2026-09-18
       - codex/sync-robarts-common-generated
+      - codex/friendly-utsg-building-names-2026-09-18
     paths:
       - ".github/workflows/tri-campus-refresh.yml"
       - "scripts/refresh-tri-campus-candidates.mjs"
