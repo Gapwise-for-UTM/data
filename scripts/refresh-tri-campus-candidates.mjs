@@ -300,7 +300,11 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
 
   const unresolvedTtb = [];
   for (const ttb of ttbBuildings) {
-    if (Object.prototype.hasOwnProperty.call(aliases.nonPhysicalCodes ?? {}, ttb.code.toUpperCase())) {
+    const ttbCode = ttb.code.toUpperCase();
+    if (
+      Object.prototype.hasOwnProperty.call(aliases.nonPhysicalCodes ?? {}, ttbCode) ||
+      Object.prototype.hasOwnProperty.call(aliases.excludedTimetableCodes ?? {}, ttbCode)
+    ) {
       continue;
     }
     const norm = normalize(ttb.name);
