@@ -17,6 +17,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "relation/1989",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -270,6 +274,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "relation/14756874",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -595,6 +603,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23433608",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -740,6 +752,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/10334995",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -877,6 +893,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/9916090",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1014,6 +1034,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/15401964",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1167,6 +1191,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/10336055",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1304,6 +1332,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23433584",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1393,6 +1425,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/12874392",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1570,6 +1606,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/20174304",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1663,6 +1703,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/20173368",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1716,6 +1760,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23433288",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1793,6 +1841,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/22775068",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1862,6 +1914,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/240330043",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2059,6 +2115,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/141692092",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2159,6 +2219,86 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:029",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:029",
+        "buildingCode": "029",
+        "name": "Sir Daniel Wilson Residence",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "029"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/8027962",
+        "reconciliationMethod": "exact_canonical_name_nominatim_polygon",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": {
+          "name": "Sir Daniel Wilson Residence",
+          "source": "canonical-identity"
+        },
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3977303,
+              43.6629112
+            ],
+            [
+              -79.397572,
+              43.6625125
+            ],
+            [
+              -79.3974167,
+              43.6621214
+            ],
+            [
+              -79.3966392,
+              43.6622764
+            ],
+            [
+              -79.3966878,
+              43.6623913
+            ],
+            [
+              -79.3973079,
+              43.6622584
+            ],
+            [
+              -79.3974259,
+              43.6625431
+            ],
+            [
+              -79.3975523,
+              43.6628484
+            ],
+            [
+              -79.3974323,
+              43.6628751
+            ],
+            [
+              -79.397473,
+              43.6629666
+            ],
+            [
+              -79.3975459,
+              43.6629509
+            ],
+            [
+              -79.3977303,
+              43.6629112
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:034",
       "properties": {
         "campus": "utsg",
@@ -2172,6 +2312,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "relation/4323",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2236,6 +2380,195 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:041",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:041",
+        "buildingCode": "041",
+        "name": "Varsity Pavilion",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "041"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/204343133",
+        "reconciliationMethod": "exact_canonical_name_nominatim_polygon",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": {
+          "name": "Varsity Pavilion",
+          "source": "canonical-identity"
+        },
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3975667,
+              43.6662186
+            ],
+            [
+              -79.3975271,
+              43.6661255
+            ],
+            [
+              -79.3967811,
+              43.6662799
+            ],
+            [
+              -79.3967383,
+              43.6663149
+            ],
+            [
+              -79.3967312,
+              43.6662931
+            ],
+            [
+              -79.3961503,
+              43.6664135
+            ],
+            [
+              -79.3962049,
+              43.6665556
+            ],
+            [
+              -79.3964053,
+              43.6665111
+            ],
+            [
+              -79.3964063,
+              43.6665025
+            ],
+            [
+              -79.396444,
+              43.666496
+            ],
+            [
+              -79.3964946,
+              43.6665233
+            ],
+            [
+              -79.3965501,
+              43.6664771
+            ],
+            [
+              -79.3966027,
+              43.6665147
+            ],
+            [
+              -79.3968477,
+              43.6663149
+            ],
+            [
+              -79.3973479,
+              43.6662124
+            ],
+            [
+              -79.3973521,
+              43.6663007
+            ],
+            [
+              -79.3974307,
+              43.6663271
+            ],
+            [
+              -79.3974664,
+              43.6662789
+            ],
+            [
+              -79.3975443,
+              43.6662494
+            ],
+            [
+              -79.3975429,
+              43.6662185
+            ],
+            [
+              -79.3975667,
+              43.6662186
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:042",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:042",
+        "buildingCode": "042",
+        "name": "Goldring Centre for High Performance Sport",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "042"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/258167657",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "100 Devonshire Place, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3987167,
+              43.6672749
+            ],
+            [
+              -79.3986276,
+              43.6670573
+            ],
+            [
+              -79.398439,
+              43.6665963
+            ],
+            [
+              -79.3980534,
+              43.6666788
+            ],
+            [
+              -79.3980685,
+              43.6667157
+            ],
+            [
+              -79.3982419,
+              43.6671392
+            ],
+            [
+              -79.3983178,
+              43.6673245
+            ],
+            [
+              -79.3983312,
+              43.6673574
+            ],
+            [
+              -79.3984501,
+              43.6673319
+            ],
+            [
+              -79.3987167,
+              43.6672749
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:047",
       "properties": {
         "campus": "utsg",
@@ -2249,6 +2582,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23433971",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2382,6 +2719,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/12000657",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2450,6 +2791,195 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:053",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:053",
+        "buildingCode": "053",
+        "name": "Dr. Eric Jackman Institute of Child Study",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "053"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/246241749",
+        "reconciliationMethod": "exact_canonical_name_nominatim_polygon",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": {
+          "name": "Dr. Eric Jackman Institute of Child Study",
+          "source": "canonical-identity"
+        },
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4065794,
+              43.6697225
+            ],
+            [
+              -79.4064496,
+              43.6695864
+            ],
+            [
+              -79.4063775,
+              43.6694896
+            ],
+            [
+              -79.4063567,
+              43.6694336
+            ],
+            [
+              -79.4063207,
+              43.6692799
+            ],
+            [
+              -79.4056999,
+              43.6694079
+            ],
+            [
+              -79.4057362,
+              43.6695054
+            ],
+            [
+              -79.4051486,
+              43.6696203
+            ],
+            [
+              -79.4052489,
+              43.6698763
+            ],
+            [
+              -79.4058242,
+              43.6697445
+            ],
+            [
+              -79.4058819,
+              43.6698801
+            ],
+            [
+              -79.4064864,
+              43.6697455
+            ],
+            [
+              -79.4065794,
+              43.6697225
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:055",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:055",
+        "buildingCode": "055",
+        "name": "Highland Avenue-93",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "055"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/179698961",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "93 Highland Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3755631,
+              43.6812565
+            ],
+            [
+              -79.3753988,
+              43.6812031
+            ],
+            [
+              -79.3754431,
+              43.6811403
+            ],
+            [
+              -79.3754376,
+              43.681115
+            ],
+            [
+              -79.3753471,
+              43.6810789
+            ],
+            [
+              -79.3753176,
+              43.6810909
+            ],
+            [
+              -79.3753028,
+              43.6811123
+            ],
+            [
+              -79.3752659,
+              43.6811003
+            ],
+            [
+              -79.3752345,
+              43.6811096
+            ],
+            [
+              -79.3751625,
+              43.6812244
+            ],
+            [
+              -79.3752696,
+              43.6812642
+            ],
+            [
+              -79.375265,
+              43.6812722
+            ],
+            [
+              -79.3753453,
+              43.681301
+            ],
+            [
+              -79.3753483,
+              43.6812936
+            ],
+            [
+              -79.3754007,
+              43.6813152
+            ],
+            [
+              -79.3753933,
+              43.6813232
+            ],
+            [
+              -79.3754911,
+              43.6813579
+            ],
+            [
+              -79.3755631,
+              43.6812565
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:056",
       "properties": {
         "campus": "utsg",
@@ -2463,6 +2993,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/34116297",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2516,6 +3050,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "relation/73341",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2576,6 +3114,79 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:067",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:067",
+        "buildingCode": "067",
+        "name": "Huron Street-215",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "067"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/12872635",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "215 Huron Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3984237,
+              43.6592467
+            ],
+            [
+              -79.398379,
+              43.6591342
+            ],
+            [
+              -79.3983479,
+              43.659056
+            ],
+            [
+              -79.3983372,
+              43.6590582
+            ],
+            [
+              -79.3982999,
+              43.6589642
+            ],
+            [
+              -79.3982249,
+              43.6589798
+            ],
+            [
+              -79.3982626,
+              43.6590746
+            ],
+            [
+              -79.3979102,
+              43.659148
+            ],
+            [
+              -79.3979858,
+              43.6593379
+            ],
+            [
+              -79.3984237,
+              43.6592467
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:075",
       "properties": {
         "campus": "utsg",
@@ -2589,6 +3200,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/20319809",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2650,6 +3265,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23434099",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2707,6 +3326,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23433986",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2739,6 +3362,156 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:083",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:083",
+        "buildingCode": "083",
+        "name": "McCaul Street-254/256",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "083"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/23436871",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "256 McCaul Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3938545,
+              43.6585836
+            ],
+            [
+              -79.3937996,
+              43.6584548
+            ],
+            [
+              -79.3934774,
+              43.6585268
+            ],
+            [
+              -79.3934564,
+              43.6584776
+            ],
+            [
+              -79.393323,
+              43.6585073
+            ],
+            [
+              -79.3933344,
+              43.658534
+            ],
+            [
+              -79.3934067,
+              43.6587035
+            ],
+            [
+              -79.3935526,
+              43.6586709
+            ],
+            [
+              -79.3938304,
+              43.6586089
+            ],
+            [
+              -79.3938226,
+              43.6585908
+            ],
+            [
+              -79.3938545,
+              43.6585836
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:088",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:088",
+        "buildingCode": "088",
+        "name": "St. George Street-123",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "088"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/22236557",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "123 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3993577,
+              43.6669486
+            ],
+            [
+              -79.3993548,
+              43.6669416
+            ],
+            [
+              -79.3993478,
+              43.6669245
+            ],
+            [
+              -79.3993439,
+              43.666915
+            ],
+            [
+              -79.3993408,
+              43.6669074
+            ],
+            [
+              -79.3993019,
+              43.6668119
+            ],
+            [
+              -79.3990928,
+              43.6668566
+            ],
+            [
+              -79.3990958,
+              43.6668638
+            ],
+            [
+              -79.3991486,
+              43.6669932
+            ],
+            [
+              -79.3993577,
+              43.6669486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:091",
       "properties": {
         "campus": "utsg",
@@ -2752,6 +3525,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23434318",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2816,6 +3593,369 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:097A",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:097A",
+        "buildingCode": "097A",
+        "name": "Queen's Park Crescent East-39A",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "097A"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/23435826",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "39A Queen's Park Crescent East, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3898347,
+              43.6643675
+            ],
+            [
+              -79.3897922,
+              43.6642614
+            ],
+            [
+              -79.3897046,
+              43.6642798
+            ],
+            [
+              -79.3897471,
+              43.6643858
+            ],
+            [
+              -79.3898347,
+              43.6643675
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:098B",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:098B",
+        "buildingCode": "098B",
+        "name": "Wellesley Street West-90",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "098B"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "relation/2582658",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "90 Wellesley Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3899885,
+              43.664092
+            ],
+            [
+              -79.3899439,
+              43.6639818
+            ],
+            [
+              -79.3898778,
+              43.663996
+            ],
+            [
+              -79.389859,
+              43.6639493
+            ],
+            [
+              -79.3898486,
+              43.6639236
+            ],
+            [
+              -79.3895007,
+              43.6639969
+            ],
+            [
+              -79.3895052,
+              43.6640081
+            ],
+            [
+              -79.3894684,
+              43.6640158
+            ],
+            [
+              -79.3894229,
+              43.6640254
+            ],
+            [
+              -79.3894394,
+              43.6640666
+            ],
+            [
+              -79.3895217,
+              43.6640493
+            ],
+            [
+              -79.3895303,
+              43.6640706
+            ],
+            [
+              -79.3892504,
+              43.6641296
+            ],
+            [
+              -79.3892966,
+              43.6642444
+            ],
+            [
+              -79.3894172,
+              43.6642176
+            ],
+            [
+              -79.3894313,
+              43.6642496
+            ],
+            [
+              -79.3893094,
+              43.6642761
+            ],
+            [
+              -79.389405,
+              43.6645133
+            ],
+            [
+              -79.3897405,
+              43.6644426
+            ],
+            [
+              -79.3896998,
+              43.6643409
+            ],
+            [
+              -79.3896802,
+              43.6642918
+            ],
+            [
+              -79.3896319,
+              43.664171
+            ],
+            [
+              -79.3899762,
+              43.6640947
+            ],
+            [
+              -79.3899885,
+              43.664092
+            ]
+          ],
+          [
+            [
+              -79.3896363,
+              43.6643007
+            ],
+            [
+              -79.3894906,
+              43.664331
+            ],
+            [
+              -79.3894555,
+              43.6642444
+            ],
+            [
+              -79.3894424,
+              43.6642122
+            ],
+            [
+              -79.3895881,
+              43.6641794
+            ],
+            [
+              -79.3896363,
+              43.6643007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:098C",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:098C",
+        "buildingCode": "098C",
+        "name": "Wellesley Street West-90",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "098C"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "relation/2582658",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "90 Wellesley Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3899885,
+              43.664092
+            ],
+            [
+              -79.3899439,
+              43.6639818
+            ],
+            [
+              -79.3898778,
+              43.663996
+            ],
+            [
+              -79.389859,
+              43.6639493
+            ],
+            [
+              -79.3898486,
+              43.6639236
+            ],
+            [
+              -79.3895007,
+              43.6639969
+            ],
+            [
+              -79.3895052,
+              43.6640081
+            ],
+            [
+              -79.3894684,
+              43.6640158
+            ],
+            [
+              -79.3894229,
+              43.6640254
+            ],
+            [
+              -79.3894394,
+              43.6640666
+            ],
+            [
+              -79.3895217,
+              43.6640493
+            ],
+            [
+              -79.3895303,
+              43.6640706
+            ],
+            [
+              -79.3892504,
+              43.6641296
+            ],
+            [
+              -79.3892966,
+              43.6642444
+            ],
+            [
+              -79.3894172,
+              43.6642176
+            ],
+            [
+              -79.3894313,
+              43.6642496
+            ],
+            [
+              -79.3893094,
+              43.6642761
+            ],
+            [
+              -79.389405,
+              43.6645133
+            ],
+            [
+              -79.3897405,
+              43.6644426
+            ],
+            [
+              -79.3896998,
+              43.6643409
+            ],
+            [
+              -79.3896802,
+              43.6642918
+            ],
+            [
+              -79.3896319,
+              43.664171
+            ],
+            [
+              -79.3899762,
+              43.6640947
+            ],
+            [
+              -79.3899885,
+              43.664092
+            ]
+          ],
+          [
+            [
+              -79.3896363,
+              43.6643007
+            ],
+            [
+              -79.3894906,
+              43.664331
+            ],
+            [
+              -79.3894555,
+              43.6642444
+            ],
+            [
+              -79.3894424,
+              43.6642122
+            ],
+            [
+              -79.3895881,
+              43.6641794
+            ],
+            [
+              -79.3896363,
+              43.6643007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:101",
       "properties": {
         "campus": "utsg",
@@ -2829,6 +3969,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/12874330",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2982,6 +4126,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/28822997",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3151,6 +4299,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/22372212",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3196,6 +4348,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/22372209",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3316,6 +4472,249 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:105",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:105",
+        "buildingCode": "105",
+        "name": "Fields Institute for Research in Mathematical Sciences",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "105"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/23432948",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "222 College Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3977639,
+              43.6589036
+            ],
+            [
+              -79.3976665,
+              43.6586539
+            ],
+            [
+              -79.3973488,
+              43.6587188
+            ],
+            [
+              -79.3974474,
+              43.6589715
+            ],
+            [
+              -79.3975364,
+              43.6589533
+            ],
+            [
+              -79.3975164,
+              43.6589022
+            ],
+            [
+              -79.3976588,
+              43.6588731
+            ],
+            [
+              -79.3976776,
+              43.6589212
+            ],
+            [
+              -79.3977639,
+              43.6589036
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:106",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:106",
+        "buildingCode": "106",
+        "name": "St. George Street-162",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "106"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/22372214",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "162 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4002204,
+              43.6670622
+            ],
+            [
+              -79.4001901,
+              43.6669804
+            ],
+            [
+              -79.4001107,
+              43.6669958
+            ],
+            [
+              -79.400115,
+              43.6670073
+            ],
+            [
+              -79.4000748,
+              43.6670151
+            ],
+            [
+              -79.4000706,
+              43.6670036
+            ],
+            [
+              -79.3998977,
+              43.6670371
+            ],
+            [
+              -79.399905,
+              43.6670571
+            ],
+            [
+              -79.3998543,
+              43.6670669
+            ],
+            [
+              -79.3998698,
+              43.6671105
+            ],
+            [
+              -79.3998757,
+              43.6671246
+            ],
+            [
+              -79.3998818,
+              43.6671393
+            ],
+            [
+              -79.399898,
+              43.6671848
+            ],
+            [
+              -79.3999632,
+              43.6671722
+            ],
+            [
+              -79.3999641,
+              43.6671747
+            ],
+            [
+              -79.4001323,
+              43.6671421
+            ],
+            [
+              -79.4001106,
+              43.6670836
+            ],
+            [
+              -79.4002204,
+              43.6670622
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:110",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:110",
+        "buildingCode": "110",
+        "name": "St. George Street-121",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "110"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/22372217",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "121 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3992672,
+              43.6667398
+            ],
+            [
+              -79.3992021,
+              43.6665665
+            ],
+            [
+              -79.3989603,
+              43.6666197
+            ],
+            [
+              -79.3989868,
+              43.6666852
+            ],
+            [
+              -79.3989136,
+              43.6667011
+            ],
+            [
+              -79.3989576,
+              43.666807
+            ],
+            [
+              -79.3990271,
+              43.6667919
+            ],
+            [
+              -79.3991473,
+              43.6667687
+            ],
+            [
+              -79.3992672,
+              43.6667398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:120",
       "properties": {
         "campus": "utsg",
@@ -3329,6 +4728,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/8033844",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3414,6 +4817,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/22747247",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3446,6 +4853,67 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:125",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:125",
+        "buildingCode": "125",
+        "name": "Spadina Avenue-703",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "125"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/23434610",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "703 Spadina Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4028827,
+              43.6657366
+            ],
+            [
+              -79.4028491,
+              43.6656531
+            ],
+            [
+              -79.4026307,
+              43.665699
+            ],
+            [
+              -79.4026345,
+              43.6657085
+            ],
+            [
+              -79.4025673,
+              43.6657226
+            ],
+            [
+              -79.4025971,
+              43.6657967
+            ],
+            [
+              -79.4028827,
+              43.6657366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:127",
       "properties": {
         "campus": "utsg",
@@ -3459,6 +4927,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/122198261",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3504,6 +4976,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23201562",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3625,6 +5101,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/22372215",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3717,6 +5197,155 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:133",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:133",
+        "buildingCode": "133",
+        "name": "Innis College Student Residence",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "133"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/20898043",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "111 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3990449,
+              43.6661524
+            ],
+            [
+              -79.3990343,
+              43.6661251
+            ],
+            [
+              -79.3989978,
+              43.6660313
+            ],
+            [
+              -79.3989617,
+              43.6659383
+            ],
+            [
+              -79.3988871,
+              43.665746
+            ],
+            [
+              -79.3988513,
+              43.6656538
+            ],
+            [
+              -79.3988157,
+              43.6656611
+            ],
+            [
+              -79.3988047,
+              43.6656327
+            ],
+            [
+              -79.3987515,
+              43.6656435
+            ],
+            [
+              -79.3986615,
+              43.6656618
+            ],
+            [
+              -79.3986674,
+              43.6656771
+            ],
+            [
+              -79.3983559,
+              43.6657433
+            ],
+            [
+              -79.398361,
+              43.6657564
+            ],
+            [
+              -79.3983196,
+              43.6657647
+            ],
+            [
+              -79.3983284,
+              43.6657823
+            ],
+            [
+              -79.3983063,
+              43.6657874
+            ],
+            [
+              -79.3983618,
+              43.6659165
+            ],
+            [
+              -79.3985106,
+              43.6658863
+            ],
+            [
+              -79.3985009,
+              43.6658614
+            ],
+            [
+              -79.3987153,
+              43.6658179
+            ],
+            [
+              -79.398733,
+              43.6658635
+            ],
+            [
+              -79.398783,
+              43.6659921
+            ],
+            [
+              -79.3988071,
+              43.6660542
+            ],
+            [
+              -79.398632,
+              43.6660898
+            ],
+            [
+              -79.3986204,
+              43.6660601
+            ],
+            [
+              -79.3984406,
+              43.6660966
+            ],
+            [
+              -79.3985049,
+              43.6662622
+            ],
+            [
+              -79.3989647,
+              43.6661687
+            ],
+            [
+              -79.3990449,
+              43.6661524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:134",
       "properties": {
         "campus": "utsg",
@@ -3730,6 +5359,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/22201203",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3826,6 +5459,75 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:138",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:138",
+        "buildingCode": "138",
+        "name": "Huron Street-370",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "138"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/127479510",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "370 Huron Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4009051,
+              43.6645693
+            ],
+            [
+              -79.4008792,
+              43.6645037
+            ],
+            [
+              -79.4007653,
+              43.6645272
+            ],
+            [
+              -79.400769,
+              43.6645366
+            ],
+            [
+              -79.4006702,
+              43.6645569
+            ],
+            [
+              -79.4006977,
+              43.6646267
+            ],
+            [
+              -79.4008224,
+              43.664601
+            ],
+            [
+              -79.400817,
+              43.6645874
+            ],
+            [
+              -79.4009051,
+              43.6645693
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:143",
       "properties": {
         "campus": "utsg",
@@ -3839,6 +5541,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/8099717",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3931,6 +5637,91 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:146",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:146",
+        "buildingCode": "146",
+        "name": "Sussex Avenue-40",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "146"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/1433584639",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "40 Sussex Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4019491,
+              43.6651354
+            ],
+            [
+              -79.4018821,
+              43.6649671
+            ],
+            [
+              -79.4018613,
+              43.6649714
+            ],
+            [
+              -79.4018573,
+              43.6649593
+            ],
+            [
+              -79.4017989,
+              43.6649714
+            ],
+            [
+              -79.4018184,
+              43.6650238
+            ],
+            [
+              -79.4018016,
+              43.6650253
+            ],
+            [
+              -79.401819,
+              43.6650709
+            ],
+            [
+              -79.4018559,
+              43.6650622
+            ],
+            [
+              -79.401876,
+              43.6651126
+            ],
+            [
+              -79.4018854,
+              43.6651107
+            ],
+            [
+              -79.4019002,
+              43.6651451
+            ],
+            [
+              -79.4019491,
+              43.6651354
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:152",
       "properties": {
         "campus": "utsg",
@@ -3944,6 +5735,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/61759776",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3997,6 +5792,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/12873396",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4105,6 +5904,290 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:171",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:171",
+        "buildingCode": "171",
+        "name": "Spadina Avenue-455",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "171"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/15401968",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "455 Spadina Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3999695,
+              43.6583804
+            ],
+            [
+              -79.3998473,
+              43.6580881
+            ],
+            [
+              -79.3994705,
+              43.6581692
+            ],
+            [
+              -79.399535,
+              43.6583313
+            ],
+            [
+              -79.399681,
+              43.6582994
+            ],
+            [
+              -79.3997387,
+              43.6584295
+            ],
+            [
+              -79.3999695,
+              43.6583804
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:179",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:179",
+        "buildingCode": "179",
+        "name": "College Street-229",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "179"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/30758945",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "229 College Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3976376,
+              43.6582279
+            ],
+            [
+              -79.3975907,
+              43.658108
+            ],
+            [
+              -79.3975721,
+              43.6581118
+            ],
+            [
+              -79.3974746,
+              43.6578628
+            ],
+            [
+              -79.3973689,
+              43.6578845
+            ],
+            [
+              -79.3973498,
+              43.6578357
+            ],
+            [
+              -79.397311,
+              43.6578436
+            ],
+            [
+              -79.3973302,
+              43.6578925
+            ],
+            [
+              -79.3972342,
+              43.6579122
+            ],
+            [
+              -79.3973786,
+              43.6582809
+            ],
+            [
+              -79.3976376,
+              43.6582279
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:191",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:191",
+        "buildingCode": "191",
+        "name": "McCaul Street-207",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "191"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/62057585",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "207 McCaul Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.392495,
+              43.6572183
+            ],
+            [
+              -79.3924668,
+              43.6571499
+            ],
+            [
+              -79.3922871,
+              43.6571887
+            ],
+            [
+              -79.3923153,
+              43.6572571
+            ],
+            [
+              -79.392495,
+              43.6572183
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:433",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:433",
+        "buildingCode": "433",
+        "name": "Queen's Park Crescent East-43",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "433"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/23436149",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "43 Queen's Park Crescent East, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3906929,
+              43.6645948
+            ],
+            [
+              -79.3906567,
+              43.6644964
+            ],
+            [
+              -79.3906124,
+              43.6645049
+            ],
+            [
+              -79.3906082,
+              43.6644937
+            ],
+            [
+              -79.3904729,
+              43.6645198
+            ],
+            [
+              -79.3904765,
+              43.6645295
+            ],
+            [
+              -79.3904388,
+              43.6645367
+            ],
+            [
+              -79.3904574,
+              43.6645872
+            ],
+            [
+              -79.3904049,
+              43.6645973
+            ],
+            [
+              -79.3904243,
+              43.66465
+            ],
+            [
+              -79.3905211,
+              43.6646314
+            ],
+            [
+              -79.3905232,
+              43.6646371
+            ],
+            [
+              -79.3906478,
+              43.6646131
+            ],
+            [
+              -79.3906445,
+              43.6646041
+            ],
+            [
+              -79.3906929,
+              43.6645948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:434",
       "properties": {
         "campus": "utsg",
@@ -4118,6 +6201,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23436128",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4195,6 +6282,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/60303738",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4324,6 +6415,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/12873850",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4517,6 +6612,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23436623",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4650,6 +6749,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23436616",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4783,6 +6886,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/12873822",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4888,6 +6995,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/30430628",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4928,6 +7039,131 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:514",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:514",
+        "buildingCode": "514",
+        "name": "E.J. Pratt Library",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "514"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/8111900",
+        "reconciliationMethod": "exact_canonical_name_nominatim_polygon",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": {
+          "name": "E.J. Pratt Library",
+          "source": "canonical-identity"
+        },
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3915558,
+              43.6664422
+            ],
+            [
+              -79.3914225,
+              43.6661144
+            ],
+            [
+              -79.3910283,
+              43.6662011
+            ],
+            [
+              -79.391042,
+              43.666235
+            ],
+            [
+              -79.3911511,
+              43.6665035
+            ],
+            [
+              -79.3911603,
+              43.6665259
+            ],
+            [
+              -79.3913228,
+              43.6664896
+            ],
+            [
+              -79.3915558,
+              43.6664422
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:516",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:516",
+        "buildingCode": "516",
+        "name": "Charles Street West-65",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "516"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/30430627",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "65 Charles Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3899603,
+              43.6678775
+            ],
+            [
+              -79.3899296,
+              43.6678033
+            ],
+            [
+              -79.3899505,
+              43.6677988
+            ],
+            [
+              -79.3899258,
+              43.6677391
+            ],
+            [
+              -79.3898274,
+              43.6677604
+            ],
+            [
+              -79.3898828,
+              43.6678943
+            ],
+            [
+              -79.3899603,
+              43.6678775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:518",
       "properties": {
         "campus": "utsg",
@@ -4941,6 +7177,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23436633",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5030,6 +7270,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/20252184",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5223,6 +7467,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "relation/2032",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5516,6 +7764,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/27291427",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5597,6 +7849,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23433444",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5802,6 +8058,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "relation/47346",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6030,6 +8290,198 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:791",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:791",
+        "buildingCode": "791",
+        "name": "Charles Street West-35",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "791"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/27616526",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "35 Charles Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.387978,
+              43.6680953
+            ],
+            [
+              -79.3879743,
+              43.6680863
+            ],
+            [
+              -79.3879083,
+              43.6679227
+            ],
+            [
+              -79.3875971,
+              43.6679884
+            ],
+            [
+              -79.3875488,
+              43.6679986
+            ],
+            [
+              -79.3875197,
+              43.6679265
+            ],
+            [
+              -79.3873148,
+              43.6679687
+            ],
+            [
+              -79.3870667,
+              43.6680197
+            ],
+            [
+              -79.3870781,
+              43.6680479
+            ],
+            [
+              -79.3871238,
+              43.6681611
+            ],
+            [
+              -79.3871311,
+              43.6681791
+            ],
+            [
+              -79.3875131,
+              43.6681009
+            ],
+            [
+              -79.3875476,
+              43.6681862
+            ],
+            [
+              -79.387978,
+              43.6680953
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:036",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:036",
+        "buildingCode": "AB",
+        "name": "Astronomy & Astrophysics Building",
+        "timetableCodes": [
+          "AB"
+        ],
+        "facilityCodes": [
+          "036"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/14748487",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "50 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-astro-location",
+          "sourceUrl": "https://www.astro.utoronto.ca/contact/inquiries-location/"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3979181,
+              43.6606818
+            ],
+            [
+              -79.3978277,
+              43.660461
+            ],
+            [
+              -79.3976884,
+              43.6604908
+            ],
+            [
+              -79.3976727,
+              43.6604525
+            ],
+            [
+              -79.3976057,
+              43.6604669
+            ],
+            [
+              -79.3975975,
+              43.6604469
+            ],
+            [
+              -79.3975457,
+              43.660458
+            ],
+            [
+              -79.3975539,
+              43.660478
+            ],
+            [
+              -79.397222,
+              43.6605491
+            ],
+            [
+              -79.3973406,
+              43.6608388
+            ],
+            [
+              -79.3974461,
+              43.6608161
+            ],
+            [
+              -79.3974371,
+              43.6607942
+            ],
+            [
+              -79.3975418,
+              43.6607717
+            ],
+            [
+              -79.3974785,
+              43.6606172
+            ],
+            [
+              -79.3976867,
+              43.6605725
+            ],
+            [
+              -79.3977465,
+              43.6607186
+            ],
+            [
+              -79.3979181,
+              43.6606818
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:smc:AH",
       "properties": {
         "campus": "utsg",
@@ -6043,6 +8495,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/8932810",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6114,6 +8570,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/20343239",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6161,6 +8621,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/141691917",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6401,6 +8865,117 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:057",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:057",
+        "buildingCode": "BF",
+        "name": "Bancroft Building",
+        "timetableCodes": [
+          "BF"
+        ],
+        "facilityCodes": [
+          "057"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/20319805",
+        "reconciliationMethod": "explicit_source_backed_osm_ref",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.40018,
+              43.6607123
+            ],
+            [
+              -79.40008,
+              43.6607327
+            ],
+            [
+              -79.4000695,
+              43.6607023
+            ],
+            [
+              -79.3999808,
+              43.6607234
+            ],
+            [
+              -79.3999913,
+              43.6607522
+            ],
+            [
+              -79.3994842,
+              43.6608492
+            ],
+            [
+              -79.3994775,
+              43.6608625
+            ],
+            [
+              -79.3994996,
+              43.6609176
+            ],
+            [
+              -79.3996169,
+              43.6608943
+            ],
+            [
+              -79.3996579,
+              43.6609985
+            ],
+            [
+              -79.3995795,
+              43.6610146
+            ],
+            [
+              -79.3996029,
+              43.6610742
+            ],
+            [
+              -79.3996813,
+              43.6610581
+            ],
+            [
+              -79.3997036,
+              43.661115
+            ],
+            [
+              -79.4000043,
+              43.6610491
+            ],
+            [
+              -79.3999872,
+              43.6610083
+            ],
+            [
+              -79.4001232,
+              43.6609771
+            ],
+            [
+              -79.4002186,
+              43.6609552
+            ],
+            [
+              -79.4002702,
+              43.6609434
+            ],
+            [
+              -79.40018,
+              43.6607123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:068",
       "properties": {
         "campus": "utsg",
@@ -6416,6 +8991,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/9916087",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6469,6 +9048,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/15401954",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6592,6 +9175,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/12873892",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6703,6 +9290,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/330718925",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7008,6 +9599,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/8810864",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7111,6 +9706,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/8101762",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7330,6 +9929,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/12000624",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7497,6 +10100,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/204323317",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7672,6 +10279,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/70948818",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7823,6 +10434,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "relation/2152",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8071,6 +10686,225 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:014",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:014",
+        "buildingCode": "FE",
+        "name": "Bloor Street West-371",
+        "timetableCodes": [
+          "FE"
+        ],
+        "facilityCodes": [
+          "014"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/10334996",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "371 Bloor Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-oise-facilities",
+          "sourceUrl": "https://www.oise.utoronto.ca/about/cao/facilities"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4032529,
+              43.6666035
+            ],
+            [
+              -79.4032018,
+              43.6664782
+            ],
+            [
+              -79.4031924,
+              43.6664553
+            ],
+            [
+              -79.4031781,
+              43.66642
+            ],
+            [
+              -79.4030311,
+              43.6660598
+            ],
+            [
+              -79.4027742,
+              43.6661146
+            ],
+            [
+              -79.4029165,
+              43.6664638
+            ],
+            [
+              -79.4028715,
+              43.6664734
+            ],
+            [
+              -79.4028672,
+              43.6664629
+            ],
+            [
+              -79.4028123,
+              43.6664744
+            ],
+            [
+              -79.4028191,
+              43.6664913
+            ],
+            [
+              -79.4024183,
+              43.6665751
+            ],
+            [
+              -79.4023953,
+              43.6665094
+            ],
+            [
+              -79.4023645,
+              43.6664365
+            ],
+            [
+              -79.4020497,
+              43.6665004
+            ],
+            [
+              -79.4019394,
+              43.6662241
+            ],
+            [
+              -79.4019241,
+              43.666185
+            ],
+            [
+              -79.4017395,
+              43.6662237
+            ],
+            [
+              -79.4016158,
+              43.6662495
+            ],
+            [
+              -79.4016566,
+              43.6663487
+            ],
+            [
+              -79.4016947,
+              43.6664414
+            ],
+            [
+              -79.4017061,
+              43.6664706
+            ],
+            [
+              -79.401541,
+              43.6665027
+            ],
+            [
+              -79.4015602,
+              43.6665468
+            ],
+            [
+              -79.4015755,
+              43.6665838
+            ],
+            [
+              -79.4016676,
+              43.6668073
+            ],
+            [
+              -79.401647,
+              43.6668187
+            ],
+            [
+              -79.4016526,
+              43.6668352
+            ],
+            [
+              -79.4016586,
+              43.6668528
+            ],
+            [
+              -79.401685,
+              43.6668564
+            ],
+            [
+              -79.40173,
+              43.6669661
+            ],
+            [
+              -79.4020199,
+              43.6669039
+            ],
+            [
+              -79.4020053,
+              43.6668682
+            ],
+            [
+              -79.4022414,
+              43.6668175
+            ],
+            [
+              -79.4022448,
+              43.6668257
+            ],
+            [
+              -79.4022646,
+              43.6668331
+            ],
+            [
+              -79.402289,
+              43.6668281
+            ],
+            [
+              -79.4023865,
+              43.6668081
+            ],
+            [
+              -79.402409,
+              43.6668035
+            ],
+            [
+              -79.4024212,
+              43.6667887
+            ],
+            [
+              -79.4024176,
+              43.66678
+            ],
+            [
+              -79.4026537,
+              43.6667295
+            ],
+            [
+              -79.4026674,
+              43.666763
+            ],
+            [
+              -79.402957,
+              43.6667011
+            ],
+            [
+              -79.402944,
+              43.6666694
+            ],
+            [
+              -79.4032529,
+              43.6666035
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:070",
       "properties": {
         "campus": "utsg",
@@ -8086,6 +10920,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "relation/76177",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8161,6 +10999,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23433306",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8216,6 +11058,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23436801",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8287,6 +11133,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/20319814",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8414,6 +11264,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23113405",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8473,6 +11327,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/1466900017",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8624,6 +11482,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/12873543",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8795,6 +11657,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/354180331",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8962,6 +11828,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/1428103037",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9086,6 +11956,261 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:005",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:005",
+        "buildingCode": "MS",
+        "name": "Medical Sciences Building",
+        "timetableCodes": [
+          "MS"
+        ],
+        "facilityCodes": [
+          "005"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/23433615",
+        "reconciliationMethod": "explicit_source_backed_osm_ref",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3934302,
+              43.6610905
+            ],
+            [
+              -79.3933025,
+              43.6611177
+            ],
+            [
+              -79.3932555,
+              43.6610023
+            ],
+            [
+              -79.3932316,
+              43.6609435
+            ],
+            [
+              -79.3932009,
+              43.6608681
+            ],
+            [
+              -79.3931696,
+              43.6608748
+            ],
+            [
+              -79.3931533,
+              43.6608783
+            ],
+            [
+              -79.3928502,
+              43.6609429
+            ],
+            [
+              -79.3928313,
+              43.6608968
+            ],
+            [
+              -79.3928249,
+              43.6608807
+            ],
+            [
+              -79.3928201,
+              43.6608684
+            ],
+            [
+              -79.3928053,
+              43.6608324
+            ],
+            [
+              -79.392775,
+              43.6608389
+            ],
+            [
+              -79.3927809,
+              43.6608533
+            ],
+            [
+              -79.392298,
+              43.6609562
+            ],
+            [
+              -79.3922509,
+              43.6608405
+            ],
+            [
+              -79.3922234,
+              43.6607731
+            ],
+            [
+              -79.3921587,
+              43.6606142
+            ],
+            [
+              -79.3924987,
+              43.6605448
+            ],
+            [
+              -79.3925354,
+              43.6605339
+            ],
+            [
+              -79.3926428,
+              43.660511
+            ],
+            [
+              -79.3926548,
+              43.6605404
+            ],
+            [
+              -79.3927114,
+              43.6605283
+            ],
+            [
+              -79.3927325,
+              43.6605802
+            ],
+            [
+              -79.3928479,
+              43.6605556
+            ],
+            [
+              -79.3929362,
+              43.6605367
+            ],
+            [
+              -79.3931042,
+              43.6605009
+            ],
+            [
+              -79.3931673,
+              43.6604875
+            ],
+            [
+              -79.39317,
+              43.6604869
+            ],
+            [
+              -79.3932076,
+              43.6604789
+            ],
+            [
+              -79.39322,
+              43.6604763
+            ],
+            [
+              -79.3932391,
+              43.6605232
+            ],
+            [
+              -79.3932698,
+              43.6605167
+            ],
+            [
+              -79.3932914,
+              43.6605697
+            ],
+            [
+              -79.3936147,
+              43.6605006
+            ],
+            [
+              -79.3937446,
+              43.6604731
+            ],
+            [
+              -79.3938458,
+              43.6604518
+            ],
+            [
+              -79.3938585,
+              43.6604833
+            ],
+            [
+              -79.3943088,
+              43.6603882
+            ],
+            [
+              -79.3943346,
+              43.6604523
+            ],
+            [
+              -79.3943809,
+              43.6604425
+            ],
+            [
+              -79.3945781,
+              43.6609312
+            ],
+            [
+              -79.3945872,
+              43.6609539
+            ],
+            [
+              -79.3945717,
+              43.6609572
+            ],
+            [
+              -79.3945325,
+              43.6609654
+            ],
+            [
+              -79.3945508,
+              43.661011
+            ],
+            [
+              -79.3940082,
+              43.6611255
+            ],
+            [
+              -79.3940116,
+              43.6611338
+            ],
+            [
+              -79.3939292,
+              43.6611512
+            ],
+            [
+              -79.3938812,
+              43.6611613
+            ],
+            [
+              -79.3938657,
+              43.6611229
+            ],
+            [
+              -79.393784,
+              43.6611405
+            ],
+            [
+              -79.3935686,
+              43.6611868
+            ],
+            [
+              -79.3934777,
+              43.6612063
+            ],
+            [
+              -79.3934408,
+              43.6611166
+            ],
+            [
+              -79.3934302,
+              43.6610905
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:087",
       "properties": {
         "campus": "utsg",
@@ -9101,6 +12226,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/403302492",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9188,6 +12317,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/8117208",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9260,6 +12393,97 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:123",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:123",
+        "buildingCode": "OI",
+        "name": "Ontario Institute for Studies in Education",
+        "timetableCodes": [
+          "OI"
+        ],
+        "facilityCodes": [
+          "123"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/10725629",
+        "reconciliationMethod": "explicit_source_backed_osm_ref",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3985895,
+              43.6679088
+            ],
+            [
+              -79.3984285,
+              43.6679432
+            ],
+            [
+              -79.3983912,
+              43.6679512
+            ],
+            [
+              -79.3981996,
+              43.6679921
+            ],
+            [
+              -79.3983702,
+              43.6684311
+            ],
+            [
+              -79.3984307,
+              43.6685866
+            ],
+            [
+              -79.3984928,
+              43.6685712
+            ],
+            [
+              -79.3985784,
+              43.66855
+            ],
+            [
+              -79.398736,
+              43.6689304
+            ],
+            [
+              -79.3989136,
+              43.6688916
+            ],
+            [
+              -79.3990296,
+              43.6688663
+            ],
+            [
+              -79.399206,
+              43.6688278
+            ],
+            [
+              -79.3990364,
+              43.6684315
+            ],
+            [
+              -79.3988242,
+              43.6684792
+            ],
+            [
+              -79.3985895,
+              43.6679088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:161",
       "properties": {
         "campus": "utsg",
@@ -9275,6 +12499,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/12873582",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9330,6 +12558,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/7991747",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9677,6 +12909,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/354180330",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9768,6 +13004,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/9303310",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9923,6 +13163,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/22372218",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10006,6 +13250,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/7948423",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10186,6 +13434,85 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:028",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:028",
+        "buildingCode": "SU",
+        "name": "Student Commons",
+        "timetableCodes": [
+          "SU"
+        ],
+        "facilityCodes": [
+          "028"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/12872719",
+        "reconciliationMethod": "explicit_source_backed_osm_ref",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3982639,
+              43.6588061
+            ],
+            [
+              -79.3982169,
+              43.6586836
+            ],
+            [
+              -79.3981352,
+              43.6584707
+            ],
+            [
+              -79.3978744,
+              43.658521
+            ],
+            [
+              -79.3978638,
+              43.6584942
+            ],
+            [
+              -79.3977384,
+              43.6585184
+            ],
+            [
+              -79.3978005,
+              43.6586756
+            ],
+            [
+              -79.3980322,
+              43.658626
+            ],
+            [
+              -79.3980837,
+              43.6587564
+            ],
+            [
+              -79.3978348,
+              43.6588061
+            ],
+            [
+              -79.3978691,
+              43.6588868
+            ],
+            [
+              -79.3982639,
+              43.6588061
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:600",
       "properties": {
         "campus": "utsg",
@@ -10201,6 +13528,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "relation/2687",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10378,6 +13709,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/23434841",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10433,6 +13768,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/8032167",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10948,6 +14287,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/204323029",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11099,6 +14442,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/1464898602",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11330,6 +14677,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/7685383",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11541,6 +14892,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/10336058",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11732,6 +15087,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/10336057",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11811,6 +15170,10 @@
         "geometrySource": "openstreetmap",
         "geometrySourceRef": "way/8106022",
         "reconciliationMethod": "exact_identity_match",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11864,6 +15227,121 @@
             [
               -79.4014249,
               43.6623689
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:038",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:038",
+        "buildingCode": "WW",
+        "name": "Woodsworth College",
+        "timetableCodes": [
+          "WW"
+        ],
+        "facilityCodes": [
+          "038"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/27750952",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "119 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3991601,
+              43.666525
+            ],
+            [
+              -79.3990881,
+              43.6663489
+            ],
+            [
+              -79.3990959,
+              43.6663472
+            ],
+            [
+              -79.399054,
+              43.6662448
+            ],
+            [
+              -79.3984527,
+              43.6663734
+            ],
+            [
+              -79.3987412,
+              43.6670793
+            ],
+            [
+              -79.3991154,
+              43.6669993
+            ],
+            [
+              -79.3990721,
+              43.6668934
+            ],
+            [
+              -79.3990485,
+              43.6668985
+            ],
+            [
+              -79.3990263,
+              43.6669032
+            ],
+            [
+              -79.3988591,
+              43.666939
+            ],
+            [
+              -79.3987614,
+              43.6666999
+            ],
+            [
+              -79.3987489,
+              43.6666693
+            ],
+            [
+              -79.3987466,
+              43.6666638
+            ],
+            [
+              -79.3987442,
+              43.6666578
+            ],
+            [
+              -79.3987289,
+              43.6666204
+            ],
+            [
+              -79.398708,
+              43.6665693
+            ],
+            [
+              -79.3988775,
+              43.6665331
+            ],
+            [
+              -79.3988972,
+              43.6665813
+            ],
+            [
+              -79.3991601,
+              43.666525
             ]
           ]
         ]

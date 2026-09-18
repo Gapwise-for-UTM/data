@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - codex/tri-campus-data-2026-09-18
+      - codex/complete-tri-campus-geometry-2026-09-18
     paths:
       - ".github/workflows/tri-campus-refresh.yml"
       - "scripts/refresh-tri-campus-candidates.mjs"
@@ -17,22 +18,29 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: tri-campus-source-refresh-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   refresh:
     if: ${{ github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[tri-campus generated]') }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: codex/tri-campus-data-2026-09-18
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
 
-      - name: Refresh current UTSG and UTSC evidence
+      - name: Refresh UTSG and UTSC geometry from current cached timetable evidence
+        env:
+          GAPWISE_REUSE_TTB: "1"
+          GAPWISE_SKIP_OVERPASS: "1"
         run: node scripts/refresh-tri-campus-candidates.mjs
 
       - name: Validate generated tri-campus data
@@ -60,4 +68,4 @@ jobs:
             exit 0
           fi
           git commit -m "data: refresh tri-campus evidence [tri-campus generated]"
-          git push origin HEAD:codex/tri-campus-data-2026-09-18
+          git push origin "HEAD:${GITHUB_REF_NAME}"

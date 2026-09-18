@@ -1,6 +1,6 @@
 {
   "campus": "utsc",
-  "generatedAt": "2026-09-18T03:27:25.396Z",
+  "generatedAt": "2026-09-18T13:20:28.421Z",
   "sessions": [
     "20269",
     "20271"
@@ -10,7 +10,11 @@
   "timetableBuildingCount": 10,
   "timetableCodeCount": 9,
   "geometryResolvedCount": 30,
-  "geometryUnresolvedCount": 24,
+  "geometryUnresolvedCount": 19,
+  "hostedLocationCount": 5,
+  "mappedHostedLocationCount": 5,
+  "unresolvedHostedLocationCount": 0,
+  "mappedDestinationCount": 35,
   "routingApproachCount": 30,
   "pedestrianNodeCount": 5170,
   "pedestrianEdgeCount": 5291,
@@ -22,145 +26,192 @@
       "id": "utsc:AF",
       "code": "AF",
       "name": "Athletic Fields",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:AM",
       "code": "AM",
       "name": "Myron and Berna Garron Health Sciences Complex (SAMIH)",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:BC",
       "code": "BC",
       "name": "Beach Volleyball Courts",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:BD",
       "code": "BD",
       "name": "Dan Lang Field - Baseball Diamond",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:BL",
       "code": "BL",
       "name": "Bus Loop",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsc:BS",
-      "code": "BS",
-      "name": "Bookstore",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:CF",
       "code": "CF",
       "name": "Campus Farm",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:CG",
       "code": "CG",
       "name": "Community Gardens",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsc:DM",
-      "code": "DM",
-      "name": "Doris McCarthy Gallery",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:DS",
       "code": "DS",
       "name": "Dome Structure",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:ET",
       "code": "ET",
       "name": "Earth Tube Plaza",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:F",
       "code": "F",
       "name": "Fir",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsc:G1",
-      "code": "G1",
-      "name": "Gallery 1265",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:GD",
       "code": "GD",
       "name": "Geodesic Domes",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:H",
       "code": "H",
       "name": "Hickory",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:IGC",
       "code": "IGC",
       "name": "Indigenous Gathering Circle",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsc:LIB",
-      "code": "LIB",
-      "name": "Library",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsc:LLB",
-      "code": "LLB",
-      "name": "Leigha Lee Browne Theatre",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:MAF",
       "code": "MAF",
       "name": "Morningside Athletic Field",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:MB",
       "code": "MB",
       "name": "Maintenance Building",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:PO",
       "code": "PO",
       "name": "Portable",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:SRC",
       "code": "SRC",
       "name": "Student Residence Centre",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:TC",
       "code": "TC",
       "name": "Tennis Centre",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     },
     {
       "id": "utsc:UG",
       "code": "UG",
       "name": "Urquhart Memorial Garden",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+      "geometryAddresses": []
     }
-  ]
+  ],
+  "hostedLocations": [
+    {
+      "id": "utsc:BS",
+      "code": "BS",
+      "name": "Bookstore",
+      "hostBuildingCode": "BV",
+      "hostEvidence": {
+        "sourceId": "utsc-fall-campus-day",
+        "sourceUrl": "https://www.utsc.utoronto.ca/admissions/fall-campus-day-schedule",
+        "note": "UTSC Bookstore is located in the Bladen Wing."
+      }
+    },
+    {
+      "id": "utsc:DM",
+      "code": "DM",
+      "name": "Doris McCarthy Gallery",
+      "hostBuildingCode": "AC",
+      "hostEvidence": {
+        "sourceId": "utsc-doris-mccarthy-gallery-location",
+        "sourceUrl": "https://dorismccarthygallery.utsc.utoronto.ca/",
+        "note": "Doris McCarthy Gallery is inside the Academic Resource Centre."
+      }
+    },
+    {
+      "id": "utsc:G1",
+      "code": "G1",
+      "name": "Gallery 1265",
+      "hostBuildingCode": "SW",
+      "hostEvidence": {
+        "sourceId": "utsc-gallery-1265-location",
+        "sourceUrl": "https://www.utsc.utoronto.ca/acm/gallery-1265",
+        "note": "Gallery 1265 is in SW209 in the Science Wing."
+      }
+    },
+    {
+      "id": "utsc:LIB",
+      "code": "LIB",
+      "name": "Library",
+      "hostBuildingCode": "AC",
+      "hostEvidence": {
+        "sourceId": "utsc-library-location",
+        "sourceUrl": "https://utsc.library.utoronto.ca/location-and-maps",
+        "note": "UTSC Library is in the Academic Resource Centre."
+      }
+    },
+    {
+      "id": "utsc:LLB",
+      "code": "LLB",
+      "name": "Leigha Lee Browne Theatre",
+      "hostBuildingCode": "SW",
+      "hostEvidence": {
+        "sourceId": "utsc-emergency-phone-locations",
+        "sourceUrl": "https://www.utsc.utoronto.ca/safety/sites/utsc.utoronto.ca.safety/files/docs/Emergency%20phones%202025.pdf",
+        "note": "Leigha Lee Browne Theatre is identified as SW260 in the Science Wing."
+      }
+    }
+  ],
+  "unresolvedHostedLocations": []
 }

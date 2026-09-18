@@ -1,6 +1,6 @@
 {
   "campus": "utsc",
-  "generatedAt": "2026-09-18T03:27:25.396Z",
+  "generatedAt": "2026-09-18T13:20:28.421Z",
   "sourceIds": [
     "utsc-campus-map-2025",
     "utsc-timetable-location-codes",
@@ -17,6 +17,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -42,6 +47,11 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/493687"
       ],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-ttb-live",
         "utsc-campus-map-2025"
@@ -67,6 +77,11 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/493683"
       ],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-ttb-live",
         "utsc-campus-map-2025"
@@ -86,6 +101,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -104,6 +124,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -124,6 +149,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -142,6 +172,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -160,6 +195,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -178,6 +218,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -196,6 +241,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -214,8 +264,18 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": "BV",
+      "hostEvidence": {
+        "sourceId": "utsc-fall-campus-day",
+        "sourceUrl": "https://www.utsc.utoronto.ca/admissions/fall-campus-day-schedule",
+        "note": "UTSC Bookstore is located in the Bladen Wing."
+      },
       "identityEvidence": [
-        "utsc-campus-map-2025"
+        "utsc-campus-map-2025",
+        "utsc-fall-campus-day"
       ],
       "sourceNames": [
         "Bookstore"
@@ -238,6 +298,11 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/493686"
       ],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-ttb-live",
         "utsc-campus-map-2025"
@@ -257,6 +322,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -275,6 +345,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -293,6 +368,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -311,6 +391,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -329,6 +414,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -347,6 +437,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -365,8 +460,18 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": "AC",
+      "hostEvidence": {
+        "sourceId": "utsc-doris-mccarthy-gallery-location",
+        "sourceUrl": "https://dorismccarthygallery.utsc.utoronto.ca/",
+        "note": "Doris McCarthy Gallery is inside the Academic Resource Centre."
+      },
       "identityEvidence": [
-        "utsc-campus-map-2025"
+        "utsc-campus-map-2025",
+        "utsc-doris-mccarthy-gallery-location"
       ],
       "sourceNames": [
         "Doris McCarthy Gallery"
@@ -383,6 +488,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -401,6 +511,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -419,6 +534,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -440,6 +560,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -454,10 +579,17 @@
       "code": "F",
       "name": "Fir",
       "category": "residence",
-      "aliases": [],
+      "aliases": [
+        "Fir Hall"
+      ],
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -476,6 +608,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -494,8 +631,18 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": "SW",
+      "hostEvidence": {
+        "sourceId": "utsc-gallery-1265-location",
+        "sourceUrl": "https://www.utsc.utoronto.ca/acm/gallery-1265",
+        "note": "Gallery 1265 is in SW209 in the Science Wing."
+      },
       "identityEvidence": [
-        "utsc-campus-map-2025"
+        "utsc-campus-map-2025",
+        "utsc-gallery-1265-location"
       ],
       "sourceNames": [
         "Gallery 1265"
@@ -512,6 +659,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -526,10 +678,17 @@
       "code": "H",
       "name": "Hickory",
       "category": "residence",
-      "aliases": [],
+      "aliases": [
+        "Hickory Hall"
+      ],
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -554,6 +713,11 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/493689"
       ],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-ttb-live",
         "utsc-campus-map-2025"
@@ -579,6 +743,11 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/493675"
       ],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-ttb-live",
         "utsc-campus-map-2025"
@@ -598,6 +767,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -622,6 +796,11 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!ce/48600?m/959718"
       ],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-ttb-live",
         "utsc-campus-map-2025"
@@ -647,6 +826,11 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/493695"
       ],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-ttb-live",
         "utsc-campus-map-2025"
@@ -666,6 +850,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -684,6 +873,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -702,6 +896,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -720,6 +919,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -738,6 +942,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -763,6 +972,11 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!ce/48600?m/493669"
       ],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-ttb-live",
         "utsc-campus-map-2025"
@@ -782,6 +996,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -800,8 +1019,18 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": "AC",
+      "hostEvidence": {
+        "sourceId": "utsc-library-location",
+        "sourceUrl": "https://utsc.library.utoronto.ca/location-and-maps",
+        "note": "UTSC Library is in the Academic Resource Centre."
+      },
       "identityEvidence": [
-        "utsc-campus-map-2025"
+        "utsc-campus-map-2025",
+        "utsc-library-location"
       ],
       "sourceNames": [
         "Library"
@@ -818,8 +1047,18 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": "SW",
+      "hostEvidence": {
+        "sourceId": "utsc-emergency-phone-locations",
+        "sourceUrl": "https://www.utsc.utoronto.ca/safety/sites/utsc.utoronto.ca.safety/files/docs/Emergency%20phones%202025.pdf",
+        "note": "Leigha Lee Browne Theatre is identified as SW260 in the Science Wing."
+      },
       "identityEvidence": [
-        "utsc-campus-map-2025"
+        "utsc-campus-map-2025",
+        "utsc-emergency-phone-locations"
       ],
       "sourceNames": [
         "Leigha Lee Browne Theatre"
@@ -836,6 +1075,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -854,6 +1098,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -872,6 +1121,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -890,6 +1144,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -908,6 +1167,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -926,6 +1190,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -944,6 +1213,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -958,10 +1232,18 @@
       "code": "SRC",
       "name": "Student Residence Centre",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Residence Centre",
+        "Student Residence Centre"
+      ],
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -986,6 +1268,11 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/493677"
       ],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-ttb-live",
         "utsc-campus-map-2025"
@@ -1007,6 +1294,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -1025,6 +1317,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],
@@ -1043,6 +1340,11 @@
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "utsc-campus-map-2025"
       ],

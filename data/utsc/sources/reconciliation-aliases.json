@@ -14,9 +14,45 @@
     "Science Research Building": "SY",
     "Humanities Wing": "HW",
     "Highland Hall": "HL",
-    "Bladen Wing": "BV"
+    "Bladen Wing": "BV",
+    "Fir Hall": "F",
+    "Hickory Hall": "H",
+    "Residence Centre": "SRC",
+    "Student Residence Centre": "SRC"
   },
   "excludedTimetableCodes": {
     "ZO": "Toronto Zoo — an explicitly off-campus external teaching location; preserve the original timetable location but do not map it as a UTSC campus building."
+  },
+  "hostBuildings": {
+    "DM": {
+      "hostCode": "AC",
+      "sourceId": "utsc-doris-mccarthy-gallery-location",
+      "sourceUrl": "https://dorismccarthygallery.utsc.utoronto.ca/",
+      "note": "Doris McCarthy Gallery is inside the Academic Resource Centre."
+    },
+    "G1": {
+      "hostCode": "SW",
+      "sourceId": "utsc-gallery-1265-location",
+      "sourceUrl": "https://www.utsc.utoronto.ca/acm/gallery-1265",
+      "note": "Gallery 1265 is in SW209 in the Science Wing."
+    },
+    "LIB": {
+      "hostCode": "AC",
+      "sourceId": "utsc-library-location",
+      "sourceUrl": "https://utsc.library.utoronto.ca/location-and-maps",
+      "note": "UTSC Library is in the Academic Resource Centre."
+    },
+    "LLB": {
+      "hostCode": "SW",
+      "sourceId": "utsc-emergency-phone-locations",
+      "sourceUrl": "https://www.utsc.utoronto.ca/safety/sites/utsc.utoronto.ca.safety/files/docs/Emergency%20phones%202025.pdf",
+      "note": "Leigha Lee Browne Theatre is identified as SW260 in the Science Wing."
+    },
+    "BS": {
+      "hostCode": "BV",
+      "sourceId": "utsc-fall-campus-day",
+      "sourceUrl": "https://www.utsc.utoronto.ca/admissions/fall-campus-day-schedule",
+      "note": "UTSC Bookstore is located in the Bladen Wing."
+    }
   }
 }
