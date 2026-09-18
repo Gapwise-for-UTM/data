@@ -6,6 +6,7 @@ on:
     branches:
       - codex/tri-campus-data-2026-09-18
       - codex/complete-tri-campus-geometry-2026-09-18
+      - codex/sync-robarts-common-generated
     paths:
       - ".github/workflows/tri-campus-refresh.yml"
       - "scripts/refresh-tri-campus-candidates.mjs"
@@ -17,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: tri-campus-source-refresh-${{ github.ref }}
@@ -68,4 +70,18 @@ jobs:
             exit 0
           fi
           git commit -m "data: refresh tri-campus evidence [tri-campus generated]"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+          if [ "${GITHUB_REF_NAME}" = "${{ github.event.repository.default_branch }}" ]; then
+            refresh_branch="automation/tri-campus-refresh"
+            git push --force-with-lease origin "HEAD:refs/heads/${refresh_branch}"
+            gh pr create \
+              --base "${GITHUB_REF_NAME}" \
+              --head "${refresh_branch}" \
+              --title "Refresh generated tri-campus evidence" \
+              --body "Automated canonical UTSG/UTSC runtime snapshot refresh. Generated and validated by the tri-campus source refresh workflow." \
+              || echo "Refresh PR already exists."
+          else
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}

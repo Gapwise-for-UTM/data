@@ -1,6 +1,6 @@
 {
   "campus": "utsg",
-  "generatedAt": "2026-09-18T13:19:59.020Z",
+  "generatedAt": "2026-09-18T20:12:55.421Z",
   "sourceIds": [
     "uoft-facilities-bas-2025",
     "uoft-ttb-live",
@@ -163,6 +163,49 @@
       ],
       "sourceNames": [
         "Thomas Fisher Rare Book Library Building"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "utsg:facility:006C",
+      "campus": "utsg",
+      "code": "006C",
+      "name": "Robarts Common",
+      "category": "facility",
+      "aliases": [
+        "Robarts Common",
+        "Robarts Commons"
+      ],
+      "timetableCodes": [],
+      "facilityCodes": [
+        "006C"
+      ],
+      "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "369 Huron Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        }
+      ],
+      "geometryRefs": [
+        {
+          "ref": "way/627629970",
+          "sourceId": "openstreetmap",
+          "sourceUrl": "https://www.openstreetmap.org/way/627629970",
+          "identityEvidenceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        }
+      ],
+      "geometryPoints": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
+      "identityEvidence": [
+        "openstreetmap",
+        "uoft-facilities-bas-2025",
+        "uoft-fs-campus-elevators"
+      ],
+      "sourceNames": [
+        "Robarts Common"
       ],
       "status": "active"
     },

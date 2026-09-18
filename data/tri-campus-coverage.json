@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:20:28.424Z",
+  "generatedAt": "2026-09-18T20:13:27.026Z",
   "sessions": [
     "20269",
     "20271"
@@ -7,17 +7,17 @@
   "campuses": {
     "utsg": {
       "campus": "utsg",
-      "generatedAt": "2026-09-18T13:19:59.020Z",
+      "generatedAt": "2026-09-18T20:12:55.421Z",
       "sessions": [
         "20269",
         "20271"
       ],
-      "identitySourceCount": 165,
-      "canonicalBuildingCount": 165,
+      "identitySourceCount": 166,
+      "canonicalBuildingCount": 166,
       "timetableBuildingCount": 48,
       "timetableCodeCount": 47,
       "geometryResolvedCount": 121,
-      "geometryUnresolvedCount": 44,
+      "geometryUnresolvedCount": 45,
       "hostedLocationCount": 0,
       "mappedHostedLocationCount": 0,
       "unresolvedHostedLocationCount": 0,
@@ -29,6 +29,19 @@
       "largestPedestrianComponentNodes": 34449,
       "duplicateTimetableCodes": [],
       "unresolvedGeometry": [
+        {
+          "id": "utsg:facility:006C",
+          "code": "006C",
+          "name": "Robarts Common",
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "369 Huron Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
+        },
         {
           "id": "utsg:facility:012A",
           "code": "012A",
@@ -515,7 +528,7 @@
     },
     "utsc": {
       "campus": "utsc",
-      "generatedAt": "2026-09-18T13:20:28.421Z",
+      "generatedAt": "2026-09-18T20:13:27.024Z",
       "sessions": [
         "20269",
         "20271"
