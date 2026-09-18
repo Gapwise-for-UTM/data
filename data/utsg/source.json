@@ -24,6 +24,20 @@
       "lastVerified": "2026-09-18",
       "status": "live-observed",
       "notes": "Cached source evidence only; never a Gapwise runtime dependency."
+    },
+    {
+      "id": "stmikes-current-buildings",
+      "name": "University of St. Michael's College — Campus Buildings and Street Addresses",
+      "url": "https://stmikes.utoronto.ca/about-us/contact-us/maps-parking",
+      "lastVerified": "2026-09-18",
+      "status": "verified"
+    },
+    {
+      "id": "stmikes-current-map",
+      "name": "University of St. Michael's College — campus map",
+      "url": "https://stmikes.utoronto.ca/wp-content/uploads/2019/05/usmc-map-2-d-v.2019-accessibility.pdf",
+      "lastVerified": "2026-09-18",
+      "status": "verified-currently-linked"
     }
   ],
   "geometrySources": [
