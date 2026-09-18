@@ -20,6 +20,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -276,6 +277,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -604,6 +606,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -752,6 +755,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -892,6 +896,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1032,6 +1037,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1188,6 +1194,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1328,6 +1335,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1420,6 +1428,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1600,6 +1609,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1696,6 +1706,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1752,6 +1763,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1832,6 +1844,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1904,6 +1917,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2104,6 +2118,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2204,6 +2219,86 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:029",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:029",
+        "buildingCode": "029",
+        "name": "Sir Daniel Wilson Residence",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "029"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/8027962",
+        "reconciliationMethod": "exact_canonical_name_nominatim_polygon",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": {
+          "name": "Sir Daniel Wilson Residence",
+          "source": "canonical-identity"
+        },
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3977303,
+              43.6629112
+            ],
+            [
+              -79.397572,
+              43.6625125
+            ],
+            [
+              -79.3974167,
+              43.6621214
+            ],
+            [
+              -79.3966392,
+              43.6622764
+            ],
+            [
+              -79.3966878,
+              43.6623913
+            ],
+            [
+              -79.3973079,
+              43.6622584
+            ],
+            [
+              -79.3974259,
+              43.6625431
+            ],
+            [
+              -79.3975523,
+              43.6628484
+            ],
+            [
+              -79.3974323,
+              43.6628751
+            ],
+            [
+              -79.397473,
+              43.6629666
+            ],
+            [
+              -79.3975459,
+              43.6629509
+            ],
+            [
+              -79.3977303,
+              43.6629112
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:034",
       "properties": {
         "campus": "utsg",
@@ -2220,6 +2315,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2284,6 +2380,195 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:041",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:041",
+        "buildingCode": "041",
+        "name": "Varsity Pavilion",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "041"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/204343133",
+        "reconciliationMethod": "exact_canonical_name_nominatim_polygon",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": {
+          "name": "Varsity Pavilion",
+          "source": "canonical-identity"
+        },
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3975667,
+              43.6662186
+            ],
+            [
+              -79.3975271,
+              43.6661255
+            ],
+            [
+              -79.3967811,
+              43.6662799
+            ],
+            [
+              -79.3967383,
+              43.6663149
+            ],
+            [
+              -79.3967312,
+              43.6662931
+            ],
+            [
+              -79.3961503,
+              43.6664135
+            ],
+            [
+              -79.3962049,
+              43.6665556
+            ],
+            [
+              -79.3964053,
+              43.6665111
+            ],
+            [
+              -79.3964063,
+              43.6665025
+            ],
+            [
+              -79.396444,
+              43.666496
+            ],
+            [
+              -79.3964946,
+              43.6665233
+            ],
+            [
+              -79.3965501,
+              43.6664771
+            ],
+            [
+              -79.3966027,
+              43.6665147
+            ],
+            [
+              -79.3968477,
+              43.6663149
+            ],
+            [
+              -79.3973479,
+              43.6662124
+            ],
+            [
+              -79.3973521,
+              43.6663007
+            ],
+            [
+              -79.3974307,
+              43.6663271
+            ],
+            [
+              -79.3974664,
+              43.6662789
+            ],
+            [
+              -79.3975443,
+              43.6662494
+            ],
+            [
+              -79.3975429,
+              43.6662185
+            ],
+            [
+              -79.3975667,
+              43.6662186
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "utsg:facility:042",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:042",
+        "buildingCode": "042",
+        "name": "Goldring Centre for High Performance Sport",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "042"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/258167657",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "100 Devonshire Place, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3987167,
+              43.6672749
+            ],
+            [
+              -79.3986276,
+              43.6670573
+            ],
+            [
+              -79.398439,
+              43.6665963
+            ],
+            [
+              -79.3980534,
+              43.6666788
+            ],
+            [
+              -79.3980685,
+              43.6667157
+            ],
+            [
+              -79.3982419,
+              43.6671392
+            ],
+            [
+              -79.3983178,
+              43.6673245
+            ],
+            [
+              -79.3983312,
+              43.6673574
+            ],
+            [
+              -79.3984501,
+              43.6673319
+            ],
+            [
+              -79.3987167,
+              43.6672749
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:047",
       "properties": {
         "campus": "utsg",
@@ -2300,6 +2585,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2436,6 +2722,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2504,6 +2791,90 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:053",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:053",
+        "buildingCode": "053",
+        "name": "Dr. Eric Jackman Institute of Child Study",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "053"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/246241749",
+        "reconciliationMethod": "exact_canonical_name_nominatim_polygon",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": {
+          "name": "Dr. Eric Jackman Institute of Child Study",
+          "source": "canonical-identity"
+        },
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4065794,
+              43.6697225
+            ],
+            [
+              -79.4064496,
+              43.6695864
+            ],
+            [
+              -79.4063775,
+              43.6694896
+            ],
+            [
+              -79.4063567,
+              43.6694336
+            ],
+            [
+              -79.4063207,
+              43.6692799
+            ],
+            [
+              -79.4056999,
+              43.6694079
+            ],
+            [
+              -79.4057362,
+              43.6695054
+            ],
+            [
+              -79.4051486,
+              43.6696203
+            ],
+            [
+              -79.4052489,
+              43.6698763
+            ],
+            [
+              -79.4058242,
+              43.6697445
+            ],
+            [
+              -79.4058819,
+              43.6698801
+            ],
+            [
+              -79.4064864,
+              43.6697455
+            ],
+            [
+              -79.4065794,
+              43.6697225
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:055",
       "properties": {
         "campus": "utsg",
@@ -2524,6 +2895,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2624,6 +2996,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2680,6 +3053,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2760,6 +3134,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2828,6 +3203,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2892,6 +3268,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2952,6 +3329,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2984,6 +3362,83 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:083",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:083",
+        "buildingCode": "083",
+        "name": "McCaul Street-254/256",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "083"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/23436871",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "256 McCaul Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3938545,
+              43.6585836
+            ],
+            [
+              -79.3937996,
+              43.6584548
+            ],
+            [
+              -79.3934774,
+              43.6585268
+            ],
+            [
+              -79.3934564,
+              43.6584776
+            ],
+            [
+              -79.393323,
+              43.6585073
+            ],
+            [
+              -79.3933344,
+              43.658534
+            ],
+            [
+              -79.3934067,
+              43.6587035
+            ],
+            [
+              -79.3935526,
+              43.6586709
+            ],
+            [
+              -79.3938304,
+              43.6586089
+            ],
+            [
+              -79.3938226,
+              43.6585908
+            ],
+            [
+              -79.3938545,
+              43.6585836
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:088",
       "properties": {
         "campus": "utsg",
@@ -3004,6 +3459,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3072,6 +3528,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3156,6 +3613,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3208,6 +3666,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3362,6 +3821,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3512,6 +3972,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3668,6 +4129,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3840,6 +4302,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3888,6 +4351,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4008,6 +4472,75 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:105",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:105",
+        "buildingCode": "105",
+        "name": "Fields Institute for Research in Mathematical Sciences",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "105"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/23432948",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "222 College Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3977639,
+              43.6589036
+            ],
+            [
+              -79.3976665,
+              43.6586539
+            ],
+            [
+              -79.3973488,
+              43.6587188
+            ],
+            [
+              -79.3974474,
+              43.6589715
+            ],
+            [
+              -79.3975364,
+              43.6589533
+            ],
+            [
+              -79.3975164,
+              43.6589022
+            ],
+            [
+              -79.3976588,
+              43.6588731
+            ],
+            [
+              -79.3976776,
+              43.6589212
+            ],
+            [
+              -79.3977639,
+              43.6589036
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:106",
       "properties": {
         "campus": "utsg",
@@ -4028,6 +4561,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4132,6 +4666,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4196,6 +4731,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4284,6 +4820,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4336,6 +4873,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4392,6 +4930,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4440,6 +4979,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4564,6 +5104,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4656,6 +5197,155 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:133",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:133",
+        "buildingCode": "133",
+        "name": "Innis College Student Residence",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "133"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/20898043",
+        "reconciliationMethod": "official_address_exact_nominatim_polygon",
+        "addressEvidence": {
+          "address": "111 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        },
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3990449,
+              43.6661524
+            ],
+            [
+              -79.3990343,
+              43.6661251
+            ],
+            [
+              -79.3989978,
+              43.6660313
+            ],
+            [
+              -79.3989617,
+              43.6659383
+            ],
+            [
+              -79.3988871,
+              43.665746
+            ],
+            [
+              -79.3988513,
+              43.6656538
+            ],
+            [
+              -79.3988157,
+              43.6656611
+            ],
+            [
+              -79.3988047,
+              43.6656327
+            ],
+            [
+              -79.3987515,
+              43.6656435
+            ],
+            [
+              -79.3986615,
+              43.6656618
+            ],
+            [
+              -79.3986674,
+              43.6656771
+            ],
+            [
+              -79.3983559,
+              43.6657433
+            ],
+            [
+              -79.398361,
+              43.6657564
+            ],
+            [
+              -79.3983196,
+              43.6657647
+            ],
+            [
+              -79.3983284,
+              43.6657823
+            ],
+            [
+              -79.3983063,
+              43.6657874
+            ],
+            [
+              -79.3983618,
+              43.6659165
+            ],
+            [
+              -79.3985106,
+              43.6658863
+            ],
+            [
+              -79.3985009,
+              43.6658614
+            ],
+            [
+              -79.3987153,
+              43.6658179
+            ],
+            [
+              -79.398733,
+              43.6658635
+            ],
+            [
+              -79.398783,
+              43.6659921
+            ],
+            [
+              -79.3988071,
+              43.6660542
+            ],
+            [
+              -79.398632,
+              43.6660898
+            ],
+            [
+              -79.3986204,
+              43.6660601
+            ],
+            [
+              -79.3984406,
+              43.6660966
+            ],
+            [
+              -79.3985049,
+              43.6662622
+            ],
+            [
+              -79.3989647,
+              43.6661687
+            ],
+            [
+              -79.3990449,
+              43.6661524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:134",
       "properties": {
         "campus": "utsg",
@@ -4672,6 +5362,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4788,6 +5479,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4852,6 +5544,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4964,6 +5657,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5044,6 +5738,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5100,6 +5795,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5228,6 +5924,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5288,6 +5985,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5364,6 +6062,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5416,6 +6115,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5504,6 +6204,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5584,6 +6285,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5716,6 +6418,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5912,6 +6615,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6048,6 +6752,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6184,6 +6889,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6292,6 +6998,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6332,6 +7039,70 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:514",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:514",
+        "buildingCode": "514",
+        "name": "E.J. Pratt Library",
+        "timetableCodes": [],
+        "facilityCodes": [
+          "514"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/8111900",
+        "reconciliationMethod": "exact_canonical_name_nominatim_polygon",
+        "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
+        "nameEvidence": {
+          "name": "E.J. Pratt Library",
+          "source": "canonical-identity"
+        },
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3915558,
+              43.6664422
+            ],
+            [
+              -79.3914225,
+              43.6661144
+            ],
+            [
+              -79.3910283,
+              43.6662011
+            ],
+            [
+              -79.391042,
+              43.666235
+            ],
+            [
+              -79.3911511,
+              43.6665035
+            ],
+            [
+              -79.3911603,
+              43.6665259
+            ],
+            [
+              -79.3913228,
+              43.6664896
+            ],
+            [
+              -79.3915558,
+              43.6664422
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:516",
       "properties": {
         "campus": "utsg",
@@ -6352,6 +7123,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6408,6 +7180,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6500,6 +7273,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6696,6 +7470,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6992,6 +7767,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7076,6 +7852,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7284,6 +8061,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7532,6 +8310,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7622,6 +8401,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7718,6 +8498,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7792,6 +8573,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7842,6 +8624,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8098,13 +8881,9 @@
         "geometrySourceRef": "way/20319805",
         "reconciliationMethod": "explicit_source_backed_osm_ref",
         "addressEvidence": null,
-        "refEvidence": {
-          "ref": "way/20319805",
-          "sourceId": "openstreetmap",
-          "sourceUrl": "https://www.openstreetmap.org/way/20319805",
-          "identityEvidenceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
-        },
+        "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8215,6 +8994,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8271,6 +9051,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8397,6 +9178,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8511,6 +9293,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8819,6 +9602,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8925,6 +9709,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9147,6 +9932,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9317,6 +10103,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9495,6 +10282,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9649,6 +10437,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9919,6 +10708,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10133,6 +10923,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10211,6 +11002,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10269,6 +11061,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10343,6 +11136,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10473,6 +11267,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10535,6 +11330,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10689,6 +11485,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10863,6 +11660,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11033,6 +11831,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11173,13 +11972,9 @@
         "geometrySourceRef": "way/23433615",
         "reconciliationMethod": "explicit_source_backed_osm_ref",
         "addressEvidence": null,
-        "refEvidence": {
-          "ref": "way/23433615",
-          "sourceId": "openstreetmap",
-          "sourceUrl": "https://www.openstreetmap.org/way/23433615",
-          "identityEvidenceUrl": "https://md.utoronto.ca/contact-us"
-        },
+        "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11434,6 +12229,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11524,6 +12320,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11612,13 +12409,9 @@
         "geometrySourceRef": "way/10725629",
         "reconciliationMethod": "explicit_source_backed_osm_ref",
         "addressEvidence": null,
-        "refEvidence": {
-          "ref": "way/10725629",
-          "sourceId": "openstreetmap",
-          "sourceUrl": "https://www.openstreetmap.org/way/10725629",
-          "identityEvidenceUrl": "https://www.oise.utoronto.ca/contact"
-        },
+        "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11709,6 +12502,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11767,6 +12561,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12117,6 +12912,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12211,6 +13007,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12369,6 +13166,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12455,6 +13253,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12651,13 +13450,9 @@
         "geometrySourceRef": "way/12872719",
         "reconciliationMethod": "explicit_source_backed_osm_ref",
         "addressEvidence": null,
-        "refEvidence": {
-          "ref": "way/12872719",
-          "sourceId": "openstreetmap",
-          "sourceUrl": "https://www.openstreetmap.org/way/12872719",
-          "identityEvidenceUrl": "https://blogs.studentlife.utoronto.ca/innovationhub/contactus/"
-        },
+        "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12736,6 +13531,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12916,6 +13712,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12974,6 +13771,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -13492,6 +14290,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -13646,6 +14445,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -13880,6 +14680,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -14094,6 +14895,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -14288,6 +15090,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -14370,6 +15173,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -14452,6 +15256,7 @@
         },
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {

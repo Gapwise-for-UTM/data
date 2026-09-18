@@ -18,6 +18,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -238,6 +239,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -322,6 +324,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -456,6 +459,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -622,6 +626,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -894,6 +899,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1056,6 +1062,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1262,6 +1269,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1332,6 +1340,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1386,6 +1395,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1648,6 +1658,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1970,6 +1981,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2024,6 +2036,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2232,6 +2245,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2332,6 +2346,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2754,6 +2769,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2898,6 +2914,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2950,6 +2967,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3188,6 +3206,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3302,6 +3321,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3532,6 +3552,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4026,6 +4047,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4218,6 +4240,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4400,6 +4423,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4618,6 +4642,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4820,6 +4845,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4958,6 +4984,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5064,6 +5091,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5216,6 +5244,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5722,6 +5751,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:15:59.083Z",
+  "generatedAt": "2026-09-18T13:20:28.424Z",
   "sessions": [
     "20269",
     "20271"
@@ -7,7 +7,7 @@
   "campuses": {
     "utsg": {
       "campus": "utsg",
-      "generatedAt": "2026-09-18T13:15:58.624Z",
+      "generatedAt": "2026-09-18T13:19:59.020Z",
       "sessions": [
         "20269",
         "20271"
@@ -16,13 +16,13 @@
       "canonicalBuildingCount": 165,
       "timetableBuildingCount": 48,
       "timetableCodeCount": 47,
-      "geometryResolvedCount": 113,
-      "geometryUnresolvedCount": 52,
+      "geometryResolvedCount": 121,
+      "geometryUnresolvedCount": 44,
       "hostedLocationCount": 0,
       "mappedHostedLocationCount": 0,
       "unresolvedHostedLocationCount": 0,
-      "mappedDestinationCount": 113,
-      "routingApproachCount": 113,
+      "mappedDestinationCount": 121,
+      "routingApproachCount": 121,
       "pedestrianNodeCount": 35527,
       "pedestrianEdgeCount": 39779,
       "pedestrianComponentCount": 138,
@@ -84,39 +84,30 @@
           ]
         },
         {
-          "id": "utsg:facility:029",
-          "code": "029",
-          "name": "Sir Daniel Wilson Residence",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
-        },
-        {
           "id": "utsg:facility:030A",
           "code": "030A",
           "name": "Varsity Centre",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "299 Bloor Street West, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:040",
           "code": "040",
           "name": "Faculty of Law",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
-        },
-        {
-          "id": "utsg:facility:041",
-          "code": "041",
-          "name": "Varsity Pavilion",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
-        },
-        {
-          "id": "utsg:facility:042",
-          "code": "042",
-          "name": "Goldring Centre for High Performance Sport",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "78 Queen’s Park Crescent, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:043",
@@ -126,32 +117,43 @@
           "geometryAddresses": []
         },
         {
-          "id": "utsg:facility:053",
-          "code": "053",
-          "name": "Dr. Eric Jackman Institute of Child Study",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
-        },
-        {
           "id": "utsg:facility:061",
           "code": "061",
           "name": "Borden Building South",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "487 Spadina Avenue, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:061A",
           "code": "061A",
           "name": "Borden Building North",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "563 Spadina Avenue, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:065",
           "code": "065",
           "name": "Dentistry Building",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "124 Edward Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:066",
@@ -167,18 +169,17 @@
           ]
         },
         {
-          "id": "utsg:facility:083",
-          "code": "083",
-          "name": "McCaul Street-254/256",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
-        },
-        {
           "id": "utsg:facility:089",
           "code": "089",
           "name": "Munk School of Global Affairs & Public Policy at the Observatory",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "315 Bloor Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:090",
@@ -226,13 +227,6 @@
               "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
             }
           ]
-        },
-        {
-          "id": "utsg:facility:105",
-          "code": "105",
-          "name": "Fields Institute for Research in Mathematical Sciences",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:109",
@@ -284,29 +278,40 @@
           "id": "utsg:facility:129",
           "code": "129",
           "name": "Early Learning Centre",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "7 Glenn Morris Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:131",
           "code": "131",
           "name": "New College III",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
-        },
-        {
-          "id": "utsg:facility:133",
-          "code": "133",
-          "name": "Innis College Student Residence",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "45-47 Willcocks Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:135",
           "code": "135",
           "name": "St. George Parking Garage",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "107 St. George Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:147",
@@ -332,8 +337,14 @@
           "id": "utsg:facility:155",
           "code": "155",
           "name": "Exam Centre",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "255 McCaul Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:156",
@@ -343,8 +354,8 @@
           "geometryAddresses": [
             {
               "address": "263 McCaul Street, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
             }
           ]
         },
@@ -352,8 +363,14 @@
           "id": "utsg:facility:158",
           "code": "158",
           "name": "Chestnut Residence and Conference Centre",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "89 Chestnut Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:172",
@@ -450,13 +467,6 @@
           "geometryAddresses": []
         },
         {
-          "id": "utsg:facility:514",
-          "code": "514",
-          "name": "E.J. Pratt Library",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
-          "geometryAddresses": []
-        },
-        {
           "id": "utsg:facility:575A",
           "code": "575A",
           "name": "Nona Macdonald Visitors Centre",
@@ -469,6 +479,11 @@
           "name": "Charles Street West-30",
           "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
           "geometryAddresses": [
+            {
+              "address": "730 Yonge Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            },
             {
               "address": "30 Charles Street West, Toronto, Ontario, Canada",
               "sourceId": "uoft-facilities-inventory-name",
@@ -486,6 +501,11 @@
               "address": "10 King's College Road, Toronto, Ontario, Canada",
               "sourceId": "uoft-convocation-locations",
               "sourceUrl": "https://www.utoronto.ca/convocation/campus-locations"
+            },
+            {
+              "address": "10 King’s College Circle, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
             }
           ]
         }
@@ -495,7 +515,7 @@
     },
     "utsc": {
       "campus": "utsc",
-      "generatedAt": "2026-09-18T13:15:59.081Z",
+      "generatedAt": "2026-09-18T13:20:28.421Z",
       "sessions": [
         "20269",
         "20271"
