@@ -7,9 +7,12 @@ import {
   todayLocalDate,
 } from './entrance-map-data.js';
 import utsgRegistry from '../data/utsg/buildings.json';
-import utsgFootprints from '../data/utsg/buildings.geojson';
+import utsgFootprintsJson from '../data/utsg/buildings.geojson?raw';
 import utscRegistry from '../data/utsc/buildings.json';
-import utscFootprints from '../data/utsc/buildings.geojson';
+import utscFootprintsJson from '../data/utsc/buildings.geojson?raw';
+
+const utsgFootprints = JSON.parse(utsgFootprintsJson);
+const utscFootprints = JSON.parse(utscFootprintsJson);
 
 export const MAP_WIDTH = 1200;
 export const MAP_HEIGHT = 840;
