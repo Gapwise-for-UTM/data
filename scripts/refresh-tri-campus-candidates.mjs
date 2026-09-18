@@ -127,6 +127,7 @@ async function fetchWithRetry(url, init = {}, label = url) {
     try {
       const response = await fetch(url, {
         ...init,
+        signal: init.signal ?? AbortSignal.timeout(30_000),
         headers: {
           accept: "application/json",
           "user-agent": "Gapwise-Data/tri-campus-refresh (+https://data.gapwise.ca)",
@@ -947,12 +948,13 @@ function connectedComponents(graph) {
   return sizes.sort((a, b) => b - a);
 }
 
-async function refreshCampus(campus, sessions, divisions) {
+async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } = {}) {
   const config = CAMPUS_CONFIG[campus];
   const source = await readJson(config.sourcePath);
   const inventory = await readJson(config.inventoryPath);
   const aliases = await readJson(config.aliasPath);
-  const ttbBuildings = await fetchTtbBuildings(config.label, sessions, divisions);
+  const cachedTtb = reuseTtb ? await readJson(`data/${campus}/generated/ttb-buildings.json`) : null;
+  const ttbBuildings = cachedTtb?.buildings ?? (await fetchTtbBuildings(config.label, sessions, divisions));
   const buildings = canonicalizeInventory(campus, inventory, ttbBuildings, aliases);
 
   if (campus === "utsg") {
@@ -1093,17 +1095,19 @@ async function refreshCampus(campus, sessions, divisions) {
   };
 
   const base = `data/${campus}/generated`;
-  await writeJson(`${base}/ttb-buildings.json`, {
-    campus,
-    generatedAt,
-    sessions,
-    source: "University of Toronto Timetable Builder live service",
-    sourceUrl: "https://ttb.utoronto.ca/",
-    api: TTB_BASE,
-    warning:
-      "Observed live service, not a published developer contract. Cached as source evidence; never required at Gapwise runtime.",
-    buildings: ttbBuildings,
-  });
+  if (!reuseTtb) {
+    await writeJson(`${base}/ttb-buildings.json`, {
+      campus,
+      generatedAt,
+      sessions,
+      source: "University of Toronto Timetable Builder live service",
+      sourceUrl: "https://ttb.utoronto.ca/",
+      api: TTB_BASE,
+      warning:
+        "Observed live service, not a published developer contract. Cached as source evidence; never required at Gapwise runtime.",
+      buildings: ttbBuildings,
+    });
+  }
   await writeJson(`data/${campus}/buildings.json`, {
     campus,
     generatedAt,
@@ -1135,10 +1139,21 @@ async function refreshCampus(campus, sessions, divisions) {
   return coverage;
 }
 
-const { sessions, divisions } = await ttbContext();
+const reuseTtb = process.env.GAPWISE_REUSE_TTB === "1";
+let sessions;
+let divisions;
+if (reuseTtb) {
+  const cached = await readJson("data/utsg/generated/ttb-buildings.json");
+  sessions = cached.sessions ?? [];
+  divisions = [];
+  if (!sessions.length) throw new Error("Cached TTB evidence has no session metadata.");
+} else {
+  ({ sessions, divisions } = await ttbContext());
+}
+
 const reports = {};
 for (const campus of Object.keys(CAMPUS_CONFIG)) {
-  reports[campus] = await refreshCampus(campus, sessions, divisions);
+  reports[campus] = await refreshCampus(campus, sessions, divisions, { reuseTtb });
 }
 await writeJson("data/tri-campus-coverage.json", {
   generatedAt: new Date().toISOString(),
