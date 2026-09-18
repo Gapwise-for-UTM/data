@@ -10,6 +10,7 @@
         "buildingId": "utsg:facility:002",
         "buildingCode": "002",
         "name": "Hart House",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "002"
@@ -267,6 +268,7 @@
         "buildingId": "utsg:facility:003",
         "buildingCode": "003",
         "name": "Gerstein Science Information Centre in the Sigmund Samuel Library",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "003"
@@ -596,6 +598,7 @@
         "buildingId": "utsg:facility:004",
         "buildingCode": "004",
         "name": "McMurrich Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "004"
@@ -745,6 +748,7 @@
         "buildingId": "utsg:facility:006A",
         "buildingCode": "006A",
         "name": "Claude T. Bissell Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "006A"
@@ -886,6 +890,7 @@
         "buildingId": "utsg:facility:006B",
         "buildingCode": "006B",
         "name": "Thomas Fisher Rare Book Library Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "006B"
@@ -1027,6 +1032,7 @@
         "buildingId": "utsg:facility:008A",
         "buildingCode": "008A",
         "name": "D.L. Pratt Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "008A"
@@ -1184,6 +1190,7 @@
         "buildingId": "utsg:facility:010",
         "buildingCode": "010",
         "name": "Simcoe Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "010"
@@ -1325,6 +1332,7 @@
         "buildingId": "utsg:facility:011",
         "buildingCode": "011",
         "name": "C. David Naylor Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "011"
@@ -1418,6 +1426,7 @@
         "buildingId": "utsg:facility:013",
         "buildingCode": "013",
         "name": "Whitney Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "013"
@@ -1599,6 +1608,7 @@
         "buildingId": "utsg:facility:018",
         "buildingCode": "018",
         "name": "Central Steam Plant",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "018"
@@ -1696,6 +1706,7 @@
         "buildingId": "utsg:facility:019",
         "buildingCode": "019",
         "name": "J. Robert S. Prichard Alumni House",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "019"
@@ -1753,6 +1764,7 @@
         "buildingId": "utsg:facility:021",
         "buildingCode": "021",
         "name": "Engineering Annex",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "021"
@@ -1834,6 +1846,7 @@
         "buildingId": "utsg:facility:023",
         "buildingCode": "023",
         "name": "University College Union",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "023"
@@ -1907,6 +1920,7 @@
         "buildingId": "utsg:facility:025",
         "buildingCode": "025",
         "name": "FitzGerald Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "025"
@@ -2108,6 +2122,7 @@
         "buildingId": "utsg:facility:026",
         "buildingCode": "026",
         "name": "Cumberland House",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "026"
@@ -2225,6 +2240,7 @@
         "buildingId": "utsg:facility:029",
         "buildingCode": "029",
         "name": "Sir Daniel Wilson Residence",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "029"
@@ -2302,6 +2318,7 @@
         "buildingId": "utsg:facility:034",
         "buildingCode": "034",
         "name": "Massey College",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "034"
@@ -2383,6 +2400,7 @@
         "buildingId": "utsg:facility:041",
         "buildingCode": "041",
         "name": "Varsity Pavilion",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "041"
@@ -2496,6 +2514,7 @@
         "buildingId": "utsg:facility:042",
         "buildingCode": "042",
         "name": "Goldring Centre for High Performance Sport",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "042"
@@ -2569,6 +2588,7 @@
         "buildingId": "utsg:facility:047",
         "buildingCode": "047",
         "name": "Canadiana Gallery",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "047"
@@ -2706,6 +2726,7 @@
         "buildingId": "utsg:facility:050",
         "buildingCode": "050",
         "name": "Falconer Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "050"
@@ -2791,6 +2812,7 @@
         "buildingId": "utsg:facility:053",
         "buildingCode": "053",
         "name": "Dr. Eric Jackman Institute of Child Study",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "053"
@@ -2871,7 +2893,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:055",
         "buildingCode": "055",
-        "name": "Highland Avenue-93",
+        "name": "President's Residence",
+        "displayNameEvidence": {
+          "name": "President's Residence",
+          "kind": "proper",
+          "sourceId": "uoft-magazine-presidents-residence",
+          "sourceUrl": "https://magazine.utoronto.ca/campus/places/u-of-t-presidents-residence-93-highland/"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "055"
@@ -2977,6 +3005,7 @@
         "buildingId": "utsg:facility:056",
         "buildingCode": "056",
         "name": "Graduate Students' Union",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "056"
@@ -3034,6 +3063,7 @@
         "buildingId": "utsg:facility:064",
         "buildingCode": "064",
         "name": "Graduate House",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "064"
@@ -3110,7 +3140,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:067",
         "buildingCode": "067",
-        "name": "Huron Street-215",
+        "name": "Enterprise Applications and Solutions Integration",
+        "displayNameEvidence": {
+          "name": "Enterprise Applications and Solutions Integration",
+          "kind": "functional",
+          "sourceId": "uoft-easi-contact",
+          "sourceUrl": "https://easi.its.utoronto.ca/contact/"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "067"
@@ -3184,6 +3220,7 @@
         "buildingId": "utsg:facility:075",
         "buildingCode": "075",
         "name": "Faculty Club",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "075"
@@ -3249,6 +3286,7 @@
         "buildingId": "utsg:facility:077",
         "buildingCode": "077",
         "name": "Sussex Court",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "077"
@@ -3310,6 +3348,7 @@
         "buildingId": "utsg:facility:082",
         "buildingCode": "082",
         "name": "Gage Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "082"
@@ -3358,7 +3397,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:083",
         "buildingCode": "083",
-        "name": "McCaul Street-254/256",
+        "name": "Education Technology Office",
+        "displayNameEvidence": {
+          "name": "Education Technology Office",
+          "kind": "functional",
+          "sourceId": "uoft-engineering-edtech-contact",
+          "sourceUrl": "https://edtech.engineering.utoronto.ca/contact/"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "083"
@@ -3435,7 +3480,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:088",
         "buildingCode": "088",
-        "name": "St. George Street-123",
+        "name": "Transitional Year Programme",
+        "displayNameEvidence": {
+          "name": "Transitional Year Programme",
+          "kind": "functional",
+          "sourceId": "openstreetmap-current-name",
+          "sourceUrl": "https://www.openstreetmap.org/way/22236557"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "088"
@@ -3509,6 +3560,7 @@
         "buildingId": "utsg:facility:091",
         "buildingCode": "091",
         "name": "Luella Massey Studio Theatre",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "091"
@@ -3589,7 +3641,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:097A",
         "buildingCode": "097A",
-        "name": "Queen's Park Crescent East-39A",
+        "name": "Centre for Culture and Technology",
+        "displayNameEvidence": {
+          "name": "Centre for Culture and Technology",
+          "kind": "functional",
+          "sourceId": "uoft-iccit-event-location",
+          "sourceUrl": "https://www.utm.utoronto.ca/iccit/upcomingevents/trip-out-2026"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "097A"
@@ -3642,7 +3700,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:098B",
         "buildingCode": "098B",
-        "name": "Wellesley Street West-90",
+        "name": "Faculty of Music South",
+        "displayNameEvidence": {
+          "name": "Faculty of Music South",
+          "kind": "functional",
+          "sourceId": "uoft-music-facility-info",
+          "sourceUrl": "https://music.utoronto.ca/about/what-we-offer/facility-venue-information"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "098B"
@@ -3797,7 +3861,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:098C",
         "buildingCode": "098C",
-        "name": "Wellesley Street West-90",
+        "name": "Faculty of Music South",
+        "displayNameEvidence": {
+          "name": "Faculty of Music South",
+          "kind": "functional",
+          "sourceId": "uoft-music-facility-info",
+          "sourceUrl": "https://music.utoronto.ca/about/what-we-offer/facility-venue-information"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "098C"
@@ -3953,6 +4023,7 @@
         "buildingId": "utsg:facility:101",
         "buildingCode": "101",
         "name": "Morrison Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "101"
@@ -4110,6 +4181,7 @@
         "buildingId": "utsg:facility:102",
         "buildingCode": "102",
         "name": "Soldiers' Tower",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "102"
@@ -4283,6 +4355,7 @@
         "buildingId": "utsg:facility:103",
         "buildingCode": "103",
         "name": "School of Continuing Studies",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "103"
@@ -4332,6 +4405,7 @@
         "buildingId": "utsg:facility:104",
         "buildingCode": "104",
         "name": "Max Gluskin House",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "104"
@@ -4469,6 +4543,7 @@
         "buildingId": "utsg:facility:105",
         "buildingCode": "105",
         "name": "Fields Institute for Research in Mathematical Sciences",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "105"
@@ -4537,7 +4612,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:106",
         "buildingCode": "106",
-        "name": "St. George Street-162",
+        "name": "Former University Women's Club House",
+        "displayNameEvidence": {
+          "name": "Former University Women's Club House",
+          "kind": "historic",
+          "sourceId": "aco-uoft-st-george-162-history",
+          "sourceUrl": "https://www.acotoronto.ca/buildingsources/LbTLFqfAGF.pdf"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "106"
@@ -4642,7 +4723,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:110",
         "buildingCode": "110",
-        "name": "St. George Street-121",
+        "name": "Centre for Industrial Relations and Human Resources",
+        "displayNameEvidence": {
+          "name": "Centre for Industrial Relations and Human Resources",
+          "kind": "functional",
+          "sourceId": "uoft-cirhr-building-history",
+          "sourceUrl": "https://www.cirhr.utoronto.ca/CIRHR-buildings-through-the-ages"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "110"
@@ -4712,6 +4799,7 @@
         "buildingId": "utsg:facility:120",
         "buildingCode": "120",
         "name": "Louis B. Stewart Observatory",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "120"
@@ -4801,6 +4889,7 @@
         "buildingId": "utsg:facility:122",
         "buildingCode": "122",
         "name": "North West Chiller Plant",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "122"
@@ -4849,7 +4938,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:125",
         "buildingCode": "125",
-        "name": "Spadina Avenue-703",
+        "name": "R. Ramsay Wright House",
+        "displayNameEvidence": {
+          "name": "R. Ramsay Wright House",
+          "kind": "historic",
+          "sourceId": "aco-ramsay-wright-house",
+          "sourceUrl": "https://www.acotoronto.ca/building.php?ID=15990"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "125"
@@ -4911,6 +5006,7 @@
         "buildingId": "utsg:facility:127",
         "buildingCode": "127",
         "name": "Enrolment Services",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "127"
@@ -4960,6 +5056,7 @@
         "buildingId": "utsg:facility:128",
         "buildingCode": "128",
         "name": "Jackman Humanities Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "128"
@@ -5085,6 +5182,7 @@
         "buildingId": "utsg:facility:132",
         "buildingCode": "132",
         "name": "Innis College",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "132"
@@ -5194,6 +5292,7 @@
         "buildingId": "utsg:facility:133",
         "buildingCode": "133",
         "name": "Innis College Student Residence",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "133"
@@ -5343,6 +5442,7 @@
         "buildingId": "utsg:facility:134",
         "buildingCode": "134",
         "name": "Rotman School of Management",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "134"
@@ -5455,7 +5555,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:138",
         "buildingCode": "138",
-        "name": "Huron Street-370",
+        "name": "Campus Community Co-operative Day Care",
+        "displayNameEvidence": {
+          "name": "Campus Community Co-operative Day Care",
+          "kind": "functional",
+          "sourceId": "campus-coop-daycare",
+          "sourceUrl": "https://www.campuscoopdaycare.ca/about"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "138"
@@ -5525,6 +5631,7 @@
         "buildingId": "utsg:facility:143",
         "buildingCode": "143",
         "name": "Koffler Student Services Centre",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "143"
@@ -5633,7 +5740,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:146",
         "buildingCode": "146",
-        "name": "Sussex Avenue-40",
+        "name": "Kinesiology & Physical Education Offices",
+        "displayNameEvidence": {
+          "name": "Kinesiology & Physical Education Offices",
+          "kind": "functional",
+          "sourceId": "uoft-kpe-40-sussex",
+          "sourceUrl": "https://www.dlsph.utoronto.ca/faculty-profile/atkinson-michael/"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "146"
@@ -5719,6 +5832,7 @@
         "buildingId": "utsg:facility:152",
         "buildingCode": "152",
         "name": "Rehabilitation Sciences Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "152"
@@ -5776,6 +5890,7 @@
         "buildingId": "utsg:facility:160",
         "buildingCode": "160",
         "name": "Terrence Donnelly Centre for Cellular & Biomolecular Research",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "160"
@@ -5900,7 +6015,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:171",
         "buildingCode": "171",
-        "name": "Spadina Avenue-455",
+        "name": "Faculty of Information",
+        "displayNameEvidence": {
+          "name": "Faculty of Information",
+          "kind": "functional",
+          "sourceId": "uoft-faculty-information-contact",
+          "sourceUrl": "https://ischool.utoronto.ca/contact-us/"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "171"
@@ -5961,7 +6082,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:179",
         "buildingCode": "179",
-        "name": "College Street-229",
+        "name": "Oddfellows Hall",
+        "displayNameEvidence": {
+          "name": "Oddfellows Hall",
+          "kind": "historic",
+          "sourceId": "toronto-heritage-229-college",
+          "sourceUrl": "https://www.toronto.ca/legdocs/mmis/2018/pb/bgrd/backgroundfile-113148.pdf"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "179"
@@ -6038,7 +6165,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:191",
         "buildingCode": "191",
-        "name": "McCaul Street-207",
+        "name": "Richard Purdom House",
+        "displayNameEvidence": {
+          "name": "Richard Purdom House",
+          "kind": "historic",
+          "sourceId": "toronto-heritage-richard-purdom-house",
+          "sourceUrl": "https://www.toronto.ca/legdocs/bylaws/2003/law0388.pdf"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "191"
@@ -6091,7 +6224,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:433",
         "buildingCode": "433",
-        "name": "Queen's Park Crescent East-43",
+        "name": "Jesuit Provincial Offices",
+        "displayNameEvidence": {
+          "name": "Jesuit Provincial Offices",
+          "kind": "functional",
+          "sourceId": "archdiocese-toronto-jesuit-provincial-house",
+          "sourceUrl": "https://www.archtoronto.org/siteassets/media/offices--ministries/administrative-offices/spiritual-affairs/files/orderhierarchymen-dec-2025.pdf"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "433"
@@ -6185,6 +6324,7 @@
         "buildingId": "utsg:facility:434",
         "buildingCode": "434",
         "name": "Toronto School of Theology",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "434"
@@ -6266,6 +6406,7 @@
         "buildingId": "utsg:facility:478",
         "buildingCode": "478",
         "name": "Regis College",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "478"
@@ -6399,6 +6540,7 @@
         "buildingId": "utsg:facility:504",
         "buildingCode": "504",
         "name": "Burwash Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "504"
@@ -6596,6 +6738,7 @@
         "buildingId": "utsg:facility:506",
         "buildingCode": "506",
         "name": "Annesley Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "506"
@@ -6733,6 +6876,7 @@
         "buildingId": "utsg:facility:507",
         "buildingCode": "507",
         "name": "Goldring Student Centre",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "507"
@@ -6870,6 +7014,7 @@
         "buildingId": "utsg:facility:508",
         "buildingCode": "508",
         "name": "Margaret Addison Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "508"
@@ -6979,6 +7124,7 @@
         "buildingId": "utsg:facility:513",
         "buildingCode": "513",
         "name": "Stephenson House",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "513"
@@ -7036,6 +7182,7 @@
         "buildingId": "utsg:facility:514",
         "buildingCode": "514",
         "name": "E.J. Pratt Library",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "514"
@@ -7096,7 +7243,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:516",
         "buildingCode": "516",
-        "name": "Charles Street West-65",
+        "name": "Law House",
+        "displayNameEvidence": {
+          "name": "Law House",
+          "kind": "proper",
+          "sourceId": "victoria-university-campus-map",
+          "sourceUrl": "https://vicu.utoronto.ca/assets/Vic_Campus_Map.pdf"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "516"
@@ -7158,6 +7311,7 @@
         "buildingId": "utsg:facility:518",
         "buildingCode": "518",
         "name": "Rowell Jackman Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "518"
@@ -7251,6 +7405,7 @@
         "buildingId": "utsg:facility:528",
         "buildingCode": "528",
         "name": "Lillian Massey Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "528"
@@ -7448,6 +7603,7 @@
         "buildingId": "utsg:facility:575",
         "buildingCode": "575",
         "name": "Knox College",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "575"
@@ -7745,6 +7901,7 @@
         "buildingId": "utsg:facility:603",
         "buildingCode": "603",
         "name": "George Ignatieff Theatre",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "603"
@@ -7830,6 +7987,7 @@
         "buildingId": "utsg:facility:608",
         "buildingCode": "608",
         "name": "St. Hilda's College",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "608"
@@ -8039,6 +8197,7 @@
         "buildingId": "utsg:facility:675",
         "buildingCode": "675",
         "name": "Wycliffe College",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [
           "675"
@@ -8283,7 +8442,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:791",
         "buildingCode": "791",
-        "name": "Charles Street West-35",
+        "name": "University Family Housing — C2",
+        "displayNameEvidence": {
+          "name": "University Family Housing — C2",
+          "kind": "functional",
+          "sourceId": "uoft-university-family-housing",
+          "sourceUrl": "https://universityfamilyhousing.utoronto.ca/student-family/"
+        },
         "timetableCodes": [],
         "facilityCodes": [
           "791"
@@ -8373,6 +8538,7 @@
         "buildingId": "utsg:facility:036",
         "buildingCode": "AB",
         "name": "Astronomy & Astrophysics Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "AB"
         ],
@@ -8476,6 +8642,7 @@
         "buildingId": "utsg:smc:AH",
         "buildingCode": "AH",
         "name": "Muzzo Family Alumni Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "AH"
         ],
@@ -8549,6 +8716,7 @@
         "buildingId": "utsg:facility:079",
         "buildingCode": "AP",
         "name": "Anthropology Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "AP"
         ],
@@ -8600,6 +8768,7 @@
         "buildingId": "utsg:facility:080",
         "buildingCode": "BA",
         "name": "Bahen Centre for Information Technology",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "BA"
         ],
@@ -8859,6 +9028,7 @@
         "buildingId": "utsg:facility:057",
         "buildingCode": "BF",
         "name": "Bancroft Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "BF"
         ],
@@ -8970,6 +9140,7 @@
         "buildingId": "utsg:facility:068",
         "buildingCode": "BN",
         "name": "Clara Benson Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "BN"
         ],
@@ -9029,6 +9200,7 @@
         "buildingId": "utsg:smc:BR",
         "buildingCode": "BR",
         "name": "Brennan Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "BR"
         ],
@@ -9154,6 +9326,7 @@
         "buildingId": "utsg:facility:509",
         "buildingCode": "BT",
         "name": "Isabel Bader Theatre",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "BT"
         ],
@@ -9269,6 +9442,7 @@
         "buildingId": "utsg:facility:010A",
         "buildingCode": "CH",
         "name": "Convocation Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "CH"
         ],
@@ -9580,6 +9754,7 @@
         "buildingId": "utsg:smc:CR",
         "buildingCode": "CR",
         "name": "Carr Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "CR"
         ],
@@ -9685,6 +9860,7 @@
         "buildingId": "utsg:facility:054",
         "buildingCode": "DA",
         "name": "Daniels Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "DA"
         ],
@@ -9908,6 +10084,7 @@
         "buildingId": "utsg:facility:051",
         "buildingCode": "EJ",
         "name": "Edward Johnson Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "EJ"
         ],
@@ -10079,6 +10256,7 @@
         "buildingId": "utsg:facility:502",
         "buildingCode": "EM",
         "name": "Emmanuel College",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "EM"
         ],
@@ -10258,6 +10436,7 @@
         "buildingId": "utsg:facility:192",
         "buildingCode": "EP",
         "name": "Stewart Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "EP"
         ],
@@ -10413,6 +10592,7 @@
         "buildingId": "utsg:facility:062",
         "buildingCode": "ES",
         "name": "Earth Sciences Centre",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "ES"
         ],
@@ -10679,7 +10859,13 @@
         "campus": "utsg",
         "buildingId": "utsg:facility:014",
         "buildingCode": "FE",
-        "name": "Bloor Street West-371",
+        "name": "University of Toronto Schools",
+        "displayNameEvidence": {
+          "name": "University of Toronto Schools",
+          "kind": "proper",
+          "sourceId": "uts-contact",
+          "sourceUrl": "https://www.utschools.ca/contact"
+        },
         "timetableCodes": [
           "FE"
         ],
@@ -10899,6 +11085,7 @@
         "buildingId": "utsg:facility:070",
         "buildingCode": "GB",
         "name": "Galbraith Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "GB"
         ],
@@ -10978,6 +11165,7 @@
         "buildingId": "utsg:facility:024",
         "buildingCode": "HA",
         "name": "Haultain Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "HA"
         ],
@@ -11037,6 +11225,7 @@
         "buildingId": "utsg:facility:154",
         "buildingCode": "HS",
         "name": "Health Sciences Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "HS"
         ],
@@ -11112,6 +11301,7 @@
         "buildingId": "utsg:facility:145",
         "buildingCode": "KP",
         "name": "Koffler House",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "KP"
         ],
@@ -11243,6 +11433,7 @@
         "buildingId": "utsg:facility:602",
         "buildingCode": "LA",
         "name": "Gerald Larkin Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "LA"
         ],
@@ -11306,6 +11497,7 @@
         "buildingId": "utsg:facility:073",
         "buildingCode": "LM",
         "name": "Lash Miller Chemical Laboratories",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "LM"
         ],
@@ -11461,6 +11653,7 @@
         "buildingId": "utsg:facility:007",
         "buildingCode": "MB",
         "name": "Lassonde Mining Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "MB"
         ],
@@ -11636,6 +11829,7 @@
         "buildingId": "utsg:facility:022",
         "buildingCode": "MC",
         "name": "Mechanical Engineering Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "MC"
         ],
@@ -11807,6 +12001,7 @@
         "buildingId": "utsg:facility:078",
         "buildingCode": "MP",
         "name": "McLennan Physical Laboratories",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "MP"
         ],
@@ -11950,6 +12145,7 @@
         "buildingId": "utsg:facility:005",
         "buildingCode": "MS",
         "name": "Medical Sciences Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "MS"
         ],
@@ -12205,6 +12401,7 @@
         "buildingId": "utsg:facility:087",
         "buildingCode": "MY",
         "name": "Myhal Centre for Engineering Innovation and Entrepreneurship",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "MY"
         ],
@@ -12296,6 +12493,7 @@
         "buildingId": "utsg:facility:515",
         "buildingCode": "NF",
         "name": "Northrop Frye Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "NF"
         ],
@@ -12387,6 +12585,7 @@
         "buildingId": "utsg:facility:123",
         "buildingCode": "OI",
         "name": "Ontario Institute for Studies in Education",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "OI"
         ],
@@ -12478,6 +12677,7 @@
         "buildingId": "utsg:facility:161",
         "buildingCode": "PB",
         "name": "Leslie L. Dan Pharmacy Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "PB"
         ],
@@ -12537,6 +12737,7 @@
         "buildingId": "utsg:facility:006",
         "buildingCode": "RL",
         "name": "John P. Robarts Library Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "RL"
         ],
@@ -12888,6 +13089,7 @@
         "buildingId": "utsg:facility:020",
         "buildingCode": "RS",
         "name": "Rosebrugh Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "RS"
         ],
@@ -12983,6 +13185,7 @@
         "buildingId": "utsg:facility:072",
         "buildingCode": "RW",
         "name": "Ramsay Wright Laboratories",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "RW"
         ],
@@ -13142,6 +13345,7 @@
         "buildingId": "utsg:facility:111",
         "buildingCode": "SK",
         "name": "Factor-Inwentash Faculty of Social Work",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "SK"
         ],
@@ -13229,6 +13433,7 @@
         "buildingId": "utsg:facility:033",
         "buildingCode": "SS",
         "name": "Sidney Smith Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "SS"
         ],
@@ -13428,6 +13633,7 @@
         "buildingId": "utsg:facility:028",
         "buildingCode": "SU",
         "name": "Student Commons",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "SU"
         ],
@@ -13507,6 +13713,7 @@
         "buildingId": "utsg:facility:600",
         "buildingCode": "TC",
         "name": "Trinity College",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "TC"
         ],
@@ -13690,6 +13897,7 @@
         "buildingId": "utsg:smc:TF",
         "buildingCode": "TF",
         "name": "Teefy Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "TF"
         ],
@@ -13747,6 +13955,7 @@
         "buildingId": "utsg:facility:001",
         "buildingCode": "UC",
         "name": "University College",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "UC"
         ],
@@ -14266,6 +14475,7 @@
         "buildingId": "utsg:facility:501",
         "buildingCode": "VC",
         "name": "Victoria College",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "VC"
         ],
@@ -14421,6 +14631,7 @@
         "buildingId": "utsg:facility:008",
         "buildingCode": "WB",
         "name": "Wallberg Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "WB"
         ],
@@ -14656,6 +14867,7 @@
         "buildingId": "utsg:facility:032",
         "buildingCode": "WE",
         "name": "Wetmore Hall-New College",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "WE"
         ],
@@ -14871,6 +15083,7 @@
         "buildingId": "utsg:facility:032A",
         "buildingCode": "WI",
         "name": "Wilson Hall-New College",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "WI"
         ],
@@ -15066,6 +15279,7 @@
         "buildingId": "utsg:facility:130",
         "buildingCode": "WO",
         "name": "Woodsworth College Residence",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "WO"
         ],
@@ -15149,6 +15363,7 @@
         "buildingId": "utsg:facility:068A",
         "buildingCode": "WS",
         "name": "Warren Stevens Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "WS"
         ],
@@ -15228,6 +15443,7 @@
         "buildingId": "utsg:facility:038",
         "buildingCode": "WW",
         "name": "Woodsworth College",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "WW"
         ],

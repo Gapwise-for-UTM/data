@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:13:27.026Z",
+  "generatedAt": "2026-09-18T21:00:46.176Z",
   "sessions": [
     "20269",
     "20271"
@@ -7,7 +7,7 @@
   "campuses": {
     "utsg": {
       "campus": "utsg",
-      "generatedAt": "2026-09-18T20:12:55.421Z",
+      "generatedAt": "2026-09-18T21:00:14.186Z",
       "sessions": [
         "20269",
         "20271"
@@ -428,7 +428,7 @@
         {
           "id": "utsg:facility:195",
           "code": "195",
-          "name": "MaRS 2",
+          "name": "MaRS West Tower",
           "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
           "geometryAddresses": []
         },
@@ -489,18 +489,13 @@
         {
           "id": "utsg:facility:790",
           "code": "790",
-          "name": "Charles Street West-30",
+          "name": "University Family Housing — C1",
           "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
           "geometryAddresses": [
             {
               "address": "730 Yonge Street, Toronto, Ontario, Canada",
               "sourceId": "uoft-fs-campus-elevators",
               "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
-            },
-            {
-              "address": "30 Charles Street West, Toronto, Ontario, Canada",
-              "sourceId": "uoft-facilities-inventory-name",
-              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
             }
           ]
         },
@@ -528,7 +523,7 @@
     },
     "utsc": {
       "campus": "utsc",
-      "generatedAt": "2026-09-18T20:13:27.024Z",
+      "generatedAt": "2026-09-18T21:00:46.173Z",
       "sessions": [
         "20269",
         "20271"
