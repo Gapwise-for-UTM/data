@@ -51,3 +51,32 @@ https://data.gapwise.ca/contribute?building=MN
 ```
 
 This is the intended integration for Gapwise map coverage notices such as “Partial coverage” or “Know an entrance we're missing?”.
+
+
+## Maintainer fast path: one canonical edit, one derive command
+
+For routable UTM entrance changes, **`data/utm/entrances.geojson` is the source of truth for entrance identity, building association, display/routing coordinates, labels, access semantics, and provenance**.
+
+Do not hand-edit the same entrance across routing nodes, audit files, public snapshot counts, and checksums. After reviewing or adding the canonical entrance records, run:
+
+```bash
+npm run entrances:derive
+```
+
+That command refreshes the matching routing-node metadata and coordinates, incident edge distances when coordinates moved, the routable entrance audit, campus access counts, public snapshot counts, and checksums. Then run:
+
+```bash
+npm run data:preflight
+```
+
+CI runs the same coherence rules. It rejects an entrance with a missing graph node, a wrong building association, graph/canonical coordinate drift, stale audit records, or stale public counts.
+
+The derive command intentionally does **not** invent a new pedestrian-graph connection. A genuinely new door must reference a real routing node through `osmNodeId` or `routingNodeId`; if none exists, stop and verify the graph connection instead of guessing.
+
+For human review, use:
+
+```text
+https://data.gapwise.ca/review/map?pr=<PR_NUMBER>
+```
+
+The workflow always places this URL in the Actions job summary. Posting the same URL as a PR comment is best-effort, so comment-permission problems no longer make an otherwise-valid data PR fail.
