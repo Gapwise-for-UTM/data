@@ -78,7 +78,9 @@
     "Trinity College Main Building": "600",
     "Woodsworth College": "038",
     "D. L. Pratt Building": "008A",
-    "D.L. Pratt Building": "008A"
+    "D.L. Pratt Building": "008A",
+    "Robarts Common": "006C",
+    "Robarts Commons": "006C"
   },
   "codes": {
     "AB": "036",
@@ -172,6 +174,11 @@
       "address": "119 St. George Street, Toronto, Ontario, Canada",
       "sourceId": "uoft-fs-campus-elevators",
       "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+    },
+    "006C": {
+      "address": "369 Huron Street, Toronto, Ontario, Canada",
+      "sourceId": "uoft-fs-campus-elevators",
+      "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
     }
   },
   "geometryRefs": {
@@ -198,6 +205,12 @@
       "sourceId": "openstreetmap",
       "sourceUrl": "https://www.openstreetmap.org/way/12872719",
       "identityEvidenceUrl": "https://blogs.studentlife.utoronto.ca/innovationhub/contactus/"
+    },
+    "006C": {
+      "ref": "way/627629970",
+      "sourceId": "openstreetmap",
+      "sourceUrl": "https://www.openstreetmap.org/way/627629970",
+      "identityEvidenceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
     }
   },
   "geometryPoints": {
