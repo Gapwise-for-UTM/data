@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T03:27:25.419Z",
+  "generatedAt": "2026-09-18T13:11:15.663Z",
   "sessions": [
     "20269",
     "20271"
@@ -7,7 +7,7 @@
   "campuses": {
     "utsg": {
       "campus": "utsg",
-      "generatedAt": "2026-09-18T03:26:07.893Z",
+      "generatedAt": "2026-09-18T13:11:15.179Z",
       "sessions": [
         "20269",
         "20271"
@@ -16,9 +16,13 @@
       "canonicalBuildingCount": 165,
       "timetableBuildingCount": 48,
       "timetableCodeCount": 47,
-      "geometryResolvedCount": 89,
-      "geometryUnresolvedCount": 76,
-      "routingApproachCount": 89,
+      "geometryResolvedCount": 109,
+      "geometryUnresolvedCount": 56,
+      "hostedLocationCount": 0,
+      "mappedHostedLocationCount": 0,
+      "unresolvedHostedLocationCount": 0,
+      "mappedDestinationCount": 109,
+      "routingApproachCount": 109,
       "pedestrianNodeCount": 35527,
       "pedestrianEdgeCount": 39779,
       "pedestrianComponentCount": 138,
@@ -29,464 +33,521 @@
           "id": "utsg:facility:012A",
           "code": "012A",
           "name": "Munk School of Global Affairs & Public Policy at Trinity",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:012B",
           "code": "012B",
           "name": "Munk School of Global Affairs & Public Policy at Trinity",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:012C",
           "code": "012C",
           "name": "Munk School of Global Affairs & Public Policy - Graham Library",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:016",
           "code": "016",
           "name": "Banting Institute",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:017",
           "code": "017",
           "name": "Queen's Park-90",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "90 Queen's Park, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:027",
           "code": "027",
           "name": "Physical Geography Building - St. George Street-45",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "45 Physical Geography Building - St. George Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:029",
           "code": "029",
           "name": "Sir Daniel Wilson Residence",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:030A",
           "code": "030A",
           "name": "Varsity Centre",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:040",
           "code": "040",
           "name": "Faculty of Law",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:041",
           "code": "041",
           "name": "Varsity Pavilion",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:042",
           "code": "042",
           "name": "Goldring Centre for High Performance Sport",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:043",
           "code": "043",
           "name": "School of Graduate Studies",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:053",
           "code": "053",
           "name": "Dr. Eric Jackman Institute of Child Study",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:055",
-          "code": "055",
-          "name": "Highland Avenue-93",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:061",
           "code": "061",
           "name": "Borden Building South",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:061A",
           "code": "061A",
           "name": "Borden Building North",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:065",
           "code": "065",
           "name": "Dentistry Building",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:066",
           "code": "066",
           "name": "Spadina Avenue-665",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:067",
-          "code": "067",
-          "name": "Huron Street-215",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "665 Spadina Avenue, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:083",
           "code": "083",
           "name": "McCaul Street-254/256",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:088",
-          "code": "088",
-          "name": "St. George Street-123",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:089",
           "code": "089",
           "name": "Munk School of Global Affairs & Public Policy at the Observatory",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:090",
           "code": "090",
           "name": "College Street-88",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "88 College Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:092",
           "code": "092",
           "name": "Communications House",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:093",
           "code": "093",
           "name": "Electrometallurgy Lab",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:094",
           "code": "094",
           "name": "Back campus Fields",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:097",
           "code": "097",
           "name": "Queen's Park Crescent East-39",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:097A",
-          "code": "097A",
-          "name": "Queen's Park Crescent East-39A",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:098B",
-          "code": "098B",
-          "name": "Wellesley Street West-90",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:098C",
-          "code": "098C",
-          "name": "Wellesley Street West-90",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "39 Queen's Park Crescent East, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:105",
           "code": "105",
           "name": "Fields Institute for Research in Mathematical Sciences",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:106",
-          "code": "106",
-          "name": "St. George Street-162",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:109",
           "code": "109",
           "name": "College Street-179",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:110",
-          "code": "110",
-          "name": "St. George Street-121",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "179 College Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:112",
           "code": "112",
           "name": "College Street-185",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "185 College Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:114",
           "code": "114",
           "name": "College Street-187",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "187 College Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:118",
           "code": "118",
           "name": "Aura Lee Playing Field",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:125",
-          "code": "125",
-          "name": "Spadina Avenue-703",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:129",
           "code": "129",
           "name": "Early Learning Centre",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:131",
           "code": "131",
           "name": "New College III",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:133",
           "code": "133",
           "name": "Innis College Student Residence",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:135",
           "code": "135",
           "name": "St. George Parking Garage",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:138",
-          "code": "138",
-          "name": "Huron Street-370",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:146",
-          "code": "146",
-          "name": "Sussex Avenue-40",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:147",
           "code": "147",
           "name": "College Street-171",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "171 College Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:151",
           "code": "151",
           "name": "Fasken Building",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:155",
           "code": "155",
           "name": "Exam Centre",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:156",
           "code": "156",
           "name": "McCaul Street-263",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "263 McCaul Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:158",
           "code": "158",
           "name": "Chestnut Residence and Conference Centre",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:171",
-          "code": "171",
-          "name": "Spadina Avenue-455",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:172",
           "code": "172",
           "name": "Macdonald-Mowat House",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:179",
-          "code": "179",
-          "name": "College Street-229",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:189",
           "code": "189",
           "name": "Spadina Avenue-720",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:191",
-          "code": "191",
-          "name": "McCaul Street-207",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "720 Spadina Avenue, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:193",
           "code": "193",
           "name": "Edward Street-123",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "123 Edward Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:194",
           "code": "194",
           "name": "TWH - Krembil Discovery Tower",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:195",
           "code": "195",
           "name": "MaRS 2",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:196",
           "code": "196",
           "name": "University Avenue-700",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "700 University Avenue, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:197",
           "code": "197",
           "name": "Bay Street-777",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:433",
-          "code": "433",
-          "name": "Queen's Park Crescent East-43",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "777 Bay Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:503",
           "code": "503",
           "name": "Birge-Carnegie Library",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:505",
           "code": "505",
           "name": "Burwash Residence (Lower Houses)",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:505A",
           "code": "505A",
           "name": "Burwash Residence (Upper Houses)",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:514",
           "code": "514",
           "name": "E.J. Pratt Library",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:516",
-          "code": "516",
-          "name": "Charles Street West-65",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:575A",
           "code": "575A",
           "name": "Nona Macdonald Visitors Centre",
-          "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
-          "osmRef": "node/213342330"
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsg:facility:790",
           "code": "790",
           "name": "Charles Street West-30",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:791",
-          "code": "791",
-          "name": "Charles Street West-35",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:036",
-          "code": "AB",
-          "name": "Astronomy & Astrophysics Building",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "30 Charles Street West, Toronto, Ontario, Canada",
+              "sourceId": "uoft-facilities-inventory-name",
+              "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+            }
+          ]
         },
         {
           "id": "utsg:facility:057",
           "code": "BF",
           "name": "Bancroft Building",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:014",
-          "code": "FE",
-          "name": "Bloor Street West-371",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "4 Bancroft Avenue, Toronto, Ontario, Canada",
+              "sourceId": "uoft-fs-campus-elevators",
+              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+            }
+          ]
         },
         {
           "id": "utsg:facility:005",
           "code": "MS",
           "name": "Medical Sciences Building",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "1 King's College Circle, Toronto, Ontario, Canada",
+              "sourceId": "uoft-md-contact",
+              "sourceUrl": "https://md.utoronto.ca/contact-us"
+            }
+          ]
         },
         {
           "id": "utsg:facility:123",
           "code": "OI",
           "name": "Ontario Institute for Studies in Education",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "252 Bloor Street West, Toronto, Ontario, Canada",
+              "sourceId": "uoft-oise-contact",
+              "sourceUrl": "https://www.oise.utoronto.ca/contact"
+            }
+          ]
         },
         {
           "id": "utsg:facility:009",
           "code": "SF",
           "name": "Sandford Fleming Building",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "10 King's College Road, Toronto, Ontario, Canada",
+              "sourceId": "uoft-convocation-locations",
+              "sourceUrl": "https://www.utoronto.ca/convocation/campus-locations"
+            }
+          ]
         },
         {
           "id": "utsg:facility:028",
           "code": "SU",
           "name": "Student Commons",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsg:facility:038",
-          "code": "WW",
-          "name": "Woodsworth College",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
+          "geometryAddresses": [
+            {
+              "address": "230 College Street, Toronto, Ontario, Canada",
+              "sourceId": "uoft-student-commons",
+              "sourceUrl": "https://blogs.studentlife.utoronto.ca/innovationhub/contactus/"
+            }
+          ]
         }
-      ]
+      ],
+      "hostedLocations": [],
+      "unresolvedHostedLocations": []
     },
     "utsc": {
       "campus": "utsc",
-      "generatedAt": "2026-09-18T03:27:25.396Z",
+      "generatedAt": "2026-09-18T13:11:15.660Z",
       "sessions": [
         "20269",
         "20271"
@@ -496,7 +557,11 @@
       "timetableBuildingCount": 10,
       "timetableCodeCount": 9,
       "geometryResolvedCount": 30,
-      "geometryUnresolvedCount": 24,
+      "geometryUnresolvedCount": 19,
+      "hostedLocationCount": 5,
+      "mappedHostedLocationCount": 5,
+      "unresolvedHostedLocationCount": 0,
+      "mappedDestinationCount": 35,
       "routingApproachCount": 30,
       "pedestrianNodeCount": 5170,
       "pedestrianEdgeCount": 5291,
@@ -508,147 +573,194 @@
           "id": "utsc:AF",
           "code": "AF",
           "name": "Athletic Fields",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:AM",
           "code": "AM",
           "name": "Myron and Berna Garron Health Sciences Complex (SAMIH)",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:BC",
           "code": "BC",
           "name": "Beach Volleyball Courts",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:BD",
           "code": "BD",
           "name": "Dan Lang Field - Baseball Diamond",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:BL",
           "code": "BL",
           "name": "Bus Loop",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsc:BS",
-          "code": "BS",
-          "name": "Bookstore",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:CF",
           "code": "CF",
           "name": "Campus Farm",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:CG",
           "code": "CG",
           "name": "Community Gardens",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsc:DM",
-          "code": "DM",
-          "name": "Doris McCarthy Gallery",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:DS",
           "code": "DS",
           "name": "Dome Structure",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:ET",
           "code": "ET",
           "name": "Earth Tube Plaza",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:F",
           "code": "F",
           "name": "Fir",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsc:G1",
-          "code": "G1",
-          "name": "Gallery 1265",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:GD",
           "code": "GD",
           "name": "Geodesic Domes",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:H",
           "code": "H",
           "name": "Hickory",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:IGC",
           "code": "IGC",
           "name": "Indigenous Gathering Circle",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsc:LIB",
-          "code": "LIB",
-          "name": "Library",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-        },
-        {
-          "id": "utsc:LLB",
-          "code": "LLB",
-          "name": "Leigha Lee Browne Theatre",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:MAF",
           "code": "MAF",
           "name": "Morningside Athletic Field",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:MB",
           "code": "MB",
           "name": "Maintenance Building",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:PO",
           "code": "PO",
           "name": "Portable",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:SRC",
           "code": "SRC",
           "name": "Student Residence Centre",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:TC",
           "code": "TC",
           "name": "Tennis Centre",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         },
         {
           "id": "utsc:UG",
           "code": "UG",
           "name": "Urquhart Memorial Garden",
-          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
+          "reason": "No unique exact OpenStreetMap name/code match in the campus bounds.",
+          "geometryAddresses": []
         }
-      ]
+      ],
+      "hostedLocations": [
+        {
+          "id": "utsc:BS",
+          "code": "BS",
+          "name": "Bookstore",
+          "hostBuildingCode": "BV",
+          "hostEvidence": {
+            "sourceId": "utsc-fall-campus-day",
+            "sourceUrl": "https://www.utsc.utoronto.ca/admissions/fall-campus-day-schedule",
+            "note": "UTSC Bookstore is located in the Bladen Wing."
+          }
+        },
+        {
+          "id": "utsc:DM",
+          "code": "DM",
+          "name": "Doris McCarthy Gallery",
+          "hostBuildingCode": "AC",
+          "hostEvidence": {
+            "sourceId": "utsc-doris-mccarthy-gallery-location",
+            "sourceUrl": "https://dorismccarthygallery.utsc.utoronto.ca/",
+            "note": "Doris McCarthy Gallery is inside the Academic Resource Centre."
+          }
+        },
+        {
+          "id": "utsc:G1",
+          "code": "G1",
+          "name": "Gallery 1265",
+          "hostBuildingCode": "SW",
+          "hostEvidence": {
+            "sourceId": "utsc-gallery-1265-location",
+            "sourceUrl": "https://www.utsc.utoronto.ca/acm/gallery-1265",
+            "note": "Gallery 1265 is in SW209 in the Science Wing."
+          }
+        },
+        {
+          "id": "utsc:LIB",
+          "code": "LIB",
+          "name": "Library",
+          "hostBuildingCode": "AC",
+          "hostEvidence": {
+            "sourceId": "utsc-library-location",
+            "sourceUrl": "https://utsc.library.utoronto.ca/location-and-maps",
+            "note": "UTSC Library is in the Academic Resource Centre."
+          }
+        },
+        {
+          "id": "utsc:LLB",
+          "code": "LLB",
+          "name": "Leigha Lee Browne Theatre",
+          "hostBuildingCode": "SW",
+          "hostEvidence": {
+            "sourceId": "utsc-emergency-phone-locations",
+            "sourceUrl": "https://www.utsc.utoronto.ca/safety/sites/utsc.utoronto.ca.safety/files/docs/Emergency%20phones%202025.pdf",
+            "note": "Leigha Lee Browne Theatre is identified as SW260 in the Science Wing."
+          }
+        }
+      ],
+      "unresolvedHostedLocations": []
     }
   }
 }

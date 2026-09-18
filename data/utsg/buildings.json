@@ -1,6 +1,6 @@
 {
   "campus": "utsg",
-  "generatedAt": "2026-09-18T03:26:07.893Z",
+  "generatedAt": "2026-09-18T13:11:15.179Z",
   "sourceIds": [
     "uoft-facilities-bas-2025",
     "uoft-ttb-live",
@@ -20,6 +20,9 @@
         "002"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -43,6 +46,9 @@
         "003"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -63,6 +69,9 @@
         "004"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -83,6 +92,9 @@
         "006A"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -103,6 +115,9 @@
         "006B"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -126,6 +141,9 @@
         "008A"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -146,6 +164,9 @@
         "010"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -166,6 +187,9 @@
         "011"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -186,6 +210,9 @@
         "012A"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -206,6 +233,9 @@
         "012B"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -226,6 +256,9 @@
         "012C"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -246,6 +279,9 @@
         "013"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -266,6 +302,9 @@
         "016"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -286,6 +325,15 @@
         "017"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "90 Queen's Park, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -306,6 +354,9 @@
         "018"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -326,6 +377,9 @@
         "019"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -348,6 +402,9 @@
         "021"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -368,6 +425,9 @@
         "023"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -388,6 +448,9 @@
         "025"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -408,6 +471,9 @@
         "026"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -428,6 +494,15 @@
         "027"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "45 Physical Geography Building - St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -448,6 +523,9 @@
         "029"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -468,6 +546,9 @@
         "030A"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -488,6 +569,9 @@
         "034"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -510,6 +594,9 @@
         "040"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -530,6 +617,9 @@
         "041"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -552,6 +642,9 @@
         "042"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -574,6 +667,9 @@
         "043"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -594,6 +690,9 @@
         "047"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -614,6 +713,9 @@
         "050"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -634,6 +736,9 @@
         "053"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -654,6 +759,15 @@
         "055"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "93 Highland Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -674,6 +788,9 @@
         "056"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -694,6 +811,9 @@
         "061"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -714,6 +834,9 @@
         "061A"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -736,6 +859,9 @@
         "064"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -756,6 +882,9 @@
         "065"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -776,6 +905,15 @@
         "066"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "665 Spadina Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -796,6 +934,15 @@
         "067"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "215 Huron Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -816,6 +963,9 @@
         "075"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -836,6 +986,9 @@
         "077"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -856,6 +1009,9 @@
         "082"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -876,6 +1032,9 @@
         "083"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -896,6 +1055,15 @@
         "088"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "123 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -916,6 +1084,9 @@
         "089"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -936,6 +1107,15 @@
         "090"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "88 College Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -956,6 +1136,9 @@
         "091"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -976,6 +1159,9 @@
         "092"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -998,6 +1184,9 @@
         "093"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1018,6 +1207,9 @@
         "094"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1038,6 +1230,15 @@
         "097"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "39 Queen's Park Crescent East, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1058,6 +1259,15 @@
         "097A"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "39A Queen's Park Crescent East, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1078,6 +1288,15 @@
         "098B"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "90 Wellesley Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1098,6 +1317,15 @@
         "098C"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "90 Wellesley Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1120,6 +1348,9 @@
         "101"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1140,6 +1371,9 @@
         "102"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1160,6 +1394,9 @@
         "103"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1180,6 +1417,9 @@
         "104"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1202,6 +1442,9 @@
         "105"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1222,6 +1465,15 @@
         "106"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "162 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1242,6 +1494,15 @@
         "109"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "179 College Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1262,6 +1523,15 @@
         "110"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "121 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1282,6 +1552,15 @@
         "112"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "185 College Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1302,6 +1581,15 @@
         "114"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "187 College Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1322,6 +1610,9 @@
         "118"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1342,6 +1633,9 @@
         "120"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1362,6 +1656,9 @@
         "122"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1382,6 +1679,15 @@
         "125"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "703 Spadina Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1402,6 +1708,9 @@
         "127"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1424,6 +1733,9 @@
         "128"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1444,6 +1756,9 @@
         "129"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1464,6 +1779,9 @@
         "131"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1486,6 +1804,9 @@
         "132"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1506,6 +1827,9 @@
         "133"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1528,6 +1852,9 @@
         "134"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1548,6 +1875,9 @@
         "135"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1568,6 +1898,15 @@
         "138"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "370 Huron Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1590,6 +1929,9 @@
         "143"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1610,6 +1952,15 @@
         "146"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "40 Sussex Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1630,6 +1981,15 @@
         "147"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "171 College Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1650,6 +2010,9 @@
         "151"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1670,6 +2033,9 @@
         "152"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1693,6 +2059,9 @@
         "155"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1713,6 +2082,15 @@
         "156"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "263 McCaul Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1736,6 +2114,9 @@
         "158"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1759,6 +2140,9 @@
         "160"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1779,6 +2163,15 @@
         "171"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "455 Spadina Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1799,6 +2192,9 @@
         "172"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1819,6 +2215,15 @@
         "179"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "229 College Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1839,6 +2244,15 @@
         "189"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "720 Spadina Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1859,6 +2273,15 @@
         "191"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "207 McCaul Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1879,6 +2302,15 @@
         "193"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "123 Edward Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1899,6 +2331,9 @@
         "194"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1919,6 +2354,9 @@
         "195"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1939,6 +2377,15 @@
         "196"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "700 University Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1959,6 +2406,15 @@
         "197"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "777 Bay Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1979,6 +2435,15 @@
         "433"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "43 Queen's Park Crescent East, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -1999,6 +2464,9 @@
         "434"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2019,6 +2487,9 @@
         "478"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2039,6 +2510,9 @@
         "503"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2059,6 +2533,9 @@
         "504"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2079,6 +2556,9 @@
         "505"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2099,6 +2579,9 @@
         "505A"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2119,6 +2602,9 @@
         "506"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2139,6 +2625,9 @@
         "507"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2159,6 +2648,9 @@
         "508"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2179,6 +2671,9 @@
         "513"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2199,6 +2694,9 @@
         "514"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2219,6 +2717,15 @@
         "516"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "65 Charles Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2239,6 +2746,9 @@
         "518"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2259,6 +2769,9 @@
         "528"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2279,6 +2792,9 @@
         "575"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2299,6 +2815,9 @@
         "575A"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2319,6 +2838,9 @@
         "603"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2339,6 +2861,9 @@
         "608"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2359,6 +2884,9 @@
         "675"
       ],
       "mapUrls": [],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2379,6 +2907,15 @@
         "790"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "30 Charles Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2399,6 +2936,15 @@
         "791"
       ],
       "mapUrls": [],
+      "geometryAddresses": [
+        {
+          "address": "35 Charles Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-facilities-inventory-name",
+          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025"
       ],
@@ -2427,7 +2973,17 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494489"
       ],
+      "geometryAddresses": [
+        {
+          "address": "50 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-astro-location",
+          "sourceUrl": "https://www.astro.utoronto.ca/contact/inquiries-location/"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
+        "uoft-astro-location",
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
       ],
@@ -2450,6 +3006,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494578"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "stmikes-current-buildings",
         "uoft-facilities-bas-2025",
@@ -2479,6 +3038,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494472"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2507,6 +3069,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494470"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2535,8 +3100,18 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494497"
       ],
+      "geometryAddresses": [
+        {
+          "address": "4 Bancroft Avenue, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
+        "uoft-fs-campus-elevators",
         "uoft-ttb-live"
       ],
       "sourceNames": [
@@ -2562,6 +3137,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494513"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2585,6 +3163,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494595"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "stmikes-current-buildings",
         "uoft-facilities-bas-2025",
@@ -2611,6 +3192,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494605"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2636,6 +3220,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494494"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2659,6 +3246,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494580"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "stmikes-current-buildings",
         "uoft-facilities-bas-2025",
@@ -2687,6 +3277,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494471"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2714,6 +3307,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494549"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2739,6 +3335,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494601"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2764,6 +3363,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494462"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2792,6 +3394,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494499"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2819,8 +3424,18 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494550"
       ],
+      "geometryAddresses": [
+        {
+          "address": "371 Bloor Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-oise-facilities",
+          "sourceUrl": "https://www.oise.utoronto.ca/about/cao/facilities"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
+        "uoft-oise-facilities",
         "uoft-ttb-live"
       ],
       "sourceNames": [
@@ -2847,6 +3462,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494473"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2875,6 +3493,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494475"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2902,6 +3523,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494459"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2929,6 +3553,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494488"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2954,6 +3581,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494575"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -2982,6 +3612,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494502"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3010,6 +3643,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494466"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3038,6 +3674,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494474"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3065,6 +3704,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494490"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3093,8 +3735,18 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494491"
       ],
+      "geometryAddresses": [
+        {
+          "address": "1 King's College Circle, Toronto, Ontario, Canada",
+          "sourceId": "uoft-md-contact",
+          "sourceUrl": "https://md.utoronto.ca/contact-us"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
+        "uoft-md-contact",
         "uoft-ttb-live"
       ],
       "sourceNames": [
@@ -3121,6 +3773,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494495"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3146,6 +3801,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494600"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3174,8 +3832,18 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494563"
       ],
+      "geometryAddresses": [
+        {
+          "address": "252 Bloor Street West, Toronto, Ontario, Canada",
+          "sourceId": "uoft-oise-contact",
+          "sourceUrl": "https://www.oise.utoronto.ca/contact"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
+        "uoft-oise-contact",
         "uoft-ttb-live"
       ],
       "sourceNames": [
@@ -3202,6 +3870,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494476"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3231,6 +3902,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494531"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3259,6 +3933,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494478"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3286,6 +3963,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494515"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3314,7 +3994,17 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494481"
       ],
+      "geometryAddresses": [
+        {
+          "address": "10 King's College Road, Toronto, Ontario, Canada",
+          "sourceId": "uoft-convocation-locations",
+          "sourceUrl": "https://www.utoronto.ca/convocation/campus-locations"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
+        "uoft-convocation-locations",
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
       ],
@@ -3341,6 +4031,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494564"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3369,6 +4062,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494510"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3397,8 +4093,18 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494455"
       ],
+      "geometryAddresses": [
+        {
+          "address": "230 College Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-student-commons",
+          "sourceUrl": "https://blogs.studentlife.utoronto.ca/innovationhub/contactus/"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
+        "uoft-student-commons",
         "uoft-ttb-live"
       ],
       "sourceNames": [
@@ -3424,6 +4130,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494574"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3447,6 +4156,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494581"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "stmikes-current-map",
         "uoft-facilities-bas-2025",
@@ -3475,6 +4187,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494517"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3500,6 +4215,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494602"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3528,6 +4246,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494460"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3555,6 +4276,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494509"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3582,6 +4306,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494503"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3609,6 +4336,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494558"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3634,6 +4364,9 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494512"
       ],
+      "geometryAddresses": [],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-ttb-live"
@@ -3661,8 +4394,18 @@
       "mapUrls": [
         "https://map.utoronto.ca/?id=1809#!m/494547"
       ],
+      "geometryAddresses": [
+        {
+          "address": "119 St. George Street, Toronto, Ontario, Canada",
+          "sourceId": "uoft-fs-campus-elevators",
+          "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        }
+      ],
+      "hostBuildingCode": null,
+      "hostEvidence": null,
       "identityEvidence": [
         "uoft-facilities-bas-2025",
+        "uoft-fs-campus-elevators",
         "uoft-ttb-live"
       ],
       "sourceNames": [
