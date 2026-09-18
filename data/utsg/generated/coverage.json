@@ -1,6 +1,6 @@
 {
   "campus": "utsg",
-  "generatedAt": "2026-09-18T03:19:58.328Z",
+  "generatedAt": "2026-09-18T03:26:07.893Z",
   "sessions": [
     "20269",
     "20271"
@@ -9,28 +9,15 @@
   "canonicalBuildingCount": 165,
   "timetableBuildingCount": 48,
   "timetableCodeCount": 47,
-  "geometryResolvedCount": 75,
-  "geometryUnresolvedCount": 90,
-  "routingApproachCount": 75,
+  "geometryResolvedCount": 89,
+  "geometryUnresolvedCount": 76,
+  "routingApproachCount": 89,
   "pedestrianNodeCount": 35527,
   "pedestrianEdgeCount": 39779,
   "pedestrianComponentCount": 138,
   "largestPedestrianComponentNodes": 34449,
   "duplicateTimetableCodes": [],
   "unresolvedGeometry": [
-    {
-      "id": "utsg:facility:002",
-      "code": "002",
-      "name": "Hart House",
-      "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
-      "osmRef": "relation/1989"
-    },
-    {
-      "id": "utsg:facility:003",
-      "code": "003",
-      "name": "Gerstein Science Information Centre in the Sigmund Samuel Library",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
     {
       "id": "utsg:facility:012A",
       "code": "012A",
@@ -80,13 +67,6 @@
       "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
     },
     {
-      "id": "utsg:facility:034",
-      "code": "034",
-      "name": "Massey College",
-      "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
-      "osmRef": "relation/4323"
-    },
-    {
       "id": "utsg:facility:040",
       "code": "040",
       "name": "Faculty of Law",
@@ -133,13 +113,6 @@
       "code": "061A",
       "name": "Borden Building North",
       "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsg:facility:064",
-      "code": "064",
-      "name": "Graduate House",
-      "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
-      "osmRef": "relation/73341"
     },
     {
       "id": "utsg:facility:065",
@@ -436,25 +409,11 @@
       "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
     },
     {
-      "id": "utsg:facility:575",
-      "code": "575",
-      "name": "Knox College",
-      "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
-      "osmRef": "relation/2032"
-    },
-    {
       "id": "utsg:facility:575A",
       "code": "575A",
       "name": "Nona Macdonald Visitors Centre",
       "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
       "osmRef": "node/213342330"
-    },
-    {
-      "id": "utsg:facility:675",
-      "code": "675",
-      "name": "Wycliffe College",
-      "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
-      "osmRef": "relation/47346"
     },
     {
       "id": "utsg:facility:790",
@@ -481,24 +440,10 @@
       "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
     },
     {
-      "id": "utsg:facility:062",
-      "code": "ES",
-      "name": "Earth Sciences Centre",
-      "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
-      "osmRef": "relation/2152"
-    },
-    {
       "id": "utsg:facility:014",
       "code": "FE",
       "name": "Bloor Street West-371",
       "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsg:facility:070",
-      "code": "GB",
-      "name": "Galbraith Building",
-      "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
-      "osmRef": "relation/76177"
     },
     {
       "id": "utsg:facility:005",
@@ -513,24 +458,6 @@
       "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
     },
     {
-      "id": "utsg:facility:161",
-      "code": "PB",
-      "name": "Leslie L. Dan Pharmacy Building",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsg:facility:006",
-      "code": "RL",
-      "name": "John P. Robarts Library Building",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsg:facility:072",
-      "code": "RW",
-      "name": "Ramsay Wright Laboratories",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
       "id": "utsg:facility:009",
       "code": "SF",
       "name": "Sandford Fleming Building",
@@ -540,25 +467,6 @@
       "id": "utsg:facility:028",
       "code": "SU",
       "name": "Student Commons",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsg:facility:600",
-      "code": "TC",
-      "name": "Trinity College",
-      "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
-      "osmRef": "relation/2687"
-    },
-    {
-      "id": "utsg:facility:032",
-      "code": "WE",
-      "name": "Wetmore Hall-New College",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsg:facility:032A",
-      "code": "WI",
-      "name": "Wilson Hall-New College",
       "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
     },
     {

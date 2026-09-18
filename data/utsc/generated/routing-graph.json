@@ -1,6 +1,6 @@
 {
   "campus": "utsc",
-  "generatedAt": "2026-09-18T03:20:48.366Z",
+  "generatedAt": "2026-09-18T03:27:25.396Z",
   "source": "OpenStreetMap",
   "verificationStatus": "inferred",
   "nodes": [
@@ -17015,6 +17015,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1851063,43.7875535",
+      "longitude": -79.1851063,
+      "latitude": 43.7875535,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1851067,43.7827231",
       "longitude": -79.1851067,
       "latitude": 43.7827231,
@@ -17102,6 +17109,13 @@
       "id": "osm--79.1851769,43.7838741",
       "longitude": -79.1851769,
       "latitude": 43.7838741,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1851870,43.7877142",
+      "longitude": -79.185187,
+      "latitude": 43.7877142,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -17235,13 +17249,6 @@
       "id": "osm--79.1852532,43.7796712",
       "longitude": -79.1852532,
       "latitude": 43.7796712,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1852548,43.7877666",
-      "longitude": -79.1852548,
-      "latitude": 43.7877666,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -17389,13 +17396,6 @@
       "id": "osm--79.1853609,43.7929393",
       "longitude": -79.1853609,
       "latitude": 43.7929393,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1853722,43.7876344",
-      "longitude": -79.1853722,
-      "latitude": 43.7876344,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -17638,8 +17638,8 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1855218,43.7840737",
-      "longitude": -79.1855218,
+      "id": "osm--79.1855168,43.7840737",
+      "longitude": -79.1855168,
       "latitude": 43.7840737,
       "kind": "path",
       "verificationStatus": "inferred"
@@ -17757,9 +17757,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1855888,43.7841046",
-      "longitude": -79.1855888,
-      "latitude": 43.7841046,
+      "id": "osm--79.1855853,43.7841053",
+      "longitude": -79.1855853,
+      "latitude": 43.7841053,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18037,13 +18037,6 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1857235,43.7841666",
-      "longitude": -79.1857235,
-      "latitude": 43.7841666,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1857248,43.7908188",
       "longitude": -79.1857248,
       "latitude": 43.7908188,
@@ -18054,6 +18047,13 @@
       "id": "osm--79.1857308,43.7843062",
       "longitude": -79.1857308,
       "latitude": 43.7843062,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1857310,43.7841775",
+      "longitude": -79.185731,
+      "latitude": 43.7841775,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18075,13 +18075,6 @@
       "id": "osm--79.1857430,43.7943563",
       "longitude": -79.185743,
       "latitude": 43.7943563,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1857466,43.7840364",
-      "longitude": -79.1857466,
-      "latitude": 43.7840364,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18135,6 +18128,20 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1857868,43.7840569",
+      "longitude": -79.1857868,
+      "latitude": 43.7840569,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1857882,43.7840337",
+      "longitude": -79.1857882,
+      "latitude": 43.7840337,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1857912,43.7995196",
       "longitude": -79.1857912,
       "latitude": 43.7995196,
@@ -18177,6 +18184,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1858036,43.7840784",
+      "longitude": -79.1858036,
+      "latitude": 43.7840784,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1858050,43.7944934",
       "longitude": -79.185805,
       "latitude": 43.7944934,
@@ -18184,16 +18198,16 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1858103,43.7840671",
-      "longitude": -79.1858103,
-      "latitude": 43.7840671,
+      "id": "osm--79.1858085,43.7840908",
+      "longitude": -79.1858085,
+      "latitude": 43.7840908,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1858130,43.7842115",
-      "longitude": -79.185813,
-      "latitude": 43.7842115,
+      "id": "osm--79.1858110,43.7842173",
+      "longitude": -79.185811,
+      "latitude": 43.7842173,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18303,13 +18317,6 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1859483,43.7838188",
-      "longitude": -79.1859483,
-      "latitude": 43.7838188,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1859510,43.7804168",
       "longitude": -79.185951,
       "latitude": 43.7804168,
@@ -18334,6 +18341,13 @@
       "id": "osm--79.1859589,43.7994497",
       "longitude": -79.1859589,
       "latitude": 43.7994497,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1859661,43.7838357",
+      "longitude": -79.1859661,
+      "latitude": 43.7838357,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18464,9 +18478,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1860846,43.7830634",
-      "longitude": -79.1860846,
-      "latitude": 43.7830634,
+      "id": "osm--79.1860881,43.7830603",
+      "longitude": -79.1860881,
+      "latitude": 43.7830603,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18541,9 +18555,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1861709,43.7836046",
-      "longitude": -79.1861709,
-      "latitude": 43.7836046,
+      "id": "osm--79.1861715,43.7836049",
+      "longitude": -79.1861715,
+      "latitude": 43.7836049,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18576,6 +18590,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1862040,43.7831161",
+      "longitude": -79.186204,
+      "latitude": 43.7831161,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1862219,43.7995338",
       "longitude": -79.1862219,
       "latitude": 43.7995338,
@@ -18583,9 +18604,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1862291,43.7835159",
-      "longitude": -79.1862291,
-      "latitude": 43.7835159,
+      "id": "osm--79.1862292,43.7872526",
+      "longitude": -79.1862292,
+      "latitude": 43.7872526,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18597,9 +18618,23 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1862373,43.7835309",
+      "longitude": -79.1862373,
+      "latitude": 43.7835309,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1862374,43.7836358",
       "longitude": -79.1862374,
       "latitude": 43.7836358,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1862425,43.7831277",
+      "longitude": -79.1862425,
+      "latitude": 43.7831277,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18618,16 +18653,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1862487,43.7831243",
-      "longitude": -79.1862487,
-      "latitude": 43.7831243,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1862563,43.7852965",
-      "longitude": -79.1862563,
-      "latitude": 43.7852965,
+      "id": "osm--79.1862515,43.7852012",
+      "longitude": -79.1862515,
+      "latitude": 43.7852012,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18653,23 +18681,30 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1862719,43.7853051",
+      "longitude": -79.1862719,
+      "latitude": 43.7853051,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1862833,43.7831386",
+      "longitude": -79.1862833,
+      "latitude": 43.7831386,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1862919,43.7852195",
+      "longitude": -79.1862919,
+      "latitude": 43.7852195,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1862947,43.7925335",
       "longitude": -79.1862947,
       "latitude": 43.7925335,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1862960,43.7851499",
-      "longitude": -79.186296,
-      "latitude": 43.7851499,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1863081,43.7852362",
-      "longitude": -79.1863081,
-      "latitude": 43.7852362,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18681,9 +18716,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1863280,43.7872233",
-      "longitude": -79.186328,
-      "latitude": 43.7872233,
+      "id": "osm--79.1863316,43.7852376",
+      "longitude": -79.1863316,
+      "latitude": 43.7852376,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18723,13 +18758,6 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1863483,43.7833872",
-      "longitude": -79.1863483,
-      "latitude": 43.7833872,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1863532,43.7834022",
       "longitude": -79.1863532,
       "latitude": 43.7834022,
@@ -18737,16 +18765,30 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1863790,43.7925906",
-      "longitude": -79.186379,
-      "latitude": 43.7925906,
+      "id": "osm--79.1863611,43.7834059",
+      "longitude": -79.1863611,
+      "latitude": 43.7834059,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1863801,43.7852709",
-      "longitude": -79.1863801,
-      "latitude": 43.7852709,
+      "id": "osm--79.1863694,43.7833969",
+      "longitude": -79.1863694,
+      "latitude": 43.7833969,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1863739,43.7852608",
+      "longitude": -79.1863739,
+      "latitude": 43.7852608,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1863790,43.7925906",
+      "longitude": -79.186379,
+      "latitude": 43.7925906,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18782,6 +18824,13 @@
       "id": "osm--79.1864025,43.7735250",
       "longitude": -79.1864025,
       "latitude": 43.773525,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1864090,43.7831689",
+      "longitude": -79.186409,
+      "latitude": 43.7831689,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18842,13 +18891,6 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1864720,43.7831836",
-      "longitude": -79.186472,
-      "latitude": 43.7831836,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1864799,43.7845263",
       "longitude": -79.1864799,
       "latitude": 43.7845263,
@@ -18870,6 +18912,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1865013,43.7832004",
+      "longitude": -79.1865013,
+      "latitude": 43.7832004,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1865112,43.7994654",
       "longitude": -79.1865112,
       "latitude": 43.7994654,
@@ -18887,6 +18936,13 @@
       "id": "osm--79.1865153,43.7829496",
       "longitude": -79.1865153,
       "latitude": 43.7829496,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1865335,43.7834248",
+      "longitude": -79.1865335,
+      "latitude": 43.7834248,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18933,6 +18989,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1865847,43.7832386",
+      "longitude": -79.1865847,
+      "latitude": 43.7832386,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1865915,43.7792622",
       "longitude": -79.1865915,
       "latitude": 43.7792622,
@@ -18954,30 +19017,16 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1865996,43.7853899",
-      "longitude": -79.1865996,
-      "latitude": 43.7853899,
+      "id": "osm--79.1866073,43.7834058",
+      "longitude": -79.1866073,
+      "latitude": 43.7834058,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1866050,43.7833893",
-      "longitude": -79.186605,
-      "latitude": 43.7833893,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1866139,43.7832462",
-      "longitude": -79.1866139,
-      "latitude": 43.7832462,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1866287,43.7852989",
-      "longitude": -79.1866287,
-      "latitude": 43.7852989,
+      "id": "osm--79.1866136,43.7853765",
+      "longitude": -79.1866136,
+      "latitude": 43.7853765,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -18999,13 +19048,6 @@
       "id": "osm--79.1866508,43.7860799",
       "longitude": -79.1866508,
       "latitude": 43.7860799,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1866516,43.7837239",
-      "longitude": -79.1866516,
-      "latitude": 43.7837239,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19038,6 +19080,20 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1866648,43.7832709",
+      "longitude": -79.1866648,
+      "latitude": 43.7832709,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1866649,43.7837309",
+      "longitude": -79.1866649,
+      "latitude": 43.7837309,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1866679,43.7835499",
       "longitude": -79.1866679,
       "latitude": 43.7835499,
@@ -19055,6 +19111,20 @@
       "id": "osm--79.1866693,43.7710797",
       "longitude": -79.1866693,
       "latitude": 43.7710797,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1866706,43.7833848",
+      "longitude": -79.1866706,
+      "latitude": 43.7833848,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1866715,43.7853284",
+      "longitude": -79.1866715,
+      "latitude": 43.7853284,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19080,37 +19150,23 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1866890,43.7852269",
-      "longitude": -79.186689,
-      "latitude": 43.7852269,
+      "id": "osm--79.1866937,43.7835016",
+      "longitude": -79.1866937,
+      "latitude": 43.7835016,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1866960,43.7853224",
-      "longitude": -79.186696,
-      "latitude": 43.7853224,
+      "id": "osm--79.1867229,43.7829279",
+      "longitude": -79.1867229,
+      "latitude": 43.7829279,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1867050,43.7833454",
-      "longitude": -79.186705,
-      "latitude": 43.7833454,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1867216,43.7832766",
-      "longitude": -79.1867216,
-      "latitude": 43.7832766,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1867236,43.7829203",
-      "longitude": -79.1867236,
-      "latitude": 43.7829203,
+      "id": "osm--79.1867291,43.7833583",
+      "longitude": -79.1867291,
+      "latitude": 43.7833583,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19143,6 +19199,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1867467,43.7852659",
+      "longitude": -79.1867467,
+      "latitude": 43.7852659,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1867468,43.7730355",
       "longitude": -79.1867468,
       "latitude": 43.7730355,
@@ -19150,16 +19213,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1867491,43.7837715",
-      "longitude": -79.1867491,
-      "latitude": 43.7837715,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1867563,43.7852604",
-      "longitude": -79.1867563,
-      "latitude": 43.7852604,
+      "id": "osm--79.1867522,43.7832872",
+      "longitude": -79.1867522,
+      "latitude": 43.7832872,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19178,9 +19234,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1867671,43.7830879",
-      "longitude": -79.1867671,
-      "latitude": 43.7830879,
+      "id": "osm--79.1867656,43.7837798",
+      "longitude": -79.1867656,
+      "latitude": 43.7837798,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19192,9 +19248,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1867754,43.7835853",
-      "longitude": -79.1867754,
-      "latitude": 43.7835853,
+      "id": "osm--79.1867782,43.7854806",
+      "longitude": -79.1867782,
+      "latitude": 43.7854806,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19206,9 +19262,30 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1867913,43.7835921",
+      "longitude": -79.1867913,
+      "latitude": 43.7835921,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1867944,43.7831114",
+      "longitude": -79.1867944,
+      "latitude": 43.7831114,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1867976,43.7709377",
       "longitude": -79.1867976,
       "latitude": 43.7709377,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1868033,43.7829538",
+      "longitude": -79.1868033,
+      "latitude": 43.7829538,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19220,16 +19297,23 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1868051,43.7829305",
-      "longitude": -79.1868051,
-      "latitude": 43.7829305,
+      "id": "osm--79.1868130,43.7837279",
+      "longitude": -79.186813,
+      "latitude": 43.7837279,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1868154,43.7837045",
-      "longitude": -79.1868154,
-      "latitude": 43.7837045,
+      "id": "osm--79.1868156,43.7829674",
+      "longitude": -79.1868156,
+      "latitude": 43.7829674,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1868162,43.7830043",
+      "longitude": -79.1868162,
+      "latitude": 43.7830043,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19255,23 +19339,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1868367,43.7838141",
-      "longitude": -79.1868367,
-      "latitude": 43.7838141,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1868457,43.7709297",
       "longitude": -79.1868457,
       "latitude": 43.7709297,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1868527,43.7851261",
-      "longitude": -79.1868527,
-      "latitude": 43.7851261,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19297,16 +19367,23 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1868754,43.7829409",
-      "longitude": -79.1868754,
-      "latitude": 43.7829409,
+      "id": "osm--79.1868710,43.7838309",
+      "longitude": -79.186871,
+      "latitude": 43.7838309,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1868811,43.7851373",
-      "longitude": -79.1868811,
-      "latitude": 43.7851373,
+      "id": "osm--79.1868718,43.7851324",
+      "longitude": -79.1868718,
+      "latitude": 43.7851324,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1868754,43.7829409",
+      "longitude": -79.1868754,
+      "latitude": 43.7829409,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19318,9 +19395,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1868833,43.7836353",
-      "longitude": -79.1868833,
-      "latitude": 43.7836353,
+      "id": "osm--79.1868924,43.7836396",
+      "longitude": -79.1868924,
+      "latitude": 43.7836396,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19332,9 +19409,16 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1869015,43.7837487",
-      "longitude": -79.1869015,
-      "latitude": 43.7837487,
+      "id": "osm--79.1868962,43.7851261",
+      "longitude": -79.1868962,
+      "latitude": 43.7851261,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1868973,43.7855621",
+      "longitude": -79.1868973,
+      "latitude": 43.7855621,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19353,9 +19437,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1869096,43.7851163",
-      "longitude": -79.1869096,
-      "latitude": 43.7851163,
+      "id": "osm--79.1869162,43.7837793",
+      "longitude": -79.1869162,
+      "latitude": 43.7837793,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19402,6 +19486,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1869820,43.7856117",
+      "longitude": -79.186982,
+      "latitude": 43.7856117,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1869842,43.7844729",
       "longitude": -79.1869842,
       "latitude": 43.7844729,
@@ -19444,9 +19535,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1870138,43.7856145",
-      "longitude": -79.1870138,
-      "latitude": 43.7856145,
+      "id": "osm--79.1870328,43.7856320",
+      "longitude": -79.1870328,
+      "latitude": 43.785632,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19479,13 +19570,6 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1870581,43.7853308",
-      "longitude": -79.1870581,
-      "latitude": 43.7853308,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1870673,43.7706603",
       "longitude": -79.1870673,
       "latitude": 43.7706603,
@@ -19500,9 +19584,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1870742,43.7856295",
-      "longitude": -79.1870742,
-      "latitude": 43.7856295,
+      "id": "osm--79.1870763,43.7856396",
+      "longitude": -79.1870763,
+      "latitude": 43.7856396,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19528,6 +19612,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1870864,43.7852142",
+      "longitude": -79.1870864,
+      "latitude": 43.7852142,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1870871,43.7836326",
       "longitude": -79.1870871,
       "latitude": 43.7836326,
@@ -19535,16 +19626,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1870906,43.7851967",
-      "longitude": -79.1870906,
-      "latitude": 43.7851967,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1870972,43.7856239",
-      "longitude": -79.1870972,
-      "latitude": 43.7856239,
+      "id": "osm--79.1871112,43.7856315",
+      "longitude": -79.1871112,
+      "latitude": 43.7856315,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19563,16 +19647,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1871578,43.7856506",
-      "longitude": -79.1871578,
-      "latitude": 43.7856506,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1871787,43.7852542",
-      "longitude": -79.1871787,
-      "latitude": 43.7852542,
+      "id": "osm--79.1871564,43.7856544",
+      "longitude": -79.1871564,
+      "latitude": 43.7856544,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19615,6 +19692,13 @@
       "id": "osm--79.1871949,43.7974271",
       "longitude": -79.1871949,
       "latitude": 43.7974271,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1871957,43.7852551",
+      "longitude": -79.1871957,
+      "latitude": 43.7852551,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19738,13 +19822,6 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1872975,43.7857122",
-      "longitude": -79.1872975,
-      "latitude": 43.7857122,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1872998,43.7818243",
       "longitude": -79.1872998,
       "latitude": 43.7818243,
@@ -19762,6 +19839,13 @@
       "id": "osm--79.1873061,43.7828325",
       "longitude": -79.1873061,
       "latitude": 43.7828325,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1873082,43.7857268",
+      "longitude": -79.1873082,
+      "latitude": 43.7857268,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19836,16 +19920,16 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1873504,43.7857401",
-      "longitude": -79.1873504,
-      "latitude": 43.7857401,
+      "id": "osm--79.1873530,43.7719538",
+      "longitude": -79.187353,
+      "latitude": 43.7719538,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1873530,43.7719538",
-      "longitude": -79.187353,
-      "latitude": 43.7719538,
+      "id": "osm--79.1873531,43.7857480",
+      "longitude": -79.1873531,
+      "latitude": 43.785748,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -19881,6 +19965,13 @@
       "id": "osm--79.1873654,43.7829597",
       "longitude": -79.1873654,
       "latitude": 43.7829597,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1873708,43.7850932",
+      "longitude": -79.1873708,
+      "latitude": 43.7850932,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -20102,9 +20193,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1875478,43.7859278",
-      "longitude": -79.1875478,
-      "latitude": 43.7859278,
+      "id": "osm--79.1875504,43.7859375",
+      "longitude": -79.1875504,
+      "latitude": 43.7859375,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -20823,9 +20914,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1879412,43.7858319",
-      "longitude": -79.1879412,
-      "latitude": 43.7858319,
+      "id": "osm--79.1879519,43.7858307",
+      "longitude": -79.1879519,
+      "latitude": 43.7858307,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -21040,13 +21131,6 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1881406,43.7862582",
-      "longitude": -79.1881406,
-      "latitude": 43.7862582,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1881414,43.7830725",
       "longitude": -79.1881414,
       "latitude": 43.7830725,
@@ -21064,6 +21148,13 @@
       "id": "osm--79.1881430,43.7836903",
       "longitude": -79.188143,
       "latitude": 43.7836903,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1881432,43.7862665",
+      "longitude": -79.1881432,
+      "latitude": 43.7862665,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -21103,6 +21194,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1881971,43.7863775",
+      "longitude": -79.1881971,
+      "latitude": 43.7863775,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1882003,43.7829171",
       "longitude": -79.1882003,
       "latitude": 43.7829171,
@@ -21124,16 +21222,16 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1882132,43.7867010",
-      "longitude": -79.1882132,
-      "latitude": 43.786701,
+      "id": "osm--79.1882105,43.7836657",
+      "longitude": -79.1882105,
+      "latitude": 43.7836657,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1882179,43.7835798",
-      "longitude": -79.1882179,
-      "latitude": 43.7835798,
+      "id": "osm--79.1882132,43.7867010",
+      "longitude": -79.1882132,
+      "latitude": 43.786701,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -21145,6 +21243,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1882278,43.7864333",
+      "longitude": -79.1882278,
+      "latitude": 43.7864333,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1882305,43.7853682",
       "longitude": -79.1882305,
       "latitude": 43.7853682,
@@ -21152,16 +21257,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1882342,43.7835261",
-      "longitude": -79.1882342,
-      "latitude": 43.7835261,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1882356,43.7836591",
-      "longitude": -79.1882356,
-      "latitude": 43.7836591,
+      "id": "osm--79.1882335,43.7835803",
+      "longitude": -79.1882335,
+      "latitude": 43.7835803,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -21180,9 +21278,23 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1882406,43.7864993",
+      "longitude": -79.1882406,
+      "latitude": 43.7864993,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1882442,43.7741481",
       "longitude": -79.1882442,
       "latitude": 43.7741481,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1882491,43.7835412",
+      "longitude": -79.1882491,
+      "latitude": 43.7835412,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -21232,13 +21344,6 @@
       "id": "osm--79.1882723,43.7866749",
       "longitude": -79.1882723,
       "latitude": 43.7866749,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1882741,43.7864926",
-      "longitude": -79.1882741,
-      "latitude": 43.7864926,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -21306,13 +21411,6 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1882992,43.7835094",
-      "longitude": -79.1882992,
-      "latitude": 43.7835094,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1883053,43.7824948",
       "longitude": -79.1883053,
       "latitude": 43.7824948,
@@ -21330,6 +21428,13 @@
       "id": "osm--79.1883108,43.7855675",
       "longitude": -79.1883108,
       "latitude": 43.7855675,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1883112,43.7835232",
+      "longitude": -79.1883112,
+      "latitude": 43.7835232,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -21369,16 +21474,16 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1883326,43.7864679",
-      "longitude": -79.1883326,
-      "latitude": 43.7864679,
+      "id": "osm--79.1883327,43.7824825",
+      "longitude": -79.1883327,
+      "latitude": 43.7824825,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1883327,43.7824825",
-      "longitude": -79.1883327,
-      "latitude": 43.7824825,
+      "id": "osm--79.1883336,43.7864831",
+      "longitude": -79.1883336,
+      "latitude": 43.7864831,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -21481,16 +21586,16 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1883845,43.7841050",
-      "longitude": -79.1883845,
-      "latitude": 43.784105,
+      "id": "osm--79.1883809,43.7835616",
+      "longitude": -79.1883809,
+      "latitude": 43.7835616,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1883851,43.7835613",
-      "longitude": -79.1883851,
-      "latitude": 43.7835613,
+      "id": "osm--79.1883845,43.7841050",
+      "longitude": -79.1883845,
+      "latitude": 43.784105,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -21516,16 +21621,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1884191,43.7836199",
+      "id": "osm--79.1884191,43.7864748",
       "longitude": -79.1884191,
-      "latitude": 43.7836199,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1884191,43.7864694",
-      "longitude": -79.1884191,
-      "latitude": 43.7864694,
+      "latitude": 43.7864748,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -21565,6 +21663,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1884421,43.7836166",
+      "longitude": -79.1884421,
+      "latitude": 43.7836166,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1884514,43.7829186",
       "longitude": -79.1884514,
       "latitude": 43.7829186,
@@ -21575,6 +21680,13 @@
       "id": "osm--79.1884532,43.7854706",
       "longitude": -79.1884532,
       "latitude": 43.7854706,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1884677,43.7864635",
+      "longitude": -79.1884677,
+      "latitude": 43.7864635,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -21985,16 +22097,16 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1887170,43.7834658",
-      "longitude": -79.188717,
-      "latitude": 43.7834658,
+      "id": "osm--79.1887183,43.7827272",
+      "longitude": -79.1887183,
+      "latitude": 43.7827272,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1887183,43.7827272",
-      "longitude": -79.1887183,
-      "latitude": 43.7827272,
+      "id": "osm--79.1887196,43.7834931",
+      "longitude": -79.1887196,
+      "latitude": 43.7834931,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -22188,6 +22300,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1888991,43.7863527",
+      "longitude": -79.1888991,
+      "latitude": 43.7863527,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1889028,43.7837290",
       "longitude": -79.1889028,
       "latitude": 43.783729,
@@ -22202,23 +22321,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1889234,43.7863329",
-      "longitude": -79.1889234,
-      "latitude": 43.7863329,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1889264,43.7843495",
       "longitude": -79.1889264,
       "latitude": 43.7843495,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1889423,43.7837446",
-      "longitude": -79.1889423,
-      "latitude": 43.7837446,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -22247,6 +22352,13 @@
       "id": "osm--79.1889648,43.7754797",
       "longitude": -79.1889648,
       "latitude": 43.7754797,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1889712,43.7837589",
+      "longitude": -79.1889712,
+      "latitude": 43.7837589,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -22307,9 +22419,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1890323,43.7863069",
-      "longitude": -79.1890323,
-      "latitude": 43.7863069,
+      "id": "osm--79.1890330,43.7863182",
+      "longitude": -79.189033,
+      "latitude": 43.7863182,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -22352,13 +22464,6 @@
       "id": "osm--79.1890763,43.7754510",
       "longitude": -79.1890763,
       "latitude": 43.775451,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1890944,43.7862899",
-      "longitude": -79.1890944,
-      "latitude": 43.7862899,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -22408,6 +22513,13 @@
       "id": "osm--79.1891256,43.7889336",
       "longitude": -79.1891256,
       "latitude": 43.7889336,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1891269,43.7862969",
+      "longitude": -79.1891269,
+      "latitude": 43.7862969,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -22524,23 +22636,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1892466,43.7862671",
-      "longitude": -79.1892466,
-      "latitude": 43.7862671,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1892491,43.7843901",
       "longitude": -79.1892491,
       "latitude": 43.7843901,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1892509,43.7836284",
-      "longitude": -79.1892509,
-      "latitude": 43.7836284,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -22559,9 +22657,23 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1892560,43.7836503",
+      "longitude": -79.189256,
+      "latitude": 43.7836503,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1892620,43.7857729",
       "longitude": -79.189262,
       "latitude": 43.7857729,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1892627,43.7862736",
+      "longitude": -79.1892627,
+      "latitude": 43.7862736,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -23357,9 +23469,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1899896,43.7860764",
-      "longitude": -79.1899896,
-      "latitude": 43.7860764,
+      "id": "osm--79.1899892,43.7860865",
+      "longitude": -79.1899892,
+      "latitude": 43.7860865,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -23700,13 +23812,6 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1903930,43.7856723",
-      "longitude": -79.190393,
-      "latitude": 43.7856723,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1904349,43.7878510",
       "longitude": -79.1904349,
       "latitude": 43.787851,
@@ -23717,6 +23822,13 @@
       "id": "osm--79.1904544,43.7878611",
       "longitude": -79.1904544,
       "latitude": 43.7878611,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1904589,43.7859644",
+      "longitude": -79.1904589,
+      "latitude": 43.7859644,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -23780,13 +23892,6 @@
       "id": "osm--79.1905398,43.7876384",
       "longitude": -79.1905398,
       "latitude": 43.7876384,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1905556,43.7857303",
-      "longitude": -79.1905556,
-      "latitude": 43.7857303,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -24190,13 +24295,6 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1909118,43.7858344",
-      "longitude": -79.1909118,
-      "latitude": 43.7858344,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1909181,43.7863715",
       "longitude": -79.1909181,
       "latitude": 43.7863715,
@@ -24207,6 +24305,13 @@
       "id": "osm--79.1909197,43.7912612",
       "longitude": -79.1909197,
       "latitude": 43.7912612,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1909201,43.7858483",
+      "longitude": -79.1909201,
+      "latitude": 43.7858483,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -25268,9 +25373,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1921152,43.7855303",
-      "longitude": -79.1921152,
-      "latitude": 43.7855303,
+      "id": "osm--79.1921176,43.7855386",
+      "longitude": -79.1921176,
+      "latitude": 43.7855386,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -25506,16 +25611,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1924434,43.7835298",
-      "longitude": -79.1924434,
-      "latitude": 43.7835298,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm--79.1924567,43.7835210",
-      "longitude": -79.1924567,
-      "latitude": 43.783521,
+      "id": "osm--79.1924566,43.7835471",
+      "longitude": -79.1924566,
+      "latitude": 43.7835471,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -25523,6 +25621,13 @@
       "id": "osm--79.1924599,43.7908377",
       "longitude": -79.1924599,
       "latitude": 43.7908377,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1924645,43.7835175",
+      "longitude": -79.1924645,
+      "latitude": 43.7835175,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -25583,13 +25688,6 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1926200,43.7839635",
-      "longitude": -79.19262,
-      "latitude": 43.7839635,
-      "kind": "path",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm--79.1926270,43.7778710",
       "longitude": -79.192627,
       "latitude": 43.777871,
@@ -25600,6 +25698,13 @@
       "id": "osm--79.1926302,43.7910449",
       "longitude": -79.1926302,
       "latitude": 43.7910449,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1926362,43.7839687",
+      "longitude": -79.1926362,
+      "latitude": 43.7839687,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -25681,6 +25786,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1927219,43.7841676",
+      "longitude": -79.1927219,
+      "latitude": 43.7841676,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1927320,43.7789321",
       "longitude": -79.192732,
       "latitude": 43.7789321,
@@ -25688,9 +25800,9 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1927646,43.7843194",
-      "longitude": -79.1927646,
-      "latitude": 43.7843194,
+      "id": "osm--79.1927736,43.7843121",
+      "longitude": -79.1927736,
+      "latitude": 43.7843121,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -25730,16 +25842,16 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1928758,43.7846106",
-      "longitude": -79.1928758,
-      "latitude": 43.7846106,
+      "id": "osm--79.1928859,43.7912528",
+      "longitude": -79.1928859,
+      "latitude": 43.7912528,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1928859,43.7912528",
-      "longitude": -79.1928859,
-      "latitude": 43.7912528,
+      "id": "osm--79.1928860,43.7845920",
+      "longitude": -79.192886,
+      "latitude": 43.784592,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -25751,16 +25863,16 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1929427,43.7847732",
-      "longitude": -79.1929427,
-      "latitude": 43.7847732,
+      "id": "osm--79.1929437,43.7787460",
+      "longitude": -79.1929437,
+      "latitude": 43.778746,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1929437,43.7787460",
-      "longitude": -79.1929437,
-      "latitude": 43.778746,
+      "id": "osm--79.1929529,43.7847611",
+      "longitude": -79.1929529,
+      "latitude": 43.7847611,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -25800,9 +25912,23 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.1929940,43.7848685",
+      "longitude": -79.192994,
+      "latitude": 43.7848685,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.1930031,43.7754832",
       "longitude": -79.1930031,
       "latitude": 43.7754832,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1930303,43.7852996",
+      "longitude": -79.1930303,
+      "latitude": 43.7852996,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -25828,23 +25954,44 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1930656,43.7852791",
-      "longitude": -79.1930656,
-      "latitude": 43.7852791,
+      "id": "osm--79.1930560,43.7850796",
+      "longitude": -79.193056,
+      "latitude": 43.7850796,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1930875,43.7852553",
-      "longitude": -79.1930875,
-      "latitude": 43.7852553,
+      "id": "osm--79.1930665,43.7852858",
+      "longitude": -79.1930665,
+      "latitude": 43.7852858,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1931019,43.7852273",
-      "longitude": -79.1931019,
-      "latitude": 43.7852273,
+      "id": "osm--79.1930819,43.7852694",
+      "longitude": -79.1930819,
+      "latitude": 43.7852694,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1930943,43.7853073",
+      "longitude": -79.1930943,
+      "latitude": 43.7853073,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1930956,43.7852448",
+      "longitude": -79.1930956,
+      "latitude": 43.7852448,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1931047,43.7852150",
+      "longitude": -79.1931047,
+      "latitude": 43.785215,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -25856,9 +26003,16 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1931292,43.7853980",
-      "longitude": -79.1931292,
-      "latitude": 43.785398,
+      "id": "osm--79.1931327,43.7852210",
+      "longitude": -79.1931327,
+      "latitude": 43.785221,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.1931346,43.7853971",
+      "longitude": -79.1931346,
+      "latitude": 43.7853971,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -25891,8 +26045,8 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm--79.1931954,43.7855219",
-      "longitude": -79.1931954,
+      "id": "osm--79.1931888,43.7855219",
+      "longitude": -79.1931888,
       "latitude": 43.7855219,
       "kind": "path",
       "verificationStatus": "inferred"
@@ -33976,6 +34130,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.2043515,43.7862303",
+      "longitude": -79.2043515,
+      "latitude": 43.7862303,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.2043608,43.7749538",
       "longitude": -79.2043608,
       "latitude": 43.7749538,
@@ -34119,6 +34280,13 @@
       "id": "osm--79.2044257,43.7811113",
       "longitude": -79.2044257,
       "latitude": 43.7811113,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.2044275,43.7862810",
+      "longitude": -79.2044275,
+      "latitude": 43.786281,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -34823,6 +34991,13 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm--79.2047565,43.7862062",
+      "longitude": -79.2047565,
+      "latitude": 43.7862062,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm--79.2047585,43.7808579",
       "longitude": -79.2047585,
       "latitude": 43.7808579,
@@ -34896,6 +35071,13 @@
       "id": "osm--79.2047758,43.7904152",
       "longitude": -79.2047758,
       "latitude": 43.7904152,
+      "kind": "path",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm--79.2047766,43.7861340",
+      "longitude": -79.2047766,
+      "latitude": 43.786134,
       "kind": "path",
       "verificationStatus": "inferred"
     },
@@ -36619,9 +36801,9 @@
     },
     {
       "id": "osm-way-1036872179-0",
-      "from": "osm--79.1863081,43.7852362",
-      "to": "osm--79.1862960,43.7851499",
-      "distanceMeters": 9.65,
+      "from": "osm--79.1862919,43.7852195",
+      "to": "osm--79.1862515,43.7852012",
+      "distanceMeters": 3.83,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -36773,8 +36955,17 @@
     {
       "id": "osm-way-1079519905-1",
       "from": "osm--79.1874828,43.7851038",
+      "to": "osm--79.1873708,43.7850932",
+      "distanceMeters": 9.07,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-1079519905-2",
+      "from": "osm--79.1873708,43.7850932",
       "to": "osm--79.1872783,43.7850474",
-      "distanceMeters": 17.57,
+      "distanceMeters": 9,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -38986,9 +39177,9 @@
     },
     {
       "id": "osm-way-1178438105-0",
-      "from": "osm--79.1862563,43.7852965",
+      "from": "osm--79.1862719,43.7853051",
       "to": "osm--79.1861968,43.7852646",
-      "distanceMeters": 5.95,
+      "distanceMeters": 7.53,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -39886,18 +40077,18 @@
     },
     {
       "id": "osm-way-1215655305-0",
-      "from": "osm--79.1931954,43.7855219",
-      "to": "osm--79.1931292,43.7853980",
-      "distanceMeters": 14.77,
+      "from": "osm--79.1931888,43.7855219",
+      "to": "osm--79.1931346,43.7853971",
+      "distanceMeters": 14.54,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-1215655305-1",
-      "from": "osm--79.1931292,43.7853980",
-      "to": "osm--79.1930656,43.7852791",
-      "distanceMeters": 14.17,
+      "from": "osm--79.1931346,43.7853971",
+      "to": "osm--79.1930943,43.7853073",
+      "distanceMeters": 10.5,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -42794,26 +42985,26 @@
     {
       "id": "osm-way-132986474-3",
       "from": "osm--79.1852854,43.7880446",
-      "to": "osm--79.1852548,43.7877666",
-      "distanceMeters": 31.01,
+      "to": "osm--79.1851870,43.7877142",
+      "distanceMeters": 37.58,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-132986474-4",
-      "from": "osm--79.1852548,43.7877666",
-      "to": "osm--79.1853722,43.7876344",
-      "distanceMeters": 17.46,
+      "from": "osm--79.1851870,43.7877142",
+      "to": "osm--79.1851063,43.7875535",
+      "distanceMeters": 19.01,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-132986474-5",
-      "from": "osm--79.1853722,43.7876344",
+      "from": "osm--79.1851063,43.7875535",
       "to": "osm--79.1860804,43.7873027",
-      "distanceMeters": 67.77,
+      "distanceMeters": 83.02,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -42821,8 +43012,8 @@
     {
       "id": "osm-way-132986474-6",
       "from": "osm--79.1860804,43.7873027",
-      "to": "osm--79.1863280,43.7872233",
-      "distanceMeters": 21.75,
+      "to": "osm--79.1862292,43.7872526",
+      "distanceMeters": 13.18,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -45539,8 +45730,8 @@
     {
       "id": "osm-way-1374441034-1",
       "from": "osm--79.1934008,43.7854647",
-      "to": "osm--79.1931954,43.7855219",
-      "distanceMeters": 17.67,
+      "to": "osm--79.1931888,43.7855219",
+      "distanceMeters": 18.17,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -49489,9 +49680,9 @@
     },
     {
       "id": "osm-way-1464198334-0",
-      "from": "osm--79.1857235,43.7841666",
-      "to": "osm--79.1858103,43.7840671",
-      "distanceMeters": 13.08,
+      "from": "osm--79.1857310,43.7841775",
+      "to": "osm--79.1858085,43.7840908",
+      "distanceMeters": 11.47,
       "bidirectional": true,
       "kind": "steps",
       "verificationStatus": "inferred"
@@ -64322,14 +64513,23 @@
     {
       "id": "osm-way-1489275421-0",
       "from": "osm--79.2042860,43.7863102",
-      "to": "osm--79.2044701,43.7862722",
-      "distanceMeters": 15.37,
+      "to": "osm--79.2044275,43.7862810",
+      "distanceMeters": 11.81,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-1489275421-1",
+      "from": "osm--79.2044275,43.7862810",
+      "to": "osm--79.2044701,43.7862722",
+      "distanceMeters": 3.56,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-1489275421-2",
       "from": "osm--79.2044701,43.7862722",
       "to": "osm--79.2046214,43.7863165",
       "distanceMeters": 13.11,
@@ -64520,14 +64720,23 @@
     {
       "id": "osm-way-1489275426-2",
       "from": "osm--79.2049130,43.7861759",
-      "to": "osm--79.2047027,43.7862166",
-      "distanceMeters": 17.48,
+      "to": "osm--79.2047565,43.7862062",
+      "distanceMeters": 13.01,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-1489275426-3",
+      "from": "osm--79.2047565,43.7862062",
+      "to": "osm--79.2047027,43.7862166",
+      "distanceMeters": 4.47,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-1489275426-4",
       "from": "osm--79.2047027,43.7862166",
       "to": "osm--79.2047366,43.7862917",
       "distanceMeters": 8.78,
@@ -68847,6 +69056,60 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm-way-1540134695-0",
+      "from": "osm--79.2044275,43.7862810",
+      "to": "osm--79.2043515,43.7862303",
+      "distanceMeters": 8.31,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-1540134696-0",
+      "from": "osm--79.2047565,43.7862062",
+      "to": "osm--79.2047766,43.7861340",
+      "distanceMeters": 8.19,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-1544695659-0",
+      "from": "osm--79.1883336,43.7864831",
+      "to": "osm--79.1882406,43.7864993",
+      "distanceMeters": 7.68,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-1544695663-0",
+      "from": "osm--79.1863739,43.7852608",
+      "to": "osm--79.1863316,43.7852376",
+      "distanceMeters": 4.26,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-1544695664-0",
+      "from": "osm--79.1863316,43.7852376",
+      "to": "osm--79.1862919,43.7852195",
+      "distanceMeters": 3.77,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-1544695665-0",
+      "from": "osm--79.1930943,43.7853073",
+      "to": "osm--79.1930819,43.7852694",
+      "distanceMeters": 4.33,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm-way-180045531-0",
       "from": "osm--79.1891025,43.7860795",
       "to": "osm--79.1890756,43.7861548",
@@ -68867,8 +69130,8 @@
     {
       "id": "osm-way-180045531-2",
       "from": "osm--79.1890468,43.7862119",
-      "to": "osm--79.1890323,43.7863069",
-      "distanceMeters": 10.63,
+      "to": "osm--79.1890330,43.7863182",
+      "distanceMeters": 11.87,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -69137,44 +69400,44 @@
     {
       "id": "osm-way-212430935-4",
       "from": "osm--79.1861370,43.7843740",
-      "to": "osm--79.1858130,43.7842115",
-      "distanceMeters": 31.67,
+      "to": "osm--79.1858110,43.7842173",
+      "distanceMeters": 31.44,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-212430935-5",
-      "from": "osm--79.1858130,43.7842115",
-      "to": "osm--79.1857235,43.7841666",
-      "distanceMeters": 8.75,
+      "from": "osm--79.1858110,43.7842173",
+      "to": "osm--79.1857310,43.7841775",
+      "distanceMeters": 7.8,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-212430935-6",
-      "from": "osm--79.1857235,43.7841666",
-      "to": "osm--79.1855888,43.7841046",
-      "distanceMeters": 12.82,
+      "from": "osm--79.1857310,43.7841775",
+      "to": "osm--79.1855853,43.7841053",
+      "distanceMeters": 14.19,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-212430935-7",
-      "from": "osm--79.1855888,43.7841046",
-      "to": "osm--79.1855218,43.7840737",
-      "distanceMeters": 6.38,
+      "from": "osm--79.1855853,43.7841053",
+      "to": "osm--79.1855168,43.7840737",
+      "distanceMeters": 6.53,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-212430935-8",
-      "from": "osm--79.1855218,43.7840737",
+      "from": "osm--79.1855168,43.7840737",
       "to": "osm--79.1853988,43.7840225",
-      "distanceMeters": 11.4,
+      "distanceMeters": 11.05,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -69955,36 +70218,72 @@
     },
     {
       "id": "osm-way-220546354-0",
-      "from": "osm--79.1858103,43.7840671",
-      "to": "osm--79.1857466,43.7840364",
-      "distanceMeters": 6.15,
+      "from": "osm--79.1858085,43.7840908",
+      "to": "osm--79.1858036,43.7840784",
+      "distanceMeters": 1.43,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546354-1",
-      "from": "osm--79.1857466,43.7840364",
-      "to": "osm--79.1859483,43.7838188",
-      "distanceMeters": 29.11,
+      "from": "osm--79.1858036,43.7840784",
+      "to": "osm--79.1857868,43.7840569",
+      "distanceMeters": 2.74,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546354-2",
-      "from": "osm--79.1859483,43.7838188",
-      "to": "osm--79.1862291,43.7835159",
-      "distanceMeters": 40.53,
+      "from": "osm--79.1857868,43.7840569",
+      "to": "osm--79.1857882,43.7840337",
+      "distanceMeters": 2.58,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546354-3",
-      "from": "osm--79.1862291,43.7835159",
-      "to": "osm--79.1863483,43.7833872",
-      "distanceMeters": 17.22,
+      "from": "osm--79.1857882,43.7840337",
+      "to": "osm--79.1859661,43.7838357",
+      "distanceMeters": 26.24,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546354-4",
+      "from": "osm--79.1859661,43.7838357",
+      "to": "osm--79.1861715,43.7836049",
+      "distanceMeters": 30.5,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546354-5",
+      "from": "osm--79.1861715,43.7836049",
+      "to": "osm--79.1862373,43.7835309",
+      "distanceMeters": 9.78,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546354-6",
+      "from": "osm--79.1862373,43.7835309",
+      "to": "osm--79.1863611,43.7834059",
+      "distanceMeters": 17.09,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546354-7",
+      "from": "osm--79.1863611,43.7834059",
+      "to": "osm--79.1863694,43.7833969",
+      "distanceMeters": 1.2,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -69992,8 +70291,8 @@
     {
       "id": "osm-way-220546480-0",
       "from": "osm--79.1869227,43.7831238",
-      "to": "osm--79.1867671,43.7830879",
-      "distanceMeters": 13.11,
+      "to": "osm--79.1867944,43.7831114",
+      "distanceMeters": 10.39,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -70009,9 +70308,9 @@
     },
     {
       "id": "osm-way-220546482-0",
-      "from": "osm--79.1862291,43.7835159",
+      "from": "osm--79.1862373,43.7835309",
       "to": "osm--79.1859693,43.7834014",
-      "distanceMeters": 24.44,
+      "distanceMeters": 25.89,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -70019,41 +70318,59 @@
     {
       "id": "osm-way-220546483-0",
       "from": "osm--79.1866301,43.7829010",
-      "to": "osm--79.1867236,43.7829203",
-      "distanceMeters": 7.81,
+      "to": "osm--79.1867229,43.7829279",
+      "distanceMeters": 8.03,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546483-1",
-      "from": "osm--79.1867236,43.7829203",
-      "to": "osm--79.1868051,43.7829305",
-      "distanceMeters": 6.64,
+      "from": "osm--79.1867229,43.7829279",
+      "to": "osm--79.1868033,43.7829538",
+      "distanceMeters": 7.07,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546484-0",
-      "from": "osm--79.1867050,43.7833454",
-      "to": "osm--79.1866050,43.7833893",
-      "distanceMeters": 9.4,
+      "from": "osm--79.1867291,43.7833583",
+      "to": "osm--79.1866706,43.7833848",
+      "distanceMeters": 5.54,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546484-1",
-      "from": "osm--79.1866050,43.7833893",
-      "to": "osm--79.1864596,43.7834388",
-      "distanceMeters": 12.91,
+      "from": "osm--79.1866706,43.7833848",
+      "to": "osm--79.1866073,43.7834058",
+      "distanceMeters": 5.59,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546484-2",
+      "from": "osm--79.1866073,43.7834058",
+      "to": "osm--79.1865335,43.7834248",
+      "distanceMeters": 6.29,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546484-3",
+      "from": "osm--79.1865335,43.7834248",
+      "to": "osm--79.1864596,43.7834388",
+      "distanceMeters": 6.13,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546484-4",
       "from": "osm--79.1864596,43.7834388",
       "to": "osm--79.1864518,43.7834484",
       "distanceMeters": 1.24,
@@ -70062,7 +70379,7 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-220546484-3",
+      "id": "osm-way-220546484-5",
       "from": "osm--79.1864518,43.7834484",
       "to": "osm--79.1864327,43.7834719",
       "distanceMeters": 3.03,
@@ -70071,7 +70388,7 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-220546484-4",
+      "id": "osm-way-220546484-6",
       "from": "osm--79.1864327,43.7834719",
       "to": "osm--79.1863424,43.7835613",
       "distanceMeters": 12.3,
@@ -70082,62 +70399,98 @@
     {
       "id": "osm-way-220546485-0",
       "from": "osm--79.1868652,43.7832986",
-      "to": "osm--79.1867216,43.7832766",
-      "distanceMeters": 11.78,
+      "to": "osm--79.1867522,43.7832872",
+      "distanceMeters": 9.16,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546485-1",
-      "from": "osm--79.1867216,43.7832766",
-      "to": "osm--79.1866139,43.7832462",
-      "distanceMeters": 9.28,
+      "from": "osm--79.1867522,43.7832872",
+      "to": "osm--79.1866648,43.7832709",
+      "distanceMeters": 7.25,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546485-10",
+      "from": "osm--79.1859980,43.7830118",
+      "to": "osm--79.1860206,43.7829996",
+      "distanceMeters": 2.27,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546485-2",
-      "from": "osm--79.1866139,43.7832462",
-      "to": "osm--79.1864720,43.7831836",
-      "distanceMeters": 13.35,
+      "from": "osm--79.1866648,43.7832709",
+      "to": "osm--79.1865847,43.7832386",
+      "distanceMeters": 7.37,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546485-3",
-      "from": "osm--79.1864720,43.7831836",
-      "to": "osm--79.1862487,43.7831243",
-      "distanceMeters": 19.1,
+      "from": "osm--79.1865847,43.7832386",
+      "to": "osm--79.1865013,43.7832004",
+      "distanceMeters": 7.93,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546485-4",
-      "from": "osm--79.1862487,43.7831243",
-      "to": "osm--79.1860846,43.7830634",
-      "distanceMeters": 14.81,
+      "from": "osm--79.1865013,43.7832004",
+      "to": "osm--79.1864090,43.7831689",
+      "distanceMeters": 8.2,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546485-5",
-      "from": "osm--79.1860846,43.7830634",
-      "to": "osm--79.1859980,43.7830118",
-      "distanceMeters": 9.01,
+      "from": "osm--79.1864090,43.7831689",
+      "to": "osm--79.1862833,43.7831386",
+      "distanceMeters": 10.64,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546485-6",
-      "from": "osm--79.1859980,43.7830118",
-      "to": "osm--79.1860206,43.7829996",
-      "distanceMeters": 2.27,
+      "from": "osm--79.1862833,43.7831386",
+      "to": "osm--79.1862425,43.7831277",
+      "distanceMeters": 3.49,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546485-7",
+      "from": "osm--79.1862425,43.7831277",
+      "to": "osm--79.1862040,43.7831161",
+      "distanceMeters": 3.35,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546485-8",
+      "from": "osm--79.1862040,43.7831161",
+      "to": "osm--79.1860881,43.7830603",
+      "distanceMeters": 11.18,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546485-9",
+      "from": "osm--79.1860881,43.7830603",
+      "to": "osm--79.1859980,43.7830118",
+      "distanceMeters": 9.02,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -70161,55 +70514,82 @@
       "verificationStatus": "inferred"
     },
     {
+      "id": "osm-way-220546486-10",
+      "from": "osm--79.1868754,43.7829409",
+      "to": "osm--79.1869608,43.7829484",
+      "distanceMeters": 6.91,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
       "id": "osm-way-220546486-2",
       "from": "osm--79.1866625,43.7835329",
-      "to": "osm--79.1867050,43.7833454",
-      "distanceMeters": 21.13,
+      "to": "osm--79.1866937,43.7835016",
+      "distanceMeters": 4.29,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546486-3",
-      "from": "osm--79.1867050,43.7833454",
-      "to": "osm--79.1867216,43.7832766",
-      "distanceMeters": 7.77,
+      "from": "osm--79.1866937,43.7835016",
+      "to": "osm--79.1867291,43.7833583",
+      "distanceMeters": 16.19,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546486-4",
-      "from": "osm--79.1867216,43.7832766",
-      "to": "osm--79.1867671,43.7830879",
-      "distanceMeters": 21.3,
+      "from": "osm--79.1867291,43.7833583",
+      "to": "osm--79.1867522,43.7832872",
+      "distanceMeters": 8.12,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546486-5",
-      "from": "osm--79.1867671,43.7830879",
-      "to": "osm--79.1868051,43.7829305",
-      "distanceMeters": 17.77,
+      "from": "osm--79.1867522,43.7832872",
+      "to": "osm--79.1867944,43.7831114",
+      "distanceMeters": 19.84,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546486-6",
-      "from": "osm--79.1868051,43.7829305",
-      "to": "osm--79.1868754,43.7829409",
-      "distanceMeters": 5.76,
+      "from": "osm--79.1867944,43.7831114",
+      "to": "osm--79.1868162,43.7830043",
+      "distanceMeters": 12.04,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-220546486-7",
-      "from": "osm--79.1868754,43.7829409",
-      "to": "osm--79.1869608,43.7829484",
-      "distanceMeters": 6.91,
+      "from": "osm--79.1868162,43.7830043",
+      "to": "osm--79.1868156,43.7829674",
+      "distanceMeters": 4.1,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546486-8",
+      "from": "osm--79.1868156,43.7829674",
+      "to": "osm--79.1868033,43.7829538",
+      "distanceMeters": 1.81,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-220546486-9",
+      "from": "osm--79.1868033,43.7829538",
+      "to": "osm--79.1868754,43.7829409",
+      "distanceMeters": 5.96,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -70226,73 +70606,10 @@
     {
       "id": "osm-way-227605579-0",
       "from": "osm--79.1860442,43.7838639",
-      "to": "osm--79.1859483,43.7838188",
-      "distanceMeters": 9.19,
+      "to": "osm--79.1859661,43.7838357",
+      "distanceMeters": 7.01,
       "bidirectional": true,
       "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-227605580-0",
-      "from": "osm--79.1866287,43.7852989",
-      "to": "osm--79.1866960,43.7853224",
-      "distanceMeters": 6,
-      "bidirectional": true,
-      "kind": "pedestrian",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-227605580-1",
-      "from": "osm--79.1866960,43.7853224",
-      "to": "osm--79.1870581,43.7853308",
-      "distanceMeters": 29.08,
-      "bidirectional": true,
-      "kind": "pedestrian",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-227605580-2",
-      "from": "osm--79.1870581,43.7853308",
-      "to": "osm--79.1870906,43.7851967",
-      "distanceMeters": 15.14,
-      "bidirectional": true,
-      "kind": "pedestrian",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-227605580-3",
-      "from": "osm--79.1870906,43.7851967",
-      "to": "osm--79.1869096,43.7851163",
-      "distanceMeters": 17.06,
-      "bidirectional": true,
-      "kind": "pedestrian",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-227605580-4",
-      "from": "osm--79.1869096,43.7851163",
-      "to": "osm--79.1867563,43.7852604",
-      "distanceMeters": 20.2,
-      "bidirectional": true,
-      "kind": "pedestrian",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-227605580-5",
-      "from": "osm--79.1867563,43.7852604",
-      "to": "osm--79.1866890,43.7852269",
-      "distanceMeters": 6.56,
-      "bidirectional": true,
-      "kind": "pedestrian",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-227605580-6",
-      "from": "osm--79.1866890,43.7852269",
-      "to": "osm--79.1866287,43.7852989",
-      "distanceMeters": 9.36,
-      "bidirectional": true,
-      "kind": "pedestrian",
       "verificationStatus": "inferred"
     },
     {
@@ -70316,17 +70633,17 @@
     {
       "id": "osm-way-227605587-10",
       "from": "osm--79.1889028,43.7837290",
-      "to": "osm--79.1889423,43.7837446",
-      "distanceMeters": 3.61,
+      "to": "osm--79.1889712,43.7837589",
+      "distanceMeters": 6.42,
       "bidirectional": true,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227605587-11",
-      "from": "osm--79.1889423,43.7837446",
+      "from": "osm--79.1889712,43.7837589",
       "to": "osm--79.1889907,43.7837715",
-      "distanceMeters": 4.9,
+      "distanceMeters": 2.1,
       "bidirectional": true,
       "kind": "path",
       "verificationStatus": "inferred"
@@ -70352,17 +70669,17 @@
     {
       "id": "osm-way-227605587-2",
       "from": "osm--79.1881430,43.7836903",
-      "to": "osm--79.1882356,43.7836591",
-      "distanceMeters": 8.2,
+      "to": "osm--79.1882105,43.7836657",
+      "distanceMeters": 6.07,
       "bidirectional": true,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227605587-3",
-      "from": "osm--79.1882356,43.7836591",
+      "from": "osm--79.1882105,43.7836657",
       "to": "osm--79.1883178,43.7836377",
-      "distanceMeters": 7.01,
+      "distanceMeters": 9.16,
       "bidirectional": true,
       "kind": "path",
       "verificationStatus": "inferred"
@@ -70370,17 +70687,17 @@
     {
       "id": "osm-way-227605587-4",
       "from": "osm--79.1883178,43.7836377",
-      "to": "osm--79.1884191,43.7836199",
-      "distanceMeters": 8.37,
+      "to": "osm--79.1884421,43.7836166",
+      "distanceMeters": 10.25,
       "bidirectional": true,
       "kind": "path",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227605587-5",
-      "from": "osm--79.1884191,43.7836199",
+      "from": "osm--79.1884421,43.7836166",
       "to": "osm--79.1885209,43.7836256",
-      "distanceMeters": 8.2,
+      "distanceMeters": 6.4,
       "bidirectional": true,
       "kind": "path",
       "verificationStatus": "inferred"
@@ -70477,6 +70794,24 @@
     },
     {
       "id": "osm-way-227605885-10",
+      "from": "osm--79.1863158,43.7835488",
+      "to": "osm--79.1863424,43.7835613",
+      "distanceMeters": 2.55,
+      "bidirectional": true,
+      "kind": "pedestrian",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-227605885-11",
+      "from": "osm--79.1863424,43.7835613",
+      "to": "osm--79.1863970,43.7835870",
+      "distanceMeters": 5.23,
+      "bidirectional": true,
+      "kind": "pedestrian",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-227605885-12",
       "from": "osm--79.1863970,43.7835870",
       "to": "osm--79.1864467,43.7836103",
       "distanceMeters": 4.76,
@@ -70485,7 +70820,7 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-227605885-11",
+      "id": "osm-way-227605885-13",
       "from": "osm--79.1864467,43.7836103",
       "to": "osm--79.1864955,43.7836332",
       "distanceMeters": 4.67,
@@ -70494,7 +70829,7 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-227605885-12",
+      "id": "osm-way-227605885-14",
       "from": "osm--79.1864955,43.7836332",
       "to": "osm--79.1865428,43.7836555",
       "distanceMeters": 4.54,
@@ -70503,7 +70838,7 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-227605885-13",
+      "id": "osm-way-227605885-15",
       "from": "osm--79.1865428,43.7836555",
       "to": "osm--79.1865639,43.7836654",
       "distanceMeters": 2.02,
@@ -70532,32 +70867,50 @@
     {
       "id": "osm-way-227605885-4",
       "from": "osm--79.1864518,43.7834484",
-      "to": "osm--79.1863532,43.7834022",
-      "distanceMeters": 9.44,
+      "to": "osm--79.1863611,43.7834059",
+      "distanceMeters": 8.68,
       "bidirectional": true,
       "kind": "pedestrian",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227605885-5",
-      "from": "osm--79.1863532,43.7834022",
-      "to": "osm--79.1861709,43.7836046",
-      "distanceMeters": 26.85,
+      "from": "osm--79.1863611,43.7834059",
+      "to": "osm--79.1863532,43.7834022",
+      "distanceMeters": 0.76,
       "bidirectional": true,
       "kind": "pedestrian",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227605885-6",
-      "from": "osm--79.1861709,43.7836046",
-      "to": "osm--79.1862374,43.7836358",
-      "distanceMeters": 6.37,
+      "from": "osm--79.1863532,43.7834022",
+      "to": "osm--79.1862373,43.7835309",
+      "distanceMeters": 17.07,
       "bidirectional": true,
       "kind": "pedestrian",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227605885-7",
+      "from": "osm--79.1862373,43.7835309",
+      "to": "osm--79.1861715,43.7836049",
+      "distanceMeters": 9.78,
+      "bidirectional": true,
+      "kind": "pedestrian",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-227605885-8",
+      "from": "osm--79.1861715,43.7836049",
+      "to": "osm--79.1862374,43.7836358",
+      "distanceMeters": 6.31,
+      "bidirectional": true,
+      "kind": "pedestrian",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-227605885-9",
       "from": "osm--79.1862374,43.7836358",
       "to": "osm--79.1863158,43.7835488",
       "distanceMeters": 11.54,
@@ -70566,37 +70919,19 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-227605885-8",
-      "from": "osm--79.1863158,43.7835488",
-      "to": "osm--79.1863424,43.7835613",
-      "distanceMeters": 2.55,
-      "bidirectional": true,
-      "kind": "pedestrian",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-227605885-9",
-      "from": "osm--79.1863424,43.7835613",
-      "to": "osm--79.1863970,43.7835870",
-      "distanceMeters": 5.23,
-      "bidirectional": true,
-      "kind": "pedestrian",
-      "verificationStatus": "inferred"
-    },
-    {
       "id": "osm-way-227677961-0",
       "from": "osm--79.1892757,43.7836193",
-      "to": "osm--79.1892509,43.7836284",
-      "distanceMeters": 2.23,
+      "to": "osm--79.1892560,43.7836503",
+      "distanceMeters": 3.79,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227677961-1",
-      "from": "osm--79.1892509,43.7836284",
-      "to": "osm--79.1889423,43.7837446",
-      "distanceMeters": 27.94,
+      "from": "osm--79.1892560,43.7836503",
+      "to": "osm--79.1889712,43.7837589",
+      "distanceMeters": 25.86,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -70649,44 +70984,44 @@
     {
       "id": "osm-way-227677966-2",
       "from": "osm--79.1887508,43.7834765",
-      "to": "osm--79.1887170,43.7834658",
-      "distanceMeters": 2.96,
+      "to": "osm--79.1887196,43.7834931",
+      "distanceMeters": 3.11,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227677966-3",
-      "from": "osm--79.1887170,43.7834658",
-      "to": "osm--79.1884191,43.7836199",
-      "distanceMeters": 29.42,
+      "from": "osm--79.1887196,43.7834931",
+      "to": "osm--79.1884421,43.7836166",
+      "distanceMeters": 26.17,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227677966-4",
-      "from": "osm--79.1884191,43.7836199",
-      "to": "osm--79.1883851,43.7835613",
-      "distanceMeters": 7.06,
+      "from": "osm--79.1884421,43.7836166",
+      "to": "osm--79.1883809,43.7835616",
+      "distanceMeters": 7.84,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227677966-5",
-      "from": "osm--79.1883851,43.7835613",
-      "to": "osm--79.1882992,43.7835094",
-      "distanceMeters": 8.99,
+      "from": "osm--79.1883809,43.7835616",
+      "to": "osm--79.1883112,43.7835232",
+      "distanceMeters": 7.04,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227677966-6",
-      "from": "osm--79.1882992,43.7835094",
+      "from": "osm--79.1883112,43.7835232",
       "to": "osm--79.1882658,43.7835180",
-      "distanceMeters": 2.85,
+      "distanceMeters": 3.69,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -70694,26 +71029,26 @@
     {
       "id": "osm-way-227677966-7",
       "from": "osm--79.1882658,43.7835180",
-      "to": "osm--79.1882342,43.7835261",
-      "distanceMeters": 2.69,
+      "to": "osm--79.1882491,43.7835412",
+      "distanceMeters": 2.91,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227677966-8",
-      "from": "osm--79.1882342,43.7835261",
-      "to": "osm--79.1882179,43.7835798",
-      "distanceMeters": 6.11,
+      "from": "osm--79.1882491,43.7835412",
+      "to": "osm--79.1882335,43.7835803",
+      "distanceMeters": 4.52,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227677966-9",
-      "from": "osm--79.1882179,43.7835798",
-      "to": "osm--79.1882356,43.7836591",
-      "distanceMeters": 8.93,
+      "from": "osm--79.1882335,43.7835803",
+      "to": "osm--79.1882105,43.7836657",
+      "distanceMeters": 9.67,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -70721,62 +71056,80 @@
     {
       "id": "osm-way-227678102-0",
       "from": "osm--79.1872711,43.7852652",
-      "to": "osm--79.1871787,43.7852542",
-      "distanceMeters": 7.52,
+      "to": "osm--79.1871957,43.7852551",
+      "distanceMeters": 6.16,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227678102-1",
-      "from": "osm--79.1871787,43.7852542",
-      "to": "osm--79.1870972,43.7856239",
-      "distanceMeters": 41.63,
+      "from": "osm--79.1871957,43.7852551",
+      "to": "osm--79.1871112,43.7856315",
+      "distanceMeters": 42.4,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227678102-2",
-      "from": "osm--79.1870972,43.7856239",
-      "to": "osm--79.1870742,43.7856295",
-      "distanceMeters": 1.95,
+      "from": "osm--79.1871112,43.7856315",
+      "to": "osm--79.1870763,43.7856396",
+      "distanceMeters": 2.94,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227678102-3",
-      "from": "osm--79.1870742,43.7856295",
-      "to": "osm--79.1870138,43.7856145",
-      "distanceMeters": 5.13,
+      "from": "osm--79.1870763,43.7856396",
+      "to": "osm--79.1870328,43.7856320",
+      "distanceMeters": 3.59,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227678102-4",
-      "from": "osm--79.1870138,43.7856145",
-      "to": "osm--79.1865996,43.7853899",
-      "distanceMeters": 41.58,
+      "from": "osm--79.1870328,43.7856320",
+      "to": "osm--79.1869820,43.7856117",
+      "distanceMeters": 4.66,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227678102-5",
-      "from": "osm--79.1865996,43.7853899",
-      "to": "osm--79.1863801,43.7852709",
-      "distanceMeters": 22.04,
+      "from": "osm--79.1869820,43.7856117",
+      "to": "osm--79.1868973,43.7855621",
+      "distanceMeters": 8.75,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227678102-6",
-      "from": "osm--79.1863801,43.7852709",
-      "to": "osm--79.1863081,43.7852362",
-      "distanceMeters": 6.95,
+      "from": "osm--79.1868973,43.7855621",
+      "to": "osm--79.1867782,43.7854806",
+      "distanceMeters": 13.17,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-227678102-7",
+      "from": "osm--79.1867782,43.7854806",
+      "to": "osm--79.1866136,43.7853765",
+      "distanceMeters": 17.57,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-227678102-8",
+      "from": "osm--79.1866136,43.7853765",
+      "to": "osm--79.1863739,43.7852608",
+      "distanceMeters": 23.15,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -70820,8 +71173,8 @@
     {
       "id": "osm-way-227678211-4",
       "from": "osm--79.1879947,43.7858043",
-      "to": "osm--79.1879412,43.7858319",
-      "distanceMeters": 5.28,
+      "to": "osm--79.1879519,43.7858307",
+      "distanceMeters": 4.52,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -70846,27 +71199,27 @@
     },
     {
       "id": "osm-way-227678404-0",
-      "from": "osm--79.1866516,43.7837239",
-      "to": "osm--79.1867754,43.7835853",
-      "distanceMeters": 18.34,
+      "from": "osm--79.1866649,43.7837309",
+      "to": "osm--79.1867913,43.7835921",
+      "distanceMeters": 18.47,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227678405-0",
-      "from": "osm--79.1867491,43.7837715",
-      "to": "osm--79.1868154,43.7837045",
-      "distanceMeters": 9.16,
+      "from": "osm--79.1867656,43.7837798",
+      "to": "osm--79.1868130,43.7837279",
+      "distanceMeters": 6.91,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227678405-1",
-      "from": "osm--79.1868154,43.7837045",
-      "to": "osm--79.1868833,43.7836353",
-      "distanceMeters": 9.43,
+      "from": "osm--79.1868130,43.7837279",
+      "to": "osm--79.1868924,43.7836396",
+      "distanceMeters": 11.71,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -70891,27 +71244,45 @@
     },
     {
       "id": "osm-way-227678407-0",
-      "from": "osm--79.1868367,43.7838141",
-      "to": "osm--79.1869015,43.7837487",
-      "distanceMeters": 8.94,
+      "from": "osm--79.1868710,43.7838309",
+      "to": "osm--79.1869162,43.7837793",
+      "distanceMeters": 6.79,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227678407-1",
-      "from": "osm--79.1869015,43.7837487",
-      "to": "osm--79.1868154,43.7837045",
-      "distanceMeters": 8.48,
+      "from": "osm--79.1869162,43.7837793",
+      "to": "osm--79.1868130,43.7837279",
+      "distanceMeters": 10.06,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227678516-0",
-      "from": "osm--79.1868527,43.7851261",
-      "to": "osm--79.1865996,43.7853899",
-      "distanceMeters": 35.68,
+      "from": "osm--79.1868718,43.7851324",
+      "to": "osm--79.1867467,43.7852659",
+      "distanceMeters": 17.92,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-227678516-1",
+      "from": "osm--79.1867467,43.7852659",
+      "to": "osm--79.1866715,43.7853284",
+      "distanceMeters": 9.21,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-227678516-2",
+      "from": "osm--79.1866715,43.7853284",
+      "to": "osm--79.1866136,43.7853765",
+      "distanceMeters": 7.09,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -71180,17 +71551,17 @@
     {
       "id": "osm-way-227712032-1",
       "from": "osm--79.1861706,43.7833048",
-      "to": "osm--79.1863483,43.7833872",
-      "distanceMeters": 16.95,
+      "to": "osm--79.1863694,43.7833969",
+      "distanceMeters": 18.96,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227712032-2",
-      "from": "osm--79.1863483,43.7833872",
+      "from": "osm--79.1863694,43.7833969",
       "to": "osm--79.1864596,43.7834388",
-      "distanceMeters": 10.62,
+      "distanceMeters": 8.61,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -71216,26 +71587,26 @@
     {
       "id": "osm-way-227712032-5",
       "from": "osm--79.1866625,43.7835329",
-      "to": "osm--79.1867754,43.7835853",
-      "distanceMeters": 10.77,
+      "to": "osm--79.1867913,43.7835921",
+      "distanceMeters": 12.26,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227712032-6",
-      "from": "osm--79.1867754,43.7835853",
-      "to": "osm--79.1868833,43.7836353",
-      "distanceMeters": 10.29,
+      "from": "osm--79.1867913,43.7835921",
+      "to": "osm--79.1868924,43.7836396",
+      "distanceMeters": 9.68,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227712032-7",
-      "from": "osm--79.1868833,43.7836353",
+      "from": "osm--79.1868924,43.7836396",
       "to": "osm--79.1869369,43.7836602",
-      "distanceMeters": 5.12,
+      "distanceMeters": 4.24,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -71674,33 +72045,51 @@
     },
     {
       "id": "osm-way-227845167-0",
-      "from": "osm--79.1882741,43.7864926",
-      "to": "osm--79.1881406,43.7862582",
-      "distanceMeters": 28.18,
+      "from": "osm--79.1883336,43.7864831",
+      "to": "osm--79.1882278,43.7864333",
+      "distanceMeters": 10.14,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227845167-1",
-      "from": "osm--79.1881406,43.7862582",
-      "to": "osm--79.1879412,43.7858319",
-      "distanceMeters": 50.03,
+      "from": "osm--79.1882278,43.7864333",
+      "to": "osm--79.1881971,43.7863775",
+      "distanceMeters": 6.68,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227845167-2",
-      "from": "osm--79.1879412,43.7858319",
-      "to": "osm--79.1876995,43.7852727",
-      "distanceMeters": 65.14,
+      "from": "osm--79.1881971,43.7863775",
+      "to": "osm--79.1881432,43.7862665",
+      "distanceMeters": 13.08,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-227845167-3",
+      "from": "osm--79.1881432,43.7862665",
+      "to": "osm--79.1879519,43.7858307",
+      "distanceMeters": 50.83,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-227845167-4",
+      "from": "osm--79.1879519,43.7858307",
+      "to": "osm--79.1876995,43.7852727",
+      "distanceMeters": 65.27,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-227845167-5",
       "from": "osm--79.1876995,43.7852727",
       "to": "osm--79.1876784,43.7852239",
       "distanceMeters": 5.68,
@@ -71709,7 +72098,7 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-227845167-4",
+      "id": "osm-way-227845167-6",
       "from": "osm--79.1876784,43.7852239",
       "to": "osm--79.1876573,43.7851848",
       "distanceMeters": 4.67,
@@ -71718,7 +72107,7 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-227845167-5",
+      "id": "osm-way-227845167-7",
       "from": "osm--79.1876573,43.7851848",
       "to": "osm--79.1876363,43.7851461",
       "distanceMeters": 4.62,
@@ -71727,7 +72116,7 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-227845167-6",
+      "id": "osm-way-227845167-8",
       "from": "osm--79.1876363,43.7851461",
       "to": "osm--79.1875666,43.7849568",
       "distanceMeters": 21.78,
@@ -71736,7 +72125,7 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-227845167-7",
+      "id": "osm-way-227845167-9",
       "from": "osm--79.1875666,43.7849568",
       "to": "osm--79.1875153,43.7849327",
       "distanceMeters": 4.91,
@@ -72016,9 +72405,9 @@
     },
     {
       "id": "osm-way-228428359-0",
-      "from": "osm--79.1931954,43.7855219",
+      "from": "osm--79.1931888,43.7855219",
       "to": "osm--79.1932381,43.7855842",
-      "distanceMeters": 7.73,
+      "distanceMeters": 7.98,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -74788,9 +75177,9 @@
     },
     {
       "id": "osm-way-380701323-0",
-      "from": "osm--79.1858130,43.7842115",
+      "from": "osm--79.1858110,43.7842173",
       "to": "osm--79.1857308,43.7843062",
-      "distanceMeters": 12.43,
+      "distanceMeters": 11.8,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -75580,9 +75969,9 @@
     },
     {
       "id": "osm-way-43921805-0",
-      "from": "osm--79.1863280,43.7872233",
+      "from": "osm--79.1862292,43.7872526",
       "to": "osm--79.1877376,43.7868687",
-      "distanceMeters": 119.83,
+      "distanceMeters": 128.39,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -77083,9 +77472,9 @@
     },
     {
       "id": "osm-way-449301931-0",
-      "from": "osm--79.1881406,43.7862582",
+      "from": "osm--79.1881432,43.7862665",
       "to": "osm--79.1875994,43.7860112",
-      "distanceMeters": 51.4,
+      "distanceMeters": 52.07,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -77101,9 +77490,9 @@
     },
     {
       "id": "osm-way-449301931-10",
-      "from": "osm--79.1871578,43.7856506",
-      "to": "osm--79.1870972,43.7856239",
-      "distanceMeters": 5.7,
+      "from": "osm--79.1871564,43.7856544",
+      "to": "osm--79.1871112,43.7856315",
+      "distanceMeters": 4.43,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -77120,17 +77509,17 @@
     {
       "id": "osm-way-449301931-3",
       "from": "osm--79.1875537,43.7859662",
-      "to": "osm--79.1875478,43.7859278",
-      "distanceMeters": 4.3,
+      "to": "osm--79.1875504,43.7859375",
+      "distanceMeters": 3.2,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-449301931-4",
-      "from": "osm--79.1875478,43.7859278",
+      "from": "osm--79.1875504,43.7859375",
       "to": "osm--79.1875374,43.7858575",
-      "distanceMeters": 7.86,
+      "distanceMeters": 8.96,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -77156,26 +77545,26 @@
     {
       "id": "osm-way-449301931-7",
       "from": "osm--79.1874908,43.7858091",
-      "to": "osm--79.1873504,43.7857401",
-      "distanceMeters": 13.63,
+      "to": "osm--79.1873531,43.7857480",
+      "distanceMeters": 12.97,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-449301931-8",
-      "from": "osm--79.1873504,43.7857401",
-      "to": "osm--79.1872975,43.7857122",
-      "distanceMeters": 5.26,
+      "from": "osm--79.1873531,43.7857480",
+      "to": "osm--79.1873082,43.7857268",
+      "distanceMeters": 4.31,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-449301931-9",
-      "from": "osm--79.1872975,43.7857122",
-      "to": "osm--79.1871578,43.7856506",
-      "distanceMeters": 13.14,
+      "from": "osm--79.1873082,43.7857268",
+      "to": "osm--79.1871564,43.7856544",
+      "distanceMeters": 14.6,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -77596,18 +77985,27 @@
     },
     {
       "id": "osm-way-555481566-0",
-      "from": "osm--79.1871787,43.7852542",
-      "to": "osm--79.1868811,43.7851373",
-      "distanceMeters": 27.2,
+      "from": "osm--79.1871957,43.7852551",
+      "to": "osm--79.1870864,43.7852142",
+      "distanceMeters": 9.88,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-555481566-1",
-      "from": "osm--79.1868811,43.7851373",
-      "to": "osm--79.1868527,43.7851261",
-      "distanceMeters": 2.6,
+      "from": "osm--79.1870864,43.7852142",
+      "to": "osm--79.1868962,43.7851261",
+      "distanceMeters": 18.14,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-555481566-2",
+      "from": "osm--79.1868962,43.7851261",
+      "to": "osm--79.1868718,43.7851324",
+      "distanceMeters": 2.08,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -77716,24 +78114,6 @@
       "from": "osm--79.1941237,43.7892036",
       "to": "osm--79.1941127,43.7891623",
       "distanceMeters": 4.68,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-569802036-0",
-      "from": "osm--79.1903930,43.7856723",
-      "to": "osm--79.1905556,43.7857303",
-      "distanceMeters": 14.56,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-569802036-1",
-      "from": "osm--79.1905556,43.7857303",
-      "to": "osm--79.1909118,43.7858344",
-      "distanceMeters": 30.85,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -77929,9 +78309,9 @@
     },
     {
       "id": "osm-way-585267290-0",
-      "from": "osm--79.1882741,43.7864926",
+      "from": "osm--79.1882406,43.7864993",
       "to": "osm--79.1881602,43.7865184",
-      "distanceMeters": 9.58,
+      "distanceMeters": 6.79,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -78136,9 +78516,9 @@
     },
     {
       "id": "osm-way-585267297-0",
-      "from": "osm--79.1883326,43.7864679",
+      "from": "osm--79.1883336,43.7864831",
       "to": "osm--79.1883648,43.7864956",
-      "distanceMeters": 4.02,
+      "distanceMeters": 2.86,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -78434,116 +78814,143 @@
     {
       "id": "osm-way-585443533-1",
       "from": "osm--79.1932852,43.7851859",
-      "to": "osm--79.1931019,43.7852273",
-      "distanceMeters": 15.42,
+      "to": "osm--79.1931327,43.7852210",
+      "distanceMeters": 12.85,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-0",
-      "from": "osm--79.1931019,43.7852273",
-      "to": "osm--79.1930875,43.7852553",
-      "distanceMeters": 3.32,
+      "from": "osm--79.1931327,43.7852210",
+      "to": "osm--79.1930956,43.7852448",
+      "distanceMeters": 3.98,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-1",
-      "from": "osm--79.1930875,43.7852553",
-      "to": "osm--79.1930656,43.7852791",
-      "distanceMeters": 3.18,
+      "from": "osm--79.1930956,43.7852448",
+      "to": "osm--79.1930819,43.7852694",
+      "distanceMeters": 2.95,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-10",
-      "from": "osm--79.1884191,43.7864694",
-      "to": "osm--79.1883326,43.7864679",
-      "distanceMeters": 6.95,
+      "from": "osm--79.1891269,43.7862969",
+      "to": "osm--79.1890330,43.7863182",
+      "distanceMeters": 7.9,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-11",
-      "from": "osm--79.1883326,43.7864679",
-      "to": "osm--79.1882741,43.7864926",
-      "distanceMeters": 5.44,
+      "from": "osm--79.1890330,43.7863182",
+      "to": "osm--79.1888991,43.7863527",
+      "distanceMeters": 11.41,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-585443534-12",
+      "from": "osm--79.1888991,43.7863527",
+      "to": "osm--79.1884677,43.7864635",
+      "distanceMeters": 36.76,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-585443534-13",
+      "from": "osm--79.1884677,43.7864635",
+      "to": "osm--79.1884191,43.7864748",
+      "distanceMeters": 4.1,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-585443534-14",
+      "from": "osm--79.1884191,43.7864748",
+      "to": "osm--79.1883336,43.7864831",
+      "distanceMeters": 6.93,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-2",
-      "from": "osm--79.1930656,43.7852791",
-      "to": "osm--79.1921152,43.7855303",
-      "distanceMeters": 81.25,
+      "from": "osm--79.1930819,43.7852694",
+      "to": "osm--79.1930665,43.7852858",
+      "distanceMeters": 2.2,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-3",
-      "from": "osm--79.1921152,43.7855303",
-      "to": "osm--79.1909118,43.7858344",
-      "distanceMeters": 102.35,
+      "from": "osm--79.1930665,43.7852858",
+      "to": "osm--79.1930303,43.7852996",
+      "distanceMeters": 3.29,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-4",
-      "from": "osm--79.1909118,43.7858344",
-      "to": "osm--79.1899896,43.7860764",
-      "distanceMeters": 78.77,
+      "from": "osm--79.1930303,43.7852996",
+      "to": "osm--79.1921176,43.7855386",
+      "distanceMeters": 77.94,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-5",
-      "from": "osm--79.1899896,43.7860764",
-      "to": "osm--79.1892466,43.7862671",
-      "distanceMeters": 63.3,
+      "from": "osm--79.1921176,43.7855386",
+      "to": "osm--79.1909201,43.7858483",
+      "distanceMeters": 102.11,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-6",
-      "from": "osm--79.1892466,43.7862671",
-      "to": "osm--79.1890944,43.7862899",
-      "distanceMeters": 12.48,
+      "from": "osm--79.1909201,43.7858483",
+      "to": "osm--79.1904589,43.7859644",
+      "distanceMeters": 39.21,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-7",
-      "from": "osm--79.1890944,43.7862899",
-      "to": "osm--79.1890323,43.7863069",
-      "distanceMeters": 5.33,
+      "from": "osm--79.1904589,43.7859644",
+      "to": "osm--79.1899892,43.7860865",
+      "distanceMeters": 40.08,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-8",
-      "from": "osm--79.1890323,43.7863069",
-      "to": "osm--79.1889234,43.7863329",
-      "distanceMeters": 9.21,
+      "from": "osm--79.1899892,43.7860865",
+      "to": "osm--79.1892627,43.7862736",
+      "distanceMeters": 61.92,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-585443534-9",
-      "from": "osm--79.1889234,43.7863329",
-      "to": "osm--79.1884191,43.7864694",
-      "distanceMeters": 43.23,
+      "from": "osm--79.1892627,43.7862736",
+      "to": "osm--79.1891269,43.7862969",
+      "distanceMeters": 11.2,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -79433,17 +79840,17 @@
     {
       "id": "osm-way-68293342-0",
       "from": "osm--79.1861968,43.7852646",
-      "to": "osm--79.1862960,43.7851499",
-      "distanceMeters": 15.04,
+      "to": "osm--79.1862515,43.7852012",
+      "distanceMeters": 8.31,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-68293342-1",
-      "from": "osm--79.1862960,43.7851499",
+      "from": "osm--79.1862515,43.7852012",
       "to": "osm--79.1865933,43.7848060",
-      "distanceMeters": 45.08,
+      "distanceMeters": 51.81,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
@@ -79972,132 +80379,33 @@
     },
     {
       "id": "osm-way-861069846-0",
-      "from": "osm--79.1930875,43.7852553",
-      "to": "osm--79.1929427,43.7847732",
-      "distanceMeters": 54.85,
+      "from": "osm--79.1930956,43.7852448",
+      "to": "osm--79.1931047,43.7852150",
+      "distanceMeters": 3.39,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-861069846-1",
-      "from": "osm--79.1929427,43.7847732",
-      "to": "osm--79.1928758,43.7846106",
-      "distanceMeters": 18.86,
+      "from": "osm--79.1931047,43.7852150",
+      "to": "osm--79.1930560,43.7850796",
+      "distanceMeters": 15.56,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-861069846-10",
-      "from": "osm--79.1911836,43.7805087",
-      "to": "osm--79.1911580,43.7804503",
-      "distanceMeters": 6.81,
+      "from": "osm--79.1924645,43.7835175",
+      "to": "osm--79.1923209,43.7831957",
+      "distanceMeters": 37.59,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"
     },
     {
       "id": "osm-way-861069846-11",
-      "from": "osm--79.1911580,43.7804503",
-      "to": "osm--79.1910794,43.7802715",
-      "distanceMeters": 20.86,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-861069846-12",
-      "from": "osm--79.1910794,43.7802715",
-      "to": "osm--79.1910747,43.7802634",
-      "distanceMeters": 0.98,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-861069846-13",
-      "from": "osm--79.1910747,43.7802634",
-      "to": "osm--79.1910666,43.7802452",
-      "distanceMeters": 2.13,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-861069846-14",
-      "from": "osm--79.1910666,43.7802452",
-      "to": "osm--79.1910489,43.7802047",
-      "distanceMeters": 4.72,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-861069846-15",
-      "from": "osm--79.1910489,43.7802047",
-      "to": "osm--79.1907527,43.7794933",
-      "distanceMeters": 82.6,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-861069846-16",
-      "from": "osm--79.1907527,43.7794933",
-      "to": "osm--79.1906685,43.7793256",
-      "distanceMeters": 19.83,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-861069846-2",
-      "from": "osm--79.1928758,43.7846106",
-      "to": "osm--79.1927646,43.7843194",
-      "distanceMeters": 33.59,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-861069846-3",
-      "from": "osm--79.1927646,43.7843194",
-      "to": "osm--79.1926200,43.7839635",
-      "distanceMeters": 41.24,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-861069846-4",
-      "from": "osm--79.1926200,43.7839635",
-      "to": "osm--79.1924434,43.7835298",
-      "distanceMeters": 50.27,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-861069846-5",
-      "from": "osm--79.1924434,43.7835298",
-      "to": "osm--79.1924567,43.7835210",
-      "distanceMeters": 1.45,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-861069846-6",
-      "from": "osm--79.1924567,43.7835210",
-      "to": "osm--79.1923209,43.7831957",
-      "distanceMeters": 37.78,
-      "bidirectional": true,
-      "kind": "footway",
-      "verificationStatus": "inferred"
-    },
-    {
-      "id": "osm-way-861069846-7",
       "from": "osm--79.1923209,43.7831957",
       "to": "osm--79.1922134,43.7829479",
       "distanceMeters": 28.87,
@@ -80106,7 +80414,7 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-861069846-8",
+      "id": "osm-way-861069846-12",
       "from": "osm--79.1922134,43.7829479",
       "to": "osm--79.1911827,43.7805300",
       "distanceMeters": 281.3,
@@ -80115,10 +80423,145 @@
       "verificationStatus": "inferred"
     },
     {
-      "id": "osm-way-861069846-9",
+      "id": "osm-way-861069846-13",
       "from": "osm--79.1911827,43.7805300",
       "to": "osm--79.1911836,43.7805087",
       "distanceMeters": 2.37,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-14",
+      "from": "osm--79.1911836,43.7805087",
+      "to": "osm--79.1911580,43.7804503",
+      "distanceMeters": 6.81,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-15",
+      "from": "osm--79.1911580,43.7804503",
+      "to": "osm--79.1910794,43.7802715",
+      "distanceMeters": 20.86,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-16",
+      "from": "osm--79.1910794,43.7802715",
+      "to": "osm--79.1910747,43.7802634",
+      "distanceMeters": 0.98,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-17",
+      "from": "osm--79.1910747,43.7802634",
+      "to": "osm--79.1910666,43.7802452",
+      "distanceMeters": 2.13,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-18",
+      "from": "osm--79.1910666,43.7802452",
+      "to": "osm--79.1910489,43.7802047",
+      "distanceMeters": 4.72,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-19",
+      "from": "osm--79.1910489,43.7802047",
+      "to": "osm--79.1907527,43.7794933",
+      "distanceMeters": 82.6,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-2",
+      "from": "osm--79.1930560,43.7850796",
+      "to": "osm--79.1929940,43.7848685",
+      "distanceMeters": 24,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-20",
+      "from": "osm--79.1907527,43.7794933",
+      "to": "osm--79.1906685,43.7793256",
+      "distanceMeters": 19.83,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-3",
+      "from": "osm--79.1929940,43.7848685",
+      "to": "osm--79.1929529,43.7847611",
+      "distanceMeters": 12.39,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-4",
+      "from": "osm--79.1929529,43.7847611",
+      "to": "osm--79.1928860,43.7845920",
+      "distanceMeters": 19.55,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-5",
+      "from": "osm--79.1928860,43.7845920",
+      "to": "osm--79.1927736,43.7843121",
+      "distanceMeters": 32.41,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-6",
+      "from": "osm--79.1927736,43.7843121",
+      "to": "osm--79.1927219,43.7841676",
+      "distanceMeters": 16.6,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-7",
+      "from": "osm--79.1927219,43.7841676",
+      "to": "osm--79.1926362,43.7839687",
+      "distanceMeters": 23.16,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-8",
+      "from": "osm--79.1926362,43.7839687",
+      "to": "osm--79.1924566,43.7835471",
+      "distanceMeters": 49.05,
+      "bidirectional": true,
+      "kind": "footway",
+      "verificationStatus": "inferred"
+    },
+    {
+      "id": "osm-way-861069846-9",
+      "from": "osm--79.1924566,43.7835471",
+      "to": "osm--79.1924645,43.7835175",
+      "distanceMeters": 3.35,
       "bidirectional": true,
       "kind": "footway",
       "verificationStatus": "inferred"

@@ -1,6 +1,6 @@
 {
   "campus": "utsg",
-  "generatedAt": "2026-09-18T03:19:58.328Z",
+  "generatedAt": "2026-09-18T03:26:07.893Z",
   "sourceIds": [
     "uoft-facilities-bas-2025",
     "uoft-ttb-live",
@@ -34,7 +34,10 @@
       "code": "003",
       "name": "Gerstein Science Information Centre in the Sigmund Samuel Library",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Gerstein Library",
+        "Gerstein Science Information Centre"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "003"
@@ -114,7 +117,10 @@
       "code": "008A",
       "name": "D.L. Pratt Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "D. L. Pratt Building",
+        "D.L. Pratt Building"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "008A"
@@ -334,7 +340,9 @@
       "code": "021",
       "name": "Engineering Annex",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Engineering Annex"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "021"
@@ -494,7 +502,9 @@
       "code": "040",
       "name": "Faculty of Law",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Faculty of Law"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "040"
@@ -534,7 +544,9 @@
       "code": "042",
       "name": "Goldring Centre for High Performance Sport",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Goldring Centre for High Performance Sport"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "042"
@@ -554,7 +566,9 @@
       "code": "043",
       "name": "School of Graduate Studies",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "School of Graduate Studies"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "043"
@@ -714,7 +728,9 @@
       "code": "064",
       "name": "Graduate House",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Graduate House"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "064"
@@ -974,7 +990,9 @@
       "code": "093",
       "name": "Electrometallurgy Lab",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Electrometallurgy Lab"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "093"
@@ -1094,7 +1112,9 @@
       "code": "101",
       "name": "Morrison Hall",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Morrison Hall"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "101"
@@ -1174,7 +1194,9 @@
       "code": "105",
       "name": "Fields Institute for Research in Mathematical Sciences",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Fields Institute"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "105"
@@ -1394,7 +1416,9 @@
       "code": "128",
       "name": "Jackman Humanities Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Jackman Humanities Building"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "128"
@@ -1454,7 +1478,9 @@
       "code": "132",
       "name": "Innis College",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Innis College"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "132"
@@ -1494,7 +1520,9 @@
       "code": "134",
       "name": "Rotman School of Management",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Rotman School of Management"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "134"
@@ -1554,7 +1582,9 @@
       "code": "143",
       "name": "Koffler Student Services Centre",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Koffler Student Services Centre"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "143"
@@ -1654,7 +1684,10 @@
       "code": "155",
       "name": "Exam Centre",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Exam Center",
+        "Exam Centre"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "155"
@@ -1694,7 +1727,10 @@
       "code": "158",
       "name": "Chestnut Residence and Conference Centre",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Chestnut Residence",
+        "Chestnut Residence and Conference Centre"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "158"
@@ -1714,7 +1750,10 @@
       "code": "160",
       "name": "Terrence Donnelly Centre for Cellular & Biomolecular Research",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Donnelly Centre for Cellular and Biomolecular Research",
+        "Terrence Donnelly Centre for Cellular and Biomolecular Research"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "160"
@@ -2374,7 +2413,11 @@
       "code": "AB",
       "name": "Astronomy & Astrophysics Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Astronomy & Astrophysics Building",
+        "Astronomy and Astrophysics",
+        "David A. Dunlap Department of Astronomy & Astrophysics"
+      ],
       "timetableCodes": [
         "AB"
       ],
@@ -2423,7 +2466,10 @@
       "code": "AP",
       "name": "Anthropology Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Anthropology",
+        "Anthropology Building"
+      ],
       "timetableCodes": [
         "AP"
       ],
@@ -2448,7 +2494,10 @@
       "code": "BA",
       "name": "Bahen Centre for Information Technology",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Bahen Centre",
+        "Bahen Centre for Information Technology"
+      ],
       "timetableCodes": [
         "BA"
       ],
@@ -2473,7 +2522,10 @@
       "code": "BF",
       "name": "Bancroft Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Bancroft",
+        "Bancroft Building"
+      ],
       "timetableCodes": [
         "BF"
       ],
@@ -2498,7 +2550,9 @@
       "code": "BN",
       "name": "Clara Benson Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Clara Benson Building"
+      ],
       "timetableCodes": [
         "BN"
       ],
@@ -2621,7 +2675,9 @@
       "code": "DA",
       "name": "Daniels Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Daniels Building"
+      ],
       "timetableCodes": [
         "DA"
       ],
@@ -2646,7 +2702,9 @@
       "code": "EJ",
       "name": "Edward Johnson Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Edward Johnson Building"
+      ],
       "timetableCodes": [
         "EJ"
       ],
@@ -2721,7 +2779,10 @@
       "code": "ES",
       "name": "Earth Sciences Centre",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Earth Sciences",
+        "Earth Sciences Centre"
+      ],
       "timetableCodes": [
         "ES"
       ],
@@ -2746,7 +2807,9 @@
       "code": "FE",
       "name": "Bloor Street West-371",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "371 Bloor Street West"
+      ],
       "timetableCodes": [
         "FE"
       ],
@@ -2771,7 +2834,10 @@
       "code": "GB",
       "name": "Galbraith Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Galbraith",
+        "Galbraith Building"
+      ],
       "timetableCodes": [
         "GB"
       ],
@@ -2796,7 +2862,10 @@
       "code": "HA",
       "name": "Haultain Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Haultain",
+        "Haultain Building"
+      ],
       "timetableCodes": [
         "HA"
       ],
@@ -2821,7 +2890,9 @@
       "code": "HS",
       "name": "Health Sciences Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Health Sciences Building"
+      ],
       "timetableCodes": [
         "HS"
       ],
@@ -2846,7 +2917,9 @@
       "code": "KP",
       "name": "Koffler House",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Koffler House"
+      ],
       "timetableCodes": [
         "KP"
       ],
@@ -2896,7 +2969,10 @@
       "code": "LM",
       "name": "Lash Miller Chemical Laboratories",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Lash Miller Chemical Laboratories",
+        "Lash Miller Chemical Labs"
+      ],
       "timetableCodes": [
         "LM"
       ],
@@ -2921,7 +2997,10 @@
       "code": "MB",
       "name": "Lassonde Mining Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Lassonde Mining",
+        "Lassonde Mining Building"
+      ],
       "timetableCodes": [
         "MB"
       ],
@@ -2946,7 +3025,10 @@
       "code": "MC",
       "name": "Mechanical Engineering Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Mechanical Engineering",
+        "Mechanical Engineering Building"
+      ],
       "timetableCodes": [
         "MC"
       ],
@@ -2971,7 +3053,9 @@
       "code": "MP",
       "name": "McLennan Physical Laboratories",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "McLennan Physical Laboratories"
+      ],
       "timetableCodes": [
         "MP"
       ],
@@ -2996,7 +3080,10 @@
       "code": "MS",
       "name": "Medical Sciences Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Medical Sciences",
+        "Medical Sciences Building"
+      ],
       "timetableCodes": [
         "MS"
       ],
@@ -3021,7 +3108,10 @@
       "code": "MY",
       "name": "Myhal Centre for Engineering Innovation and Entrepreneurship",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Myhal Centre",
+        "Myhal Centre for Engineering Innovation & Entrepreneurship"
+      ],
       "timetableCodes": [
         "MY"
       ],
@@ -3071,7 +3161,10 @@
       "code": "OI",
       "name": "Ontario Institute for Studies in Education",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "OISE",
+        "Ontario Institute for Studies in Education (OISE)"
+      ],
       "timetableCodes": [
         "OI"
       ],
@@ -3096,7 +3189,10 @@
       "code": "PB",
       "name": "Leslie L. Dan Pharmacy Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Leslie Dan Faculty of Pharmacy",
+        "Leslie Dan Pharmacy Building"
+      ],
       "timetableCodes": [
         "PB"
       ],
@@ -3121,7 +3217,11 @@
       "code": "RL",
       "name": "John P. Robarts Library Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "John P Robarts Library",
+        "Robarts Library",
+        "Robarts Library Building"
+      ],
       "timetableCodes": [
         "RL"
       ],
@@ -3146,7 +3246,10 @@
       "code": "RS",
       "name": "Rosebrugh Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Rosebrugh",
+        "Rosebrugh Building"
+      ],
       "timetableCodes": [
         "RS"
       ],
@@ -3171,7 +3274,9 @@
       "code": "RW",
       "name": "Ramsay Wright Laboratories",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Ramsay Wright Building"
+      ],
       "timetableCodes": [
         "RW"
       ],
@@ -3196,7 +3301,10 @@
       "code": "SF",
       "name": "Sandford Fleming Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Sandford Fleming",
+        "Sandford Fleming Building"
+      ],
       "timetableCodes": [
         "SF"
       ],
@@ -3221,7 +3329,9 @@
       "code": "SK",
       "name": "Factor-Inwentash Faculty of Social Work",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Factor-Inwentash Faculty of Social Work"
+      ],
       "timetableCodes": [
         "SK"
       ],
@@ -3246,7 +3356,10 @@
       "code": "SS",
       "name": "Sidney Smith Hall",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Sidney Smith",
+        "Sidney Smith Hall"
+      ],
       "timetableCodes": [
         "SS"
       ],
@@ -3271,7 +3384,10 @@
       "code": "SU",
       "name": "Student Commons",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Student Commons",
+        "University of Toronto Student Commons"
+      ],
       "timetableCodes": [
         "SU"
       ],
@@ -3296,7 +3412,9 @@
       "code": "TC",
       "name": "Trinity College",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Trinity College Main Building"
+      ],
       "timetableCodes": [
         "TC"
       ],
@@ -3345,7 +3463,9 @@
       "code": "UC",
       "name": "University College",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "University College"
+      ],
       "timetableCodes": [
         "UC"
       ],
@@ -3395,7 +3515,10 @@
       "code": "WB",
       "name": "Wallberg Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Wallberg",
+        "Wallberg Building"
+      ],
       "timetableCodes": [
         "WB"
       ],
@@ -3420,7 +3543,9 @@
       "code": "WE",
       "name": "Wetmore Hall-New College",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Wetmore Hall"
+      ],
       "timetableCodes": [
         "WE"
       ],
@@ -3445,7 +3570,9 @@
       "code": "WI",
       "name": "Wilson Hall-New College",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Wilson Hall"
+      ],
       "timetableCodes": [
         "WI"
       ],
@@ -3470,7 +3597,9 @@
       "code": "WO",
       "name": "Woodsworth College Residence",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Woodsworth College Residence"
+      ],
       "timetableCodes": [
         "WO"
       ],
@@ -3520,7 +3649,9 @@
       "code": "WW",
       "name": "Woodsworth College",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Woodsworth College"
+      ],
       "timetableCodes": [
         "WW"
       ],

@@ -1,6 +1,6 @@
 {
   "campus": "utsc",
-  "generatedAt": "2026-09-18T03:20:48.366Z",
+  "generatedAt": "2026-09-18T03:27:25.396Z",
   "sourceIds": [
     "utsc-campus-map-2025",
     "utsc-timetable-location-codes",
@@ -31,7 +31,10 @@
       "code": "AA",
       "name": "Arts & Administration Building",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Arts & Administration Building",
+        "Arts and Administration Building"
+      ],
       "timetableCodes": [
         "AA"
       ],
@@ -54,7 +57,9 @@
       "code": "AC",
       "name": "Academic Resource Centre",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Academic Resource Centre"
+      ],
       "timetableCodes": [
         "AC"
       ],
@@ -113,7 +118,9 @@
       "code": "AQ",
       "name": "Toronto Pan Am Sports Centre",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Toronto Pan Am Sports Centre"
+      ],
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
@@ -221,7 +228,9 @@
       "code": "BV",
       "name": "Bladen Wing",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Bladen Wing"
+      ],
       "timetableCodes": [
         "BV"
       ],
@@ -424,7 +433,10 @@
       "code": "EV",
       "name": "Environmental Science & Chemistry Building",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Environmental Science & Chemistry Building",
+        "Environmental Science and Chemistry Building"
+      ],
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],
@@ -532,7 +544,9 @@
       "code": "HL",
       "name": "Highland Hall",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Highland Hall"
+      ],
       "timetableCodes": [
         "HL"
       ],
@@ -555,7 +569,9 @@
       "code": "HW",
       "name": "Humanities Wing",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Humanities Wing"
+      ],
       "timetableCodes": [
         "HW"
       ],
@@ -596,7 +612,9 @@
       "code": "IA",
       "name": "Sam Ibrahim Building",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Sam Ibrahim Building"
+      ],
       "timetableCodes": [
         "IA"
       ],
@@ -619,7 +637,9 @@
       "code": "IC",
       "name": "Instructional Centre",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Instructional Centre"
+      ],
       "timetableCodes": [
         "IC"
       ],
@@ -732,7 +752,10 @@
       "code": "KW",
       "name": "Kina Wiya Enadong Building",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Kina Wiiya Enadong Building",
+        "Kina Wiya Enadong Building"
+      ],
       "timetableCodes": [
         "KW"
       ],
@@ -953,7 +976,9 @@
       "code": "SW",
       "name": "Science Wing",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Science Wing"
+      ],
       "timetableCodes": [
         "SW"
       ],
@@ -976,7 +1001,9 @@
       "code": "SY",
       "name": "Science Research Building",
       "category": "academic",
-      "aliases": [],
+      "aliases": [
+        "Science Research Building"
+      ],
       "timetableCodes": [],
       "facilityCodes": [],
       "mapUrls": [],

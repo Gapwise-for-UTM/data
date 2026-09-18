@@ -1,6 +1,6 @@
 {
   "campus": "utsc",
-  "generatedAt": "2026-09-18T03:20:48.366Z",
+  "generatedAt": "2026-09-18T03:27:25.396Z",
   "sessions": [
     "20269",
     "20271"
@@ -9,13 +9,13 @@
   "canonicalBuildingCount": 54,
   "timetableBuildingCount": 10,
   "timetableCodeCount": 9,
-  "geometryResolvedCount": 28,
-  "geometryUnresolvedCount": 26,
-  "routingApproachCount": 28,
-  "pedestrianNodeCount": 5144,
-  "pedestrianEdgeCount": 5262,
-  "pedestrianComponentCount": 76,
-  "largestPedestrianComponentNodes": 3745,
+  "geometryResolvedCount": 30,
+  "geometryUnresolvedCount": 24,
+  "routingApproachCount": 30,
+  "pedestrianNodeCount": 5170,
+  "pedestrianEdgeCount": 5291,
+  "pedestrianComponentCount": 75,
+  "largestPedestrianComponentNodes": 3774,
   "duplicateTimetableCodes": [],
   "unresolvedGeometry": [
     {
@@ -109,22 +109,9 @@
       "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
     },
     {
-      "id": "utsc:IC",
-      "code": "IC",
-      "name": "Instructional Centre",
-      "reason": "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
-      "osmRef": "relation/2916427"
-    },
-    {
       "id": "utsc:IGC",
       "code": "IGC",
       "name": "Indigenous Gathering Circle",
-      "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
-    },
-    {
-      "id": "utsc:KW",
-      "code": "KW",
-      "name": "Kina Wiya Enadong Building",
       "reason": "No unique exact OpenStreetMap name/code match in the campus bounds."
     },
     {
