@@ -324,6 +324,8 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
       facilityCodes,
       mapUrls: [],
       geometryAddresses: [],
+      hostBuildingCode: null,
+      hostEvidence: null,
       identityEvidence: stableUnique([sourceInventory.sourceId, record.sourceId]),
       sourceNames: [record.name],
       status: "active",
@@ -378,6 +380,24 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
         sourceUrl: String(evidence.sourceUrl ?? "").trim() || null,
       },
     ].filter((entry) => entry.address);
+    canonical.identityEvidence = stableUnique([
+      ...canonical.identityEvidence,
+      evidence.sourceId,
+    ]);
+  }
+
+  for (const [target, evidence] of Object.entries(aliases.hostBuildings ?? {})) {
+    const id = resolveTarget(target, `hosted location ${target}`);
+    const hostId = resolveTarget(evidence.hostCode, `host building for ${target}`);
+    if (id === hostId) throw new Error(`${campus}: hosted location ${target} cannot host itself`);
+    const canonical = byId.get(id);
+    const host = byId.get(hostId);
+    canonical.hostBuildingCode = host.code;
+    canonical.hostEvidence = {
+      sourceId: String(evidence.sourceId ?? "").trim() || null,
+      sourceUrl: String(evidence.sourceUrl ?? "").trim() || null,
+      note: String(evidence.note ?? "").trim() || null,
+    };
     canonical.identityEvidence = stableUnique([
       ...canonical.identityEvidence,
       evidence.sourceId,
@@ -1000,7 +1020,19 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
   const footprintFeatures = [];
   const approaches = [];
   const unresolvedGeometry = [];
+  const hostedLocations = [];
   for (const building of buildings) {
+    if (building.hostBuildingCode) {
+      hostedLocations.push({
+        id: building.id,
+        code: building.code,
+        name: building.name,
+        hostBuildingCode: building.hostBuildingCode,
+        hostEvidence: building.hostEvidence,
+      });
+      continue;
+    }
+
     const identityMatch = osmMatches.get(building.id);
     const addressMatch = osmAddressMatches.get(building.id);
     const match = identityMatch ?? addressMatch;
@@ -1073,6 +1105,16 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
     }
   }
 
+  const mappedBuildingCodes = new Set(
+    footprintFeatures.map((feature) => String(feature.properties?.buildingCode ?? "").toUpperCase()),
+  );
+  const mappedHostedLocations = hostedLocations.filter((location) =>
+    mappedBuildingCodes.has(String(location.hostBuildingCode).toUpperCase()),
+  );
+  const unresolvedHostedLocations = hostedLocations.filter(
+    (location) => !mappedBuildingCodes.has(String(location.hostBuildingCode).toUpperCase()),
+  );
+
   const components = connectedComponents(graph);
   const generatedAt = new Date().toISOString();
   const coverage = {
@@ -1085,6 +1127,10 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
     timetableCodeCount: timetableCodes.size,
     geometryResolvedCount: footprintFeatures.length,
     geometryUnresolvedCount: unresolvedGeometry.length,
+    hostedLocationCount: hostedLocations.length,
+    mappedHostedLocationCount: mappedHostedLocations.length,
+    unresolvedHostedLocationCount: unresolvedHostedLocations.length,
+    mappedDestinationCount: footprintFeatures.length + mappedHostedLocations.length,
     routingApproachCount: approaches.length,
     pedestrianNodeCount: graph.nodes.length,
     pedestrianEdgeCount: graph.edges.length,
@@ -1092,6 +1138,8 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
     largestPedestrianComponentNodes: components[0] ?? 0,
     duplicateTimetableCodes,
     unresolvedGeometry,
+    hostedLocations,
+    unresolvedHostedLocations,
   };
 
   const base = `data/${campus}/generated`;
