@@ -467,15 +467,21 @@ out body center geom;`;
   let lastError = null;
   for (const endpoint of OVERPASS_URLS) {
     try {
-      const response = await fetchWithRetry(
-        endpoint,
-        {
-          method: "POST",
-          headers: { "content-type": "application/x-www-form-urlencoded;charset=UTF-8" },
-          body: new URLSearchParams({ data: query }),
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: {
+          accept: "application/json",
+          "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+          "user-agent": "Gapwise-Data/tri-campus-refresh (+https://data.gapwise.ca)",
         },
-        `OpenStreetMap Overpass (${new URL(endpoint).hostname})`,
-      );
+        body: new URLSearchParams({ data: query }),
+        signal: AbortSignal.timeout(45_000),
+      });
+      if (!response.ok) {
+        throw new Error(
+          `HTTP ${response.status}: ${(await response.text()).slice(0, 500)}`,
+        );
+      }
       return response.json();
     } catch (error) {
       lastError = error;
