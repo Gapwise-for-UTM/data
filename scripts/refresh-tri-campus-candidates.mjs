@@ -490,9 +490,12 @@ out body center geom;`;
       );
     }
   }
-  throw new Error(
-    `All configured Overpass mirrors failed: ${lastError instanceof Error ? lastError.message : String(lastError)}`,
+  console.warn(
+    `All configured Overpass mirrors failed; preserving checked-in OSM-derived geometry/network: ${
+      lastError instanceof Error ? lastError.message : String(lastError)
+    }`,
   );
+  return null;
 }
 
 function osmCenter(element) {
@@ -1017,11 +1020,30 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
     }
   }
 
+  const previousFootprints = await readJson(`data/${campus}/buildings.geojson`);
+  const previousFootprintsById = new Map(
+    (previousFootprints.features ?? []).map((feature) => [
+      feature.properties?.buildingId ?? feature.id,
+      feature,
+    ]),
+  );
+  const previousGraph = await readJson(`data/${campus}/generated/routing-graph.json`);
+  const previousPedestrianNetwork = await readJson(
+    `data/${campus}/generated/pedestrian-network.geojson`,
+  );
+
   const osm = await fetchOsmCampus(source.bounds);
-  const osmMatches = buildOsmMatches(buildings, osm.elements ?? []);
-  const osmAddressMatches = buildOsmAddressMatches(buildings, osm.elements ?? []);
+  const osmElements = osm?.elements ?? [];
+  const osmMatches = buildOsmMatches(buildings, osmElements);
+  const osmAddressMatches = buildOsmAddressMatches(buildings, osmElements);
   const cityFeatures = await fetchTorontoOutlines(source.bounds);
-  const graph = makePedestrianGraph(osm.elements ?? []);
+  const graph = osm
+    ? makePedestrianGraph(osmElements)
+    : {
+        nodes: previousGraph.nodes ?? [],
+        edges: previousGraph.edges ?? [],
+        geojson: previousPedestrianNetwork,
+      };
 
   const footprintFeatures = [];
   const approaches = [];
@@ -1039,12 +1061,23 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
       continue;
     }
 
+    const previousFeature = previousFootprintsById.get(building.id);
     const identityMatch = osmMatches.get(building.id);
     const addressMatch = osmAddressMatches.get(building.id);
     const match = identityMatch ?? addressMatch;
-    let resolved = match ? geometryForMatchedOsm(match, cityFeatures) : null;
+    let resolved = previousFeature
+      ? {
+          geometry: previousFeature.geometry,
+          source: previousFeature.properties?.geometrySource ?? "openstreetmap",
+          sourceRef: previousFeature.properties?.geometrySourceRef ?? "",
+          method: previousFeature.properties?.reconciliationMethod ?? "preserved_checked_in_geometry",
+          addressEvidence: previousFeature.properties?.addressEvidence ?? null,
+        }
+      : match
+        ? geometryForMatchedOsm(match, cityFeatures)
+        : null;
 
-    if (resolved && addressMatch && !identityMatch) {
+    if (!previousFeature && resolved && addressMatch && !identityMatch) {
       resolved = {
         ...resolved,
         method:
@@ -1180,15 +1213,17 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
       "Derived route endpoints only. They are not physical entrance records and must never be displayed as verified entrances.",
     approaches,
   });
-  await writeJson(`${base}/pedestrian-network.geojson`, graph.geojson);
-  await writeJson(`${base}/routing-graph.json`, {
-    campus,
-    generatedAt,
-    source: "OpenStreetMap",
-    verificationStatus: "inferred",
-    nodes: graph.nodes,
-    edges: graph.edges,
-  });
+  if (osm) {
+    await writeJson(`${base}/pedestrian-network.geojson`, graph.geojson);
+    await writeJson(`${base}/routing-graph.json`, {
+      campus,
+      generatedAt,
+      source: "OpenStreetMap",
+      verificationStatus: "inferred",
+      nodes: graph.nodes,
+      edges: graph.edges,
+    });
+  }
   await writeJson(`${base}/coverage.json`, coverage);
   return coverage;
 }
