@@ -54,5 +54,13 @@
       "sourceUrl": "https://www.utsc.utoronto.ca/admissions/fall-campus-day-schedule",
       "note": "UTSC Bookstore is located in the Bladen Wing."
     }
+  },
+  "displayNames": {
+    "PO": {
+      "name": "UTSC Portable Classroom",
+      "kind": "functional",
+      "sourceId": "utsc-campus-map-2025",
+      "sourceUrl": "https://www.utsc.utoronto.ca/home/sites/utsc.utoronto.ca.home/files/images/page/Campus%20Map-072525_FINAL_8.5x11.pdf"
+    }
   }
 }
