@@ -40,6 +40,7 @@ jobs:
       - name: Refresh UTSG and UTSC geometry from current cached timetable evidence
         env:
           GAPWISE_REUSE_TTB: "1"
+          GAPWISE_SKIP_OVERPASS: "1"
         run: node scripts/refresh-tri-campus-candidates.mjs
 
       - name: Validate generated tri-campus data
