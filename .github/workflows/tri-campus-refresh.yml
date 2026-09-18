@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - codex/tri-campus-data-2026-09-18
+      - codex/complete-tri-campus-geometry-2026-09-18
     paths:
       - ".github/workflows/tri-campus-refresh.yml"
       - "scripts/refresh-tri-campus-candidates.mjs"
@@ -25,7 +26,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: codex/tri-campus-data-2026-09-18
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
@@ -60,4 +61,4 @@ jobs:
             exit 0
           fi
           git commit -m "data: refresh tri-campus evidence [tri-campus generated]"
-          git push origin HEAD:codex/tri-campus-data-2026-09-18
+          git push origin "HEAD:${GITHUB_REF_NAME}"
