@@ -162,7 +162,7 @@ async function fetchTtbBuildings(campusLabel, sessions, divisions) {
           const building = meeting.building;
           const code = String(building?.buildingCode ?? "").trim().toUpperCase();
           const name = String(building?.buildingName ?? "").trim();
-          if (!code || !name) continue;
+          if (!code) continue;
           const key = `${code}\u0000${normalize(name)}`;
           const current = buildings.get(key) ?? {
             code,
@@ -269,31 +269,33 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
     explicitAliasToId.set(normalize(aliasName), id);
   }
 
+  const explicitCodeToId = new Map();
+  for (const [code, target] of Object.entries(aliases.codes ?? {})) {
+    const id =
+      campus === "utsc"
+        ? `${campus}:${String(target).toUpperCase()}`
+        : `${campus}:facility:${String(target)}`;
+    if (!byId.has(id)) throw new Error(`${campus}: timetable-code alias ${code} targets unknown ${target}`);
+    explicitCodeToId.set(String(code).toUpperCase(), id);
+  }
+
+  const unresolvedTtb = [];
   for (const ttb of ttbBuildings) {
     const norm = normalize(ttb.name);
-    let id = explicitAliasToId.get(norm) ?? nameToId.get(norm) ?? null;
+    let id =
+      explicitCodeToId.get(ttb.code.toUpperCase()) ??
+      (norm ? explicitAliasToId.get(norm) ?? nameToId.get(norm) ?? null : null);
     if (!id && campus === "utsc") {
       const codeId = `${campus}:${ttb.code.toUpperCase()}`;
       if (byId.has(codeId)) id = codeId;
     }
     if (!id) {
-      id = `${campus}:ttb:${ttb.code.toUpperCase()}`;
-      if (!byId.has(id)) {
-        byId.set(id, {
-          id,
-          campus,
-          code: ttb.code.toUpperCase(),
-          name: ttb.name,
-          category: "academic",
-          aliases: [],
-          timetableCodes: [],
-          facilityCodes: [],
-          mapUrls: [],
-          identityEvidence: [],
-          sourceNames: [],
-          status: "active",
-        });
-      }
+      unresolvedTtb.push({
+        code: ttb.code,
+        name: ttb.name || null,
+        mapUrl: ttb.mapUrl || null,
+      });
+      continue;
     }
     const canonical = byId.get(id);
     canonical.timetableCodes = stableUnique([...canonical.timetableCodes, ttb.code.toUpperCase()]);
@@ -302,6 +304,15 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
     canonical.sourceNames = stableUnique([...canonical.sourceNames, ttb.name]);
     if (/^\d/.test(canonical.code) || !canonical.code) canonical.code = canonical.timetableCodes[0] ?? canonical.code;
     nameToId.set(norm, id);
+  }
+
+  if (unresolvedTtb.length) {
+    throw new Error(
+      `${campus}: live TTB building codes require explicit source-backed reconciliation:\n` +
+        unresolvedTtb
+          .map((entry) => `- ${entry.code}: ${entry.name ?? "(TTB name unavailable)"} ${entry.mapUrl ?? ""}`)
+          .join("\n"),
+    );
   }
 
   return [...byId.values()].sort(
