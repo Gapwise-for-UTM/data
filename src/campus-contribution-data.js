@@ -6,6 +6,10 @@ import {
   metersBetween,
   todayLocalDate,
 } from './entrance-map-data.js';
+import utsgRegistry from '../data/utsg/buildings.json';
+import utsgFootprints from '../data/utsg/buildings.geojson';
+import utscRegistry from '../data/utsc/buildings.json';
+import utscFootprints from '../data/utsc/buildings.geojson';
 
 export const MAP_WIDTH = 1200;
 export const MAP_HEIGHT = 840;
@@ -37,6 +41,58 @@ const UTM_FALLBACK = {
   maxLat: 43.5577,
 };
 
+const UTSG_FALLBACK = {
+  minLon: -79.4215,
+  maxLon: -79.3650,
+  minLat: 43.6450,
+  maxLat: 43.6825,
+};
+
+const UTSC_FALLBACK = {
+  minLon: -79.2050,
+  maxLon: -79.1650,
+  minLat: 43.7720,
+  maxLat: 43.7995,
+};
+
+const TRI_CAMPUS_REGISTRIES = {
+  utsg: utsgRegistry,
+  utsc: utscRegistry,
+};
+
+const TRI_CAMPUS_FOOTPRINTS = {
+  utsg: Array.isArray(utsgFootprints?.features) ? utsgFootprints.features : [],
+  utsc: Array.isArray(utscFootprints?.features) ? utscFootprints.features : [],
+};
+
+function importedBuildingsForCampus(campusId) {
+  const registry = TRI_CAMPUS_REGISTRIES[campusId];
+  const footprints = TRI_CAMPUS_FOOTPRINTS[campusId] ?? [];
+  if (!registry?.buildings) return [];
+
+  const featuresByBuildingId = new Map();
+  for (const feature of footprints) {
+    const buildingId = feature?.properties?.buildingId ?? feature?.id;
+    if (!buildingId) continue;
+    const current = featuresByBuildingId.get(buildingId) ?? [];
+    current.push(feature);
+    featuresByBuildingId.set(buildingId, current);
+  }
+
+  return registry.buildings.map((building) => ({
+    code: building.code,
+    name: building.name,
+    aliases: building.aliases ?? [],
+    timetableCodes: building.timetableCodes ?? [],
+    campus: campusId,
+    source: 'canonical',
+    canonicalId: building.id,
+    features: featuresByBuildingId.get(building.id) ?? [],
+    entranceCount: 0,
+    geometryStatus: featuresByBuildingId.has(building.id) ? 'mapped' : 'unresolved',
+  }));
+}
+
 export const CAMPUSES = {
   utm: {
     id: 'utm',
@@ -49,24 +105,14 @@ export const CAMPUSES = {
     id: 'utsg',
     shortName: 'UTSG',
     name: 'University of Toronto St. George',
-    bounds: {
-      minLon: -79.4074,
-      maxLon: -79.3824,
-      minLat: 43.6550,
-      maxLat: 43.6699,
-    },
+    bounds: boundsFromFeatures(TRI_CAMPUS_FOOTPRINTS.utsg, UTSG_FALLBACK),
     tileZoom: 16,
   },
   utsc: {
     id: 'utsc',
     shortName: 'UTSC',
     name: 'University of Toronto Scarborough',
-    bounds: {
-      minLon: -79.2008,
-      maxLon: -79.1737,
-      minLat: 43.7770,
-      maxLat: 43.7925,
-    },
+    bounds: boundsFromFeatures(TRI_CAMPUS_FOOTPRINTS.utsc, UTSC_FALLBACK),
     tileZoom: 16,
   },
 };
@@ -79,12 +125,18 @@ export function campusFromQuery() {
 }
 
 export function canonicalBuildingsForCampus(campusId) {
-  if (campusId !== 'utm') return [];
-  return utmBuildings.map((building) => ({ ...building, source: 'canonical', campus: 'utm' }));
+  if (campusId === 'utm') {
+    return utmBuildings.map((building) => ({ ...building, source: 'canonical', campus: 'utm' }));
+  }
+  if (campusId === 'utsg' || campusId === 'utsc') {
+    return importedBuildingsForCampus(campusId);
+  }
+  return [];
 }
 
 export function canonicalFootprintsForCampus(campusId) {
-  return campusId === 'utm' ? utmFootprintFeatures : [];
+  if (campusId === 'utm') return utmFootprintFeatures;
+  return TRI_CAMPUS_FOOTPRINTS[campusId] ?? [];
 }
 
 export function canonicalEntrancesForCampus(campusId) {
