@@ -25,5 +25,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate canonical campus dataset
-        run: node scripts/validate-campus-data.mjs
+      - name: Validate canonical campus dataset and derived entrance coherence
+        run: npm run data:validate

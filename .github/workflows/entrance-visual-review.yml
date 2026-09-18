@@ -20,13 +20,26 @@ jobs:
   link-visual-review:
     runs-on: ubuntu-latest
     steps:
-      - name: Add visual review link
+      - name: Publish visual review link in the job summary
+        shell: bash
+        run: |
+          {
+            echo "## 🗺️ Campus map visual review"
+            echo
+            echo "[Open PR #${{ github.event.pull_request.number }} visually](https://data.gapwise.ca/review/map?pr=${{ github.event.pull_request.number }})"
+            echo
+            echo "Green is added, amber is changed, and red is removed. No raw GeoJSON interaction is required."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Add visual review link to the PR when permitted
+        id: comment
+        continue-on-error: true
         uses: actions/github-script@v7
         with:
           script: |
             const marker = '<!-- gapwise-campus-map-visual-review -->';
             const reviewUrl = `https://data.gapwise.ca/review/map?pr=${context.issue.number}`;
-            const body = `${marker}\n## 🗺️ Campus map visual review\n\n[Open this PR's map changes visually](${reviewUrl})\n\nEntrances, building footprints, and path geometry are rendered directly on the relevant UTM, UTSG, or UTSC map. Green is added, amber is changed, and red is removed. No raw GeoJSON or coordinate copy/paste is required.`;
+            const body = `${marker}\n## 🗺️ Campus map visual review\n\n[Open this PR's map changes visually](${reviewUrl})\n\nEntrances, building footprints, and path geometry are rendered directly on the relevant campus map. Green is added, amber is changed, and red is removed. No raw GeoJSON or coordinate copy/paste is required.`;
 
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
@@ -34,11 +47,9 @@ jobs:
               issue_number: context.issue.number,
               per_page: 100,
             });
-
             const existing = comments.find(
               (comment) => comment.user?.type === 'Bot' && comment.body?.includes(marker),
             );
-
             if (existing) {
               await github.rest.issues.updateComment({
                 owner: context.repo.owner,
@@ -54,3 +65,7 @@ jobs:
                 body,
               });
             }
+
+      - name: Explain comment permission fallback
+        if: steps.comment.outcome == 'failure'
+        run: echo "::warning::GitHub did not allow a PR comment. The visual review is still available in this job summary and at https://data.gapwise.ca/review/map?pr=${{ github.event.pull_request.number }}."

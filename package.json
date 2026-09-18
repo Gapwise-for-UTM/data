@@ -14,10 +14,13 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run data:validate && npm run distribution:check && vite build && npm run data:publish",
-    "data:validate": "node scripts/validate-campus-data.mjs",
+    "data:validate": "node scripts/validate-campus-data.mjs && node scripts/verify-entrance-coherence.mjs",
     "data:publish": "node scripts/publish-datasets.mjs",
     "distribution:check": "node scripts/check-public-distribution.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "entrances:check": "node scripts/verify-entrance-coherence.mjs",
+    "entrances:derive": "node scripts/refresh-entrance-derived.mjs && npm run data:validate",
+    "data:preflight": "npm run data:validate && npm run distribution:check"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
