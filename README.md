@@ -179,8 +179,8 @@ Gapwise source code is MIT licensed, but upstream datasets retain their own term
 ```bash
 git clone https://github.com/Gapwise-for-UTM/data.git
 cd data
-npm install
-npm run data:validate
+npm ci
+npm run data:preflight
 npm run dev
 ```
 
@@ -190,6 +190,21 @@ For a production build:
 npm run build
 npm run preview
 ```
+
+Use Node.js 24, matching CI. The committed lockfile pins the complete build dependency graph.
+`data:preflight` checks canonical data, entrance coherence, public distribution, and isolated
+pipeline regression tests. Tests never rewrite the working dataset.
+
+For an entrance edit, change `data/utm/entrances.geojson`, run `npm run entrances:derive`,
+then `npm run data:preflight`. Derivation rejects ambiguous identities, missing graph
+connections, or incomplete non-OSM provenance before writing generated files. Removing
+an entrance that is still a graph entrance requires an explicit topology review; the tool
+does not invent a replacement node role or connection. Keep the visual review at
+`https://data.gapwise.ca/review/map?pr=<PR_NUMBER>` in the review workflow.
+
+After Data merges, run `bun run campus-data:sync` and `bun run campus-data:check` in the
+sibling core checkout. The Data compatibility job exercises this same complete sync,
+including the public snapshot, before running core's campus contract tests.
 
 ---
 

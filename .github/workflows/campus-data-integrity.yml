@@ -5,7 +5,9 @@ on:
     paths:
       - data/**
       - public/data/**
-      - scripts/validate-campus-data.mjs
+      - scripts/**
+      - tests/**
+      - package.json
       - .github/workflows/campus-data-integrity.yml
   push:
     branches:
@@ -14,7 +16,9 @@ on:
     paths:
       - data/**
       - public/data/**
-      - scripts/validate-campus-data.mjs
+      - scripts/**
+      - tests/**
+      - package.json
       - .github/workflows/campus-data-integrity.yml
 
 permissions:
@@ -26,4 +30,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate canonical campus dataset and derived entrance coherence
-        run: npm run data:validate
+        run: npm run data:preflight

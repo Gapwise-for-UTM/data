@@ -84,6 +84,10 @@ for (const line of checksumLines) {
   if (!match) fail(`invalid SHA256SUMS line: ${line}`);
   const [, expected, path] = match;
   if (path === "SHA256SUMS") fail("SHA256SUMS must not checksum itself");
+  if (checksummed.has(path)) fail(`duplicate SHA256SUMS entry: ${path}`);
+  if (path.split("/").some((part) => part === ".." || part === "") || path.includes("\\")) {
+    fail(`checksum path must stay inside data/utm: ${path}`);
+  }
   const absolute = resolve(dataRoot, path);
   if (!existsSync(absolute)) fail(`checksum references missing file ${path}`);
   const actual = createHash("sha256").update(await readFile(absolute)).digest("hex");
