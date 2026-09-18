@@ -59,6 +59,68 @@ async function writeJson(path, value) {
   await writeFile(absolute, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
+function decodeHtml(value) {
+  return String(value ?? "")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/&rsquo;|&#8217;/gi, "’")
+    .replace(/&ndash;|&#8211;/gi, "–")
+    .replace(/&mdash;|&#8212;/gi, "—")
+    .replace(/<br\s*\/?\s*>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function addressFromFacilityName(name) {
+  const match = String(name ?? "").trim().match(/^(.+?)-(\d+[A-Za-z]?)$/);
+  if (!match || match[1].includes("/")) return null;
+  const street = match[1].trim();
+  const number = match[2].trim();
+  if (!/\b(?:Street|Avenue|Road|Boulevard|Crescent|Park|Queen'?s Park|Spadina|Huron|College|McCaul|Wellesley|Bay|Bloor)\b/i.test(street)) {
+    return null;
+  }
+  return `${number} ${street}, Toronto, Ontario, Canada`;
+}
+
+async function fetchUtsgFacilityAddresses() {
+  const url = "https://www.fs.utoronto.ca/services/elevators/campus-elevators/";
+  let html = "";
+  try {
+    html = await (await fetchWithRetry(url, {}, "U of T Facilities campus elevators")).text();
+  } catch (error) {
+    console.warn(
+      `Could not refresh Facilities address evidence; continuing with checked-in evidence: ${error instanceof Error ? error.message : String(error)}`,
+    );
+    return new Map();
+  }
+
+  const byCode = new Map();
+  for (const rowMatch of html.matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi)) {
+    const cells = [...rowMatch[1].matchAll(/<t[dh]\b[^>]*>([\s\S]*?)<\/t[dh]>/gi)].map(
+      (match) => decodeHtml(match[1]),
+    );
+    if (cells.length < 2) continue;
+    const identity = cells[0];
+    const address = cells[1];
+    const code = identity.match(/\((\d+[A-Za-z]?)\)\s*$/)?.[1] ?? null;
+    if (!code || !address || /building name|address/i.test(identity + " " + address)) continue;
+    const normalizedAddress = /Toronto|Ontario|Canada/i.test(address)
+      ? address
+      : `${address}, Toronto, Ontario, Canada`;
+    const current = byCode.get(code) ?? [];
+    current.push({
+      address: normalizedAddress,
+      sourceId: "uoft-fs-campus-elevators",
+      sourceUrl: url,
+    });
+    byCode.set(code, current);
+  }
+  return byCode;
+}
+
 async function fetchWithRetry(url, init = {}, label = url) {
   let lastError = null;
   for (let attempt = 1; attempt <= 3; attempt += 1) {
@@ -534,9 +596,29 @@ function osmAddressToken(element) {
 }
 
 function addressPrefix(address) {
-  const match = normalizeStreetAddress(address).match(/^([0-9]+[a-z]?)\s+(.+?)(?:\s+toronto\b|$)/);
+  const match = normalizeStreetAddress(address).match(/^([0-9]+(?:\/[0-9]+)?[a-z]?)\s+(.+?)(?:\s+toronto\b|$)/);
   if (!match) return normalizeStreetAddress(address);
   return `${match[1]} ${match[2]}`.trim();
+}
+
+function addressParts(value) {
+  const token = addressPrefix(value);
+  const match = token.match(/^([0-9]+(?:\/[0-9]+)?[a-z]?)\s+(.+)$/);
+  if (!match) return null;
+  const numbers = match[1].split("/");
+  const street = match[2]
+    .replace(/\b(?:st|rd|ave|blvd|cres|pl|cir)\b/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return { numbers, street };
+}
+
+function addressesEquivalent(expected, candidate) {
+  const left = addressParts(expected);
+  const right = addressParts(candidate);
+  if (!left || !right) return false;
+  if (!left.numbers.some((number) => right.numbers.includes(number))) return false;
+  return left.street === right.street;
 }
 
 function buildOsmAddressMatches(buildings, elements) {
@@ -548,7 +630,7 @@ function buildOsmAddressMatches(buildings, elements) {
     const tokens = evidence.map((entry) => addressPrefix(entry.address)).filter(Boolean);
     const exact = buildingElements.filter((element) => {
       const token = osmAddressToken(element);
-      return token && tokens.includes(token);
+      return token && tokens.some((expected) => addressesEquivalent(expected, token));
     });
     const uniqueRefs = new Map(exact.map((element) => [`${element.type}/${element.id}`, element]));
     const candidates = [...uniqueRefs.values()];
@@ -607,7 +689,7 @@ async function geocodeOfficialAddress(address, bounds) {
         Number.isFinite(point[0]) &&
         Number.isFinite(point[1]) &&
         pointWithinBounds(point, bounds) &&
-        token === expected,
+        addressesEquivalent(expected, token),
     );
   if (candidates.length !== 1) return null;
   return candidates[0];
@@ -872,6 +954,41 @@ async function refreshCampus(campus, sessions, divisions) {
   const aliases = await readJson(config.aliasPath);
   const ttbBuildings = await fetchTtbBuildings(config.label, sessions, divisions);
   const buildings = canonicalizeInventory(campus, inventory, ttbBuildings, aliases);
+
+  if (campus === "utsg") {
+    const facilityAddresses = await fetchUtsgFacilityAddresses();
+    for (const building of buildings) {
+      const dynamicEvidence = stableUnique(
+        (building.facilityCodes ?? []).flatMap((code) =>
+          (facilityAddresses.get(code) ?? []).map((entry) => JSON.stringify(entry)),
+        ),
+      ).map((entry) => JSON.parse(entry));
+      const nameAddress = addressFromFacilityName(building.name);
+      const fallbackEvidence = nameAddress
+        ? [
+            {
+              address: nameAddress,
+              sourceId: "uoft-facilities-inventory-name",
+              sourceUrl:
+                "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf",
+            },
+          ]
+        : [];
+      const combined = [
+        ...(building.geometryAddresses ?? []),
+        ...dynamicEvidence,
+        ...fallbackEvidence,
+      ];
+      const seen = new Set();
+      building.geometryAddresses = combined.filter((entry) => {
+        const key = normalizeStreetAddress(entry.address);
+        if (!key || seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+    }
+  }
+
   const osm = await fetchOsmCampus(source.bounds);
   const osmMatches = buildOsmMatches(buildings, osm.elements ?? []);
   const osmAddressMatches = buildOsmAddressMatches(buildings, osm.elements ?? []);
