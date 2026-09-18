@@ -1,0 +1,45 @@
+{
+  "campus": "utsg",
+  "name": "University of Toronto St. George",
+  "bounds": {
+    "minLon": -79.4215,
+    "maxLon": -79.365,
+    "minLat": 43.645,
+    "maxLat": 43.6825
+  },
+  "identitySources": [
+    {
+      "id": "uoft-facilities-bas-2025",
+      "name": "University of Toronto Facilities & Services — Building Automation Systems Design Standard 2025, Appendix C",
+      "url": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf",
+      "lastVerified": "2026-09-18",
+      "status": "verified",
+      "notes": "Current Facilities & Services building-name/facility-code inventory. Entries explicitly marked demolished are retained as inactive evidence but excluded from active map coverage."
+    },
+    {
+      "id": "uoft-ttb-live",
+      "name": "University of Toronto Timetable Builder live service",
+      "url": "https://ttb.utoronto.ca/",
+      "api": "https://api.easi.utoronto.ca/ttb",
+      "lastVerified": "2026-09-18",
+      "status": "live-observed",
+      "notes": "Cached source evidence only; never a Gapwise runtime dependency."
+    }
+  ],
+  "geometrySources": [
+    {
+      "id": "openstreetmap",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/",
+      "licence": "ODbL 1.0",
+      "attribution": "© OpenStreetMap contributors"
+    },
+    {
+      "id": "toronto-building-outlines",
+      "name": "City of Toronto Open Data — Topographic Mapping Building Outlines",
+      "url": "https://open.toronto.ca/dataset/topographic-mapping-building-outlines/",
+      "licence": "Open Government Licence — Toronto",
+      "lastRefreshed": "2026-04-05"
+    }
+  ]
+}

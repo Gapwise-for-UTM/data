@@ -1,0 +1,64 @@
+{
+  "campus": "utsc",
+  "name": "University of Toronto Scarborough",
+  "bounds": {
+    "minLon": -79.205,
+    "maxLon": -79.165,
+    "minLat": 43.772,
+    "maxLat": 43.7995
+  },
+  "identitySources": [
+    {
+      "id": "utsc-campus-map-2025",
+      "name": "University of Toronto Scarborough official campus map (July 2025)",
+      "url": "https://www.utsc.utoronto.ca/home/sites/utsc.utoronto.ca.home/files/images/page/Campus%20Map-072525_FINAL_8.5x11.pdf",
+      "lastVerified": "2026-09-18",
+      "status": "verified"
+    },
+    {
+      "id": "utsc-timetable-location-codes",
+      "name": "UTSC Office of the Registrar — Timetable location codes",
+      "url": "https://www.utsc.utoronto.ca/registrar/timetable",
+      "lastVerified": "2026-09-18",
+      "status": "verified",
+      "timetableCodes": [
+        "AA",
+        "AC",
+        "AQ",
+        "BV",
+        "EV",
+        "HL",
+        "HW",
+        "IA",
+        "IC",
+        "KW",
+        "SW",
+        "SY"
+      ]
+    },
+    {
+      "id": "uoft-ttb-live",
+      "name": "University of Toronto Timetable Builder live service",
+      "url": "https://ttb.utoronto.ca/",
+      "api": "https://api.easi.utoronto.ca/ttb",
+      "lastVerified": "2026-09-18",
+      "status": "live-observed"
+    }
+  ],
+  "geometrySources": [
+    {
+      "id": "openstreetmap",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/",
+      "licence": "ODbL 1.0",
+      "attribution": "© OpenStreetMap contributors"
+    },
+    {
+      "id": "toronto-building-outlines",
+      "name": "City of Toronto Open Data — Topographic Mapping Building Outlines",
+      "url": "https://open.toronto.ca/dataset/topographic-mapping-building-outlines/",
+      "licence": "Open Government Licence — Toronto",
+      "lastRefreshed": "2026-04-05"
+    }
+  ]
+}

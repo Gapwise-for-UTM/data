@@ -1,0 +1,63 @@
+name: Tri-campus source refresh
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - codex/tri-campus-data-2026-09-18
+    paths:
+      - ".github/workflows/tri-campus-refresh.yml"
+      - "scripts/refresh-tri-campus-candidates.mjs"
+      - "scripts/validate-tri-campus-data.mjs"
+      - "data/utsg/source.json"
+      - "data/utsg/sources/**"
+      - "data/utsc/source.json"
+      - "data/utsc/sources/**"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: ${{ github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[tri-campus generated]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/tri-campus-data-2026-09-18
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Refresh current UTSG and UTSC evidence
+        run: node scripts/refresh-tri-campus-candidates.mjs
+
+      - name: Validate generated tri-campus data
+        run: node scripts/validate-tri-campus-data.mjs
+
+      - name: Check generated diff
+        run: git diff --check
+
+      - name: Commit generated evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "Gapwise Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add \
+            data/tri-campus-coverage.json \
+            data/utsg/buildings.json \
+            data/utsg/buildings.geojson \
+            data/utsg/generated \
+            data/utsc/buildings.json \
+            data/utsc/buildings.geojson \
+            data/utsc/generated
+          if git diff --cached --quiet; then
+            echo "Generated evidence is unchanged."
+            exit 0
+          fi
+          git commit -m "data: refresh tri-campus evidence [tri-campus generated]"
+          git push origin HEAD:codex/tri-campus-data-2026-09-18
