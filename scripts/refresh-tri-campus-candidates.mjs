@@ -330,6 +330,7 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
       hostEvidence: null,
       identityEvidence: stableUnique([sourceInventory.sourceId, record.sourceId]),
       sourceNames: [record.name],
+      displayNameEvidence: null,
       status: "active",
     };
     byId.set(id, canonical);
@@ -361,6 +362,25 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
     const canonical = byId.get(id);
     canonical.aliases = stableUnique([...canonical.aliases, aliasName]);
     nameToId.set(normalize(aliasName), id);
+  }
+
+  for (const [target, evidence] of Object.entries(aliases.displayNames ?? {})) {
+    const id = resolveTarget(target, `display-name override ${target}`);
+    const canonical = byId.get(id);
+    const displayName = String(evidence?.name ?? "").trim();
+    const kind = String(evidence?.kind ?? "").trim();
+    const sourceId = String(evidence?.sourceId ?? "").trim();
+    const sourceUrl = String(evidence?.sourceUrl ?? "").trim();
+    if (!displayName || !kind || !sourceId || !sourceUrl) {
+      throw new Error(`${campus}: incomplete display-name evidence for ${target}`);
+    }
+    const previousName = canonical.name;
+    canonical.name = displayName;
+    canonical.aliases = stableUnique([...canonical.aliases, previousName]);
+    canonical.displayNameEvidence = { name: displayName, kind, sourceId, sourceUrl };
+    canonical.identityEvidence = stableUnique([...canonical.identityEvidence, sourceId]);
+    nameToId.set(normalize(previousName), id);
+    nameToId.set(normalize(displayName), id);
   }
 
   const explicitCodeToId = new Map();
@@ -1380,6 +1400,7 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
         buildingId: building.id,
         buildingCode: building.code,
         name: building.name,
+        displayNameEvidence: building.displayNameEvidence ?? null,
         timetableCodes: building.timetableCodes,
         facilityCodes: building.facilityCodes,
         geometrySource: resolved.source,

@@ -1,6 +1,6 @@
 {
   "campus": "utsg",
-  "generatedAt": "2026-09-18T20:12:55.421Z",
+  "generatedAt": "2026-09-18T21:18:19.298Z",
   "sourceIds": [
     "uoft-facilities-bas-2025",
     "uoft-ttb-live",
@@ -37,6 +37,7 @@
       "sourceNames": [
         "Hart House"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -71,6 +72,7 @@
       "sourceNames": [
         "Gerstein Science Information Centre in the Sigmund Samuel Library"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -102,6 +104,7 @@
       "sourceNames": [
         "McMurrich Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -133,6 +136,7 @@
       "sourceNames": [
         "Claude T. Bissell Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -164,6 +168,7 @@
       "sourceNames": [
         "Thomas Fisher Rare Book Library Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -207,6 +212,7 @@
       "sourceNames": [
         "Robarts Common"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -241,6 +247,7 @@
       "sourceNames": [
         "D.L. Pratt Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -272,6 +279,7 @@
       "sourceNames": [
         "Simcoe Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -303,6 +311,7 @@
       "sourceNames": [
         "C. David Naylor Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -328,6 +337,7 @@
       "sourceNames": [
         "Munk School of Global Affairs & Public Policy at Trinity"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -353,6 +363,7 @@
       "sourceNames": [
         "Munk School of Global Affairs & Public Policy at Trinity"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -378,6 +389,7 @@
       "sourceNames": [
         "Munk School of Global Affairs & Public Policy - Graham Library"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -409,6 +421,7 @@
       "sourceNames": [
         "Whitney Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -434,37 +447,41 @@
       "sourceNames": [
         "Banting Institute"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:017",
       "campus": "utsg",
       "code": "017",
-      "name": "Queen's Park-90",
+      "name": "School of Cities",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Queen's Park-90"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "017"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "90 Queen's Park, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-90-queens-park-2025",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Queen's Park-90"
       ],
+      "displayNameEvidence": {
+        "name": "School of Cities",
+        "kind": "functional",
+        "sourceId": "uoft-90-queens-park-2025",
+        "sourceUrl": "https://www.utoronto.ca/news/reimagined-90-queen-s-park-project-foster-collaboration-city-building-and-civic-engagement"
+      },
       "status": "active"
     },
     {
@@ -490,6 +507,7 @@
       "sourceNames": [
         "Central Steam Plant"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -521,6 +539,7 @@
       "sourceNames": [
         "J. Robert S. Prichard Alumni House"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -554,6 +573,7 @@
       "sourceNames": [
         "Engineering Annex"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -585,6 +605,7 @@
       "sourceNames": [
         "University College Union"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -616,6 +637,7 @@
       "sourceNames": [
         "FitzGerald Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -641,37 +663,41 @@
       "sourceNames": [
         "Cumberland House"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:027",
       "campus": "utsg",
       "code": "027",
-      "name": "Physical Geography Building - St. George Street-45",
+      "name": "Physical Geography Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Physical Geography Building - St. George Street-45"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "027"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "45 Physical Geography Building - St. George Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-fs-central-steam-plant"
       ],
       "sourceNames": [
         "Physical Geography Building - St. George Street-45"
       ],
+      "displayNameEvidence": {
+        "name": "Physical Geography Building",
+        "kind": "proper",
+        "sourceId": "uoft-fs-central-steam-plant",
+        "sourceUrl": "https://www.fs.utoronto.ca/services/hvac-mechanical-utilities/central-steam-plant/"
+      },
       "status": "active"
     },
     {
@@ -703,6 +729,7 @@
       "sourceNames": [
         "Sir Daniel Wilson Residence"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -734,6 +761,7 @@
       "sourceNames": [
         "Varsity Centre"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -765,6 +793,7 @@
       "sourceNames": [
         "Massey College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -798,6 +827,7 @@
       "sourceNames": [
         "Faculty of Law"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -829,6 +859,7 @@
       "sourceNames": [
         "Varsity Pavilion"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -862,6 +893,7 @@
       "sourceNames": [
         "Goldring Centre for High Performance Sport"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -889,6 +921,7 @@
       "sourceNames": [
         "School of Graduate Studies"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -920,6 +953,7 @@
       "sourceNames": [
         "Canadiana Gallery"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -945,6 +979,7 @@
       "sourceNames": [
         "Falconer Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -970,37 +1005,41 @@
       "sourceNames": [
         "Dr. Eric Jackman Institute of Child Study"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:055",
       "campus": "utsg",
       "code": "055",
-      "name": "Highland Avenue-93",
+      "name": "President's Residence",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Highland Avenue-93"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "055"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "93 Highland Avenue, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-magazine-presidents-residence"
       ],
       "sourceNames": [
         "Highland Avenue-93"
       ],
+      "displayNameEvidence": {
+        "name": "President's Residence",
+        "kind": "proper",
+        "sourceId": "uoft-magazine-presidents-residence",
+        "sourceUrl": "https://magazine.utoronto.ca/campus/places/u-of-t-presidents-residence-93-highland/"
+      },
       "status": "active"
     },
     {
@@ -1026,6 +1065,7 @@
       "sourceNames": [
         "Graduate Students' Union"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1057,6 +1097,7 @@
       "sourceNames": [
         "Borden Building South"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1088,6 +1129,7 @@
       "sourceNames": [
         "Borden Building North"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1121,6 +1163,7 @@
       "sourceNames": [
         "Graduate House"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1152,46 +1195,52 @@
       "sourceNames": [
         "Dentistry Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:066",
       "campus": "utsg",
       "code": "066",
-      "name": "Spadina Avenue-665",
+      "name": "Daniels Studio",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Spadina Avenue-665"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "066"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "665 Spadina Avenue, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-fs-central-ventilation"
       ],
       "sourceNames": [
         "Spadina Avenue-665"
       ],
+      "displayNameEvidence": {
+        "name": "Daniels Studio",
+        "kind": "functional",
+        "sourceId": "uoft-fs-central-ventilation",
+        "sourceUrl": "https://www.fs.utoronto.ca/services/hvac-mechanical-utilities/covid-hvac-strategy/central-ventilation/"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:067",
       "campus": "utsg",
       "code": "067",
-      "name": "Huron Street-215",
+      "name": "Enterprise Applications and Solutions Integration",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Huron Street-215"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "067"
@@ -1209,11 +1258,18 @@
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-easi-contact",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Huron Street-215"
       ],
+      "displayNameEvidence": {
+        "name": "Enterprise Applications and Solutions Integration",
+        "kind": "functional",
+        "sourceId": "uoft-easi-contact",
+        "sourceUrl": "https://easi.its.utoronto.ca/contact/"
+      },
       "status": "active"
     },
     {
@@ -1245,6 +1301,7 @@
       "sourceNames": [
         "Faculty Club"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1276,6 +1333,7 @@
       "sourceNames": [
         "Sussex Court"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1307,15 +1365,18 @@
       "sourceNames": [
         "Gage Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:083",
       "campus": "utsg",
       "code": "083",
-      "name": "McCaul Street-254/256",
+      "name": "Education Technology Office",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "McCaul Street-254/256"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "083"
@@ -1333,20 +1394,29 @@
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-engineering-edtech-contact",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "McCaul Street-254/256"
       ],
+      "displayNameEvidence": {
+        "name": "Education Technology Office",
+        "kind": "functional",
+        "sourceId": "uoft-engineering-edtech-contact",
+        "sourceUrl": "https://edtech.engineering.utoronto.ca/contact/"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:088",
       "campus": "utsg",
       "code": "088",
-      "name": "St. George Street-123",
+      "name": "Transitional Year Programme",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "St. George Street-123"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "088"
@@ -1364,11 +1434,18 @@
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "openstreetmap-current-name",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "St. George Street-123"
       ],
+      "displayNameEvidence": {
+        "name": "Transitional Year Programme",
+        "kind": "functional",
+        "sourceId": "openstreetmap-current-name",
+        "sourceUrl": "https://www.openstreetmap.org/way/22236557"
+      },
       "status": "active"
     },
     {
@@ -1400,37 +1477,41 @@
       "sourceNames": [
         "Munk School of Global Affairs & Public Policy at the Observatory"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:090",
       "campus": "utsg",
       "code": "090",
-      "name": "College Street-88",
+      "name": "Joint Centre for Bioethics",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "College Street-88"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "090"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "88 College Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-fs-central-ventilation"
       ],
       "sourceNames": [
         "College Street-88"
       ],
+      "displayNameEvidence": {
+        "name": "Joint Centre for Bioethics",
+        "kind": "functional",
+        "sourceId": "uoft-fs-central-ventilation",
+        "sourceUrl": "https://www.fs.utoronto.ca/services/hvac-mechanical-utilities/covid-hvac-strategy/central-ventilation/"
+      },
       "status": "active"
     },
     {
@@ -1456,6 +1537,7 @@
       "sourceNames": [
         "Luella Massey Studio Theatre"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1481,6 +1563,7 @@
       "sourceNames": [
         "Communications House"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1508,6 +1591,7 @@
       "sourceNames": [
         "Electrometallurgy Lab"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1533,77 +1617,86 @@
       "sourceNames": [
         "Back campus Fields"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:097",
       "campus": "utsg",
       "code": "097",
-      "name": "Queen's Park Crescent East-39",
+      "name": "Centre for Medieval Studies",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Queen's Park Crescent East-39"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "097"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "39 Queen's Park Crescent East, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-history-graduate-course-offering-2025-26"
       ],
       "sourceNames": [
         "Queen's Park Crescent East-39"
       ],
+      "displayNameEvidence": {
+        "name": "Centre for Medieval Studies",
+        "kind": "functional",
+        "sourceId": "uoft-history-graduate-course-offering-2025-26",
+        "sourceUrl": "https://www.history.utoronto.ca/graduate/curriculum-course-information/2025-26-graduate-course-offering"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:097A",
       "campus": "utsg",
       "code": "097A",
-      "name": "Queen's Park Crescent East-39A",
+      "name": "Centre for Culture and Technology",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Queen's Park Crescent East-39A"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "097A"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "39A Queen's Park Crescent East, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-iccit-event-location"
       ],
       "sourceNames": [
         "Queen's Park Crescent East-39A"
       ],
+      "displayNameEvidence": {
+        "name": "Centre for Culture and Technology",
+        "kind": "functional",
+        "sourceId": "uoft-iccit-event-location",
+        "sourceUrl": "https://www.utm.utoronto.ca/iccit/upcomingevents/trip-out-2026"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:098B",
       "campus": "utsg",
       "code": "098B",
-      "name": "Wellesley Street West-90",
+      "name": "Faculty of Music South",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Wellesley Street West-90"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "098B"
@@ -1621,42 +1714,52 @@
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-music-facility-info"
       ],
       "sourceNames": [
         "Wellesley Street West-90"
       ],
+      "displayNameEvidence": {
+        "name": "Faculty of Music South",
+        "kind": "functional",
+        "sourceId": "uoft-music-facility-info",
+        "sourceUrl": "https://music.utoronto.ca/about/what-we-offer/facility-venue-information"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:098C",
       "campus": "utsg",
       "code": "098C",
-      "name": "Wellesley Street West-90",
+      "name": "Faculty of Music South",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Wellesley Street West-90"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "098C"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "90 Wellesley Street West, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-music-facility-info"
       ],
       "sourceNames": [
         "Wellesley Street West-90"
       ],
+      "displayNameEvidence": {
+        "name": "Faculty of Music South",
+        "kind": "functional",
+        "sourceId": "uoft-music-facility-info",
+        "sourceUrl": "https://music.utoronto.ca/about/what-we-offer/facility-venue-information"
+      },
       "status": "active"
     },
     {
@@ -1690,6 +1793,7 @@
       "sourceNames": [
         "Morrison Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1721,6 +1825,7 @@
       "sourceNames": [
         "Soldiers' Tower"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1752,6 +1857,7 @@
       "sourceNames": [
         "School of Continuing Studies"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1783,6 +1889,7 @@
       "sourceNames": [
         "Max Gluskin House"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -1816,161 +1923,177 @@
       "sourceNames": [
         "Fields Institute for Research in Mathematical Sciences"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:106",
       "campus": "utsg",
       "code": "106",
-      "name": "St. George Street-162",
+      "name": "Former University Women's Club House",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "St. George Street-162"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "106"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "162 St. George Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "aco-uoft-st-george-162-history",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "St. George Street-162"
       ],
+      "displayNameEvidence": {
+        "name": "Former University Women's Club House",
+        "kind": "historic",
+        "sourceId": "aco-uoft-st-george-162-history",
+        "sourceUrl": "https://www.acotoronto.ca/buildingsources/LbTLFqfAGF.pdf"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:109",
       "campus": "utsg",
       "code": "109",
-      "name": "College Street-179",
+      "name": "Second Cup x Chocolato",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "College Street-179"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "109"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "179 College Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-food-services-current-locations"
       ],
       "sourceNames": [
         "College Street-179"
       ],
+      "displayNameEvidence": {
+        "name": "Second Cup x Chocolato",
+        "kind": "functional",
+        "sourceId": "uoft-food-services-current-locations",
+        "sourceUrl": "https://foodservices.utoronto.ca/where-to-eat/"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:110",
       "campus": "utsg",
       "code": "110",
-      "name": "St. George Street-121",
+      "name": "Centre for Industrial Relations and Human Resources",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "St. George Street-121"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "110"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "121 St. George Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-cirhr-building-history",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "St. George Street-121"
       ],
+      "displayNameEvidence": {
+        "name": "Centre for Industrial Relations and Human Resources",
+        "kind": "functional",
+        "sourceId": "uoft-cirhr-building-history",
+        "sourceUrl": "https://www.cirhr.utoronto.ca/CIRHR-buildings-through-the-ages"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:112",
       "campus": "utsg",
       "code": "112",
-      "name": "College Street-185",
+      "name": "Dear Saigon",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "College Street-185"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "112"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "185 College Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-food-services-current-locations"
       ],
       "sourceNames": [
         "College Street-185"
       ],
+      "displayNameEvidence": {
+        "name": "Dear Saigon",
+        "kind": "functional",
+        "sourceId": "uoft-food-services-current-locations",
+        "sourceUrl": "https://foodservices.utoronto.ca/where-to-eat/"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:114",
       "campus": "utsg",
       "code": "114",
-      "name": "College Street-187",
+      "name": "Fat Bastard Burrito",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "College Street-187"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "114"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "187 College Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-food-services-current-locations"
       ],
       "sourceNames": [
         "College Street-187"
       ],
+      "displayNameEvidence": {
+        "name": "Fat Bastard Burrito",
+        "kind": "functional",
+        "sourceId": "uoft-food-services-current-locations",
+        "sourceUrl": "https://foodservices.utoronto.ca/where-to-eat/"
+      },
       "status": "active"
     },
     {
@@ -1996,6 +2119,7 @@
       "sourceNames": [
         "Aura Lee Playing Field"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2021,6 +2145,7 @@
       "sourceNames": [
         "Louis B. Stewart Observatory"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2046,37 +2171,41 @@
       "sourceNames": [
         "North West Chiller Plant"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:125",
       "campus": "utsg",
       "code": "125",
-      "name": "Spadina Avenue-703",
+      "name": "R. Ramsay Wright House",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Spadina Avenue-703"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "125"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "703 Spadina Avenue, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "aco-ramsay-wright-house",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Spadina Avenue-703"
       ],
+      "displayNameEvidence": {
+        "name": "R. Ramsay Wright House",
+        "kind": "historic",
+        "sourceId": "aco-ramsay-wright-house",
+        "sourceUrl": "https://www.acotoronto.ca/building.php?ID=15990"
+      },
       "status": "active"
     },
     {
@@ -2102,6 +2231,7 @@
       "sourceNames": [
         "Enrolment Services"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2135,6 +2265,7 @@
       "sourceNames": [
         "Jackman Humanities Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2166,6 +2297,7 @@
       "sourceNames": [
         "Early Learning Centre"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2197,6 +2329,7 @@
       "sourceNames": [
         "New College III"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2230,6 +2363,7 @@
       "sourceNames": [
         "Innis College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2261,6 +2395,7 @@
       "sourceNames": [
         "Innis College Student Residence"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2294,6 +2429,7 @@
       "sourceNames": [
         "Rotman School of Management"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2325,37 +2461,41 @@
       "sourceNames": [
         "St. George Parking Garage"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:138",
       "campus": "utsg",
       "code": "138",
-      "name": "Huron Street-370",
+      "name": "Campus Community Co-operative Day Care",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Huron Street-370"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "138"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "370 Huron Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "campus-coop-daycare",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Huron Street-370"
       ],
+      "displayNameEvidence": {
+        "name": "Campus Community Co-operative Day Care",
+        "kind": "functional",
+        "sourceId": "campus-coop-daycare",
+        "sourceUrl": "https://www.campuscoopdaycare.ca/about"
+      },
       "status": "active"
     },
     {
@@ -2389,68 +2529,75 @@
       "sourceNames": [
         "Koffler Student Services Centre"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:146",
       "campus": "utsg",
       "code": "146",
-      "name": "Sussex Avenue-40",
+      "name": "Kinesiology & Physical Education Offices",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Sussex Avenue-40"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "146"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "40 Sussex Avenue, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-kpe-40-sussex"
       ],
       "sourceNames": [
         "Sussex Avenue-40"
       ],
+      "displayNameEvidence": {
+        "name": "Kinesiology & Physical Education Offices",
+        "kind": "functional",
+        "sourceId": "uoft-kpe-40-sussex",
+        "sourceUrl": "https://www.dlsph.utoronto.ca/faculty-profile/atkinson-michael/"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:147",
       "campus": "utsg",
       "code": "147",
-      "name": "College Street-171",
+      "name": "The Copper Boot",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "College Street-171"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "147"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "171 College Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-mie-orientation-2026"
       ],
       "sourceNames": [
         "College Street-171"
       ],
+      "displayNameEvidence": {
+        "name": "The Copper Boot",
+        "kind": "functional",
+        "sourceId": "uoft-mie-orientation-2026",
+        "sourceUrl": "https://www.mie.utoronto.ca/events/mie-meng-program-orientation-social-2026/"
+      },
       "status": "active"
     },
     {
@@ -2476,6 +2623,7 @@
       "sourceNames": [
         "Fasken Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2507,6 +2655,7 @@
       "sourceNames": [
         "Rehabilitation Sciences Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2541,15 +2690,18 @@
       "sourceNames": [
         "Exam Centre"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:156",
       "campus": "utsg",
       "code": "156",
-      "name": "McCaul Street-263",
+      "name": "Old Administrative Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "McCaul Street-263"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "156"
@@ -2567,11 +2719,18 @@
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-temerty-faculty-buildings"
       ],
       "sourceNames": [
         "McCaul Street-263"
       ],
+      "displayNameEvidence": {
+        "name": "Old Administrative Building",
+        "kind": "proper",
+        "sourceId": "uoft-temerty-faculty-buildings",
+        "sourceUrl": "https://temertymedicine.utoronto.ca/faculty-buildings"
+      },
       "status": "active"
     },
     {
@@ -2606,6 +2765,7 @@
       "sourceNames": [
         "Chestnut Residence and Conference Centre"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -2640,37 +2800,41 @@
       "sourceNames": [
         "Terrence Donnelly Centre for Cellular & Biomolecular Research"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:171",
       "campus": "utsg",
       "code": "171",
-      "name": "Spadina Avenue-455",
+      "name": "Faculty of Information",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Spadina Avenue-455"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "171"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "455 Spadina Avenue, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-faculty-information-contact"
       ],
       "sourceNames": [
         "Spadina Avenue-455"
       ],
+      "displayNameEvidence": {
+        "name": "Faculty of Information",
+        "kind": "functional",
+        "sourceId": "uoft-faculty-information-contact",
+        "sourceUrl": "https://ischool.utoronto.ca/contact-us/"
+      },
       "status": "active"
     },
     {
@@ -2696,15 +2860,18 @@
       "sourceNames": [
         "Macdonald-Mowat House"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:179",
       "campus": "utsg",
       "code": "179",
-      "name": "College Street-229",
+      "name": "Oddfellows Hall",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "College Street-229"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "179"
@@ -2722,104 +2889,120 @@
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "toronto-heritage-229-college",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "College Street-229"
       ],
+      "displayNameEvidence": {
+        "name": "Oddfellows Hall",
+        "kind": "historic",
+        "sourceId": "toronto-heritage-229-college",
+        "sourceUrl": "https://www.toronto.ca/legdocs/mmis/2018/pb/bgrd/backgroundfile-113148.pdf"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:189",
       "campus": "utsg",
       "code": "189",
-      "name": "Spadina Avenue-720",
+      "name": "Master of Mathematical Finance",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Spadina Avenue-720"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "189"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "720 Spadina Avenue, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-career-learning-network-contact",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Spadina Avenue-720"
       ],
+      "displayNameEvidence": {
+        "name": "Master of Mathematical Finance",
+        "kind": "functional",
+        "sourceId": "uoft-career-learning-network-contact",
+        "sourceUrl": "https://clnx.utoronto.ca/register/contactusemployer.htm"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:191",
       "campus": "utsg",
       "code": "191",
-      "name": "McCaul Street-207",
+      "name": "Richard Purdom House",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "McCaul Street-207"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "191"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "207 McCaul Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "toronto-heritage-richard-purdom-house",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "McCaul Street-207"
       ],
+      "displayNameEvidence": {
+        "name": "Richard Purdom House",
+        "kind": "historic",
+        "sourceId": "toronto-heritage-richard-purdom-house",
+        "sourceUrl": "https://www.toronto.ca/legdocs/bylaws/2003/law0388.pdf"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:193",
       "campus": "utsg",
       "code": "193",
-      "name": "Edward Street-123",
+      "name": "Continuing Dental Education",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Edward Street-123"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "193"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "123 Edward Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-dentistry-staff-directory",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Edward Street-123"
       ],
+      "displayNameEvidence": {
+        "name": "Continuing Dental Education",
+        "kind": "functional",
+        "sourceId": "uoft-dentistry-staff-directory",
+        "sourceUrl": "https://www.dentistry.utoronto.ca/people/staff?page=1"
+      },
       "status": "active"
     },
     {
@@ -2845,15 +3028,18 @@
       "sourceNames": [
         "TWH - Krembil Discovery Tower"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:195",
       "campus": "utsg",
       "code": "195",
-      "name": "MaRS 2",
+      "name": "MaRS West Tower",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "MaRS 2"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "195"
@@ -2865,104 +3051,120 @@
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-engineering-neighbourhood-2026",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "MaRS 2"
       ],
+      "displayNameEvidence": {
+        "name": "MaRS West Tower",
+        "kind": "proper",
+        "sourceId": "uoft-engineering-neighbourhood-2026",
+        "sourceUrl": "https://www.engineering.utoronto.ca/about/annual-reports/by-the-numbers-2026/chapter-7-financial-physical-resources-2026/"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:196",
       "campus": "utsg",
       "code": "196",
-      "name": "University Avenue-700",
+      "name": "Ontario Power Building",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "University Avenue-700"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "196"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "700 University Avenue, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-statistical-sciences-contact"
       ],
       "sourceNames": [
         "University Avenue-700"
       ],
+      "displayNameEvidence": {
+        "name": "Ontario Power Building",
+        "kind": "proper",
+        "sourceId": "uoft-statistical-sciences-contact",
+        "sourceUrl": "https://www.statistics.utoronto.ca/contact-information"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:197",
       "campus": "utsg",
       "code": "197",
-      "name": "Bay Street-777",
+      "name": "Faculty of Dentistry Satellite Clinic",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Bay Street-777"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "197"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "777 Bay Street, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "uoft-dentistry-building-renewal",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Bay Street-777"
       ],
+      "displayNameEvidence": {
+        "name": "Faculty of Dentistry Satellite Clinic",
+        "kind": "functional",
+        "sourceId": "uoft-dentistry-building-renewal",
+        "sourceUrl": "https://www.dentistry.utoronto.ca/defygravitycampaign/buildingrenewal"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:433",
       "campus": "utsg",
       "code": "433",
-      "name": "Queen's Park Crescent East-43",
+      "name": "Jesuit Provincial Offices",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Queen's Park Crescent East-43"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "433"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "43 Queen's Park Crescent East, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "archdiocese-toronto-jesuit-provincial-house",
         "uoft-facilities-bas-2025"
       ],
       "sourceNames": [
         "Queen's Park Crescent East-43"
       ],
+      "displayNameEvidence": {
+        "name": "Jesuit Provincial Offices",
+        "kind": "functional",
+        "sourceId": "archdiocese-toronto-jesuit-provincial-house",
+        "sourceUrl": "https://www.archtoronto.org/siteassets/media/offices--ministries/administrative-offices/spiritual-affairs/files/orderhierarchymen-dec-2025.pdf"
+      },
       "status": "active"
     },
     {
@@ -2988,6 +3190,7 @@
       "sourceNames": [
         "Toronto School of Theology"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3013,6 +3216,7 @@
       "sourceNames": [
         "Regis College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3038,6 +3242,7 @@
       "sourceNames": [
         "Birge-Carnegie Library"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3063,6 +3268,7 @@
       "sourceNames": [
         "Burwash Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3088,6 +3294,7 @@
       "sourceNames": [
         "Burwash Residence (Lower Houses)"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3113,6 +3320,7 @@
       "sourceNames": [
         "Burwash Residence (Upper Houses)"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3138,6 +3346,7 @@
       "sourceNames": [
         "Annesley Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3163,6 +3372,7 @@
       "sourceNames": [
         "Goldring Student Centre"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3188,6 +3398,7 @@
       "sourceNames": [
         "Margaret Addison Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3213,6 +3424,7 @@
       "sourceNames": [
         "Stephenson House"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3238,37 +3450,41 @@
       "sourceNames": [
         "E.J. Pratt Library"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:516",
       "campus": "utsg",
       "code": "516",
-      "name": "Charles Street West-65",
+      "name": "Law House",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Charles Street West-65"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "516"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "65 Charles Street West, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "victoria-university-campus-map"
       ],
       "sourceNames": [
         "Charles Street West-65"
       ],
+      "displayNameEvidence": {
+        "name": "Law House",
+        "kind": "proper",
+        "sourceId": "victoria-university-campus-map",
+        "sourceUrl": "https://vicu.utoronto.ca/assets/Vic_Campus_Map.pdf"
+      },
       "status": "active"
     },
     {
@@ -3294,6 +3510,7 @@
       "sourceNames": [
         "Rowell Jackman Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3319,6 +3536,7 @@
       "sourceNames": [
         "Lillian Massey Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3350,6 +3568,7 @@
       "sourceNames": [
         "Knox College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3375,6 +3594,7 @@
       "sourceNames": [
         "Nona Macdonald Visitors Centre"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3400,6 +3620,7 @@
       "sourceNames": [
         "George Ignatieff Theatre"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3425,6 +3646,7 @@
       "sourceNames": [
         "St. Hilda's College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3450,15 +3672,18 @@
       "sourceNames": [
         "Wycliffe College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:790",
       "campus": "utsg",
       "code": "790",
-      "name": "Charles Street West-30",
+      "name": "University Family Housing — C1",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Charles Street West-30"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "790"
@@ -3469,11 +3694,6 @@
           "address": "730 Yonge Street, Toronto, Ontario, Canada",
           "sourceId": "uoft-fs-campus-elevators",
           "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
-        },
-        {
-          "address": "30 Charles Street West, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
       "geometryRefs": [],
@@ -3481,42 +3701,52 @@
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-university-family-housing"
       ],
       "sourceNames": [
         "Charles Street West-30"
       ],
+      "displayNameEvidence": {
+        "name": "University Family Housing — C1",
+        "kind": "functional",
+        "sourceId": "uoft-university-family-housing",
+        "sourceUrl": "https://universityfamilyhousing.utoronto.ca/student-family/"
+      },
       "status": "active"
     },
     {
       "id": "utsg:facility:791",
       "campus": "utsg",
       "code": "791",
-      "name": "Charles Street West-35",
+      "name": "University Family Housing — C2",
       "category": "facility",
-      "aliases": [],
+      "aliases": [
+        "Charles Street West-35"
+      ],
       "timetableCodes": [],
       "facilityCodes": [
         "791"
       ],
       "mapUrls": [],
-      "geometryAddresses": [
-        {
-          "address": "35 Charles Street West, Toronto, Ontario, Canada",
-          "sourceId": "uoft-facilities-inventory-name",
-          "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
-        }
-      ],
+      "geometryAddresses": [],
       "geometryRefs": [],
       "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
-        "uoft-facilities-bas-2025"
+        "uoft-facilities-bas-2025",
+        "uoft-university-family-housing"
       ],
       "sourceNames": [
         "Charles Street West-35"
       ],
+      "displayNameEvidence": {
+        "name": "University Family Housing — C2",
+        "kind": "functional",
+        "sourceId": "uoft-university-family-housing",
+        "sourceUrl": "https://universityfamilyhousing.utoronto.ca/student-family/"
+      },
       "status": "active"
     },
     {
@@ -3558,6 +3788,7 @@
       "sourceNames": [
         "Astronomy & Astrophysics Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3587,6 +3818,7 @@
       "sourceNames": [
         "Muzzo Family Alumni Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3626,6 +3858,7 @@
       "sourceNames": [
         "Anthropology Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3665,6 +3898,7 @@
       "sourceNames": [
         "Bahen Centre for Information Technology"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3713,6 +3947,7 @@
       "sourceNames": [
         "Bancroft Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3745,6 +3980,7 @@
       "sourceNames": [
         "Clara Benson Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3774,6 +4010,7 @@
       "sourceNames": [
         "Brennan Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3804,6 +4041,7 @@
       "sourceNames": [
         "Isabel Bader Theatre"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3834,6 +4072,7 @@
       "sourceNames": [
         "Convocation Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3863,6 +4102,7 @@
       "sourceNames": [
         "Carr Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3901,6 +4141,7 @@
       "sourceNames": [
         "Daniels Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3939,6 +4180,7 @@
       "sourceNames": [
         "Edward Johnson Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3969,6 +4211,7 @@
       "sourceNames": [
         "Emmanuel College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -3999,6 +4242,7 @@
       "sourceNames": [
         "Stewart Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4038,16 +4282,18 @@
       "sourceNames": [
         "Earth Sciences Centre"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
       "id": "utsg:facility:014",
       "campus": "utsg",
       "code": "FE",
-      "name": "Bloor Street West-371",
+      "name": "University of Toronto Schools",
       "category": "facility",
       "aliases": [
-        "371 Bloor Street West"
+        "371 Bloor Street West",
+        "Bloor Street West-371"
       ],
       "timetableCodes": [
         "FE"
@@ -4072,11 +4318,18 @@
       "identityEvidence": [
         "uoft-facilities-bas-2025",
         "uoft-oise-facilities",
-        "uoft-ttb-live"
+        "uoft-ttb-live",
+        "uts-contact"
       ],
       "sourceNames": [
         "Bloor Street West-371"
       ],
+      "displayNameEvidence": {
+        "name": "University of Toronto Schools",
+        "kind": "proper",
+        "sourceId": "uts-contact",
+        "sourceUrl": "https://www.utschools.ca/contact"
+      },
       "status": "active"
     },
     {
@@ -4116,6 +4369,7 @@
       "sourceNames": [
         "Galbraith Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4155,6 +4409,7 @@
       "sourceNames": [
         "Haultain Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4193,6 +4448,7 @@
       "sourceNames": [
         "Health Sciences Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4231,6 +4487,7 @@
       "sourceNames": [
         "Koffler House"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4261,6 +4518,7 @@
       "sourceNames": [
         "Gerald Larkin Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4300,6 +4558,7 @@
       "sourceNames": [
         "Lash Miller Chemical Laboratories"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4339,6 +4598,7 @@
       "sourceNames": [
         "Lassonde Mining Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4378,6 +4638,7 @@
       "sourceNames": [
         "Mechanical Engineering Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4416,6 +4677,7 @@
       "sourceNames": [
         "McLennan Physical Laboratories"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4469,6 +4731,7 @@
       "sourceNames": [
         "Medical Sciences Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4508,6 +4771,7 @@
       "sourceNames": [
         "Myhal Centre for Engineering Innovation and Entrepreneurship"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4538,6 +4802,7 @@
       "sourceNames": [
         "Northrop Frye Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4586,6 +4851,7 @@
       "sourceNames": [
         "Ontario Institute for Studies in Education"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4625,6 +4891,7 @@
       "sourceNames": [
         "Leslie L. Dan Pharmacy Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4665,6 +4932,7 @@
       "sourceNames": [
         "John P. Robarts Library Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4704,6 +4972,7 @@
       "sourceNames": [
         "Rosebrugh Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4742,6 +5011,7 @@
       "sourceNames": [
         "Ramsay Wright Laboratories"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4796,6 +5066,7 @@
       "sourceNames": [
         "Sandford Fleming Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4834,6 +5105,7 @@
       "sourceNames": [
         "Factor-Inwentash Faculty of Social Work"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4873,6 +5145,7 @@
       "sourceNames": [
         "Sidney Smith Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4921,6 +5194,7 @@
       "sourceNames": [
         "Student Commons"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4953,6 +5227,7 @@
       "sourceNames": [
         "Trinity College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -4982,6 +5257,7 @@
       "sourceNames": [
         "Teefy Hall"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -5020,6 +5296,7 @@
       "sourceNames": [
         "University College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -5050,6 +5327,7 @@
       "sourceNames": [
         "Victoria College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -5089,6 +5367,7 @@
       "sourceNames": [
         "Wallberg Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -5127,6 +5406,7 @@
       "sourceNames": [
         "Wetmore Hall-New College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -5165,6 +5445,7 @@
       "sourceNames": [
         "Wilson Hall-New College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -5203,6 +5484,7 @@
       "sourceNames": [
         "Woodsworth College Residence"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -5239,6 +5521,7 @@
       "sourceNames": [
         "Warren Stevens Building"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     },
     {
@@ -5278,6 +5561,7 @@
       "sourceNames": [
         "Woodsworth College"
       ],
+      "displayNameEvidence": null,
       "status": "active"
     }
   ]

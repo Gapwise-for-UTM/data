@@ -10,6 +10,7 @@
         "buildingId": "utsc:A",
         "buildingCode": "A",
         "name": "Aspen",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -229,6 +230,7 @@
         "buildingId": "utsc:AA",
         "buildingCode": "AA",
         "name": "Arts & Administration Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "AA"
         ],
@@ -314,6 +316,7 @@
         "buildingId": "utsc:AC",
         "buildingCode": "AC",
         "name": "Academic Resource Centre",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "AC"
         ],
@@ -451,6 +454,7 @@
         "buildingId": "utsc:AQ",
         "buildingCode": "AQ",
         "name": "Toronto Pan Am Sports Centre",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -618,6 +622,7 @@
         "buildingId": "utsc:B",
         "buildingCode": "B",
         "name": "Birch",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -889,6 +894,7 @@
         "buildingId": "utsc:BV",
         "buildingCode": "BV",
         "name": "Bladen Wing",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "BV"
         ],
@@ -1054,6 +1060,7 @@
         "buildingId": "utsc:C",
         "buildingCode": "C",
         "name": "Cedar",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -1261,6 +1268,7 @@
         "buildingId": "utsc:CC",
         "buildingCode": "CC",
         "name": "N'sheemaehn Child Care Centre",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -1332,6 +1340,7 @@
         "buildingId": "utsc:CH",
         "buildingCode": "CH",
         "name": "Coach House",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -1387,6 +1396,7 @@
         "buildingId": "utsc:D",
         "buildingCode": "D",
         "name": "Dogwood",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -1650,6 +1660,7 @@
         "buildingId": "utsc:E",
         "buildingCode": "E",
         "name": "Elm",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -1973,6 +1984,7 @@
         "buildingId": "utsc:EV",
         "buildingCode": "EV",
         "name": "Environmental Science & Chemistry Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -2028,6 +2040,7 @@
         "buildingId": "utsc:G",
         "buildingCode": "G",
         "name": "Grey Pine",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -2235,6 +2248,7 @@
         "buildingId": "utsc:HL",
         "buildingCode": "HL",
         "name": "Highland Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "HL"
         ],
@@ -2336,6 +2350,7 @@
         "buildingId": "utsc:HW",
         "buildingCode": "HW",
         "name": "Humanities Wing",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "HW"
         ],
@@ -2761,6 +2776,7 @@
         "buildingId": "utsc:I",
         "buildingCode": "I",
         "name": "Ironwood",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -2904,6 +2920,7 @@
         "buildingId": "utsc:IA",
         "buildingCode": "IA",
         "name": "Sam Ibrahim Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "IA"
         ],
@@ -2957,6 +2974,7 @@
         "buildingId": "utsc:IC",
         "buildingCode": "IC",
         "name": "Instructional Centre",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "IC"
         ],
@@ -3198,6 +3216,7 @@
         "buildingId": "utsc:IH",
         "buildingCode": "IH",
         "name": "Indigenous House",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -3313,6 +3332,7 @@
         "buildingId": "utsc:J",
         "buildingCode": "J",
         "name": "Juniper",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -3544,6 +3564,7 @@
         "buildingId": "utsc:JF",
         "buildingCode": "JF",
         "name": "Joan Foley Hall",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -4039,6 +4060,7 @@
         "buildingId": "utsc:K",
         "buildingCode": "K",
         "name": "Koa",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -4230,6 +4252,7 @@
         "buildingId": "utsc:KW",
         "buildingCode": "KW",
         "name": "Kina Wiya Enadong Building",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "KW"
         ],
@@ -4415,6 +4438,7 @@
         "buildingId": "utsc:L",
         "buildingCode": "L",
         "name": "Larch",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -4634,6 +4658,7 @@
         "buildingId": "utsc:M",
         "buildingCode": "M",
         "name": "Maple",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -4837,6 +4862,7 @@
         "buildingId": "utsc:ML",
         "buildingCode": "ML",
         "name": "Miller Lash House",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -4976,6 +5002,7 @@
         "buildingId": "utsc:N",
         "buildingCode": "N",
         "name": "Harmony Commons",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -5083,6 +5110,7 @@
         "buildingId": "utsc:SL",
         "buildingCode": "SL",
         "name": "Student Centre",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
@@ -5234,6 +5262,7 @@
         "buildingId": "utsc:SW",
         "buildingCode": "SW",
         "name": "Science Wing",
+        "displayNameEvidence": null,
         "timetableCodes": [
           "SW"
         ],
@@ -5743,6 +5772,7 @@
         "buildingId": "utsc:SY",
         "buildingCode": "SY",
         "name": "Science Research Building",
+        "displayNameEvidence": null,
         "timetableCodes": [],
         "facilityCodes": [],
         "geometrySource": "openstreetmap",
