@@ -85,10 +85,12 @@ async function fetchJson(url, init = {}, label = url) {
 async function ttbContext() {
   const reference = await fetchJson(`${TTB_BASE}/reference-data`, {}, "TTB reference-data");
   const payload = reference.payload ?? {};
+  // The UI exposes sub-session values such as 20269F/20269S, while the course
+  // search endpoint accepts the five-digit parent session (for example 20269).
   const sessions = (payload.currentSessions ?? [])
     .filter((option) => !option.header)
-    .map((option) => String(option.value ?? ""))
-    .filter((value) => /^\d{5}[FSY]?$/.test(value));
+    .map((option) => String(option.value ?? "").match(/^\d{5}/)?.[0] ?? "")
+    .filter(Boolean);
   const divisions = (payload.divisions ?? [])
     .filter((option) => !option.header)
     .map((option) => String(option.value ?? ""))
@@ -98,7 +100,7 @@ async function ttbContext() {
   return { sessions: stableUnique(sessions), divisions: stableUnique(divisions) };
 }
 
-async function fetchTtbBuildings(campusLabel, sessions, divisions) {
+async function fetchTtbCoursePage({ campusLabel, session, division, page, pageSize }) {
   const body = {
     courseCodeAndTitleProps: {
       courseCode: "",
@@ -108,51 +110,108 @@ async function fetchTtbBuildings(campusLabel, sessions, divisions) {
     },
     departmentProps: [],
     campuses: [campusLabel],
-    sessions,
+    sessions: [session],
     requirementProps: [],
     instructor: "",
     courseLevels: [],
     deliveryModes: [],
     dayPreferences: [],
     timePreferences: [],
-    divisions,
+    divisions: [division],
     creditWeights: [],
+    page,
+    pageSize,
+    direction: "asc",
   };
-  const envelope = await fetchJson(
-    `${TTB_BASE}/getCourses`,
-    {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(body),
+  const response = await fetch(`${TTB_BASE}/getPageableCourses`, {
+    method: "POST",
+    headers: {
+      accept: "application/json",
+      "content-type": "application/json",
+      "user-agent": "Gapwise-Data/tri-campus-refresh (+https://data.gapwise.ca)",
     },
-    `TTB getCourses ${campusLabel}`,
-  );
-  const courses = Array.isArray(envelope.payload) ? envelope.payload : [];
+    body: JSON.stringify(body),
+  });
+  if (response.status === 404) {
+    // TTB represents a valid search with no matches as HTTP 404 / app status 4404.
+    return { courses: [], total: 0 };
+  }
+  if (!response.ok) {
+    throw new Error(
+      `TTB getPageableCourses ${campusLabel}/${session}/${division} page ${page} returned HTTP ${response.status}: ${(await response.text()).slice(0, 500)}`,
+    );
+  }
+  const envelope = await response.json();
+  const pageable = envelope.payload?.pageableCourse ?? {};
+  return {
+    courses: Array.isArray(pageable.courses) ? pageable.courses : [],
+    total: Number.isFinite(pageable.total) ? pageable.total : 0,
+  };
+}
+
+async function fetchTtbBuildings(campusLabel, sessions, divisions) {
   const buildings = new Map();
-  for (const course of courses) {
-    for (const section of course.sections ?? []) {
-      for (const meeting of section.meetingTimes ?? []) {
-        const building = meeting.building;
-        const code = String(building?.buildingCode ?? "").trim().toUpperCase();
-        const name = String(building?.buildingName ?? "").trim();
-        if (!code || !name) continue;
-        const key = `${code}\u0000${normalize(name)}`;
-        const current = buildings.get(key) ?? {
-          code,
-          name,
-          mapUrl: building.buildingUrl || null,
-          roomSamples: new Set(),
-          courseSamples: new Set(),
-        };
-        const room = `${building.buildingRoomNumber ?? ""}${building.buildingRoomSuffix ?? ""}`.trim();
-        if (room && current.roomSamples.size < 8) current.roomSamples.add(room);
-        if (course.code && current.courseSamples.size < 8) current.courseSamples.add(course.code);
-        if (!current.mapUrl && building.buildingUrl) current.mapUrl = building.buildingUrl;
-        buildings.set(key, current);
+  const pageSize = 500;
+  let courseCount = 0;
+
+  function collect(courses) {
+    courseCount += courses.length;
+    for (const course of courses) {
+      for (const section of course.sections ?? []) {
+        for (const meeting of section.meetingTimes ?? []) {
+          const building = meeting.building;
+          const code = String(building?.buildingCode ?? "").trim().toUpperCase();
+          const name = String(building?.buildingName ?? "").trim();
+          if (!code || !name) continue;
+          const key = `${code}\u0000${normalize(name)}`;
+          const current = buildings.get(key) ?? {
+            code,
+            name,
+            mapUrl: building.buildingUrl || null,
+            roomSamples: new Set(),
+            courseSamples: new Set(),
+          };
+          const room = `${building.buildingRoomNumber ?? ""}${building.buildingRoomSuffix ?? ""}`.trim();
+          if (room && current.roomSamples.size < 8) current.roomSamples.add(room);
+          if (course.code && current.courseSamples.size < 8) current.courseSamples.add(course.code);
+          if (!current.mapUrl && building.buildingUrl) current.mapUrl = building.buildingUrl;
+          buildings.set(key, current);
+        }
       }
     }
   }
-  if (!buildings.size) throw new Error(`TTB returned no physical building evidence for ${campusLabel}.`);
+
+  // Query one division/session at a time. This matches the production TTB UI
+  // contract and avoids relying on the large, less stable all-courses response.
+  for (const session of sessions) {
+    for (const division of divisions) {
+      const first = await fetchTtbCoursePage({
+        campusLabel,
+        session,
+        division,
+        page: 1,
+        pageSize,
+      });
+      collect(first.courses);
+      const pageCount = Math.ceil(first.total / pageSize);
+      for (let page = 2; page <= pageCount; page += 1) {
+        const next = await fetchTtbCoursePage({
+          campusLabel,
+          session,
+          division,
+          page,
+          pageSize,
+        });
+        collect(next.courses);
+      }
+    }
+  }
+
+  if (!buildings.size) {
+    throw new Error(
+      `TTB returned no physical building evidence for ${campusLabel} across ${courseCount} matched courses (${sessions.join(", ")}; ${divisions.length} divisions).`,
+    );
+  }
   return [...buildings.values()]
     .map((entry) => ({
       code: entry.code,
