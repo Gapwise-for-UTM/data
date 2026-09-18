@@ -2235,10 +2235,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
-        "nameEvidence": {
-          "name": "Sir Daniel Wilson Residence",
-          "source": "canonical-identity"
-        },
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2396,10 +2393,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
-        "nameEvidence": {
-          "name": "Varsity Pavilion",
-          "source": "canonical-identity"
-        },
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2807,10 +2801,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
-        "nameEvidence": {
-          "name": "Dr. Eric Jackman Institute of Child Study",
-          "source": "canonical-identity"
-        },
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7055,10 +7046,7 @@
         "addressEvidence": null,
         "refEvidence": null,
         "pointEvidence": null,
-        "nameEvidence": {
-          "name": "E.J. Pratt Library",
-          "source": "canonical-identity"
-        },
+        "nameEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {

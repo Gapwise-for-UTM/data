@@ -1,6 +1,6 @@
 {
   "campus": "utsc",
-  "generatedAt": "2026-09-18T13:20:28.421Z",
+  "generatedAt": "2026-09-18T20:01:34.115Z",
   "semantics": "Derived route endpoints only. They are not physical entrance records and must never be displayed as verified entrances.",
   "approaches": [
     {
