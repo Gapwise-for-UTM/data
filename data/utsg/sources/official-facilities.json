@@ -239,6 +239,12 @@
       "status": "active"
     },
     {
+      "facilityCode": "034",
+      "name": "Massey College",
+      "affiliation": "Other Federated Colleges",
+      "status": "active"
+    },
+    {
       "facilityCode": "036",
       "name": "Astronomy & Astrophysics Building",
       "affiliation": "St. George",
@@ -803,24 +809,6 @@
       "status": "active"
     },
     {
-      "facilityCode": "790",
-      "name": "Charles Street West-30",
-      "affiliation": "St. George",
-      "status": "active"
-    },
-    {
-      "facilityCode": "791",
-      "name": "Charles Street West-35",
-      "affiliation": "St. George",
-      "status": "active"
-    },
-    {
-      "facilityCode": "034",
-      "name": "Massey College",
-      "affiliation": "Other Federated Colleges",
-      "status": "active"
-    },
-    {
       "facilityCode": "433",
       "name": "Queen's Park Crescent East-43",
       "affiliation": "Other Federated Colleges",
@@ -836,48 +824,6 @@
       "facilityCode": "478",
       "name": "Regis College",
       "affiliation": "Other Federated Colleges",
-      "status": "active"
-    },
-    {
-      "facilityCode": "575",
-      "name": "Knox College",
-      "affiliation": "Other Federated Colleges",
-      "status": "active"
-    },
-    {
-      "facilityCode": "575A",
-      "name": "Nona Macdonald Visitors Centre",
-      "affiliation": "Other Federated Colleges",
-      "status": "active"
-    },
-    {
-      "facilityCode": "675",
-      "name": "Wycliffe College",
-      "affiliation": "Other Federated Colleges",
-      "status": "active"
-    },
-    {
-      "facilityCode": "600",
-      "name": "Trinity College",
-      "affiliation": "Trinity College",
-      "status": "active"
-    },
-    {
-      "facilityCode": "602",
-      "name": "Gerald Larkin Building",
-      "affiliation": "Trinity College",
-      "status": "active"
-    },
-    {
-      "facilityCode": "603",
-      "name": "George Ignatieff Theatre",
-      "affiliation": "Trinity College",
-      "status": "active"
-    },
-    {
-      "facilityCode": "608",
-      "name": "St. Hilda's College",
-      "affiliation": "Trinity College",
       "status": "active"
     },
     {
@@ -975,6 +921,88 @@
       "name": "Lillian Massey Building",
       "affiliation": "Victoria University",
       "status": "active"
+    },
+    {
+      "facilityCode": "575",
+      "name": "Knox College",
+      "affiliation": "Other Federated Colleges",
+      "status": "active"
+    },
+    {
+      "facilityCode": "575A",
+      "name": "Nona Macdonald Visitors Centre",
+      "affiliation": "Other Federated Colleges",
+      "status": "active"
+    },
+    {
+      "facilityCode": "600",
+      "name": "Trinity College",
+      "affiliation": "Trinity College",
+      "status": "active"
+    },
+    {
+      "facilityCode": "602",
+      "name": "Gerald Larkin Building",
+      "affiliation": "Trinity College",
+      "status": "active"
+    },
+    {
+      "facilityCode": "603",
+      "name": "George Ignatieff Theatre",
+      "affiliation": "Trinity College",
+      "status": "active"
+    },
+    {
+      "facilityCode": "608",
+      "name": "St. Hilda's College",
+      "affiliation": "Trinity College",
+      "status": "active"
+    },
+    {
+      "facilityCode": "675",
+      "name": "Wycliffe College",
+      "affiliation": "Other Federated Colleges",
+      "status": "active"
+    },
+    {
+      "facilityCode": "790",
+      "name": "Charles Street West-30",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "facilityCode": "791",
+      "name": "Charles Street West-35",
+      "affiliation": "St. George",
+      "status": "active"
+    },
+    {
+      "sourceKey": "smc:AH",
+      "name": "Muzzo Family Alumni Hall",
+      "affiliation": "St. Michael's College",
+      "status": "active",
+      "sourceId": "stmikes-current-buildings"
+    },
+    {
+      "sourceKey": "smc:BR",
+      "name": "Brennan Hall",
+      "affiliation": "St. Michael's College",
+      "status": "active",
+      "sourceId": "stmikes-current-buildings"
+    },
+    {
+      "sourceKey": "smc:CR",
+      "name": "Carr Hall",
+      "affiliation": "St. Michael's College",
+      "status": "active",
+      "sourceId": "stmikes-current-buildings"
+    },
+    {
+      "sourceKey": "smc:TF",
+      "name": "Teefy Hall",
+      "affiliation": "St. Michael's College",
+      "status": "active",
+      "sourceId": "stmikes-current-map"
     }
   ]
 }
