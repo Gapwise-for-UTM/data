@@ -1,3 +1,4 @@
+import { distanceMeters, entranceInputIssues, nodeId } from "./lib/entrance-contract.mjs";
 import { readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -14,7 +15,7 @@ const [entrances, nodesDoc, edgesDoc, accessAudit, entranceAudit, snapshot] = aw
   load("public/data/utm-campus-v1.json"),
 ]);
 
-const issues = [];
+const issues = entranceInputIssues({ entrances, nodesDoc, edgesDoc, accessAudit, snapshot });
 const nodes = new Map(nodesDoc.features.map((f) => [f.id, f]));
 const incident = new Map(nodesDoc.features.map((f) => [f.id, 0]));
 const adjacency = new Map(nodesDoc.features.map((f) => [f.id, []]));
@@ -46,13 +47,6 @@ for (const id of adjacency.keys()) {
     }
   }
   if (component.size > mainComponent.size) mainComponent = component;
-}
-
-function nodeId(feature) {
-  if (feature.properties.routingNodeId?.trim()) return feature.properties.routingNodeId.trim();
-  return feature.properties.osmNodeId === undefined
-    ? null
-    : `osm-node-${feature.properties.osmNodeId}`;
 }
 
 function expectedAudit(feature) {
@@ -103,6 +97,18 @@ for (const feature of entrances.features) {
     if (JSON.stringify(node.geometry?.coordinates) !== JSON.stringify(feature.geometry?.coordinates)) {
       issues.push(`${feature.id}: routing-node coordinates drifted from entrances.geojson`);
     }
+    const derivedProperties = { label: feature.properties.label, accessibility: feature.properties.accessibility ?? "unknown", notes: feature.properties.notes || undefined };
+    for (const key of ["label", "accessibility", "notes"]) {
+      if (node.properties[key] !== derivedProperties[key]) issues.push(`${feature.id}: routing-node ${key} drifted from canonical entrance`);
+    }
+    for (const key of ["access", "direction"]) {
+      if (node.properties[key] !== undefined && node.properties[key] !== (feature.properties[key] ?? "unknown")) {
+        issues.push(`${feature.id}: routing-node ${key} overrides canonical entrance semantics`);
+      }
+    }
+    for (const key of ["source", "sourceUrl", "lastVerified", "verificationStatus"]) {
+      if (node.properties.metadata?.[key] !== feature.properties[key]) issues.push(`${feature.id}: routing-node provenance ${key} is stale`);
+    }
     if ((incident.get(id) ?? 0) === 0) issues.push(`${feature.id}: routing node has no graph edge`);
   }
 
@@ -113,9 +119,22 @@ for (const feature of entrances.features) {
   }
 }
 
-for (const [code, features] of byBuilding) {
-  if (features.filter((f) => f.properties.preferredForRouting === true).length > 1) {
-    issues.push(`${code}: more than one preferred routing entrance`);
+const entranceIds = new Set(entrances.features.map((feature) => feature.id));
+const auditIds = new Set();
+for (const feature of entranceAudit.features) {
+  if (auditIds.has(feature.id)) issues.push(`${feature.id}: duplicate generated entrance-audit record`);
+  auditIds.add(feature.id);
+  if (feature.properties.routability === "routable" && !entranceIds.has(feature.id)) {
+    issues.push(`${feature.id}: stale generated entrance-audit record has no canonical entrance`);
+  }
+}
+const entranceNodeIds = new Set(entrances.features.map(nodeId));
+for (const edge of edgesDoc.edges) {
+  if (!entranceNodeIds.has(edge.from) && !entranceNodeIds.has(edge.to)) continue;
+  const from = nodes.get(edge.from)?.geometry?.coordinates;
+  const to = nodes.get(edge.to)?.geometry?.coordinates;
+  if (from && to && (!Number.isFinite(edge.distanceMeters) || Math.abs(edge.distanceMeters - distanceMeters(from, to)) > 1e-6)) {
+    issues.push(`${edge.id}: entrance edge distance is stale`);
   }
 }
 
@@ -129,12 +148,13 @@ for (const building of snapshot.buildings) {
   if (building.verifiedEntranceCount !== verified) {
     issues.push(`${building.code}: snapshot verifiedEntranceCount=${building.verifiedEntranceCount}, canonical=${verified}`);
   }
-  if (features.length > 0 && building.routingCoverage !== "mapped") {
-    issues.push(`${building.code}: mapped access exists but routingCoverage=${building.routingCoverage}`);
+  if (building.routingCoverage !== (features.length > 0 ? "mapped" : "identity-only")) {
+    issues.push(`${building.code}: routingCoverage=${building.routingCoverage} disagrees with canonical entrance coverage`);
   }
 }
 
-for (const [code, features] of byBuilding) {
+for (const code of new Set([...byBuilding.keys(), ...auditByCode.keys()])) {
+  const features = byBuilding.get(code) ?? [];
   const audit = auditByCode.get(code);
   if (!audit) {
     issues.push(`${code}: missing campus-access-audit row`);

@@ -4,6 +4,9 @@ on:
   pull_request:
     paths:
       - data/utm/**
+      - public/data/utm-campus-v1.json
+      - scripts/**
+      - tests/**
       - .github/workflows/core-consumer-contract.yml
   push:
     branches:
@@ -11,6 +14,9 @@ on:
       - refactor/canonical-campus-data
     paths:
       - data/utm/**
+      - public/data/utm-campus-v1.json
+      - scripts/**
+      - tests/**
       - .github/workflows/core-consumer-contract.yml
 
 permissions:
@@ -32,19 +38,16 @@ jobs:
           ref: main
           path: gapwise
 
-      - name: Replace core campus mirror with candidate data
-        shell: bash
-        run: |
-          set -euo pipefail
-          rm -rf gapwise/src/data/utm
-          mkdir -p gapwise/src/data/utm
-          cp -a gapwise-data/data/utm/. gapwise/src/data/utm/
-          rm -f gapwise/src/data/utm/SHA256SUMS
-
       - name: Set up Bun
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: 1.3.14
+
+      - name: Sync the complete candidate campus contract
+        working-directory: gapwise
+        run: |
+          bun scripts/sync-campus-data.ts --write --source=../gapwise-data/data/utm
+          bun scripts/sync-campus-data.ts --check --source=../gapwise-data/data/utm
 
       - name: Install core dependencies
         working-directory: gapwise
@@ -58,6 +61,11 @@ jobs:
         working-directory: gapwise
         run: >-
           bun test
+          tests/public-campus-intelligence.test.ts
+          tests/campus-routing-data.test.ts
+          tests/utm-entrance-registry.test.ts
+          tests/utm-routing-entrance-identity.test.ts
+          tests/routing-golden-corpus.test.ts
           tests/transition-routing.test.ts
           tests/campus-day-route.test.ts
           tests/residence-routing.test.ts

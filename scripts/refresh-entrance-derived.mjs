@@ -1,3 +1,4 @@
+import { distanceMeters, entranceInputIssues, nodeId } from "./lib/entrance-contract.mjs";
 import { createHash } from "node:crypto";
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, relative, resolve } from "node:path";
@@ -18,23 +19,9 @@ const [entrances, nodesDoc, edgesDoc, accessAudit, entranceAudit, snapshot] = aw
   load("public/data/utm-campus-v1.json"),
 ]);
 
-function nodeId(feature) {
-  if (feature.properties.routingNodeId?.trim()) return feature.properties.routingNodeId.trim();
-  return feature.properties.osmNodeId === undefined
-    ? null
-    : `osm-node-${feature.properties.osmNodeId}`;
-}
-function distanceMeters(a, b) {
-  const rad = (x) => (x * Math.PI) / 180;
-  const dLat = rad(b[1] - a[1]);
-  const dLon = rad(b[0] - a[0]);
-  const lat1 = rad(a[1]);
-  const lat2 = rad(b[1]);
-  const q =
-    Math.sin(dLat / 2) ** 2 +
-    Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) ** 2;
-  return 2 * 6371000 * Math.asin(Math.sqrt(q));
-}
+const inputIssues = entranceInputIssues({ entrances, nodesDoc, edgesDoc, accessAudit, snapshot });
+if (inputIssues.length) throw new Error(`Cannot derive entrance data:\n- ${inputIssues.join("\n- ")}`);
+
 function auditFeature(feature) {
   return {
     type: "Feature",
@@ -59,6 +46,7 @@ function auditFeature(feature) {
 
 const nodes = new Map(nodesDoc.features.map((f) => [f.id, f]));
 const movedNodes = new Set();
+const entranceNodeIds = new Set(entrances.features.map(nodeId));
 
 for (const feature of entrances.features) {
   const id = nodeId(feature);
@@ -75,6 +63,10 @@ for (const feature of entrances.features) {
   if (node.properties.floor === undefined) node.properties.floor = null;
   node.properties.accessibility = feature.properties.accessibility ?? "unknown";
   node.properties.label = feature.properties.label;
+  // Core overlays canonical entrance semantics while assembling the graph.
+  // Remove legacy graph overrides so access and direction have one owner.
+  delete node.properties.access;
+  delete node.properties.direction;
   if (feature.properties.notes) node.properties.notes = feature.properties.notes;
   else delete node.properties.notes;
   node.properties.metadata = {
@@ -86,11 +78,16 @@ for (const feature of entrances.features) {
 }
 
 for (const edge of edgesDoc.edges) {
-  if (!movedNodes.has(edge.from) && !movedNodes.has(edge.to)) continue;
+  if (!entranceNodeIds.has(edge.from) && !entranceNodeIds.has(edge.to)) continue;
   const from = nodes.get(edge.from)?.geometry?.coordinates;
   const to = nodes.get(edge.to)?.geometry?.coordinates;
   if (!from || !to) throw new Error(`${edge.id}: missing graph endpoint`);
-  edge.distanceMeters = distanceMeters(from, to);
+  const expectedDistance = distanceMeters(from, to);
+  // Preserve existing floating-point bytes when only rounding differs.
+  if (movedNodes.has(edge.from) || movedNodes.has(edge.to) ||
+      !Number.isFinite(edge.distanceMeters) || Math.abs(edge.distanceMeters - expectedDistance) > 1e-6) {
+    edge.distanceMeters = expectedDistance;
+  }
 }
 
 entranceAudit.features = [
@@ -156,7 +153,7 @@ for (const building of snapshot.buildings) {
   building.verifiedEntranceCount = features.filter(
     (f) => f.properties.verificationStatus === "verified",
   ).length;
-  if (features.length > 0) building.routingCoverage = "mapped";
+  building.routingCoverage = features.length > 0 ? "mapped" : "identity-only";
 }
 
 await writeJson("data/utm/outdoor-nodes.geojson", nodesDoc, false);
