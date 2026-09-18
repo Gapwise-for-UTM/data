@@ -324,6 +324,8 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
       facilityCodes,
       mapUrls: [],
       geometryAddresses: [],
+      geometryRefs: [],
+      geometryPoints: [],
       hostBuildingCode: null,
       hostEvidence: null,
       identityEvidence: stableUnique([sourceInventory.sourceId, record.sourceId]),
@@ -380,6 +382,52 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
         sourceUrl: String(evidence.sourceUrl ?? "").trim() || null,
       },
     ].filter((entry) => entry.address);
+    canonical.identityEvidence = stableUnique([
+      ...canonical.identityEvidence,
+      evidence.sourceId,
+    ]);
+  }
+
+  for (const [target, evidence] of Object.entries(aliases.geometryRefs ?? {})) {
+    const id = resolveTarget(target, `geometry ref ${target}`);
+    const canonical = byId.get(id);
+    const ref = String(evidence.ref ?? "").trim();
+    if (!/^(?:way|relation)\/\d+$/.test(ref)) {
+      throw new Error(`${campus}: invalid geometry ref ${ref} for ${target}`);
+    }
+    canonical.geometryRefs = [
+      ...(canonical.geometryRefs ?? []),
+      {
+        ref,
+        sourceId: String(evidence.sourceId ?? "openstreetmap").trim(),
+        sourceUrl: String(evidence.sourceUrl ?? "").trim() || null,
+        identityEvidenceUrl: String(evidence.identityEvidenceUrl ?? "").trim() || null,
+      },
+    ];
+    canonical.identityEvidence = stableUnique([
+      ...canonical.identityEvidence,
+      evidence.sourceId,
+    ]);
+  }
+
+  for (const [target, evidence] of Object.entries(aliases.geometryPoints ?? {})) {
+    const id = resolveTarget(target, `geometry point ${target}`);
+    const longitude = Number(evidence.longitude);
+    const latitude = Number(evidence.latitude);
+    if (!Number.isFinite(longitude) || !Number.isFinite(latitude)) {
+      throw new Error(`${campus}: invalid geometry point for ${target}`);
+    }
+    const canonical = byId.get(id);
+    canonical.geometryPoints = [
+      ...(canonical.geometryPoints ?? []),
+      {
+        longitude,
+        latitude,
+        sourceId: String(evidence.sourceId ?? "").trim() || null,
+        sourceUrl: String(evidence.sourceUrl ?? "").trim() || null,
+        note: String(evidence.note ?? "").trim() || null,
+      },
+    ];
     canonical.identityEvidence = stableUnique([
       ...canonical.identityEvidence,
       evidence.sourceId,
@@ -765,6 +813,90 @@ async function geometryForOfficialAddress(building, bounds, cityFeatures) {
   return null;
 }
 
+async function fetchOsmGeometryRef(ref) {
+  const match = String(ref ?? "").match(/^(way|relation)\/(\d+)$/);
+  if (!match) return null;
+  const [, type, id] = match;
+  const url = `https://api.openstreetmap.org/api/0.6/${type}/${id}/full.json`;
+  let payload;
+  try {
+    payload = await fetchJson(url, {}, `OpenStreetMap ${ref}`);
+  } catch (error) {
+    console.warn(
+      `Could not fetch explicit OSM geometry ${ref}: ${error instanceof Error ? error.message : String(error)}`,
+    );
+    return null;
+  }
+  const elements = payload.elements ?? [];
+  if (type === "way") {
+    const nodes = new Map(
+      elements
+        .filter((element) => element.type === "node")
+        .map((node) => [node.id, [node.lon, node.lat]]),
+    );
+    const way = elements.find(
+      (element) => element.type === "way" && String(element.id) === String(id),
+    );
+    if (!way) return null;
+    const coordinates = (way.nodes ?? []).map((nodeId) => nodes.get(nodeId)).filter(Boolean);
+    if (coordinates.length < 4) return null;
+    if (!sameCoordinate(coordinates[0], coordinates.at(-1))) {
+      coordinates.push([...coordinates[0]]);
+    }
+    return {
+      geometry: { type: "Polygon", coordinates: [coordinates] },
+      source: "openstreetmap",
+      sourceRef: ref,
+      method: "explicit_source_backed_osm_ref",
+    };
+  }
+
+  const relation = elements.find(
+    (element) => element.type === "relation" && String(element.id) === String(id),
+  );
+  if (!relation) return null;
+  const ways = new Map(
+    elements
+      .filter((element) => element.type === "way")
+      .map((way) => [way.id, way]),
+  );
+  const nodes = new Map(
+    elements
+      .filter((element) => element.type === "node")
+      .map((node) => [node.id, [node.lon, node.lat]]),
+  );
+  const members = (relation.members ?? []).map((member) => {
+    if (member.type !== "way") return member;
+    const way = ways.get(member.ref);
+    return {
+      ...member,
+      geometry: (way?.nodes ?? [])
+        .map((nodeId) => nodes.get(nodeId))
+        .filter(Boolean)
+        .map(([lon, lat]) => ({ lon, lat })),
+    };
+  });
+  return {
+    geometry: relationPolygon({ ...relation, members }),
+    source: "openstreetmap",
+    sourceRef: ref,
+    method: "explicit_source_backed_osm_ref",
+  };
+}
+
+function geometryForEvidencePoint(evidence, cityFeatures) {
+  const point = [Number(evidence.longitude), Number(evidence.latitude)];
+  if (!Number.isFinite(point[0]) || !Number.isFinite(point[1])) return null;
+  const city = cityGeometryForPoint(point, cityFeatures);
+  return city
+    ? {
+        ...city,
+        method: "official_source_point_city_polygon",
+        pointEvidence: evidence,
+      }
+    : null;
+}
+
 async function fetchTorontoOutlines(bounds) {
   const geometry = JSON.stringify({
     xmin: bounds.minLon,
@@ -1089,6 +1221,24 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
       };
     }
 
+    if (!resolved && (building.geometryRefs ?? []).length) {
+      for (const evidence of building.geometryRefs) {
+        const direct = await fetchOsmGeometryRef(evidence.ref);
+        if (!direct?.geometry) continue;
+        resolved = { ...direct, refEvidence: evidence };
+        break;
+      }
+    }
+
+    if (!resolved && (building.geometryPoints ?? []).length) {
+      for (const evidence of building.geometryPoints) {
+        const pointGeometry = geometryForEvidencePoint(evidence, cityFeatures);
+        if (!pointGeometry) continue;
+        resolved = pointGeometry;
+        break;
+      }
+    }
+
     if (!resolved && (building.geometryAddresses ?? []).length) {
       resolved = await geometryForOfficialAddress(building, source.bounds, cityFeatures);
       // Respect Nominatim's public-service rate limit.
@@ -1127,6 +1277,8 @@ async function refreshCampus(campus, sessions, divisions, { reuseTtb = false } =
         geometrySourceRef: resolved.sourceRef,
         reconciliationMethod: resolved.method,
         addressEvidence: resolved.addressEvidence ?? null,
+        refEvidence: resolved.refEvidence ?? null,
+        pointEvidence: resolved.pointEvidence ?? null,
         verificationStatus: "inferred",
       },
       geometry: resolved.geometry,
