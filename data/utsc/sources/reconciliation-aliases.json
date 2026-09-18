@@ -15,5 +15,8 @@
     "Humanities Wing": "HW",
     "Highland Hall": "HL",
     "Bladen Wing": "BV"
+  },
+  "excludedTimetableCodes": {
+    "ZO": "Toronto Zoo — an explicitly off-campus external teaching location; preserve the original timetable location but do not map it as a UTSC campus building."
   }
 }
