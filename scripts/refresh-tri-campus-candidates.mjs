@@ -4,7 +4,11 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const TTB_BASE = "https://api.easi.utoronto.ca/ttb";
-const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
+const OVERPASS_URLS = [
+  "https://overpass.kumi.systems/api/interpreter",
+  "https://overpass-api.de/api/interpreter",
+  "https://overpass.private.coffee/api/interpreter",
+];
 const TORONTO_BUILDINGS =
   "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_PROP_BUILDINGOUTLINES_A/FeatureServer/111/query";
 
@@ -350,16 +354,29 @@ async function fetchOsmCampus(bounds) {
   way["highway"~"^(footway|path|pedestrian|steps|living_street)$"](${bbox});
 );
 out body center geom;`;
-  const response = await fetchWithRetry(
-    OVERPASS_URL,
-    {
-      method: "POST",
-      headers: { "content-type": "application/x-www-form-urlencoded;charset=UTF-8" },
-      body: new URLSearchParams({ data: query }),
-    },
-    "OpenStreetMap Overpass",
+  let lastError = null;
+  for (const endpoint of OVERPASS_URLS) {
+    try {
+      const response = await fetchWithRetry(
+        endpoint,
+        {
+          method: "POST",
+          headers: { "content-type": "application/x-www-form-urlencoded;charset=UTF-8" },
+          body: new URLSearchParams({ data: query }),
+        },
+        `OpenStreetMap Overpass (${new URL(endpoint).hostname})`,
+      );
+      return response.json();
+    } catch (error) {
+      lastError = error;
+      console.warn(
+        `Overpass endpoint ${endpoint} failed; trying next mirror: ${error instanceof Error ? error.message : String(error)}`,
+      );
+    }
+  }
+  throw new Error(
+    `All configured Overpass mirrors failed: ${lastError instanceof Error ? lastError.message : String(lastError)}`,
   );
-  return response.json();
 }
 
 function osmCenter(element) {
