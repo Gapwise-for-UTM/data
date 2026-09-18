@@ -11,6 +11,7 @@ const OVERPASS_URLS = [
 ];
 const TORONTO_BUILDINGS =
   "https://services1.arcgis.com/zdB7qR0BtYrg0Xpl/arcgis/rest/services/ODC_PROP_BUILDINGOUTLINES_A/FeatureServer/111/query";
+const NOMINATIM_SEARCH = "https://nominatim.openstreetmap.org/search";
 
 const CAMPUS_CONFIG = {
   utsg: {
@@ -259,6 +260,7 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
       timetableCodes,
       facilityCodes,
       mapUrls: [],
+      geometryAddresses: [],
       identityEvidence: stableUnique([sourceInventory.sourceId, record.sourceId]),
       sourceNames: [record.name],
       status: "active",
@@ -300,6 +302,23 @@ function canonicalizeInventory(campus, sourceInventory, ttbBuildings, aliases) {
       String(code).toUpperCase(),
       resolveTarget(target, `timetable-code alias ${code}`),
     );
+  }
+
+  for (const [target, evidence] of Object.entries(aliases.geometryAddresses ?? {})) {
+    const id = resolveTarget(target, `geometry address ${target}`);
+    const canonical = byId.get(id);
+    canonical.geometryAddresses = [
+      ...(canonical.geometryAddresses ?? []),
+      {
+        address: String(evidence.address ?? "").trim(),
+        sourceId: String(evidence.sourceId ?? "").trim() || null,
+        sourceUrl: String(evidence.sourceUrl ?? "").trim() || null,
+      },
+    ].filter((entry) => entry.address);
+    canonical.identityEvidence = stableUnique([
+      ...canonical.identityEvidence,
+      evidence.sourceId,
+    ]);
   }
 
   const unresolvedTtb = [];
@@ -491,6 +510,147 @@ function buildOsmMatches(buildings, elements) {
     }
   }
   return matched;
+}
+
+function normalizeStreetAddress(value) {
+  return normalize(value)
+    .replace(/\bstreet\b/g, "st")
+    .replace(/\broad\b/g, "rd")
+    .replace(/\bavenue\b/g, "ave")
+    .replace(/\bboulevard\b/g, "blvd")
+    .replace(/\bcrescent\b/g, "cres")
+    .replace(/\bplace\b/g, "pl")
+    .replace(/\bcircle\b/g, "cir")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function osmAddressToken(element) {
+  const tags = element.tags ?? {};
+  const number = String(tags["addr:housenumber"] ?? "").trim();
+  const street = String(tags["addr:street"] ?? "").trim();
+  if (!number || !street) return "";
+  return normalizeStreetAddress(`${number} ${street}`);
+}
+
+function addressPrefix(address) {
+  const match = normalizeStreetAddress(address).match(/^([0-9]+[a-z]?)\s+(.+?)(?:\s+toronto\b|$)/);
+  if (!match) return normalizeStreetAddress(address);
+  return `${match[1]} ${match[2]}`.trim();
+}
+
+function buildOsmAddressMatches(buildings, elements) {
+  const buildingElements = elements.filter((element) => element.tags?.building);
+  const matched = new Map();
+  for (const building of buildings) {
+    const evidence = building.geometryAddresses ?? [];
+    if (!evidence.length) continue;
+    const tokens = evidence.map((entry) => addressPrefix(entry.address)).filter(Boolean);
+    const exact = buildingElements.filter((element) => {
+      const token = osmAddressToken(element);
+      return token && tokens.includes(token);
+    });
+    const uniqueRefs = new Map(exact.map((element) => [`${element.type}/${element.id}`, element]));
+    const candidates = [...uniqueRefs.values()];
+    if (candidates.length === 1) matched.set(building.id, candidates[0]);
+  }
+  return matched;
+}
+
+function pointWithinBounds([longitude, latitude], bounds) {
+  return (
+    longitude >= bounds.minLon &&
+    longitude <= bounds.maxLon &&
+    latitude >= bounds.minLat &&
+    latitude <= bounds.maxLat
+  );
+}
+
+async function geocodeOfficialAddress(address, bounds) {
+  const params = new URLSearchParams({
+    format: "jsonv2",
+    q: address,
+    limit: "5",
+    addressdetails: "1",
+    polygon_geojson: "1",
+    bounded: "1",
+    viewbox: `${bounds.minLon},${bounds.maxLat},${bounds.maxLon},${bounds.minLat}`,
+  });
+  const response = await fetchWithRetry(
+    `${NOMINATIM_SEARCH}?${params}`,
+    {
+      headers: {
+        "accept-language": "en",
+        "user-agent": "Gapwise-Data/tri-campus-refresh (+https://data.gapwise.ca)",
+      },
+    },
+    `Nominatim ${address}`,
+  );
+  const results = await response.json();
+  const expected = addressPrefix(address);
+  const candidates = (Array.isArray(results) ? results : [])
+    .map((result) => {
+      const point = [Number(result.lon), Number(result.lat)];
+      const number = String(result.address?.house_number ?? "").trim();
+      const street = String(
+        result.address?.road ??
+          result.address?.pedestrian ??
+          result.address?.footway ??
+          result.address?.path ??
+          "",
+      ).trim();
+      const token = number && street ? normalizeStreetAddress(`${number} ${street}`) : "";
+      return { result, point, token };
+    })
+    .filter(
+      ({ point, token }) =>
+        Number.isFinite(point[0]) &&
+        Number.isFinite(point[1]) &&
+        pointWithinBounds(point, bounds) &&
+        token === expected,
+    );
+  if (candidates.length !== 1) return null;
+  return candidates[0];
+}
+
+function cityGeometryForPoint(point, cityFeatures) {
+  const containing = cityFeatures.filter((feature) => pointInGeometry(point, feature.geometry));
+  if (containing.length !== 1) return null;
+  const feature = containing[0];
+  return {
+    geometry: feature.geometry,
+    source: "toronto-building-outlines",
+    sourceRef: String(
+      feature.properties?.BUILDINGID ??
+        feature.properties?.OBJECTID ??
+        feature.id ??
+        "",
+    ),
+    method: "official_address_geocode_city_polygon",
+  };
+}
+
+async function geometryForOfficialAddress(building, bounds, cityFeatures) {
+  for (const evidence of building.geometryAddresses ?? []) {
+    const geocoded = await geocodeOfficialAddress(evidence.address, bounds);
+    if (!geocoded) continue;
+    const { result, point } = geocoded;
+    if (
+      result.geojson &&
+      (result.geojson.type === "Polygon" || result.geojson.type === "MultiPolygon")
+    ) {
+      return {
+        geometry: result.geojson,
+        source: "openstreetmap",
+        sourceRef: `${result.osm_type ?? "osm"}/${result.osm_id ?? ""}`,
+        method: "official_address_exact_nominatim_polygon",
+        addressEvidence: evidence,
+      };
+    }
+    const city = cityGeometryForPoint(point, cityFeatures);
+    if (city) return { ...city, addressEvidence: evidence };
+  }
+  return null;
 }
 
 async function fetchTorontoOutlines(bounds) {
@@ -714,6 +874,7 @@ async function refreshCampus(campus, sessions, divisions) {
   const buildings = canonicalizeInventory(campus, inventory, ttbBuildings, aliases);
   const osm = await fetchOsmCampus(source.bounds);
   const osmMatches = buildOsmMatches(buildings, osm.elements ?? []);
+  const osmAddressMatches = buildOsmAddressMatches(buildings, osm.elements ?? []);
   const cityFeatures = await fetchTorontoOutlines(source.bounds);
   const graph = makePedestrianGraph(osm.elements ?? []);
 
@@ -721,25 +882,41 @@ async function refreshCampus(campus, sessions, divisions) {
   const approaches = [];
   const unresolvedGeometry = [];
   for (const building of buildings) {
-    const match = osmMatches.get(building.id);
-    if (!match) {
-      unresolvedGeometry.push({
-        id: building.id,
-        code: building.code,
-        name: building.name,
-        reason: "No unique exact OpenStreetMap name/code match in the campus bounds.",
-      });
-      continue;
+    const identityMatch = osmMatches.get(building.id);
+    const addressMatch = osmAddressMatches.get(building.id);
+    const match = identityMatch ?? addressMatch;
+    let resolved = match ? geometryForMatchedOsm(match, cityFeatures) : null;
+
+    if (resolved && addressMatch && !identityMatch) {
+      resolved = {
+        ...resolved,
+        method:
+          resolved.source === "openstreetmap"
+            ? "official_address_exact_osm_match"
+            : "city_polygon_containing_official_address_osm_match",
+        addressEvidence: building.geometryAddresses?.[0] ?? null,
+      };
     }
-    const resolved = geometryForMatchedOsm(match, cityFeatures);
+
+    if (!resolved && (building.geometryAddresses ?? []).length) {
+      resolved = await geometryForOfficialAddress(building, source.bounds, cityFeatures);
+      // Respect Nominatim's public-service rate limit.
+      await new Promise((resolveDelay) => setTimeout(resolveDelay, 1100));
+    }
+
     if (!resolved) {
       unresolvedGeometry.push({
         id: building.id,
         code: building.code,
         name: building.name,
         reason:
-          "Exact OpenStreetMap identity match found, but no unambiguous polygon geometry could be derived.",
-        osmRef: `${match.type}/${match.id}`,
+          match
+            ? "Matched source identity/address evidence, but no unambiguous polygon geometry could be derived."
+            : (building.geometryAddresses ?? []).length
+              ? "Official address evidence did not reconcile to one unambiguous building polygon."
+              : "No unique exact OpenStreetMap name/code match in the campus bounds.",
+        osmRef: match ? `${match.type}/${match.id}` : undefined,
+        geometryAddresses: building.geometryAddresses ?? [],
       });
       continue;
     }
@@ -758,6 +935,7 @@ async function refreshCampus(campus, sessions, divisions) {
         geometrySource: resolved.source,
         geometrySourceRef: resolved.sourceRef,
         reconciliationMethod: resolved.method,
+        addressEvidence: resolved.addressEvidence ?? null,
         verificationStatus: "inferred",
       },
       geometry: resolved.geometry,
