@@ -1,6 +1,6 @@
 {
   "campus": "utsg",
-  "generatedAt": "2026-09-18T13:11:15.179Z",
+  "generatedAt": "2026-09-18T13:15:58.624Z",
   "sourceIds": [
     "uoft-facilities-bas-2025",
     "uoft-ttb-live",
@@ -21,6 +21,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -47,6 +49,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -70,6 +74,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -93,6 +99,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -116,6 +124,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -142,6 +152,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -165,6 +177,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -188,6 +202,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -211,6 +227,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -234,6 +252,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -257,6 +277,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -280,6 +302,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -303,6 +327,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -332,6 +358,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -355,6 +383,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -378,6 +408,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -403,6 +435,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -426,6 +460,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -449,6 +485,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -472,6 +510,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -501,6 +541,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -524,6 +566,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -547,6 +591,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -570,6 +616,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -595,6 +643,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -618,6 +668,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -643,6 +695,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -668,6 +722,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -691,6 +747,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -714,6 +772,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -737,6 +797,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -766,6 +828,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -789,6 +853,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -812,6 +878,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -835,6 +903,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -860,6 +930,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -883,6 +955,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -912,6 +986,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -941,6 +1017,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -964,6 +1042,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -987,6 +1067,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1010,6 +1092,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1033,6 +1117,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1062,6 +1148,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1085,6 +1173,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1114,6 +1204,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1137,6 +1229,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1160,6 +1254,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1185,6 +1281,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1208,6 +1306,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1237,6 +1337,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1266,6 +1368,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1295,6 +1399,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1324,6 +1430,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1349,6 +1457,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1372,6 +1482,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1395,6 +1507,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1418,6 +1532,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1443,6 +1559,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1472,6 +1590,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1501,6 +1621,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1530,6 +1652,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1559,6 +1683,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1588,6 +1714,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1611,6 +1739,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1634,6 +1764,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1657,6 +1789,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1686,6 +1820,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1709,6 +1845,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1734,6 +1872,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1757,6 +1897,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1780,6 +1922,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1805,6 +1949,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1828,6 +1974,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1853,6 +2001,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1876,6 +2026,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1905,6 +2057,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1930,6 +2084,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1959,6 +2115,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -1988,6 +2146,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2011,6 +2171,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2034,6 +2196,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2060,6 +2224,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2089,6 +2255,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2115,6 +2283,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2141,6 +2311,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2170,6 +2342,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2193,6 +2367,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2222,6 +2398,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2251,6 +2429,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2280,6 +2460,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2309,6 +2491,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2332,6 +2516,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2355,6 +2541,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2384,6 +2572,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2413,6 +2603,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2442,6 +2634,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2465,6 +2659,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2488,6 +2684,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2511,6 +2709,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2534,6 +2734,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2557,6 +2759,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2580,6 +2784,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2603,6 +2809,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2626,6 +2834,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2649,6 +2859,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2672,6 +2884,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2695,6 +2909,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2724,6 +2940,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2747,6 +2965,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2770,6 +2990,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2793,6 +3015,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2816,6 +3040,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2839,6 +3065,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2862,6 +3090,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2885,6 +3115,8 @@
       ],
       "mapUrls": [],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2914,6 +3146,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2943,6 +3177,8 @@
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -2980,6 +3216,8 @@
           "sourceUrl": "https://www.astro.utoronto.ca/contact/inquiries-location/"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3007,6 +3245,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494578"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3039,6 +3279,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494472"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3070,6 +3312,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494470"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3107,9 +3351,19 @@
           "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
         }
       ],
+      "geometryRefs": [
+        {
+          "ref": "way/20319805",
+          "sourceId": "openstreetmap",
+          "sourceUrl": "https://www.openstreetmap.org/way/20319805",
+          "identityEvidenceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        }
+      ],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "openstreetmap",
         "uoft-facilities-bas-2025",
         "uoft-fs-campus-elevators",
         "uoft-ttb-live"
@@ -3138,6 +3392,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494513"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3164,6 +3420,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494595"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3193,6 +3451,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494605"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3221,6 +3481,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494494"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3247,6 +3509,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494580"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3278,6 +3542,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494471"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3308,6 +3574,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494549"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3336,6 +3604,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494601"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3364,6 +3634,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494462"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3395,6 +3667,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494499"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3431,6 +3705,8 @@
           "sourceUrl": "https://www.oise.utoronto.ca/about/cao/facilities"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3463,6 +3739,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494473"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3494,6 +3772,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494475"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3524,6 +3804,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494459"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3554,6 +3836,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494488"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3582,6 +3866,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494575"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3613,6 +3899,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494502"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3644,6 +3932,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494466"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3675,6 +3965,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494474"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3705,6 +3997,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494490"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3742,9 +4036,19 @@
           "sourceUrl": "https://md.utoronto.ca/contact-us"
         }
       ],
+      "geometryRefs": [
+        {
+          "ref": "way/23433615",
+          "sourceId": "openstreetmap",
+          "sourceUrl": "https://www.openstreetmap.org/way/23433615",
+          "identityEvidenceUrl": "https://md.utoronto.ca/contact-us"
+        }
+      ],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "openstreetmap",
         "uoft-facilities-bas-2025",
         "uoft-md-contact",
         "uoft-ttb-live"
@@ -3774,6 +4078,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494495"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3802,6 +4108,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494600"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3839,9 +4147,19 @@
           "sourceUrl": "https://www.oise.utoronto.ca/contact"
         }
       ],
+      "geometryRefs": [
+        {
+          "ref": "way/10725629",
+          "sourceId": "openstreetmap",
+          "sourceUrl": "https://www.openstreetmap.org/way/10725629",
+          "identityEvidenceUrl": "https://www.oise.utoronto.ca/contact"
+        }
+      ],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "openstreetmap",
         "uoft-facilities-bas-2025",
         "uoft-oise-contact",
         "uoft-ttb-live"
@@ -3871,6 +4189,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494476"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3903,6 +4223,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494531"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3934,6 +4256,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494478"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -3964,6 +4288,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494515"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4001,11 +4327,22 @@
           "sourceUrl": "https://www.utoronto.ca/convocation/campus-locations"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [
+        {
+          "longitude": -79.3951031,
+          "latitude": 43.6601181,
+          "sourceId": "uoft-interactive-map",
+          "sourceUrl": "https://map.utoronto.ca/",
+          "note": "Sandford Fleming Building coordinate from the official U of T map; address independently verified as 10 King's College Road."
+        }
+      ],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
         "uoft-convocation-locations",
         "uoft-facilities-bas-2025",
+        "uoft-interactive-map",
         "uoft-ttb-live"
       ],
       "sourceNames": [
@@ -4032,6 +4369,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494564"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4063,6 +4402,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494510"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4100,9 +4441,19 @@
           "sourceUrl": "https://blogs.studentlife.utoronto.ca/innovationhub/contactus/"
         }
       ],
+      "geometryRefs": [
+        {
+          "ref": "way/12872719",
+          "sourceId": "openstreetmap",
+          "sourceUrl": "https://www.openstreetmap.org/way/12872719",
+          "identityEvidenceUrl": "https://blogs.studentlife.utoronto.ca/innovationhub/contactus/"
+        }
+      ],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
+        "openstreetmap",
         "uoft-facilities-bas-2025",
         "uoft-student-commons",
         "uoft-ttb-live"
@@ -4131,6 +4482,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494574"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4157,6 +4510,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494581"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4188,6 +4543,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494517"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4216,6 +4573,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494602"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4247,6 +4606,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494460"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4277,6 +4638,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494509"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4307,6 +4670,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494503"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4337,6 +4702,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494558"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4365,6 +4732,8 @@
         "https://map.utoronto.ca/?id=1809#!m/494512"
       ],
       "geometryAddresses": [],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [
@@ -4401,6 +4770,8 @@
           "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
         }
       ],
+      "geometryRefs": [],
+      "geometryPoints": [],
       "hostBuildingCode": null,
       "hostEvidence": null,
       "identityEvidence": [

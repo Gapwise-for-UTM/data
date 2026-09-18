@@ -18,6 +18,8 @@
         "geometrySourceRef": "relation/1989",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -272,6 +274,8 @@
         "geometrySourceRef": "relation/14756874",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -598,6 +602,8 @@
         "geometrySourceRef": "way/23433608",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -744,6 +750,8 @@
         "geometrySourceRef": "way/10334995",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -882,6 +890,8 @@
         "geometrySourceRef": "way/9916090",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1020,6 +1030,8 @@
         "geometrySourceRef": "way/15401964",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1174,6 +1186,8 @@
         "geometrySourceRef": "way/10336055",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1312,6 +1326,8 @@
         "geometrySourceRef": "way/23433584",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1402,6 +1418,8 @@
         "geometrySourceRef": "way/12874392",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1580,6 +1598,8 @@
         "geometrySourceRef": "way/20174304",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1674,6 +1694,8 @@
         "geometrySourceRef": "way/20173368",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1728,6 +1750,8 @@
         "geometrySourceRef": "way/23433288",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1806,6 +1830,8 @@
         "geometrySourceRef": "way/22775068",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1876,6 +1902,8 @@
         "geometrySourceRef": "way/240330043",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2074,6 +2102,8 @@
         "geometrySourceRef": "way/141692092",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2188,6 +2218,8 @@
         "geometrySourceRef": "relation/4323",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2266,6 +2298,8 @@
         "geometrySourceRef": "way/23433971",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2400,6 +2434,8 @@
         "geometrySourceRef": "way/12000657",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2486,6 +2522,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2584,6 +2622,8 @@
         "geometrySourceRef": "way/34116297",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2638,6 +2678,8 @@
         "geometrySourceRef": "relation/73341",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2716,6 +2758,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2782,6 +2826,8 @@
         "geometrySourceRef": "way/20319809",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2844,6 +2890,8 @@
         "geometrySourceRef": "way/23434099",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2902,6 +2950,8 @@
         "geometrySourceRef": "way/23433986",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2952,6 +3002,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3018,6 +3070,8 @@
         "geometrySourceRef": "way/23434318",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3100,6 +3154,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3150,6 +3206,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3302,6 +3360,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3450,6 +3510,8 @@
         "geometrySourceRef": "way/12874330",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3604,6 +3666,8 @@
         "geometrySourceRef": "way/28822997",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3774,6 +3838,8 @@
         "geometrySourceRef": "way/22372212",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3820,6 +3886,8 @@
         "geometrySourceRef": "way/22372209",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3958,6 +4026,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4060,6 +4130,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4122,6 +4194,8 @@
         "geometrySourceRef": "way/8033844",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4208,6 +4282,8 @@
         "geometrySourceRef": "way/22747247",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4258,6 +4334,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4312,6 +4390,8 @@
         "geometrySourceRef": "way/122198261",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4358,6 +4438,8 @@
         "geometrySourceRef": "way/23201562",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4480,6 +4562,8 @@
         "geometrySourceRef": "way/22372215",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4586,6 +4670,8 @@
         "geometrySourceRef": "way/22201203",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4700,6 +4786,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4762,6 +4850,8 @@
         "geometrySourceRef": "way/8099717",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4872,6 +4962,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4950,6 +5042,8 @@
         "geometrySourceRef": "way/61759776",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5004,6 +5098,8 @@
         "geometrySourceRef": "way/12873396",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5130,6 +5226,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5188,6 +5286,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5262,6 +5362,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5312,6 +5414,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5398,6 +5502,8 @@
         "geometrySourceRef": "way/23436128",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5476,6 +5582,8 @@
         "geometrySourceRef": "way/60303738",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5606,6 +5714,8 @@
         "geometrySourceRef": "way/12873850",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5800,6 +5910,8 @@
         "geometrySourceRef": "way/23436623",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5934,6 +6046,8 @@
         "geometrySourceRef": "way/23436616",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6068,6 +6182,8 @@
         "geometrySourceRef": "way/12873822",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6174,6 +6290,8 @@
         "geometrySourceRef": "way/30430628",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6232,6 +6350,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6286,6 +6406,8 @@
         "geometrySourceRef": "way/23436633",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6376,6 +6498,8 @@
         "geometrySourceRef": "way/20252184",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6570,6 +6694,8 @@
         "geometrySourceRef": "relation/2032",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6864,6 +6990,8 @@
         "geometrySourceRef": "way/27291427",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -6946,6 +7074,8 @@
         "geometrySourceRef": "way/23433444",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7152,6 +7282,8 @@
         "geometrySourceRef": "relation/47346",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7398,6 +7530,8 @@
           "sourceId": "uoft-facilities-inventory-name",
           "sourceUrl": "https://realestate.utoronto.ca/wp-content/uploads/2025/08/UofT-FacilitiesServices-BuildingAutomationSystemsDesignStandard2025.pdf"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7486,6 +7620,8 @@
           "sourceId": "uoft-astro-location",
           "sourceUrl": "https://www.astro.utoronto.ca/contact/inquiries-location/"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7580,6 +7716,8 @@
         "geometrySourceRef": "way/8932810",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7652,6 +7790,8 @@
         "geometrySourceRef": "way/20343239",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7700,6 +7840,8 @@
         "geometrySourceRef": "way/141691917",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -7940,6 +8082,121 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:057",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:057",
+        "buildingCode": "BF",
+        "name": "Bancroft Building",
+        "timetableCodes": [
+          "BF"
+        ],
+        "facilityCodes": [
+          "057"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/20319805",
+        "reconciliationMethod": "explicit_source_backed_osm_ref",
+        "addressEvidence": null,
+        "refEvidence": {
+          "ref": "way/20319805",
+          "sourceId": "openstreetmap",
+          "sourceUrl": "https://www.openstreetmap.org/way/20319805",
+          "identityEvidenceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
+        },
+        "pointEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.40018,
+              43.6607123
+            ],
+            [
+              -79.40008,
+              43.6607327
+            ],
+            [
+              -79.4000695,
+              43.6607023
+            ],
+            [
+              -79.3999808,
+              43.6607234
+            ],
+            [
+              -79.3999913,
+              43.6607522
+            ],
+            [
+              -79.3994842,
+              43.6608492
+            ],
+            [
+              -79.3994775,
+              43.6608625
+            ],
+            [
+              -79.3994996,
+              43.6609176
+            ],
+            [
+              -79.3996169,
+              43.6608943
+            ],
+            [
+              -79.3996579,
+              43.6609985
+            ],
+            [
+              -79.3995795,
+              43.6610146
+            ],
+            [
+              -79.3996029,
+              43.6610742
+            ],
+            [
+              -79.3996813,
+              43.6610581
+            ],
+            [
+              -79.3997036,
+              43.661115
+            ],
+            [
+              -79.4000043,
+              43.6610491
+            ],
+            [
+              -79.3999872,
+              43.6610083
+            ],
+            [
+              -79.4001232,
+              43.6609771
+            ],
+            [
+              -79.4002186,
+              43.6609552
+            ],
+            [
+              -79.4002702,
+              43.6609434
+            ],
+            [
+              -79.40018,
+              43.6607123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:068",
       "properties": {
         "campus": "utsg",
@@ -7956,6 +8213,8 @@
         "geometrySourceRef": "way/9916087",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8010,6 +8269,8 @@
         "geometrySourceRef": "way/15401954",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8134,6 +8395,8 @@
         "geometrySourceRef": "way/12873892",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8246,6 +8509,8 @@
         "geometrySourceRef": "way/330718925",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8552,6 +8817,8 @@
         "geometrySourceRef": "way/8810864",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8656,6 +8923,8 @@
         "geometrySourceRef": "way/8101762",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -8876,6 +9145,8 @@
         "geometrySourceRef": "way/12000624",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9044,6 +9315,8 @@
         "geometrySourceRef": "way/204323317",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9220,6 +9493,8 @@
         "geometrySourceRef": "way/70948818",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9372,6 +9647,8 @@
         "geometrySourceRef": "relation/2152",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9640,6 +9917,8 @@
           "sourceId": "uoft-oise-facilities",
           "sourceUrl": "https://www.oise.utoronto.ca/about/cao/facilities"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9852,6 +10131,8 @@
         "geometrySourceRef": "relation/76177",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9928,6 +10209,8 @@
         "geometrySourceRef": "way/23433306",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -9984,6 +10267,8 @@
         "geometrySourceRef": "way/23436801",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10056,6 +10341,8 @@
         "geometrySourceRef": "way/20319814",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10184,6 +10471,8 @@
         "geometrySourceRef": "way/23113405",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10244,6 +10533,8 @@
         "geometrySourceRef": "way/1466900017",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10396,6 +10687,8 @@
         "geometrySourceRef": "way/12873543",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10568,6 +10861,8 @@
         "geometrySourceRef": "way/354180331",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10736,6 +11031,8 @@
         "geometrySourceRef": "way/1428103037",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10860,6 +11157,265 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:005",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:005",
+        "buildingCode": "MS",
+        "name": "Medical Sciences Building",
+        "timetableCodes": [
+          "MS"
+        ],
+        "facilityCodes": [
+          "005"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/23433615",
+        "reconciliationMethod": "explicit_source_backed_osm_ref",
+        "addressEvidence": null,
+        "refEvidence": {
+          "ref": "way/23433615",
+          "sourceId": "openstreetmap",
+          "sourceUrl": "https://www.openstreetmap.org/way/23433615",
+          "identityEvidenceUrl": "https://md.utoronto.ca/contact-us"
+        },
+        "pointEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3934302,
+              43.6610905
+            ],
+            [
+              -79.3933025,
+              43.6611177
+            ],
+            [
+              -79.3932555,
+              43.6610023
+            ],
+            [
+              -79.3932316,
+              43.6609435
+            ],
+            [
+              -79.3932009,
+              43.6608681
+            ],
+            [
+              -79.3931696,
+              43.6608748
+            ],
+            [
+              -79.3931533,
+              43.6608783
+            ],
+            [
+              -79.3928502,
+              43.6609429
+            ],
+            [
+              -79.3928313,
+              43.6608968
+            ],
+            [
+              -79.3928249,
+              43.6608807
+            ],
+            [
+              -79.3928201,
+              43.6608684
+            ],
+            [
+              -79.3928053,
+              43.6608324
+            ],
+            [
+              -79.392775,
+              43.6608389
+            ],
+            [
+              -79.3927809,
+              43.6608533
+            ],
+            [
+              -79.392298,
+              43.6609562
+            ],
+            [
+              -79.3922509,
+              43.6608405
+            ],
+            [
+              -79.3922234,
+              43.6607731
+            ],
+            [
+              -79.3921587,
+              43.6606142
+            ],
+            [
+              -79.3924987,
+              43.6605448
+            ],
+            [
+              -79.3925354,
+              43.6605339
+            ],
+            [
+              -79.3926428,
+              43.660511
+            ],
+            [
+              -79.3926548,
+              43.6605404
+            ],
+            [
+              -79.3927114,
+              43.6605283
+            ],
+            [
+              -79.3927325,
+              43.6605802
+            ],
+            [
+              -79.3928479,
+              43.6605556
+            ],
+            [
+              -79.3929362,
+              43.6605367
+            ],
+            [
+              -79.3931042,
+              43.6605009
+            ],
+            [
+              -79.3931673,
+              43.6604875
+            ],
+            [
+              -79.39317,
+              43.6604869
+            ],
+            [
+              -79.3932076,
+              43.6604789
+            ],
+            [
+              -79.39322,
+              43.6604763
+            ],
+            [
+              -79.3932391,
+              43.6605232
+            ],
+            [
+              -79.3932698,
+              43.6605167
+            ],
+            [
+              -79.3932914,
+              43.6605697
+            ],
+            [
+              -79.3936147,
+              43.6605006
+            ],
+            [
+              -79.3937446,
+              43.6604731
+            ],
+            [
+              -79.3938458,
+              43.6604518
+            ],
+            [
+              -79.3938585,
+              43.6604833
+            ],
+            [
+              -79.3943088,
+              43.6603882
+            ],
+            [
+              -79.3943346,
+              43.6604523
+            ],
+            [
+              -79.3943809,
+              43.6604425
+            ],
+            [
+              -79.3945781,
+              43.6609312
+            ],
+            [
+              -79.3945872,
+              43.6609539
+            ],
+            [
+              -79.3945717,
+              43.6609572
+            ],
+            [
+              -79.3945325,
+              43.6609654
+            ],
+            [
+              -79.3945508,
+              43.661011
+            ],
+            [
+              -79.3940082,
+              43.6611255
+            ],
+            [
+              -79.3940116,
+              43.6611338
+            ],
+            [
+              -79.3939292,
+              43.6611512
+            ],
+            [
+              -79.3938812,
+              43.6611613
+            ],
+            [
+              -79.3938657,
+              43.6611229
+            ],
+            [
+              -79.393784,
+              43.6611405
+            ],
+            [
+              -79.3935686,
+              43.6611868
+            ],
+            [
+              -79.3934777,
+              43.6612063
+            ],
+            [
+              -79.3934408,
+              43.6611166
+            ],
+            [
+              -79.3934302,
+              43.6610905
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:087",
       "properties": {
         "campus": "utsg",
@@ -10876,6 +11432,8 @@
         "geometrySourceRef": "way/403302492",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -10964,6 +11522,8 @@
         "geometrySourceRef": "way/8117208",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11036,6 +11596,101 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:123",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:123",
+        "buildingCode": "OI",
+        "name": "Ontario Institute for Studies in Education",
+        "timetableCodes": [
+          "OI"
+        ],
+        "facilityCodes": [
+          "123"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/10725629",
+        "reconciliationMethod": "explicit_source_backed_osm_ref",
+        "addressEvidence": null,
+        "refEvidence": {
+          "ref": "way/10725629",
+          "sourceId": "openstreetmap",
+          "sourceUrl": "https://www.openstreetmap.org/way/10725629",
+          "identityEvidenceUrl": "https://www.oise.utoronto.ca/contact"
+        },
+        "pointEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3985895,
+              43.6679088
+            ],
+            [
+              -79.3984285,
+              43.6679432
+            ],
+            [
+              -79.3983912,
+              43.6679512
+            ],
+            [
+              -79.3981996,
+              43.6679921
+            ],
+            [
+              -79.3983702,
+              43.6684311
+            ],
+            [
+              -79.3984307,
+              43.6685866
+            ],
+            [
+              -79.3984928,
+              43.6685712
+            ],
+            [
+              -79.3985784,
+              43.66855
+            ],
+            [
+              -79.398736,
+              43.6689304
+            ],
+            [
+              -79.3989136,
+              43.6688916
+            ],
+            [
+              -79.3990296,
+              43.6688663
+            ],
+            [
+              -79.399206,
+              43.6688278
+            ],
+            [
+              -79.3990364,
+              43.6684315
+            ],
+            [
+              -79.3988242,
+              43.6684792
+            ],
+            [
+              -79.3985895,
+              43.6679088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:161",
       "properties": {
         "campus": "utsg",
@@ -11052,6 +11707,8 @@
         "geometrySourceRef": "way/12873582",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11108,6 +11765,8 @@
         "geometrySourceRef": "way/7991747",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11456,6 +12115,8 @@
         "geometrySourceRef": "way/354180330",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11548,6 +12209,8 @@
         "geometrySourceRef": "way/9303310",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11704,6 +12367,8 @@
         "geometrySourceRef": "way/22372218",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11788,6 +12453,8 @@
         "geometrySourceRef": "way/7948423",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -11968,6 +12635,89 @@
     },
     {
       "type": "Feature",
+      "id": "utsg:facility:028",
+      "properties": {
+        "campus": "utsg",
+        "buildingId": "utsg:facility:028",
+        "buildingCode": "SU",
+        "name": "Student Commons",
+        "timetableCodes": [
+          "SU"
+        ],
+        "facilityCodes": [
+          "028"
+        ],
+        "geometrySource": "openstreetmap",
+        "geometrySourceRef": "way/12872719",
+        "reconciliationMethod": "explicit_source_backed_osm_ref",
+        "addressEvidence": null,
+        "refEvidence": {
+          "ref": "way/12872719",
+          "sourceId": "openstreetmap",
+          "sourceUrl": "https://www.openstreetmap.org/way/12872719",
+          "identityEvidenceUrl": "https://blogs.studentlife.utoronto.ca/innovationhub/contactus/"
+        },
+        "pointEvidence": null,
+        "verificationStatus": "inferred"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3982639,
+              43.6588061
+            ],
+            [
+              -79.3982169,
+              43.6586836
+            ],
+            [
+              -79.3981352,
+              43.6584707
+            ],
+            [
+              -79.3978744,
+              43.658521
+            ],
+            [
+              -79.3978638,
+              43.6584942
+            ],
+            [
+              -79.3977384,
+              43.6585184
+            ],
+            [
+              -79.3978005,
+              43.6586756
+            ],
+            [
+              -79.3980322,
+              43.658626
+            ],
+            [
+              -79.3980837,
+              43.6587564
+            ],
+            [
+              -79.3978348,
+              43.6588061
+            ],
+            [
+              -79.3978691,
+              43.6588868
+            ],
+            [
+              -79.3982639,
+              43.6588061
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "utsg:facility:600",
       "properties": {
         "campus": "utsg",
@@ -11984,6 +12734,8 @@
         "geometrySourceRef": "relation/2687",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12162,6 +12914,8 @@
         "geometrySourceRef": "way/23434841",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12218,6 +12972,8 @@
         "geometrySourceRef": "way/8032167",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12734,6 +13490,8 @@
         "geometrySourceRef": "way/204323029",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -12886,6 +13644,8 @@
         "geometrySourceRef": "way/1464898602",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -13118,6 +13878,8 @@
         "geometrySourceRef": "way/7685383",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -13330,6 +14092,8 @@
         "geometrySourceRef": "way/10336058",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -13522,6 +14286,8 @@
         "geometrySourceRef": "way/10336057",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -13602,6 +14368,8 @@
         "geometrySourceRef": "way/8106022",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -13682,6 +14450,8 @@
           "sourceId": "uoft-fs-campus-elevators",
           "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
         },
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {

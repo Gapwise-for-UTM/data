@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:11:15.663Z",
+  "generatedAt": "2026-09-18T13:15:59.083Z",
   "sessions": [
     "20269",
     "20271"
@@ -7,7 +7,7 @@
   "campuses": {
     "utsg": {
       "campus": "utsg",
-      "generatedAt": "2026-09-18T13:11:15.179Z",
+      "generatedAt": "2026-09-18T13:15:58.624Z",
       "sessions": [
         "20269",
         "20271"
@@ -16,13 +16,13 @@
       "canonicalBuildingCount": 165,
       "timetableBuildingCount": 48,
       "timetableCodeCount": 47,
-      "geometryResolvedCount": 109,
-      "geometryUnresolvedCount": 56,
+      "geometryResolvedCount": 113,
+      "geometryUnresolvedCount": 52,
       "hostedLocationCount": 0,
       "mappedHostedLocationCount": 0,
       "unresolvedHostedLocationCount": 0,
-      "mappedDestinationCount": 109,
-      "routingApproachCount": 109,
+      "mappedDestinationCount": 113,
+      "routingApproachCount": 113,
       "pedestrianNodeCount": 35527,
       "pedestrianEdgeCount": 39779,
       "pedestrianComponentCount": 138,
@@ -477,45 +477,6 @@
           ]
         },
         {
-          "id": "utsg:facility:057",
-          "code": "BF",
-          "name": "Bancroft Building",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "4 Bancroft Avenue, Toronto, Ontario, Canada",
-              "sourceId": "uoft-fs-campus-elevators",
-              "sourceUrl": "https://www.fs.utoronto.ca/services/elevators/campus-elevators/"
-            }
-          ]
-        },
-        {
-          "id": "utsg:facility:005",
-          "code": "MS",
-          "name": "Medical Sciences Building",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "1 King's College Circle, Toronto, Ontario, Canada",
-              "sourceId": "uoft-md-contact",
-              "sourceUrl": "https://md.utoronto.ca/contact-us"
-            }
-          ]
-        },
-        {
-          "id": "utsg:facility:123",
-          "code": "OI",
-          "name": "Ontario Institute for Studies in Education",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "252 Bloor Street West, Toronto, Ontario, Canada",
-              "sourceId": "uoft-oise-contact",
-              "sourceUrl": "https://www.oise.utoronto.ca/contact"
-            }
-          ]
-        },
-        {
           "id": "utsg:facility:009",
           "code": "SF",
           "name": "Sandford Fleming Building",
@@ -527,19 +488,6 @@
               "sourceUrl": "https://www.utoronto.ca/convocation/campus-locations"
             }
           ]
-        },
-        {
-          "id": "utsg:facility:028",
-          "code": "SU",
-          "name": "Student Commons",
-          "reason": "Official address evidence did not reconcile to one unambiguous building polygon.",
-          "geometryAddresses": [
-            {
-              "address": "230 College Street, Toronto, Ontario, Canada",
-              "sourceId": "uoft-student-commons",
-              "sourceUrl": "https://blogs.studentlife.utoronto.ca/innovationhub/contactus/"
-            }
-          ]
         }
       ],
       "hostedLocations": [],
@@ -547,7 +495,7 @@
     },
     "utsc": {
       "campus": "utsc",
-      "generatedAt": "2026-09-18T13:11:15.660Z",
+      "generatedAt": "2026-09-18T13:15:59.081Z",
       "sessions": [
         "20269",
         "20271"

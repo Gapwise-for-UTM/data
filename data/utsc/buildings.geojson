@@ -16,6 +16,8 @@
         "geometrySourceRef": "way/27082930",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -234,6 +236,8 @@
         "geometrySourceRef": "way/27082948",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -316,6 +320,8 @@
         "geometrySourceRef": "way/660073370",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -448,6 +454,8 @@
         "geometrySourceRef": "way/185369754",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -612,6 +620,8 @@
         "geometrySourceRef": "way/27082932",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -882,6 +892,8 @@
         "geometrySourceRef": "way/660074730",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1042,6 +1054,8 @@
         "geometrySourceRef": "way/27082933",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1246,6 +1260,8 @@
         "geometrySourceRef": "way/27082950",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1314,6 +1330,8 @@
         "geometrySourceRef": "way/660073524",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1366,6 +1384,8 @@
         "geometrySourceRef": "way/27082934",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1626,6 +1646,8 @@
         "geometrySourceRef": "way/27082931",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1946,6 +1968,8 @@
         "geometrySourceRef": "way/660307913",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -1998,6 +2022,8 @@
         "geometrySourceRef": "way/27082936",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2204,6 +2230,8 @@
         "geometrySourceRef": "way/4958554",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2302,6 +2330,8 @@
         "geometrySourceRef": "way/660074766",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2722,6 +2752,8 @@
         "geometrySourceRef": "way/27082935",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2864,6 +2896,8 @@
         "geometrySourceRef": "way/1265894595",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -2914,6 +2948,8 @@
         "geometrySourceRef": "relation/2916427",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3150,6 +3186,8 @@
         "geometrySourceRef": "way/1501647882",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3262,6 +3300,8 @@
         "geometrySourceRef": "way/660212111",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3490,6 +3530,8 @@
         "geometrySourceRef": "way/27082929",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -3982,6 +4024,8 @@
         "geometrySourceRef": "way/660073749",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4172,6 +4216,8 @@
         "geometrySourceRef": "way/660074867",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4352,6 +4398,8 @@
         "geometrySourceRef": "way/27082732",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4568,6 +4616,8 @@
         "geometrySourceRef": "way/27082731",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4768,6 +4818,8 @@
         "geometrySourceRef": "way/27082947",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -4904,6 +4956,8 @@
         "geometrySourceRef": "way/1268545247",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5008,6 +5062,8 @@
         "geometrySourceRef": "way/660073620",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5158,6 +5214,8 @@
         "geometrySourceRef": "way/660073634",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
@@ -5662,6 +5720,8 @@
         "geometrySourceRef": "way/660073518",
         "reconciliationMethod": "exact_identity_match",
         "addressEvidence": null,
+        "refEvidence": null,
+        "pointEvidence": null,
         "verificationStatus": "inferred"
       },
       "geometry": {
