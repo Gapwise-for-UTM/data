@@ -8,12 +8,12 @@ Gapwise timetable identity supports UTM, UTSG, UTSC, and mixed-campus schedules.
 
 | Surface | Canonical location | Relationship to Gapwise Data |
 | --- | --- | --- |
-| Student web/PWA + public API + SDK source | `Gapwise-for-UTM/gapwise` | vendors a validated campus-data snapshot and owns deterministic routing/gap-planning behavior plus public API/SDK contracts |
-| Native Android | `Gapwise-for-UTM/android` | consumes Gapwise product/API contracts; it must not maintain a parallel UTM dataset |
-| Native iOS | `Gapwise-for-UTM/ios` | consumes Gapwise product/API contracts; it must not maintain a parallel UTM dataset |
-| AI/MCP | `Gapwise-for-UTM/ai` | exposes deterministic Gapwise campus semantics through MCP and delegated context; it is not a data-authority replacement |
-| Developer docs | `Gapwise-for-UTM/docs` | documents released API/SDK contracts and links raw data/provenance back here |
-| Status | `Gapwise-for-UTM/status` | monitors public service health independently and does not depend on raw campus data for routing semantics |
+| Student web/PWA + public API + SDK source | `Gapwise-for-UofT/gapwise` | vendors a validated campus-data snapshot and owns deterministic routing/gap-planning behavior plus public API/SDK contracts |
+| Native Android | `Gapwise-for-UofT/android` | consumes Gapwise product/API contracts; it must not maintain a parallel UTM dataset |
+| Native iOS | `Gapwise-for-UofT/ios` | consumes Gapwise product/API contracts; it must not maintain a parallel UTM dataset |
+| AI/MCP | `Gapwise-for-UofT/ai` | exposes deterministic Gapwise campus semantics through MCP and delegated context; it is not a data-authority replacement |
+| Developer docs | `Gapwise-for-UofT/docs` | documents released API/SDK contracts and links raw data/provenance back here |
+| Status | `Gapwise-for-UofT/status` | monitors public service health independently and does not depend on raw campus data for routing semantics |
 
 ## Developer-platform state
 
@@ -24,8 +24,8 @@ Gapwise timetable identity supports UTM, UTSG, UTSC, and mixed-campus schedules.
   - JSR `0.1.1` is published with provenance through GitHub Actions OIDC
   - one portable TypeScript implementation targets Node, Bun, Deno, and browser consumers rather than separate runtime SDKs
 - Python SDK: `gapwise==0.1.0` is published on PyPI through Trusted Publishing
-- Android source: `https://github.com/Gapwise-for-UTM/android`
-- iOS source: `https://github.com/Gapwise-for-UTM/ios`
+- Android source: `https://github.com/Gapwise-for-UofT/android`
+- iOS source: `https://github.com/Gapwise-for-UofT/ios`
 - Docs: `https://docs.gapwise.ca`
 - Data: `https://data.gapwise.ca`
 - AI/MCP: `https://ai.gapwise.ca/api/mcp`
