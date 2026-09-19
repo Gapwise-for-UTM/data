@@ -17,7 +17,7 @@ import {
 } from './entrance-map-data.js';
 import './entrance-pr-review.css';
 
-const REPOSITORY = 'Gapwise-for-UTM/data';
+const REPOSITORY = 'Gapwise-for-UofT/data';
 const ENTRANCE_PATH = 'data/utm/entrances.geojson';
 
 function parsePrNumber() {

@@ -33,7 +33,7 @@ const footprintModules = import.meta.glob('../data/utm/footprints/*.geojson', {
   import: 'default',
 });
 
-const DATA_REPOSITORY = 'https://github.com/Gapwise-for-UTM/data';
+const DATA_REPOSITORY = 'https://github.com/Gapwise-for-UofT/data';
 const SVG_WIDTH = 1000;
 const SVG_HEIGHT = 760;
 const CAMPUS_PADDING = 34;

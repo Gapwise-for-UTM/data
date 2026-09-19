@@ -11,7 +11,7 @@ import {
 } from './campus-contribution-data.js';
 import './campus-pr-review.css';
 
-const REPOSITORY = 'Gapwise-for-UTM/data';
+const REPOSITORY = 'Gapwise-for-UofT/data';
 const API_ROOT = `https://api.github.com/repos/${REPOSITORY}`;
 const RAW_ROOT = `https://raw.githubusercontent.com/${REPOSITORY}`;
 const CAMPUSES_RE = /^data\/(utm|utsg|utsc)\/.+\.geojson$/;

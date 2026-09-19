@@ -29,12 +29,12 @@ jobs:
       - name: Check out candidate canonical data
         uses: actions/checkout@v4
         with:
-          path: gapwise-data
+          path: data
 
       - name: Check out current Gapwise core
         uses: actions/checkout@v4
         with:
-          repository: Gapwise-for-UTM/gapwise
+          repository: Gapwise-for-UofT/gapwise
           ref: main
           path: gapwise
 
@@ -46,8 +46,8 @@ jobs:
       - name: Sync the complete candidate campus contract
         working-directory: gapwise
         run: |
-          bun scripts/sync-campus-data.ts --write --source=../gapwise-data/data/utm
-          bun scripts/sync-campus-data.ts --check --source=../gapwise-data/data/utm
+          bun scripts/sync-campus-data.ts --write --source=../data/data/utm
+          bun scripts/sync-campus-data.ts --check --source=../data/data/utm
 
       - name: Install core dependencies
         working-directory: gapwise
