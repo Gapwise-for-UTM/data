@@ -6,10 +6,10 @@
   "homepage": "https://data.gapwise.ca",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gapwise-for-UTM/data.git"
+    "url": "https://github.com/Gapwise-for-UofT/data.git"
   },
   "bugs": {
-    "url": "https://github.com/Gapwise-for-UTM/data/issues"
+    "url": "https://github.com/Gapwise-for-UofT/data/issues"
   },
   "scripts": {
     "dev": "vite",
