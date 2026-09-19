@@ -6,7 +6,7 @@
 
 ### The canonical open-data and provenance layer behind Gapwise.
 
-**A transparent, developer-friendly home for the UTM campus data that powers Gapwise: buildings, geometry, routing evidence, provenance, validation, attribution, and reuse.**
+**A transparent, developer-friendly home for the University of Toronto campus data that powers Gapwise: buildings, geometry, routing evidence, provenance, validation, attribution, and reuse.**
 
 [![Data](https://img.shields.io/badge/Data-data.gapwise.ca-B42335?style=for-the-badge&logo=databricks&logoColor=white)](https://data.gapwise.ca)
 [![Docs](https://img.shields.io/badge/Docs-data_guides-111111?style=for-the-badge)](https://docs.gapwise.ca/data/)
@@ -15,7 +15,7 @@
 
 <br />
 
-**[Gapwise](https://gapwise.ca)** · **[Android](https://github.com/Gapwise-for-UTM/android)** · **[iOS](https://github.com/Gapwise-for-UTM/ios)** · **[API](https://api.gapwise.ca/v1)** · **[AI](https://ai.gapwise.ca)** · **[Data](https://data.gapwise.ca)** · **[Docs](https://docs.gapwise.ca)** · **[Status](https://status.gapwise.ca)**
+**[Gapwise](https://gapwise.ca)** · **[Android](https://github.com/Gapwise-for-UofT/android)** · **[iOS](https://github.com/Gapwise-for-UofT/ios)** · **[API](https://api.gapwise.ca/v1)** · **[AI](https://ai.gapwise.ca)** · **[Data](https://data.gapwise.ca)** · **[Docs](https://docs.gapwise.ca)** · **[Status](https://status.gapwise.ca)**
 
 </div>
 
@@ -27,7 +27,7 @@
 
 Gapwise as a product supports timetable identity across **UTM, UTSG, UTSC, and mixed-campus schedules**. This repository is intentionally narrower: the current first-party campus map, route graph, place data, and open-data distribution are **UTM-focused**. That scope boundary is part of the data contract, not a limitation to hide.
 
-The main [`gapwise`](https://github.com/Gapwise-for-UTM/gapwise) repository remains authoritative for deterministic product behavior: timetable semantics, route calculation, gap planning, public API orchestration, SDK contracts, and map/product presentation. It vendors a checked-in snapshot of this repository's campus data so production routing never depends on `data.gapwise.ca` or GitHub being reachable at request time.
+The main [`gapwise`](https://github.com/Gapwise-for-UofT/gapwise) repository remains authoritative for deterministic product behavior: timetable semantics, route calculation, gap planning, public API orchestration, SDK contracts, and map/product presentation. It vendors a checked-in snapshot of this repository's campus data so production routing never depends on `data.gapwise.ca` or GitHub being reachable at request time.
 
 > **`data` knows what UTM is. `gapwise` knows what to do with that knowledge.**
 
@@ -140,13 +140,13 @@ It verifies, among other things:
 
 | Repository | Role | Primary surface |
 | --- | --- | --- |
-| **[`gapwise`](https://github.com/Gapwise-for-UTM/gapwise)** | Core web/PWA, canonical timetable/gap/routing semantics, public API, OpenAPI, and SDK source | [gapwise.ca](https://gapwise.ca) / [api.gapwise.ca](https://api.gapwise.ca/v1) |
-| **[`android`](https://github.com/Gapwise-for-UTM/android)** | Native Kotlin + Jetpack Compose Android client | Android app |
-| **[`ios`](https://github.com/Gapwise-for-UTM/ios)** | Native Swift + SwiftUI iOS client | iOS app |
-| **[`ai`](https://github.com/Gapwise-for-UTM/ai)** | OAuth/MCP layer for explicitly delegated student context and bounded actions | [ai.gapwise.ca](https://ai.gapwise.ca) |
-| **[`data`](https://github.com/Gapwise-for-UTM/data)** | **Canonical public UTM campus data, provenance, schemas, validation, and distribution** | [data.gapwise.ca](https://data.gapwise.ca) |
-| **[`docs`](https://github.com/Gapwise-for-UTM/docs)** | Canonical public developer documentation | [docs.gapwise.ca](https://docs.gapwise.ca) |
-| **[`status`](https://github.com/Gapwise-for-UTM/status)** | Independent service-health monitoring and incident communication | [status.gapwise.ca](https://status.gapwise.ca) |
+| **[`gapwise`](https://github.com/Gapwise-for-UofT/gapwise)** | Core web/PWA, canonical timetable/gap/routing semantics, public API, OpenAPI, and SDK source | [gapwise.ca](https://gapwise.ca) / [api.gapwise.ca](https://api.gapwise.ca/v1) |
+| **[`android`](https://github.com/Gapwise-for-UofT/android)** | Native Kotlin + Jetpack Compose Android client | Android app |
+| **[`ios`](https://github.com/Gapwise-for-UofT/ios)** | Native Swift + SwiftUI iOS client | iOS app |
+| **[`ai`](https://github.com/Gapwise-for-UofT/ai)** | OAuth/MCP layer for explicitly delegated student context and bounded actions | [ai.gapwise.ca](https://ai.gapwise.ca) |
+| **[`data`](https://github.com/Gapwise-for-UofT/data)** | **Canonical public University of Toronto campus data, provenance, schemas, validation, and distribution** | [data.gapwise.ca](https://data.gapwise.ca) |
+| **[`docs`](https://github.com/Gapwise-for-UofT/docs)** | Canonical public developer documentation | [docs.gapwise.ca](https://docs.gapwise.ca) |
+| **[`status`](https://github.com/Gapwise-for-UofT/status)** | Independent service-health monitoring and incident communication | [status.gapwise.ca](https://status.gapwise.ca) |
 
 No consumer repository should recreate or silently fork UTM campus facts. Native clients and product surfaces may adapt presentation and platform integration, but source campus facts belong here and deterministic product calculations belong to `gapwise`.
 
@@ -154,7 +154,7 @@ No consumer repository should recreate or silently fork UTM campus facts. Native
 
 ## For developers
 
-- **GitHub organization:** https://github.com/Gapwise-for-UTM
+- **GitHub organization:** https://github.com/Gapwise-for-UofT
 - **Developer hub:** https://gapwise.ca/developers
 - **Developer docs:** https://docs.gapwise.ca
 - **Data docs:** https://docs.gapwise.ca/data/
@@ -177,7 +177,7 @@ Gapwise source code is MIT licensed, but upstream datasets retain their own term
 ## Local development
 
 ```bash
-git clone https://github.com/Gapwise-for-UTM/data.git
+git clone https://github.com/Gapwise-for-UofT/data.git
 cd data
 npm ci
 npm run data:preflight
