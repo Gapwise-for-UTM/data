@@ -20,8 +20,8 @@ for (const required of [dataRoot, sourceManifestPath, snapshotPath, checksumPath
 }
 
 const manifest = JSON.parse(await readFile(sourceManifestPath, "utf8"));
-if (manifest.canonicalRepository !== "Gapwise-for-UTM/data") {
-  fail("utm-source.json must identify Gapwise-for-UTM/data as canonicalRepository");
+if (manifest.canonicalRepository !== "Gapwise-for-UofT/data") {
+  fail("utm-source.json must identify Gapwise-for-UofT/data as canonicalRepository");
 }
 if (manifest.canonicalPath !== "data/utm") {
   fail("utm-source.json canonicalPath must be data/utm");

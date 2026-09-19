@@ -21,7 +21,7 @@ const schemas = [
 ];
 
 const DATASET_BASE = 'https://data.gapwise.ca/datasets/utm/latest';
-const GITHUB_ORG = 'https://github.com/Gapwise-for-UTM';
+const GITHUB_ORG = 'https://github.com/Gapwise-for-UofT';
 const DATA_REPOSITORY = `${GITHUB_ORG}/data`;
 
 const snippets = {

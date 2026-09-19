@@ -26,7 +26,7 @@ import {
 } from './entrance-map-data.js';
 import './batch-entrance.css';
 
-const DATA_REPOSITORY = 'https://github.com/Gapwise-for-UTM/data';
+const DATA_REPOSITORY = 'https://github.com/Gapwise-for-UofT/data';
 const MAX_BATCH_SIZE = 40;
 const DUPLICATE_WARNING_METERS = 7;
 
